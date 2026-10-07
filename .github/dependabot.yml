@@ -1,13 +1,21 @@
-# Aktualizacje zależności przez PR (do przejrzenia przed scaleniem). Akcje są przypięte do SHA,
-# więc bez Dependabota nie dostawałyby poprawek bezpieczeństwa.
+# Aktualizacje zależności przez PR (CI musi przejść przed scaleniem; brak automatycznego scalania).
+# Akcje są przypięte do SHA, więc bez Dependabota nie dostawałyby poprawek bezpieczeństwa.
 version: 2
 updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: weekly
+    groups:
+      actions:
+        patterns: ["*"]
   - package-ecosystem: pip
     directory: /
     schedule:
       interval: weekly
-    open-pull-requests-limit: 5
+    # Jeden PR na wszystkie pakiety: pary zależne od siebie (np. pydantic i pydantic-core, który pydantic
+    # przypina do dokładnej wersji) muszą zmieniać się razem, inaczej instalacja jest niespójna.
+    groups:
+      python:
+        patterns: ["*"]
+    open-pull-requests-limit: 3
