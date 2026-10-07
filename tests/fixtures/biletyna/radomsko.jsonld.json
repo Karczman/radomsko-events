@@ -1,0 +1,256 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ComedyEvent",
+   "name": "Kabaret Smile - CONTRA",
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Kabaret Smile - CONTRA"
+   },
+   "url": "https://biletyna.pl/kabaret/Kabaret-Smile/CONTRA?eid=616180#opis",
+   "location": {
+    "@type": "Place",
+    "name": "Miejski Dom Kultury",
+    "url": "https://biletyna.pl/Radomsko/Miejski-Dom-Kultury",
+    "sameAs": "/Radomsko/Miejski-Dom-Kultury",
+    "telephone": "(44) 683 52 55, (44) 683 24 86",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "postalCode": "97-500",
+     "streetAddress": "ul. Brzeźnicka 5",
+     "addressRegion": "łódzkie",
+     "addressCountry": "PL"
+    },
+    "latitude": 51.072036899494,
+    "longitude": 19.422862529755
+   },
+   "startDate": "2026-10-17T16:00:00+02:00",
+   "endDate": "2026-10-17T18:40:00+02:00",
+   "duration": "PT2H40M",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "remainingAttendeeCapacity": 19,
+   "eventAttendanceMode": "OfflineEventAttendanceMode",
+   "offers": {
+    "@type": "AggregateOffer",
+    "category": "tickets",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "PLN",
+    "lowPrice": 138.06,
+    "validFrom": "2025-12-08T11:03:45+01:00",
+    "url": "https://biletyna.pl/kabaret/Kabaret-Smile/CONTRA?eid=616180#opis",
+    "seller": {
+     "@type": "Organization",
+     "name": "biletyna.pl",
+     "url": "https://biletyna.pl"
+    }
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "biletyna.pl",
+    "url": "https://biletyna.pl"
+   }
+  },
+  {
+   "@type": "MusicEvent",
+   "name": "Wiedeńskiej operetki czar cz.1: Wielka sława to żart.",
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Wiedeńskiej operetki czar cz.1: Wielka sława to żart."
+   },
+   "url": "https://biletyna.pl/koncert/Wielka-slawa-to-zart-Wiedenskiej-operetki-czar?eid=693277#opis",
+   "location": {
+    "@type": "Place",
+    "name": "Miejski Dom Kultury",
+    "url": "https://biletyna.pl/Radomsko/Miejski-Dom-Kultury",
+    "sameAs": "/Radomsko/Miejski-Dom-Kultury",
+    "telephone": "(44) 683 52 55, (44) 683 24 86",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "postalCode": "97-500",
+     "streetAddress": "ul. Brzeźnicka 5",
+     "addressRegion": "łódzkie",
+     "addressCountry": "PL"
+    },
+    "latitude": 51.072036899494,
+    "longitude": 19.422862529755
+   },
+   "startDate": "2026-10-24T17:00:00+02:00",
+   "endDate": "2026-10-24T19:00:00+02:00",
+   "duration": "PT2H0M",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "remainingAttendeeCapacity": 8,
+   "eventAttendanceMode": "OfflineEventAttendanceMode",
+   "offers": {
+    "@type": "AggregateOffer",
+    "category": "tickets",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "PLN",
+    "lowPrice": 126.38,
+    "validFrom": "2026-08-15T17:16:38+02:00",
+    "url": "https://biletyna.pl/koncert/Wielka-slawa-to-zart-Wiedenskiej-operetki-czar?eid=693277#opis",
+    "seller": {
+     "@type": "Organization",
+     "name": "biletyna.pl",
+     "url": "https://biletyna.pl"
+    }
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "biletyna.pl",
+    "url": "https://biletyna.pl"
+   }
+  },
+  {
+   "@type": "MusicEvent",
+   "name": "Piotr Zylbert - Electronic Classics LIVE",
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Piotr Zylbert - Electronic Classics LIVE"
+   },
+   "url": "https://biletyna.pl/koncert/Piotr-Zylbert?eid=702370#opis",
+   "location": {
+    "@type": "Place",
+    "name": "Bourbon Street Pub",
+    "url": "https://biletyna.pl/Radomsko/Bourbon-Street-Pub",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "postalCode": "97-500",
+     "streetAddress": "Kolejowa 2",
+     "addressRegion": "łódzkie",
+     "addressCountry": "PL"
+    },
+    "latitude": 51.075311,
+    "longitude": 19.438577
+   },
+   "startDate": "2026-10-24T19:00:00+02:00",
+   "endDate": "2026-10-24T20:30:00+02:00",
+   "duration": "PT1H30M",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "remainingAttendeeCapacity": 17,
+   "eventAttendanceMode": "OfflineEventAttendanceMode",
+   "offers": {
+    "@type": "AggregateOffer",
+    "category": "tickets",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "PLN",
+    "lowPrice": 42.48,
+    "validFrom": "2026-09-14T10:40:17+02:00",
+    "url": "https://biletyna.pl/koncert/Piotr-Zylbert?eid=702370#opis",
+    "seller": {
+     "@type": "Organization",
+     "name": "biletyna.pl",
+     "url": "https://biletyna.pl"
+    }
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "biletyna.pl",
+    "url": "https://biletyna.pl"
+   }
+  },
+  {
+   "@type": "MusicEvent",
+   "name": "Piotr Goljat. Nieobecni?",
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Piotr Goljat. Nieobecni?"
+   },
+   "url": "https://biletyna.pl/koncert/Piotr-Goljat-Nieobecni?eid=709832#opis",
+   "location": {
+    "@type": "Place",
+    "name": "Bourbon Street Pub",
+    "url": "https://biletyna.pl/Radomsko/Bourbon-Street-Pub",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "postalCode": "97-500",
+     "streetAddress": "Kolejowa 2",
+     "addressRegion": "łódzkie",
+     "addressCountry": "PL"
+    },
+    "latitude": 51.075311,
+    "longitude": 19.438577
+   },
+   "startDate": "2026-10-30T20:00:00+01:00",
+   "endDate": "2026-10-30T21:30:00+01:00",
+   "duration": "PT1H30M",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "remainingAttendeeCapacity": 63,
+   "eventAttendanceMode": "OfflineEventAttendanceMode",
+   "offers": {
+    "@type": "AggregateOffer",
+    "category": "tickets",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "PLN",
+    "lowPrice": 74.34,
+    "validFrom": "2026-10-02T16:22:08+02:00",
+    "url": "https://biletyna.pl/koncert/Piotr-Goljat-Nieobecni?eid=709832#opis",
+    "seller": {
+     "@type": "Organization",
+     "name": "biletyna.pl",
+     "url": "https://biletyna.pl"
+    }
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "biletyna.pl",
+    "url": "https://biletyna.pl"
+   }
+  },
+  {
+   "@type": "TheaterEvent",
+   "name": "Klimakterium 2 czyli Menopauzy Szał",
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Klimakterium 2 czyli Menopauzy Szał"
+   },
+   "url": "https://biletyna.pl/spektakl/Klimakterium-2-czyli-Menopauzy-Szal?eid=631187#opis",
+   "location": {
+    "@type": "Place",
+    "name": "Miejski Dom Kultury",
+    "url": "https://biletyna.pl/Radomsko/Miejski-Dom-Kultury",
+    "sameAs": "/Radomsko/Miejski-Dom-Kultury",
+    "telephone": "(44) 683 52 55, (44) 683 24 86",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "postalCode": "97-500",
+     "streetAddress": "ul. Brzeźnicka 5",
+     "addressRegion": "łódzkie",
+     "addressCountry": "PL"
+    },
+    "latitude": 51.072036899494,
+    "longitude": 19.422862529755
+   },
+   "startDate": "2026-11-07T18:00:00+01:00",
+   "endDate": "2026-11-07T20:20:00+01:00",
+   "duration": "PT2H20M",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "remainingAttendeeCapacity": 38,
+   "eventAttendanceMode": "OfflineEventAttendanceMode",
+   "offers": {
+    "@type": "AggregateOffer",
+    "category": "tickets",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "PLN",
+    "lowPrice": 95.58,
+    "validFrom": "2026-01-22T14:06:51+01:00",
+    "url": "https://biletyna.pl/spektakl/Klimakterium-2-czyli-Menopauzy-Szal?eid=631187#opis",
+    "seller": {
+     "@type": "Organization",
+     "name": "biletyna.pl",
+     "url": "https://biletyna.pl"
+    }
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "biletyna.pl",
+    "url": "https://biletyna.pl"
+   }
+  }
+ ]
+}

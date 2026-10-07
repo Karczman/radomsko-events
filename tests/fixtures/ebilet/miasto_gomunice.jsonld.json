@@ -1,0 +1,148 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "name": "Metro - Trasa 365 widoków na przyszłość",
+   "startDate": "2026-10-08T19:00:00",
+   "endDate": "2026-12-12T20:00:00",
+   "url": "https://www.ebilet.pl/muzyka/rock/metro",
+   "location": {
+    "@type": "Place",
+    "name": "Elbląg, Gdańsk, Gomunice i inne",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Al. Niepodległości 36",
+     "addressLocality": "Poznań",
+     "postalCode": "61-714",
+     "addressRegion": "wielkopolskie",
+     "addressCountry": "PL"
+    }
+   },
+   "performer": {
+    "@type": "Person",
+    "name": "Metro"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "ROCK HOUSE ENTERTAINMENT SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "url": "https://www.ebilet.pl/organizatorzy/rock-house-entertainment-spolka-z-ograniczona-odpowiedzialnoscia"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "name": "The Queen Symphonic",
+   "startDate": "2026-11-12T19:00:00",
+   "endDate": "2026-11-12T19:00:00",
+   "url": "https://www.ebilet.pl/muzyka/rock/the-queen-symphonic",
+   "location": {
+    "@type": "Place",
+    "name": "Piotrków Trybunalski",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Aleja 3 Maja 12",
+     "addressLocality": "Piotrków Trybunalski",
+     "postalCode": "97-300",
+     "addressRegion": "łódzkie",
+     "addressCountry": "PL"
+    }
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "AVIP TERESA MROZEK",
+    "url": "https://www.ebilet.pl/organizatorzy/avip-teresa-mrozek"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "name": "The Gentlemen Show",
+   "startDate": "2026-10-29T19:00:00",
+   "endDate": "2027-03-21T16:00:00",
+   "url": "https://www.ebilet.pl/muzyka/pop/the-gentlemen-show",
+   "location": {
+    "@type": "Place",
+    "name": "Gniezno, Kłodzko, Limanowa i inne",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Kostrzewskiego 3",
+     "addressLocality": "Gniezno",
+     "postalCode": "62-210",
+     "addressRegion": "wielkopolskie",
+     "addressCountry": "PL"
+    }
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "AVIP Group Concert & Event Agency LTD",
+    "url": "https://www.ebilet.pl/organizatorzy/avip-group-concert-event-agency-ltd"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "name": "Sławek Uniatowski - Magic Christmas Jazz Night",
+   "startDate": "2026-12-02T20:00:00",
+   "endDate": "2026-12-22T19:30:00",
+   "url": "https://www.ebilet.pl/muzyka/pop/slawek-uniatowski-swiatecznie",
+   "location": {
+    "@type": "Place",
+    "name": "Gdańsk, Katowice, Kraków i inne",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Plac Teatralny 1",
+     "addressLocality": "Lublin",
+     "postalCode": "20-029",
+     "addressRegion": "lubelskie",
+     "addressCountry": "PL"
+    }
+   },
+   "performer": {
+    "@type": "Person",
+    "name": "Sławek Uniatowski"
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "FUNDACJA “SUPPORT U”",
+    "url": "https://www.ebilet.pl/organizatorzy/fundacja-support-u"
+   }
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Event",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "name": "Twoja wina",
+   "startDate": "2026-10-17T18:00:00",
+   "endDate": "2026-11-14T18:00:00",
+   "url": "https://www.ebilet.pl/teatr/komedia/twoja-wina",
+   "location": {
+    "@type": "Place",
+    "name": "Białogard, Kielce, Koszalin i inne",
+    "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "1 Maja 15",
+     "addressLocality": "Białogard",
+     "postalCode": "78-200",
+     "addressRegion": "zachodniopomorskie",
+     "addressCountry": "PL"
+    }
+   },
+   "organizer": {
+    "@type": "Organization",
+    "name": "Fundacja Serca Bicie",
+    "url": "https://www.ebilet.pl/organizatorzy/fundacja-serca-bicie"
+   }
+  }
+ ]
+}

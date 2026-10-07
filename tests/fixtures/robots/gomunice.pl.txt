@@ -1,0 +1,83 @@
+# If the Joomla site is installed within a folder
+# eg www.example.com/joomla/ then the robots.txt file
+# MUST be moved to the site root
+# eg www.example.com/robots.txt
+# AND the joomla folder name MUST be prefixed to all of the
+# paths.
+# eg the Disallow rule for the /administrator/ folder MUST
+# be changed to read
+# Disallow: /joomla/administrator/
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/orig.html
+#
+# For syntax checking, see:
+# http://tool.motoricerca.info/robots-checker.phtml
+
+# Reguly ogolne dla robotow.
+# Crawl-delay dziala tylko dla robotow, ktore go obsluguja.
+
+User-agent: *
+
+# Blokada skanowania wariantow stron z parametrem kalendarza
+Disallow: /*?iccaldate=
+Disallow: /*?*&iccaldate=
+#
+Disallow: /administrator/
+Disallow: /bin/
+Disallow: /cache/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /logs/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /tmp/
+Disallow: /api/
+Crawl-delay: 10
+
+# Dostep do publicznych zasobow rozszerzen Joomla.
+
+Allow: /modules/mod_djmegamenu/assets/
+Allow: /modules/mod_djmegamenu/mobilethemes/
+Allow: /modules/mod_djimageslider/assets/
+Allow: /modules/mod_djimageslider/themes/
+Allow: /modules/mod_news_pro_gk5/cache/
+Allow: /modules/mod_news_pro_gk5/interface/
+Allow: /modules/mod_iccalendar/js/
+Allow: /components/com_icagenda/themes/packs/default/css/
+Allow: /components/com_icagenda/themes/packs/default/images/
+Allow: /plugins/system/ef4_jmframework/includes/assets/template/js/
+Allow: /plugins/system/jce/css/
+
+# Zakaz skanowania dla najbardziej aktywnych robotow.
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+# GoogleOther - oddzielny robot od Googlebota wyszukiwarki.
+
+User-agent: GoogleOther
+Disallow: /
+
+# Zachowane dotychczasowe blokady.
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+

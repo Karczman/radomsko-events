@@ -1,0 +1,73 @@
+[
+ {
+  "id": 55580,
+  "modified": "2026-10-05T11:59:10",
+  "link": "https://mdkradomsko.pl/skrót-wydarzenia/31-12-2026r-koncert-sylwestrowy-kasi-dabrowskiej-z-zespolem/",
+  "title": {
+   "rendered": "31.12.2026r.- Koncert Sylwestrowy Kasi Dąbrowskiej z zespołem"
+  },
+  "pec_events_category": [
+   36
+  ],
+  "pec_date": "2026-12-31 20:00:00",
+  "pec_venue_map_lnlat": "",
+  "pec_all_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "",
+  "pec_end_date": "",
+  "pec_link": "",
+  "pec_recurring_frecuency": "0",
+  "pec_location": "",
+  "_ticket_urls": [
+   "https://www.bilety24.pl/koncert/1546-feeling-good-czyli-radosc-w-standardzie-166361?id=999842"
+  ]
+ },
+ {
+  "id": 55481,
+  "modified": "2026-10-03T12:02:43",
+  "link": "https://mdkradomsko.pl/skrót-wydarzenia/klubik-brzdacow/",
+  "title": {
+   "rendered": "07.11.26 r. &#8211; KLUBIK BRZDĄCÓW"
+  },
+  "pec_events_category": [
+   39
+  ],
+  "pec_date": "2026-11-07 10:00:00",
+  "pec_venue_map_lnlat": "",
+  "pec_all_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "",
+  "pec_end_date": "",
+  "pec_link": "",
+  "pec_recurring_frecuency": "0",
+  "pec_location": "",
+  "_ticket_urls": [
+   "https://mdkradomsko.bilety24.pl/zajecia/?id=5435",
+   "https://mdkradomsko.bilety24.pl/zajecia/?id=5435"
+  ]
+ },
+ {
+  "id": 55497,
+  "modified": "2026-09-25T14:09:10",
+  "link": "https://mdkradomsko.pl/skrót-wydarzenia/27-01-2027-koncert-wiedenski/",
+  "title": {
+   "rendered": "30.01.2027-Koncert Wiedeński z Gwiazdami 2027"
+  },
+  "pec_events_category": [
+   36
+  ],
+  "pec_date": "2027-01-30 19:00:00",
+  "pec_venue_map_lnlat": "",
+  "pec_all_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "",
+  "pec_end_date": "",
+  "pec_link": "",
+  "pec_recurring_frecuency": "0",
+  "pec_location": "",
+  "_ticket_urls": [
+   "https://biletyna.pl/koncert/Koncert-Wiedenski-z-Gwiazdami/Radomsko?srsltid=AU7gw4W_9s7G19h72wGaRdummt6Iz47rilfGtM9fMs_3l6u4gjc_VZPr#bilety",
+   "https://sklep.ebilet.pl/588845651278692412"
+  ]
+ }
+]

@@ -1,0 +1,145 @@
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Event",
+   "name": "Muzyka Ludovica Einaudiego",
+   "startDate": "2026-09-12T19:00:00+02:00",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "location": {
+    "@type": "Place",
+    "name": "Miejski Dom Kultury",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "addressCountry": "PL"
+    }
+   },
+   "url": "https://radomskoogloszenia.pl/wydarzenia/203524/muzyka-ludovica-einaudiego",
+   "offers": {
+    "@type": "Offer",
+    "price": "119",
+    "priceCurrency": "PLN",
+    "url": "https://www.kupbilecik.pl/imprezy/203524/Radomsko/Ludovico+Einaudi+Music/?utm_source=pp&utm_medium=612",
+    "availability": "https://schema.org/InStock"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Ludovico Einaudi Music"
+   }
+  },
+  {
+   "@type": "Event",
+   "name": "Być facetem",
+   "startDate": "2026-09-13T19:00:00+02:00",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "location": {
+    "@type": "Place",
+    "name": "Miejski Dom Kultury",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "addressCountry": "PL"
+    }
+   },
+   "url": "https://radomskoogloszenia.pl/wydarzenia/192834/byc-facetem",
+   "offers": {
+    "@type": "Offer",
+    "price": "140",
+    "priceCurrency": "PLN",
+    "url": "https://www.kupbilecik.pl/imprezy/192834/Radomsko/Kabaret+hrAbi+%26+Wojtek+Kami%C5%84ski/?utm_source=pp&utm_medium=612",
+    "availability": "https://schema.org/InStock"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Kabaret hrAbi & Wojtek Kamiński"
+   }
+  },
+  {
+   "@type": "Event",
+   "name": "Dołącz do niezwykłej muzycznej podróży z zespołem Ponad Chmurami!",
+   "startDate": "2026-09-18T19:00:00+02:00",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "location": {
+    "@type": "Place",
+    "name": "Miejski Dom Kultury",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "addressCountry": "PL"
+    }
+   },
+   "url": "https://radomskoogloszenia.pl/wydarzenia/188765/dolacz-do-niezwyklej-muzycznej-podrozy-z-zespolem-ponad-chmurami",
+   "offers": {
+    "@type": "Offer",
+    "price": "90",
+    "priceCurrency": "PLN",
+    "url": "https://www.kupbilecik.pl/imprezy/188765/Radomsko/Zesp%C3%B3%C5%82+Ponad+Chmurami/?utm_source=pp&utm_medium=612",
+    "availability": "https://schema.org/InStock"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Zespół Ponad Chmurami"
+   }
+  },
+  {
+   "@type": "Event",
+   "name": "Spektakl dla widzów dorosłych",
+   "startDate": "2026-09-19T19:00:00+02:00",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "location": {
+    "@type": "Place",
+    "name": "Miejski Dom Kultury",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "addressCountry": "PL"
+    }
+   },
+   "url": "https://radomskoogloszenia.pl/wydarzenia/206209/spektakl-dla-widzow-doroslych",
+   "offers": {
+    "@type": "Offer",
+    "price": "140",
+    "priceCurrency": "PLN",
+    "url": "https://www.kupbilecik.pl/imprezy/206209/Radomsko/Nast%C4%99pnego+dnia+rano/?utm_source=pp&utm_medium=612",
+    "availability": "https://schema.org/InStock"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Następnego dnia rano"
+   }
+  },
+  {
+   "@type": "Event",
+   "name": "Terapia dla par",
+   "startDate": "2026-09-28T17:30:00+02:00",
+   "eventStatus": "https://schema.org/EventScheduled",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "location": {
+    "@type": "Place",
+    "name": "Miejski Dom Kultury",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Radomsko",
+     "addressCountry": "PL"
+    }
+   },
+   "url": "https://radomskoogloszenia.pl/wydarzenia/215228/terapia-dla-par",
+   "offers": {
+    "@type": "Offer",
+    "price": "110",
+    "priceCurrency": "PLN",
+    "url": "https://www.kupbilecik.pl/imprezy/215228/Radomsko/Terapia+dla+par/?utm_source=pp&utm_medium=612",
+    "availability": "https://schema.org/InStock"
+   },
+   "performer": {
+    "@type": "PerformingGroup",
+    "name": "Terapia dla par"
+   }
+  }
+ ]
+}
