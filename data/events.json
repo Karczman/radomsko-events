@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T17:49:42+02:00",
+ "generated": "2026-10-07T18:27:34+02:00",
  "events": [
   {
    "id": "6a948037bb34f871",
@@ -24,7 +24,7 @@
    "confidence": "high"
   },
   {
-   "id": "ed56c8e7239e0b43",
+   "id": "970db74a1550a1ef",
    "title": "DZIEŃ DZIECKA KSIEDZA JANA KACZKOWSKIEGO / 2D",
    "start": "2026-10-08T12:00:00+02:00",
    "all_day": false,
@@ -35,7 +35,9 @@
    "distance_km": 0.4,
    "category": "kino",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/dzien-dziecka-ksiedza-jana-kaczkowskiego-2d/",
-   "times": [],
+   "times": [
+    "12:00"
+   ],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -44,29 +46,6 @@
    "last_seen": "2026-10-07",
    "status": "active",
    "confidence": "low"
-  },
-  {
-   "id": "6aea042590404592",
-   "title": "Czytanie performatywne „MATKA ODCHODZI”",
-   "start": "2026-10-09T00:00:00+02:00",
-   "all_day": true,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/09-10-2026r-czytanie-performatywne-matka-odchodzi/",
-   "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=950928",
-   "times": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
-   "status": "active",
-   "confidence": "high"
   },
   {
    "id": "08f4f2069a1880f9",
@@ -91,9 +70,10 @@
    "confidence": "high"
   },
   {
-   "id": "eb4ad0a5f8777f5d",
-   "title": "„Stara kobieta wysiaduje”",
-   "start": "2026-10-11T18:00:00+02:00",
+   "id": "b4f914043830eeaf",
+   "title": "Czytanie performatywne \"Matka odchodzi\" Festiwal 3XRóżewicz",
+   "start": "2026-10-09T18:00:00+02:00",
+   "end": "2026-10-09T19:00:00+02:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -101,12 +81,103 @@
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/11-10-2026r-stara-kobieta-wysiaduje/",
+   "url": "https://www.radomsko.pl/",
+   "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=950928",
+   "times": [],
+   "source": "radomsko_pl",
+   "sources": [
+    "mdk",
+    "radomsko_pl"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "554786b979698dde",
+   "title": "Radomszczańska Barwoteka",
+   "start": "2026-10-10T11:00:00+02:00",
+   "all_day": false,
+   "venue": "Miejska Biblioteka Publiczna w Radomsku",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "biblioteka",
+   "url": "https://mbp-radomsko.pl/aktualnosci/wydarzenia/1976-radomszczanska-barwoteka",
+   "times": [],
+   "source": "mbp",
+   "sources": [
+    "mbp"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "low"
+  },
+  {
+   "id": "ec73f38cda3936c9",
+   "title": "WYKŁAD „ZARYS HISTORII FRANCISZKANÓW W RADOMSKU” W RAMACH „NIEDZIEL Z HISTORIĄ”",
+   "start": "2026-10-11T00:00:00+02:00",
+   "all_day": true,
+   "venue": "Muzeum Regionalne w Radomsku",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "edukacja",
+   "url": "https://muzeum.radomsko.pl/wyklad-zarys-historii-franciszkanow-w-radomsku-w-ramach-niedziel-z-historia-11-10-2026-r-niedziela/",
+   "times": [],
+   "source": "muzeum",
+   "sources": [
+    "muzeum"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "low"
+  },
+  {
+   "id": "392ade85ae2a1511",
+   "title": "II Festiwal Muzyki Organowej i Kameralnej w Kamieńsku",
+   "start": "2026-10-11T17:00:00+02:00",
+   "all_day": false,
+   "place": "Kamieńsk",
+   "lat": 51.2,
+   "lon": 19.5,
+   "distance_km": 15.3,
+   "category": "okolice",
+   "url": "https://kamiensk.pl/kalendarz/11-10-2026/76",
+   "times": [],
+   "source": "kamiensk",
+   "sources": [
+    "kamiensk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "debd8e67e627150e",
+   "title": "Monodram \"Stara kobieta wysiaduje\"",
+   "start": "2026-10-11T18:00:00+02:00",
+   "end": "2026-10-11T19:00:00+02:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://www.radomsko.pl/",
    "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=951049",
    "times": [],
-   "source": "mdk",
+   "source": "radomsko_pl",
    "sources": [
-    "mdk"
+    "mdk",
+    "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -136,9 +207,142 @@
    "confidence": "high"
   },
   {
-   "id": "faccdb583370a1e7",
-   "title": "32. Ogólnopolski Konkurs Recytatorski im. bł. ks. Jerzego Popiełuszki „Zło Dobrem Zwyciężaj”",
+   "id": "7a7692109ff0033d",
+   "title": "Teatr Polonia \"MATKA\"",
+   "start": "2026-10-12T18:00:00+02:00",
+   "end": "2026-10-12T19:30:00+02:00",
+   "all_day": false,
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "inne",
+   "url": "https://www.radomsko.pl/",
+   "times": [],
+   "source": "radomsko_pl",
+   "sources": [
+    "radomsko_pl"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "cd0a90d5232b8be7",
+   "title": "Spotkanie autorskie",
+   "start": "2026-10-13T10:00:00+02:00",
+   "all_day": false,
+   "venue": "MDK w Przedborzu",
+   "place": "Przedbórz",
+   "lat": 51.08333,
+   "lon": 19.88333,
+   "distance_km": 30.7,
+   "category": "okolice",
+   "url": "https://www.mdk.przedborz.pl/kalendarz/2026-10-13/301",
+   "times": [],
+   "source": "przedborz",
+   "sources": [
+    "przedborz"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "260bc864bab53838",
+   "title": "Noc Bibliotek",
+   "start": "2026-10-16T09:00:00+02:00",
+   "end": "2026-10-16T21:00:00+02:00",
+   "all_day": false,
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "biblioteka",
+   "url": "https://www.radomsko.pl/",
+   "times": [],
+   "source": "radomsko_pl",
+   "sources": [
+    "radomsko_pl"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "ab6823d8c85a9c32",
+   "title": "Spotkanie autorskie z Waldemarem Cichoniem",
+   "start": "2026-10-16T10:00:00+02:00",
+   "end": "2026-10-16T12:00:00+02:00",
+   "all_day": false,
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "biblioteka",
+   "url": "https://www.radomsko.pl/",
+   "times": [],
+   "source": "radomsko_pl",
+   "sources": [
+    "radomsko_pl"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "64a13e880a416fec",
+   "title": "Spotkanie autorskie z Jakubem Małeckim – Noc Bibliotek 2026",
+   "start": "2026-10-16T19:00:00+02:00",
+   "end": "2026-10-16T20:30:00+02:00",
+   "all_day": false,
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "biblioteka",
+   "url": "https://www.radomsko.pl/",
+   "times": [],
+   "source": "radomsko_pl",
+   "sources": [
+    "radomsko_pl"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "8343f3f717ff7fb2",
+   "title": "MUZYCZNY SPIS TREŚCI – Wiktoria Śliskowska i Pokorski Session Band – koncert polskich piosenek",
+   "start": "2026-10-16T20:30:00+02:00",
+   "end": "2026-10-16T22:00:00+02:00",
+   "all_day": false,
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "inne",
+   "url": "https://www.radomsko.pl/",
+   "times": [],
+   "source": "radomsko_pl",
+   "sources": [
+    "radomsko_pl"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "0704d702e4870a0e",
+   "title": "32. Ogólnopolski Konkurs Recytatorski im. Bł. Ks. Jerzego Popiełuszki",
    "start": "2026-10-17T09:00:00+02:00",
+   "end": "2026-10-17T13:00:00+02:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -146,11 +350,12 @@
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "edukacja",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/32-ogolnopolski-konkurs-recytatorski-im-bl-ks-jerzego-popieluszki-zlo-dobrem-zwyciezaj/",
+   "url": "https://www.radomsko.pl/",
    "times": [],
-   "source": "mdk",
+   "source": "radomsko_pl",
    "sources": [
-    "mdk"
+    "mdk",
+    "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -161,19 +366,22 @@
    "id": "6ebf09f9e6c8b399",
    "title": "Kabaret Smile",
    "start": "2026-10-17T16:00:00+02:00",
+   "end": "2026-10-17T18:40:00+02:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
    "lon": 19.45,
    "distance_km": 0.4,
-   "category": "inne",
+   "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/17-10-2026r-kabaret-smile/",
    "ticket_url": "https://www.kupbilecik.pl/imprezy/186953/Radomsko/Kabaret+Smile/",
+   "price_text": "130 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -206,19 +414,72 @@
    "id": "585f8750f3caa616",
    "title": "Operetki czar Wielka sława",
    "start": "2026-10-24T17:00:00+02:00",
+   "end": "2026-10-24T19:00:00+02:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
    "lon": 19.45,
    "distance_km": 0.4,
-   "category": "inne",
+   "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/24-10-2026-operetki-czar-wielka-slawa/",
    "ticket_url": "https://www.kupbilecik.pl/imprezy/204593/Radomsko/Wiede%C5%84skiej+Operetki+Czar+cz.1%3A+Wielka+S%C5%82awa+to+%C5%BCart/",
+   "price_text": "119 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "3aed917c5a33c5fa",
+   "title": "Piotr Zylbert - Electronic Classics LIVE",
+   "start": "2026-10-24T19:00:00+02:00",
+   "end": "2026-10-24T20:30:00+02:00",
+   "all_day": false,
+   "venue": "Bourbon Street Pub",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/koncert/Piotr-Zylbert?eid=702370",
+   "ticket_url": "https://biletyna.pl/koncert/Piotr-Zylbert?eid=702370",
+   "price_text": "40 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "19015d04bbf6e614",
+   "title": "Piotr Goljat. Nieobecni?",
+   "start": "2026-10-30T20:00:00+01:00",
+   "end": "2026-10-30T21:30:00+01:00",
+   "all_day": false,
+   "venue": "Bourbon Street Pub",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/koncert/Piotr-Goljat-Nieobecni?eid=709832",
+   "ticket_url": "https://biletyna.pl/koncert/Piotr-Goljat-Nieobecni?eid=709832",
+   "price_text": "70 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -262,10 +523,34 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/07-11-2026r-klimakterium-2-czyli-menopauzy-szal/",
    "ticket_url": "https://sklep.ebilet.pl/agbz/320881473450147923",
+   "price_text": "90 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "0ec30b5b0d060ed8",
+   "title": "Sklep z facetami",
+   "start": "2026-11-15T18:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK w Przedborzu",
+   "place": "Przedbórz",
+   "lat": 51.08333,
+   "lon": 19.88333,
+   "distance_km": 30.7,
+   "category": "okolice",
+   "url": "https://www.mdk.przedborz.pl/kalendarz/2026-11-15/299",
+   "times": [],
+   "source": "przedborz",
+   "sources": [
+    "przedborz"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -275,8 +560,9 @@
   {
    "id": "0b86a691a28ef491",
    "title": "„Lubię wracać tam”",
-   "start": "2026-11-15T00:00:00+01:00",
-   "all_day": true,
+   "start": "2026-11-15T19:00:00+01:00",
+   "end": "2026-11-15T20:30:00+01:00",
+   "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
@@ -285,10 +571,37 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-11-2026-lubie-wracac-tam/",
    "ticket_url": "https://bilety.kulturalnykoneser.pl/event/view/id/703001",
+   "price_text": "147 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "edb64cd6ba8937c9",
+   "title": "Marcin Kydryński - Siesta & Trylogia Afrykańska",
+   "start": "2026-11-17T18:30:00+01:00",
+   "end": "2026-11-17T20:00:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/koncert/Marcin-Kydrynski-Siesta-Trylogia-Afrykanska?eid=689789",
+   "ticket_url": "https://biletyna.pl/koncert/Marcin-Kydrynski-Siesta-Trylogia-Afrykanska?eid=689789",
+   "price_text": "60 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -318,6 +631,56 @@
    "confidence": "high"
   },
   {
+   "id": "53fedcc084acbc6e",
+   "title": "Nerwica natręctw",
+   "start": "2026-11-21T16:00:00+01:00",
+   "end": "2026-11-21T17:30:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/spektakl/Nerwica-natrectw?eid=685033",
+   "ticket_url": "https://biletyna.pl/spektakl/Nerwica-natrectw?eid=685033",
+   "price_text": "100 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "f7adfe26fa35beda",
+   "title": "Nerwica natręctw",
+   "start": "2026-11-21T18:30:00+01:00",
+   "end": "2026-11-21T20:00:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/spektakl/Nerwica-natrectw?eid=685039",
+   "ticket_url": "https://biletyna.pl/spektakl/Nerwica-natrectw?eid=685039",
+   "price_text": "100 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
    "id": "2a8d496455d4c57c",
    "title": "Nerwica Natręctw",
    "start": "2026-11-22T16:00:00+01:00",
@@ -340,9 +703,59 @@
    "confidence": "high"
   },
   {
+   "id": "8f63db1b9178b17b",
+   "title": "Koncert Witold Janiak TRZEJ KRÓLOWIE",
+   "start": "2026-11-28T19:00:00+01:00",
+   "end": "2026-11-28T20:30:00+01:00",
+   "all_day": false,
+   "venue": "Bourbon Street Pub",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/koncert/Koncert-Witold-Janiak-TRZEJ-KROLOWIE?eid=698417",
+   "ticket_url": "https://biletyna.pl/koncert/Koncert-Witold-Janiak-TRZEJ-KROLOWIE?eid=698417",
+   "price_text": "68 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "b091d43f26f34dc7",
+   "title": "Metro - Trasa 365 widoków na przyszłość",
+   "start": "2026-11-28T20:00:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny Bogart w Gomunicach",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://www.ebilet.pl/muzyka/rock/metro?city=Gomunice",
+   "ticket_url": "https://www.ebilet.pl/muzyka/rock/metro?city=Gomunice",
+   "price_text": "85.9 zł",
+   "times": [],
+   "source": "ebilet",
+   "sources": [
+    "ebilet"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
    "id": "82d07fcdb788597f",
    "title": "THE STRINGS 2",
    "start": "2026-11-29T15:30:00+01:00",
+   "end": "2026-11-29T17:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -352,10 +765,62 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/22-11-2026-the-strings-2/",
    "ticket_url": "https://biletyna.pl/spektakl/The-Strings/2-jada-do-USA/Radomsko?eid=676208",
+   "price_text": "110 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "e5c1550f2d2afff2",
+   "title": "The Strings 2 jadą do USA!",
+   "start": "2026-11-29T18:30:00+01:00",
+   "end": "2026-11-29T20:00:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/spektakl/The-Strings/2-jada-do-USA?eid=676209",
+   "ticket_url": "https://biletyna.pl/spektakl/The-Strings/2-jada-do-USA?eid=676209",
+   "price_text": "110 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "dd1ccd3d1df6da39",
+   "title": "ManSound Magic Christmas",
+   "start": "2026-12-02T19:00:00+01:00",
+   "end": "2026-12-02T20:30:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/koncert/ManSound-Magic-Christmas?eid=703833",
+   "ticket_url": "https://biletyna.pl/koncert/ManSound-Magic-Christmas?eid=703833",
+   "price_text": "159 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -366,6 +831,7 @@
    "id": "569652da41a6ead7",
    "title": "Sławek Uniatowski",
    "start": "2026-12-16T19:00:00+01:00",
+   "end": "2026-12-16T20:45:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -374,10 +840,13 @@
    "distance_km": 0.4,
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/16-12-2026-slawek-uniatowski/",
+   "ticket_url": "https://biletyna.pl/koncert/Slawek-Uniatowski/Magic-Christmas-Jazz-Night?eid=684128",
+   "price_text": "159 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -408,9 +877,35 @@
    "confidence": "high"
   },
   {
+   "id": "d432e7e49f3ee5d3",
+   "title": "Szalone Nożyczki",
+   "start": "2027-01-09T16:00:00+01:00",
+   "end": "2027-01-09T18:00:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/spektakl/Szalone-Nozyczki?eid=704100",
+   "ticket_url": "https://biletyna.pl/spektakl/Szalone-Nozyczki?eid=704100",
+   "price_text": "100 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
    "id": "4ea243df71587672",
    "title": "Kabaret Ani Mru Mru",
    "start": "2027-01-15T17:30:00+01:00",
+   "end": "2027-01-15T19:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -420,10 +915,12 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-01-2027-kabaret-ani-mru-mru/",
    "ticket_url": "https://www.kupbilecik.pl/pl/event/206539/radomsko/kabaret-ani-mru-mru",
+   "price_text": "140 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -454,9 +951,35 @@
    "confidence": "high"
   },
   {
+   "id": "164aab3bb43b2e43",
+   "title": "Teatr Rawa - To tylko SEX",
+   "start": "2027-01-23T18:00:00+01:00",
+   "end": "2027-01-23T19:35:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/spektakl/Teatr-Rawa-To-tylko-SEX?eid=629944",
+   "ticket_url": "https://biletyna.pl/spektakl/Teatr-Rawa-To-tylko-SEX?eid=629944",
+   "price_text": "110 zł",
+   "times": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
    "id": "0bf41781b3014e0f",
    "title": "Koncert Wiedeński z Gwiazdami 2027",
    "start": "2027-01-30T19:00:00+01:00",
+   "end": "2027-01-30T20:30:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -466,10 +989,12 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/27-01-2027-koncert-wiedenski/",
    "ticket_url": "https://www.kupbilecik.pl/pl/event/219063/radomsko/noworoczny-koncert-wiedenski-z-gwiazdami-2027",
+   "price_text": "140 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -502,8 +1027,9 @@
   {
    "id": "f76129cacf84a80c",
    "title": "Budka Suflera",
-   "start": "2027-02-12T00:00:00+01:00",
-   "all_day": true,
+   "start": "2027-02-12T19:00:00+01:00",
+   "end": "2027-02-12T20:30:00+01:00",
+   "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
@@ -511,10 +1037,13 @@
    "distance_km": 0.4,
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/12-02-2027-r-budka-suflera/",
+   "ticket_url": "https://biletyna.pl/koncert/Budka-Suflera?eid=689986",
+   "price_text": "150 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -525,6 +1054,7 @@
    "id": "09baff535c65055a",
    "title": "„Prezent urodzinowy” – spektakl",
    "start": "2027-02-13T16:00:00+01:00",
+   "end": "2027-02-13T17:30:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -533,10 +1063,13 @@
    "distance_km": 0.4,
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/13-02-2027-r-prezent-urodzinowy-spektakl/",
+   "ticket_url": "https://biletyna.pl/spektakl/Prezent-urodzinowy?eid=701571",
+   "price_text": "120 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -546,8 +1079,9 @@
   {
    "id": "01e1aab2174d6b2d",
    "title": "Czerwone Gitary",
-   "start": "2027-03-06T00:00:00+01:00",
-   "all_day": true,
+   "start": "2027-03-06T19:00:00+01:00",
+   "end": "2027-03-06T20:30:00+01:00",
+   "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
@@ -556,10 +1090,12 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/06-03-2027-r-czerwone-gitary/",
    "ticket_url": "https://www.kupbilecik.pl/pl/event/198705/radomsko/czerwone-gitary?_gl=1%2Alx46u8%2A_up%2AMQ..%2A_gs%2AMQ..",
+   "price_text": "135 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -569,8 +1105,9 @@
   {
    "id": "1d534bcc7fd798bc",
    "title": "Goniąc Kormorany",
-   "start": "2027-03-11T00:00:00+01:00",
-   "all_day": true,
+   "start": "2027-03-11T19:00:00+01:00",
+   "end": "2027-03-11T20:30:00+01:00",
+   "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
@@ -579,10 +1116,12 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/11-03-2027r-goniac-kormorany/",
    "ticket_url": "https://biletyna.pl/event/view/id/689987",
+   "price_text": "160 zł",
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
+    "mdk",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",

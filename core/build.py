@@ -11,17 +11,26 @@ from pathlib import Path
 
 import yaml
 
+from core.dedupe import dedupe
 from core.geo import Geo
 from core.models import Event, RawEvent
-from core.normalize import TZ, event_end_date, localize, make_id
+from core.normalize import TZ, event_end_date, guess_category, localize, make_id
+from core.rollup_cinema import rollup_cinema
 from sources.base import USER_AGENT, Fetcher, Source
+from sources.kamiensk import KamienskSource
+from sources.listing import JsonLdListingSource
+from sources.manual import ManualSource
+from sources.mbp import MbpSource
 from sources.mdk import MdkSource
+from sources.muzeum import MuzeumSource
+from sources.przedborz import PrzedborzSource
+from sources.radomsko_pl import RadomskoPlSource
 
 log = logging.getLogger("build")
 ROOT = Path(__file__).resolve().parent.parent
 
 
-def to_event(raw: RawEvent, geo: Geo, today: date, previous: dict[str, Event]) -> tuple[Event | None, str | None]:
+def to_event(raw: RawEvent, geo: Geo, today: date) -> tuple[Event | None, str | None]:
     """Zwraca (Event, None) albo (None, powód odrzucenia)."""
     start = localize(raw.start)
     end = localize(raw.end) if raw.end else None
@@ -33,30 +42,62 @@ def to_event(raw: RawEvent, geo: Geo, today: date, previous: dict[str, Event]) -
     if not geo.in_range(loc):
         return None, "out-of-range"
     event_id = make_id(raw.title, start, raw.venue)
-    old = previous.get(event_id)
-    category = "okolice" if loc.municipality != "Radomsko" and raw.category != "kino" else raw.category
+    category = guess_category(raw.title) if raw.category == "inne" else raw.category
+    if loc.municipality != "Radomsko" and category != "kino":
+        category = "okolice"
     return Event(
         id=event_id, title=raw.title, start=start, end=end, all_day=raw.all_day, venue=raw.venue,
         place=raw.place or loc.municipality, lat=loc.lat, lon=loc.lon, distance_km=loc.distance_km,
         category=category, url=raw.url, ticket_url=raw.ticket_url, price_text=raw.price_text,
         times=raw.times, source=raw.source, sources=[raw.source],
-        first_seen=old.first_seen if old else today.isoformat(), last_seen=today.isoformat(),
+        first_seen=today.isoformat(), last_seen=today.isoformat(),
         confidence=raw.confidence,
     ), None
 
 
-def build_sources(config: dict) -> list[Source]:
+def build_sources(config: dict, root: Path = ROOT) -> list[Source]:
     cfg = config.get("sources", {})
     sources: list[Source] = []
-    if cfg.get("mdk", {}).get("enabled"):
-        sources.append(MdkSource(max_pages=cfg["mdk"].get("max_pages", 3)))
+
+    def on(name: str) -> dict | None:
+        c = cfg.get(name)
+        return c if c and c.get("enabled") else None
+
+    if c := on("manual"):
+        sources.append(ManualSource(root / c.get("path", "data/manual_events.yaml")))
+    if c := on("mdk"):
+        sources.append(MdkSource(max_pages=c.get("max_pages", 3)))
+    if c := on("radomsko_pl"):
+        sources.append(RadomskoPlSource(days_ahead=c.get("days_ahead", 120)))
+    if on("muzeum"):
+        sources.append(MuzeumSource())
+    if on("mbp"):
+        sources.append(MbpSource())
+    if c := on("kamiensk"):
+        sources.append(KamienskSource(days_ahead=c.get("days_ahead", 60)))
+    if on("przedborz"):
+        sources.append(PrzedborzSource())
+    for name in ("biletyna", "ebilet"):
+        if c := on(name):
+            sources.append(JsonLdListingSource(name, c["urls"]))
     return sources
 
 
-def load_previous(path: Path) -> dict[str, Event]:
-    if not path.exists():
-        return {}
-    return {e["id"]: Event.model_validate(e) for e in json.loads(path.read_text("utf-8"))["events"]}
+def load_seen(path: Path) -> dict[str, str]:
+    return json.loads(path.read_text("utf-8")) if path.exists() else {}
+
+
+def apply_seen(events: list[Event], seen: dict[str, str], today: date) -> tuple[list[Event], list[str]]:
+    """first_seen z seen_ids.json; „nowe” = id, którego nie było w poprzednim przebiegu."""
+    new_ids = []
+    for e in events:
+        if e.id in seen:
+            e.first_seen = seen[e.id]
+        else:
+            e.first_seen = today.isoformat()
+            if seen:  # pierwszy przebieg (pusty seen) nie ogłasza wszystkiego jako nowe
+                new_ids.append(e.id)
+    return events, new_ids
 
 
 def run(config_path: Path = ROOT / "config.yaml", today: date | None = None) -> dict:
@@ -64,11 +105,11 @@ def run(config_path: Path = ROOT / "config.yaml", today: date | None = None) -> 
     today = today or datetime.now(TZ).date()
     geo = Geo.load(ROOT / config["paths"]["venues"])
     events_path = ROOT / config["paths"]["events"]
-    previous = load_previous(events_path)
+    seen_path = ROOT / config["paths"].get("seen", "data/seen_ids.json")
     fetcher = Fetcher(user_agent=config.get("user_agent", USER_AGENT))
-    events: dict[str, Event] = {}
+    collected: list[Event] = []
     status: dict[str, dict] = {}
-    todo: list[dict] = []
+    todo: dict[tuple, dict] = {}
     now = datetime.now(TZ).isoformat(timespec="seconds")
     for source in build_sources(config):
         try:
@@ -77,22 +118,31 @@ def run(config_path: Path = ROOT / "config.yaml", today: date | None = None) -> 
             log.exception("źródło %s nie działa", source.name)
             status[source.name] = {"ok": False, "error": f"{type(exc).__name__}: {exc}", "checked": now}
             continue
-        kept = 0
+        kept, dropped = 0, {}
         for raw in raws:
-            event, reason = to_event(raw, geo, today, previous)
+            event, reason = to_event(raw, geo, today)
             if event:
-                events.setdefault(event.id, event)
+                collected.append(event)
                 kept += 1
-            elif reason == "no-coordinates":
-                todo.append({"source": source.name, "title": raw.title, "venue": raw.venue, "place": raw.place})
-        status[source.name] = {"ok": True, "last_success": now, "count": kept, "fetched": len(raws)}
-    ordered = sorted(events.values(), key=lambda e: (e.start, e.title))
-    payload = {"generated": now, "events": [e.model_dump(mode="json", exclude_none=True) for e in ordered]}
+                continue
+            dropped[reason] = dropped.get(reason, 0) + 1
+            if reason == "no-coordinates":
+                key = (source.name, raw.venue, raw.place)
+                todo[key] = {"source": source.name, "venue": raw.venue, "place": raw.place}
+        status[source.name] = {
+            "ok": True, "last_success": now, "count": kept, "fetched": len(raws), "dropped": dropped,
+        }
+    unique = list({e.id: e for e in collected}.values())  # ten sam wpis z kilku listingów jednego źródła
+    merged = dedupe(unique, threshold=config.get("dedupe", {}).get("threshold", 90))
+    final, new_ids = apply_seen(rollup_cinema(merged), load_seen(seen_path), today)
+    payload = {"generated": now, "events": [e.model_dump(mode="json", exclude_none=True) for e in final]}
     out = json.dumps(payload, ensure_ascii=False, indent=1)
     events_path.parent.mkdir(parents=True, exist_ok=True)
     events_path.write_text(out + "\n", "utf-8")
+    seen_path.write_text(json.dumps({e.id: e.first_seen for e in final}, indent=1, sort_keys=True) + "\n", "utf-8")
     (ROOT / "data/status.json").write_text(
-        json.dumps({"generated": now, "sources": status, "to_complete": todo}, ensure_ascii=False, indent=1) + "\n",
+        json.dumps({"generated": now, "sources": status, "new": new_ids, "to_complete": list(todo.values())},
+                   ensure_ascii=False, indent=1) + "\n",
         "utf-8",
     )
     publish(ROOT / "public", out)

@@ -4,10 +4,27 @@ timezone: Europe/Warsaw
 paths:
   venues: data/venues.yaml
   events: data/events.json
-  public_events: public/events.json
+  seen: data/seen_ids.json
 dedupe:
   threshold: 90   # rapidfuzz, etap 2
 sources:
+  manual: {enabled: true, path: data/manual_events.yaml}
   mdk: {enabled: true, max_pages: 3}
+  radomsko_pl: {enabled: true, days_ahead: 120}
+  muzeum: {enabled: true}
+  mbp: {enabled: true}
+  kamiensk: {enabled: true, days_ahead: 45}    # 1 żądanie na dzień (limit 1/s), strona nie podaje listy miesiąca
+  przedborz: {enabled: true}
+  biletyna:   # regulamin portalu przeczytany 2026-10-07 (bez zastrzeżeń), tylko listingi dozwolone przez robots.txt
+    enabled: true
+    urls:
+      - https://biletyna.pl/Radomsko
+      - https://biletyna.pl/Radomsko/Miejski-Dom-Kultury
+      - https://biletyna.pl/Radomsko/Bourbon-Street-Pub
+  ebilet:     # tylko strony miejsc (/miejsce/...), nie miast
+    enabled: true
+    urls:
+      - https://www.ebilet.pl/miejsce/klub-muzyczny-bogart-w-gomunicach
+  # radomskoogloszenia: pominięte (regulamin XIII.2), naszemiasto: 403 dla robotów
 digest:
   send_when_empty: false   # etap 3
