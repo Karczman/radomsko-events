@@ -35,6 +35,19 @@ def fold(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+_LIBRARY = re.compile(r"bibliotek|spotkanie autorskie", re.I)
+_EDUCATION = re.compile(r"konkurs|warsztat|lekcj|wykład|wyklad|prelekcj", re.I)
+
+
+def guess_category(title: str) -> str:
+    """Zgadywanie kategorii dla źródeł bez własnej (tylko gdy adapter dał `inne`)."""
+    if _LIBRARY.search(title):
+        return "biblioteka"
+    if _EDUCATION.search(title):
+        return "edukacja"
+    return "inne"
+
+
 def localize(value: datetime) -> datetime:
     """Naiwny czas traktuje jako lokalny (Europe/Warsaw), aware przelicza na Europe/Warsaw."""
     if value.tzinfo is None:
