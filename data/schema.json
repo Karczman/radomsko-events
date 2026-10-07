@@ -168,6 +168,13 @@
      "title": "Times",
      "type": "array"
     },
+    "dates": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Dates",
+     "type": "array"
+    },
     "source": {
      "title": "Source",
      "type": "string"

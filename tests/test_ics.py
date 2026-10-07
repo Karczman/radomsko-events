@@ -54,11 +54,13 @@ def test_all_day_uses_date_values_with_exclusive_end():
 
 
 def test_cinema_range_becomes_all_day_span_with_times_in_description():
-    e = ev(times=["17:00", "19:30"], end=datetime(2026, 11, 9, 19, 30, tzinfo=TZ), category="kino")
+    e = ev(times=["17:00", "19:30"], dates=["2026-11-07", "2026-11-09"], end=datetime(2026, 11, 9, 19, 30, tzinfo=TZ),
+           category="kino")
     kept, state = track([e], {}, date(2026, 10, 7))
     (v,) = vevents(parse(kept, state))
     assert v.decoded("DTSTART") == date(2026, 11, 7) and v.decoded("DTEND") == date(2026, 11, 10)
-    assert "Seanse: 17:00, 19:30" in v["DESCRIPTION"]
+    assert "Godziny seansów: 17:00, 19:30" in v["DESCRIPTION"]
+    assert "Dni seansów: 7.11, 9.11" in v["DESCRIPTION"]
 
 
 def test_sequence_grows_only_when_content_changes():

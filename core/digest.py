@@ -45,6 +45,14 @@ def _local(e: Event) -> tuple[date, date]:
     return start, (e.end.astimezone(TZ).date() if e.end else start)
 
 
+def _days(e: Event) -> list[date]:
+    """Dni, w które wydarzenie faktycznie się odbywa (kino: dni seansów, reszta: zakres start..end)."""
+    if e.dates:
+        return [date.fromisoformat(d) for d in e.dates]
+    start, end = _local(e)
+    return [start + timedelta(days=i) for i in range((end - start).days + 1)]
+
+
 def _time(e: Event) -> str:
     return "" if e.all_day else e.start.astimezone(TZ).strftime("%H:%M")
 
@@ -57,9 +65,13 @@ def _line_today(e: Event) -> str:
     return f"• {_time(e) + ' ' if _time(e) else ''}{e.title}{_place(e)}"
 
 
-def _line_day(e: Event) -> str:
-    d = _local(e)[0]
+def _line_day(e: Event, after: date | None = None) -> str:
+    d = next((x for x in _days(e) if after is None or x > after), _local(e)[0]) if e.dates else _local(e)[0]
     return f"• {WEEKDAYS[d.weekday()]} {d.day}.{d.month:02d} {_time(e) + ' ' if _time(e) else ''}{e.title}"
+
+
+def _next_day(e: Event, today: date) -> date:
+    return next((d for d in _days(e) if d > today), _local(e)[0]) if e.dates else _local(e)[0]
 
 
 def _plural(n: int, one: str, few: str, many: str) -> str:
@@ -72,21 +84,28 @@ def build_digest(events: list[Event], today: date, new_ids: list[str], site_url:
                  when_empty: str = "short") -> Message | None:
     """`when_empty`: gdy nic dziś i nic nowego, `short` (krótka wersja) albo `skip` (nie wysyłaj)."""
     live = _active(events)
-    todays = [e for e in live if _local(e)[0] <= today <= _local(e)[1]]
     horizon = today + timedelta(days=7)
-    week = sorted((e for e in live if today < _local(e)[0] <= horizon), key=lambda e: e.start)
+    todays = [e for e in live if today in _days(e)]
+    on_today = {e.id for e in todays}
+
+    def soon(e: Event) -> bool:  # seans/początek w ciągu 7 dni (kino: którykolwiek dzień seansów)
+        if e.dates:
+            return any(today < d <= horizon for d in _days(e))
+        return today < _local(e)[0] <= horizon
+
+    week = sorted((e for e in live if e.id not in on_today and soon(e)), key=lambda e: (_next_day(e, today), e.start))
     new = [e for e in live if e.id in set(new_ids) and _local(e)[1] >= today][:MAX_NEW]
     title = f"Radomsko: dziś {len(todays)}, w tygodniu {len(week)}"
     if not todays and not new:
         if when_empty == "skip":
             return None
-        lines = [_line_day(e) for e in week[:MAX_SHORT]] or ["Brak wydarzeń w najbliższych 7 dniach."]
+        lines = [_line_day(e, today) for e in week[:MAX_SHORT]] or ["Brak wydarzeń w najbliższych 7 dniach."]
         return Message(title, "\n".join(lines), site_url)
     sections: list[str] = []
     if todays:
         sections.append("Dziś:\n" + "\n".join(_line_today(e) for e in sorted(todays, key=lambda e: e.start)))
     if week:
-        shown = [_line_day(e) for e in week[:MAX_WEEK]]
+        shown = [_line_day(e, today) for e in week[:MAX_WEEK]]
         if len(week) > MAX_WEEK:
             shown.append(f"… i {len(week) - MAX_WEEK} więcej")
         sections.append("Najbliższe 7 dni:\n" + "\n".join(shown))

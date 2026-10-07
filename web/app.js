@@ -29,7 +29,9 @@ function el(tag, attrs, ...kids) {
   return n;
 }
 const vis = () => E.filter((e) => flt[e.category]);
-const onDay = (e, k) => dayOf(e.start) <= k && k <= lastDay(e);
+// Kino: seanse tylko w wymienionych dniach (`dates`), reszta: cały zakres start..end.
+const onDay = (e, k) => (e.dates && e.dates.length ? e.dates.includes(k) : dayOf(e.start) <= k && k <= lastDay(e));
+const shortDay = (d) => `${+d.slice(8, 10)}.${d.slice(5, 7)}`;
 
 function gcal(e) {
   const d = (s) => s.replace(/-/g, "");
@@ -91,12 +93,14 @@ function card(e, newIds) {
   const showPlace = e.place && !(e.venue || "").toLowerCase().includes(e.place.toLowerCase());
   const where = [e.venue, showPlace ? e.place : null].filter(Boolean).join(", ");
   const dist = e.category === "okolice" && e.distance_km ? ` (${Math.round(e.distance_km)} km)` : "";
-  const multi = e.end && lastDay(e) !== dayOf(e.start) ? `do ${lastDay(e).split("-").reverse().slice(0, 2).join(".")} · ` : "";
-  const times = e.times && e.times.length ? ` · ${e.times.join(", ")}` : "";
+  const multi = e.end && !(e.dates && e.dates.length) && lastDay(e) !== dayOf(e.start) ? `do ${lastDay(e).split("-").reverse().slice(0, 2).join(".")} · ` : "";
+  const days = e.dates && e.dates.length ? ` · seanse: ${e.dates.slice(0, 6).map(shortDay).join(", ")}${e.dates.length > 6 ? ` i ${e.dates.length - 6} więcej` : ""}` : "";
+  const times = e.times && e.times.length ? ` · godz. ${e.times.join(", ")}` : "";
   const title = el("h3", { text: e.title });
   if (e.status === "cancelled") title.append(el("span", { class: "badge", text: "Odwołane" }));
   if (newIds.has(e.id)) title.append(el("span", { class: "badge", text: "Nowe" }));
-  const meta = el("p", { text: `${timeOf(e) ? timeOf(e) + " · " : ""}${multi}${where}${dist}${times}${e.price_text ? " · " + e.price_text : ""}` });
+  const lead = (e.dates && e.dates.length) || (e.times && e.times.length > 1) ? "" : (timeOf(e) ? timeOf(e) + " · " : "");
+  const meta = el("p", { text: `${lead}${multi}${where}${dist}${days}${times}${e.price_text ? " · " + e.price_text : ""}` });
   const row = el("div", { class: "row" });
   const link = (href, text, cls) => el("a", { class: cls, href, target: "_blank", rel: "noopener", text });
   if (e.ticket_url) row.append(link(e.ticket_url, "Bilety", "a p"));

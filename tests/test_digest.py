@@ -87,3 +87,15 @@ def test_send_raises_on_error():
     client = httpx.Client(transport=httpx.MockTransport(lambda r: httpx.Response(403)))
     with pytest.raises(httpx.HTTPStatusError):
         send(Message("t", "b"), "x", client=client)
+
+
+def test_cinema_is_announced_only_on_screening_days():
+    # Film grany 7.10, 13.10 i 14.10: w zakresie 7-14.10, ale 8-12.10 bez seansów
+    film = ev(1, "Lalka / 2D", 7, 17, end=datetime(2026, 10, 14, 20, tzinfo=TZ), category="kino",
+              dates=["2026-10-07", "2026-10-13", "2026-10-14"], times=["17:00", "20:00"])
+    assert build_digest([film], date(2026, 10, 7), [], None).title == "Radomsko: dziś 1, w tygodniu 0"
+    mid = build_digest([film], date(2026, 10, 9), [], None, when_empty="short")
+    assert mid.title == "Radomsko: dziś 0, w tygodniu 1" and "wt 13.10" in mid.body  # najbliższy seans, nie 7.10
+    after = build_digest([film], date(2026, 10, 14), [], None)
+    assert after.title.startswith("Radomsko: dziś 1")
+    assert build_digest([film], date(2026, 10, 15), [], None, when_empty="skip") is None

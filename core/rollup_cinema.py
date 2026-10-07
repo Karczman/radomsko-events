@@ -40,9 +40,10 @@ def rollup_cinema(events: list[Event]) -> list[Event]:
             first = run[0].model_copy(deep=True)
             first.id = _cinema_id(first, i == 0, run[0].start)
             first.times = sorted({s.start.strftime("%H:%M") for s in run if not s.all_day})
+            first.dates = sorted({s.start.date().isoformat() for s in run})
             first.end = max((s.start for s in run), default=first.start)
             if first.end.date() == first.start.date():
-                first.end = None  # jeden dzień: nie udajemy zakresu
+                first.end, first.dates = None, []  # jeden dzień: nie udajemy zakresu
             first.sources = sorted({src for s in run for src in s.sources})
             first.ticket_url = first.ticket_url or next((s.ticket_url for s in run if s.ticket_url), None)
             first.first_seen = min(s.first_seen for s in run)

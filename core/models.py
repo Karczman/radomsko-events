@@ -49,6 +49,7 @@ class Event(BaseModel):
     ticket_url: str | None = None
     price_text: str | None = None
     times: list[str] = Field(default_factory=list)
+    dates: list[str] = Field(default_factory=list)  # dni seansów (RRRR-MM-DD) dla zwiniętych pozycji kina
     source: str
     sources: list[str] = Field(default_factory=list)
     first_seen: str

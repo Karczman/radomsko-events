@@ -75,8 +75,11 @@ def _offset(text: str) -> timedelta:
 
 def _description(e: Event) -> str:
     lines = []
+    if e.dates:
+        days = [f"{int(d[8:10])}.{d[5:7]}" for d in e.dates]
+        lines.append("Dni seansów: " + ", ".join(days))
     if e.times:
-        lines.append("Seanse: " + ", ".join(e.times))
+        lines.append("Godziny seansów: " + ", ".join(e.times))
     if e.price_text:
         lines.append(f"Cena: {e.price_text}")
     if e.ticket_url:

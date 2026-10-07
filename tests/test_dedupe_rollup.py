@@ -70,6 +70,7 @@ def test_cinema_rollup_one_entry_per_film_with_times():
     k = kino[0]
     assert k.start.day == 7 and k.end.day == 8
     assert k.times == ["17:00", "19:30"]
+    assert k.dates == ["2026-11-07", "2026-11-08"]
 
 
 def test_cinema_rollup_id_stable_when_first_screening_expires():
@@ -80,6 +81,6 @@ def test_cinema_rollup_id_stable_when_first_screening_expires():
 
 def test_cinema_single_day_has_no_end_and_returns_split_runs():
     single = rollup_cinema([film(7, 17), film(7, 20)])[0]
-    assert single.end is None and single.times == ["17:00", "20:00"]
+    assert single.end is None and single.times == ["17:00", "20:00"] and single.dates == []
     runs = [e for e in rollup_cinema([film(1, 17), film(28, 17)]) if e.category == "kino"]
     assert len(runs) == 2 and runs[0].id != runs[1].id
