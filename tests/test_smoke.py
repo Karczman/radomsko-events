@@ -89,3 +89,23 @@ def test_every_configured_source_has_a_smoke_check():
     cfg = yaml.safe_load((Path(__file__).parent.parent / "config.yaml").read_text("utf-8"))
     enabled = {n for n, c in cfg["sources"].items() if c.get("enabled") and n != "manual"}
     assert enabled <= set(smoke.CHECKS), enabled - set(smoke.CHECKS)
+
+
+def test_mdk_check_requires_fields_the_parser_depends_on(fixture_json):
+    cinema = fixture_json("mdk/cinema-and-recurring.json")
+
+    class MdkFetcher:
+        def __init__(self, items):
+            self.items = items
+
+        def get(self, url, params=None, **kw):
+            params = params or {}
+            if "include" in params:
+                return Resp(json.dumps([{"id": i["id"], "content": {"rendered": ""}} for i in self.items]))
+            return Resp(json.dumps(self.items[: params.get("per_page", 100)]))
+
+    ok = smoke.run_checks(MdkFetcher(cinema), date(2026, 10, 7), {"mdk": smoke.CHECKS["mdk"]})
+    assert ok["mdk"][0] is True, ok
+    stripped = [{k: v for k, v in i.items() if k != "pec_extra_dates"} for i in cinema]  # wtyczka zmieniła pola
+    broken = smoke.run_checks(MdkFetcher(stripped), date(2026, 10, 7), {"mdk": smoke.CHECKS["mdk"]})
+    assert broken["mdk"][0] is False and "pec_extra_dates" in broken["mdk"][1]

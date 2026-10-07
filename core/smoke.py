@@ -26,7 +26,15 @@ ROOT = Path(__file__).resolve().parent.parent
 Check = Callable[[Fetcher, date], str]  # zwraca opis sukcesu albo rzuca AssertionError / wyjątek sieciowy
 
 
+MDK_REQUIRED_FIELDS = {"id", "title", "pec_date", "pec_extra_dates", "pec_end_date", "pec_recurring_frecuency",
+                       "pec_events_category"}
+
+
 def check_mdk(f: Fetcher, today: date) -> str:
+    # Kontrakt: parser opiera się na tych polach (repertuar kina jest w pec_extra_dates, nie w pec_date).
+    sample = f.get(mdk.BASE, params={"per_page": 1, "_fields": mdk.LIST_FIELDS}).json()
+    missing = MDK_REQUIRED_FIELDS - set(sample[0]) if sample else MDK_REQUIRED_FIELDS
+    assert not missing, f"REST pec-events nie zwraca pól: {sorted(missing)}"
     events = mdk.MdkSource(max_pages=1).fetch(f, today)
     assert events, "REST pec-events nie zwrócił przyszłych wydarzeń"
     return f"{len(events)} wydarzeń na stronie 1"

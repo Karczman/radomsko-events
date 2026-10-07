@@ -25,7 +25,7 @@ Przechowujemy tylko fakty (tytuł, termin, miejsce, cena, linki). Nie kopiujemy 
 
 | Źródło | Typ |
 |---|---|
-| MDK Radomsko | REST WordPress (`pec-events`) |
+| MDK Radomsko | REST WordPress (`pec-events`); terminy z `pec_date`, `pec_extra_dates` (repertuar kina) i cyklu dziennego |
 | radomsko.pl | widżet kalendarza miejskiego (HTML) |
 | Muzeum Regionalne, MBP | WP REST i RSS, daty z tekstu (`confidence=low`) |
 | biletyna.pl, ebilet.pl | JSON-LD `Event` (tylko listingi dozwolone przez `robots.txt`) |
@@ -100,7 +100,7 @@ python3.12 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 
 ## Bezpiecznik i status źródeł
 
-Gdy źródło zwraca 0 wydarzeń lub ponad 50% mniej niż poprzednio (liczy się tylko, gdy poprzednio miało co najmniej 5), albo rzuca wyjątek, build:
+Gdy źródło zwraca 0 wydarzeń lub ponad 50% mniej różnych tytułów niż poprzednio (liczą się tytuły, nie terminy, bo seanse kina wygasają codziennie; tylko gdy poprzednio było ich co najmniej 5), albo rzuca wyjątek, build:
 
 - zachowuje ostatnie dobre dane tego źródła z `data/source_cache/` (bez wydarzeń z przeszłości),
 - oznacza je w `data/status.json` jako `stale` (z powodem i datą od kiedy),

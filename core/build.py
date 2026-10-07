@@ -17,7 +17,7 @@ from core.dedupe import dedupe
 from core.geo import Geo
 from core.ics import build_ics, track
 from core.models import Event, RawEvent
-from core.normalize import TZ, event_end_date, guess_category, localize, make_id
+from core.normalize import TZ, event_end_date, fold, guess_category, localize, make_id
 from core.rollup_cinema import rollup_cinema
 from sources.base import USER_AGENT, Fetcher, Source
 from sources.kamiensk import KamienskSource
@@ -156,15 +156,18 @@ def run(config_path: Path = ROOT / "config.yaml", today: date | None = None) -> 
         reason = None
         if raws is not None:
             min_previous = config.get("breaker", {}).get("min_previous", MIN_PREVIOUS)
-            reason = trip_reason(prev, len(events_src), min_previous) if guarded else None
-            entry = {"ok": True, "count": len(events_src), "fetched": len(raws), "dropped": dropped}
+            titles = len({fold(e.title) for e in events_src})
+            reason = trip_reason(prev, titles, min_previous) if guarded else None
+            entry = {"ok": True, "count": len(events_src), "titles": titles, "fetched": len(raws),
+                     "dropped": dropped}
         if guarded and (raws is None or reason):
             cached = load_cache(cache_dir, source.name, today)
             if cached is not None:  # ostatnie dobre dane zamiast pustki
                 events_src, dropped = _convert(cached, source.name, geo, today, todo)
                 entry.update(stale=True, stale_reason=reason or "błąd pobierania",
                              stale_since=(prev or {}).get("stale_since") or today.isoformat(),
-                             count=(prev or {}).get("count", len(events_src)))
+                             count=(prev or {}).get("count", len(events_src)),
+                             titles=(prev or {}).get("titles", len({fold(e.title) for e in events_src})))
                 log.warning("źródło %s: bezpiecznik, używam cache (%s)", source.name, entry["stale_reason"])
             elif reason:
                 entry["stale_reason"] = f"{reason}, brak cache"

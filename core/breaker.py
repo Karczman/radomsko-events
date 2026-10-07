@@ -19,16 +19,18 @@ DROP_RATIO = 0.5
 
 def trip_reason(previous: dict | None, count: int, min_previous: int = MIN_PREVIOUS,
                 ratio: float = DROP_RATIO) -> str | None:
-    """Powód zadziałania bezpiecznika albo None. `previous` = wpis źródła z poprzedniego status.json."""
-    if not previous or previous.get("count") is None:
+    """Powód zadziałania bezpiecznika albo None. `previous` = wpis źródła z poprzedniego status.json.
+    `count` to liczba RÓŻNYCH TYTUŁÓW (nie terminów), bo seanse i terminy wygasają codziennie i dawałyby
+    fałszywe alarmy; starsze statusy bez `titles` porównujemy po `count`."""
+    if not previous or previous.get("titles", previous.get("count")) is None:
         return None
-    before = previous["count"]
+    before = previous.get("titles", previous.get("count"))
     if before < min_previous:
         return None
     if count == 0:
-        return f"0 wydarzeń (poprzednio {before})"
+        return f"0 wydarzeń (poprzednio {before} tytułów)"
     if count < before * ratio:
-        return f"{count} wydarzeń zamiast {before}"
+        return f"{count} tytułów zamiast {before}"
     return None
 
 

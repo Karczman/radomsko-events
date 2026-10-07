@@ -18,8 +18,10 @@ def test_trip_reason_thresholds():
     assert trip_reason(None, 0) is None
     assert trip_reason({"count": 4}, 0) is None  # za mało, żeby ufać (min 5)
     assert "0 wydarzeń" in trip_reason({"count": 20}, 0)
-    assert "9 wydarzeń zamiast 20" in trip_reason({"count": 20}, 9)
+    assert "9 tytułów zamiast 20" in trip_reason({"count": 20}, 9)
     assert trip_reason({"count": 20}, 10) is None  # dokładnie 50%: jeszcze OK
+    assert trip_reason({"count": 60, "titles": 30}, 25) is None  # liczą się tytuły, nie terminy
+    assert "9 tytułów zamiast 30" in trip_reason({"count": 60, "titles": 30}, 9)
     assert trip_reason({"count": 20}, 25) is None
     assert trip_reason({"count": 3}, 0, min_previous=2) is not None
 
@@ -127,3 +129,18 @@ def test_manual_source_is_never_cached_or_resurrected(tmp_path, monkeypatch):
     src.mode = "empty"  # usunąłem wszystkie wpisy ręczne
     out = build.run(tmp_path / "config.yaml", today=date(2026, 10, 8))
     assert out["events"] == []
+
+
+def test_expiring_screenings_do_not_trip_the_breaker(site, monkeypatch):
+    """Seanse jednego filmu wygasają (terminów mniej o 80%), a tytułów tyle samo: bez fałszywego alarmu."""
+    run, _ = site
+    run(7, "ok")  # 10 różnych tytułów
+
+    def many_then_few(self, fetcher, today=None):
+        n_dates = 5 if self.mode == "ok" else 1
+        return [RawEvent(title=f"Film {i}", start=datetime(2026, 11, 1 + d, 18), venue="MDK Radomsko",
+                         place="Radomsko", source="mdk") for i in range(10) for d in range(n_dates)]
+    monkeypatch.setattr(Flaky, "fetch", many_then_few)
+    run(8, "ok")            # 50 terminów, 10 tytułów
+    _, st, _ = run(9, "few")  # 10 terminów (spadek o 80%), nadal 10 tytułów
+    assert "stale" not in st and st["count"] == 10 and st["titles"] == 10
