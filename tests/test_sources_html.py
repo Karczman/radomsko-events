@@ -93,3 +93,11 @@ def test_manual_events_validation_and_date_only():
     import pytest
     with pytest.raises(ValueError, match="brak pól"):
         parse_manual({"events": [{"title": "X", "start": "2026-01-01"}]})
+
+
+def test_committed_manual_events_file_is_valid():
+    import yaml
+
+    from sources.manual import parse_manual
+    root = Path(__file__).parent.parent
+    parse_manual(yaml.safe_load((root / "data/manual_events.yaml").read_text("utf-8")))  # nie rzuca wyjątku
