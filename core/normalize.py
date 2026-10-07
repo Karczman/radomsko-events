@@ -6,7 +6,7 @@ import hashlib
 import html
 import re
 import unicodedata
-from datetime import date, datetime
+from datetime import date, datetime, time
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from zoneinfo import ZoneInfo
 
@@ -60,13 +60,57 @@ def make_id(title: str, start: datetime, venue: str | None) -> str:
     return hashlib.sha1(key.encode("utf-8")).hexdigest()[:16]
 
 
-def clean_url(url: str | None) -> str | None:
-    """Usuwa parametry śledzące (utm_*, gclid itd.) i fragment `#bilety`."""
-    if not url:
+MAX_URL_LEN = 2000
+_CONTROL = re.compile(r"[\x00-\x1f\x7f-\x9f\u200b-\u200f\u2028\u2029\u202a-\u202e\u2066-\u2069]")
+
+
+def safe_url(url: str | None) -> str | None:
+    """Bezpieczny link albo None. Tylko http(s) z hostem, bez danych logowania w adresie i znaków kontrolnych.
+
+    Dane pochodzą z obcych stron: `javascript:`/`data:`/`vbscript:` w `href` na stronie albo w `URL:` w ICS
+    to wykonanie kodu u odbiorcy (XSS), więc odrzucamy wszystko poza http/https."""
+    if not url or not isinstance(url, str):
         return None
-    parts = urlsplit(html.unescape(url.strip()))
+    url = html.unescape(url).strip()
+    if len(url) > MAX_URL_LEN or _CONTROL.search(url) or any(c.isspace() for c in url):
+        return None
+    try:
+        parts = urlsplit(url)
+        port = parts.port  # noqa: F841 - waliduje port (ValueError dla nonsensu)
+    except ValueError:
+        return None
+    if parts.scheme.lower() not in ("http", "https") or not parts.hostname:
+        return None
+    netloc = parts.hostname + (f":{parts.port}" if parts.port else "")  # bez user:hasło@
+    return urlunsplit((parts.scheme.lower(), netloc, parts.path, parts.query, parts.fragment))
+
+
+def clean_text(value: str | None, limit: int) -> str | None:
+    """Tekst z obcego źródła: bez znaków kontrolnych i bidi (spoofing), ze ściśniętymi spacjami i limitem długości."""
+    if value is None:
+        return None
+    text = re.sub(r"\s+", " ", _CONTROL.sub(" ", str(value))).strip()
+    if len(text) > limit:
+        text = text[: limit - 1].rstrip() + "…"
+    return text or None
+
+
+def clean_url(url: str | None) -> str | None:
+    """Bezpieczny link bez parametrów śledzących (utm_*, gclid itd.) i bez fragmentu `#bilety`."""
+    safe = safe_url(url)
+    if safe is None:
+        return None
+    parts = urlsplit(safe)
     query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=False) if not _TRACKING.match(k)]
     return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), ""))
+
+
+def safe_time(hour, minute) -> time | None:
+    """Godzina z tekstu źródła albo None dla nonsensu („25:00”, „17:61”)."""
+    try:
+        return time(int(hour), int(minute))
+    except (TypeError, ValueError):
+        return None
 
 
 def event_end_date(start: datetime, end: datetime | None) -> date:
