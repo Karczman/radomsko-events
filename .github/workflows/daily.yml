@@ -5,10 +5,8 @@ on:
     - cron: "0 5 * * *"   # 05:00 UTC = 7:00 CEST / 6:00 CET
   workflow_dispatch:
 
-permissions:
-  contents: write   # commit danych
-  pages: write
-  id-token: write
+# Domyślnie zero uprawnień; każdy job dostaje tylko to, czego potrzebuje.
+permissions: {}
 
 concurrency:
   group: daily
@@ -17,14 +15,17 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # commit danych (jedyny job z prawem zapisu do repo)
+      pages: read       # configure-pages odczytuje konfigurację Pages
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: pyproject.toml
-      - run: pip install -e .
+          cache-dependency-path: requirements*.txt
+      - run: pip install --require-hashes -r requirements.txt
       - name: Zbuduj dane (adaptery, dedupe, ICS)
         run: python -m core.build
       - name: Commit danych, jeśli się zmieniły
@@ -39,20 +40,23 @@ jobs:
             git pull --rebase -q
             git push
           fi
-      - uses: actions/configure-pages@v6
-      - uses: actions/upload-pages-artifact@v5
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d  # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:
           path: public
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346  # v5.0.1
 
   notify:
     needs: deploy
@@ -60,13 +64,15 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: pyproject.toml
-      - run: pip install -e .
+          cache-dependency-path: requirements*.txt
+      - run: pip install --require-hashes -r requirements.txt
       - name: Digest i alerty ntfy
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}

@@ -1,0 +1,13 @@
+# Aktualizacje zależności przez PR (do przejrzenia przed scaleniem). Akcje są przypięte do SHA,
+# więc bez Dependabota nie dostawałyby poprawek bezpieczeństwa.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
