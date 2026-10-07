@@ -1,0 +1,27 @@
+name: smoke
+
+# Raz w tygodniu lekkie zapytania na żywo do każdego źródła: czy parser nadal rozpoznaje dane.
+on:
+  schedule:
+    - cron: "30 6 * * 3"   # środa 06:30 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - run: pip install -e .
+      - name: Test dymny (alert ntfy przy problemie)
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+        run: python -m core.smoke --notify

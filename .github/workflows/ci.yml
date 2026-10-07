@@ -3,7 +3,13 @@ name: ci
 on:
   push:
     branches: [main]
-    paths-ignore: ["data/**"]
+    paths-ignore:   # dane generowane przez daily nie wymagają testów; ręczne pliki w data/ tak
+      - data/events.json
+      - data/status.json
+      - data/seen_ids.json
+      - data/ics_state.json
+      - data/keepalive.txt
+      - data/source_cache/**
   pull_request:
 
 permissions:
