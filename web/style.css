@@ -39,3 +39,5 @@ footer.src{margin-top:28px}
 footer .stale{color:var(--acc);font-weight:600}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 
+.ev.cancelled h3{text-decoration:line-through;opacity:.7}
+#subs a{color:var(--acc);font-weight:600}

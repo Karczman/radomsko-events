@@ -1,0 +1,14 @@
+{
+  "name": "Radomsko: wydarzenia",
+  "short_name": "Radomsko",
+  "description": "Kalendarz wydarzeń w Radomsku i do 30 km od miasta",
+  "lang": "pl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f4f0",
+  "theme_color": "#1c2a29",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}

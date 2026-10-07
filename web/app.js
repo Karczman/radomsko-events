@@ -56,7 +56,7 @@ function chips() {
 
 function next() {
   const lim = new Date(now); lim.setDate(lim.getDate() + 7);
-  const L = iso(lim), v = vis().filter((e) => lastDay(e) >= today);
+  const L = iso(lim), v = vis().filter((e) => lastDay(e) >= today && e.status !== "cancelled");
   const t = v.filter((e) => onDay(e, today)), w = v.filter((e) => dayOf(e.start) <= L);
   const box = $("next"); box.replaceChildren();
   if (t.length) {
@@ -94,6 +94,7 @@ function card(e, newIds) {
   const multi = e.end && lastDay(e) !== dayOf(e.start) ? `do ${lastDay(e).split("-").reverse().slice(0, 2).join(".")} · ` : "";
   const times = e.times && e.times.length ? ` · ${e.times.join(", ")}` : "";
   const title = el("h3", { text: e.title });
+  if (e.status === "cancelled") title.append(el("span", { class: "badge", text: "Odwołane" }));
   if (newIds.has(e.id)) title.append(el("span", { class: "badge", text: "Nowe" }));
   const meta = el("p", { text: `${timeOf(e) ? timeOf(e) + " · " : ""}${multi}${where}${dist}${times}${e.price_text ? " · " + e.price_text : ""}` });
   const row = el("div", { class: "row" });
@@ -102,6 +103,7 @@ function card(e, newIds) {
   if (e.url) row.append(link(e.url, "Szczegóły", e.ticket_url ? "a" : "a p"));
   row.append(link(gcal(e), "Dodaj do kalendarza", "a"));
   const art = el("article", { class: "ev", style: `--cc:${CAT[e.category][1]}` }, title, meta);
+  if (e.status === "cancelled") art.classList.add("cancelled");
   if (e.confidence === "low") art.append(el("p", { class: "low", text: "Wydarzenie cykliczne lub niepewny termin, sprawdź u organizatora." }));
   art.append(row);
   return art;
@@ -141,7 +143,23 @@ async function foot(generated) {
   } catch { /* status.json jest opcjonalny */ }
 }
 
+function subscribeLink() {
+  // events.ics leży obok strony; webcal:// otwiera subskrypcję w aplikacji kalendarza
+  const ics = new URL("events.ics", location.href);
+  const web = ics.href, cal = "webcal://" + ics.host + ics.pathname;
+  const a = el("a", { href: cal, text: "Subskrybuj kalendarz (ICS)" });
+  const copy = el("button", { class: "clr", type: "button", text: "Kopiuj adres" });
+  copy.onclick = async () => {
+    try { await navigator.clipboard.writeText(web); copy.textContent = "Skopiowano"; } catch { prompt("Adres kalendarza ICS:", web); }
+  };
+  $("subs").replaceChildren(a, " · ", copy);
+}
+
 async function main() {
+  subscribeLink();
+  if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  }
   chips();
   $("pv").onclick = () => { view.setMonth(view.getMonth() - 1); cal(); };
   $("nx").onclick = () => { view.setMonth(view.getMonth() + 1); cal(); };

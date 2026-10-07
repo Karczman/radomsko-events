@@ -1,0 +1,30 @@
+name: keepalive
+
+# GitHub wyłącza zaplanowane workflow w publicznym repo po 60 dniach bez aktywności. Dokumentacja nie
+# precyzuje, co się liczy, więc gdy ostatni commit jest starszy niż 45 dni, robimy własny commit.
+on:
+  schedule:
+    - cron: "17 4 * * 1"   # co tydzień, poniedziałek
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Commit keepalive, jeśli repo jest nieaktywne
+        run: |
+          last=$(git log -1 --format=%ct)
+          age=$(( ( $(date +%s) - last ) / 86400 ))
+          echo "Ostatni commit sprzed ${age} dni."
+          if [ "$age" -ge 45 ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            date -u +%F > data/keepalive.txt
+            git add data/keepalive.txt
+            git commit -m "keepalive: $(date -u +%F)"
+            git push
+          fi
