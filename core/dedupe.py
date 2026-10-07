@@ -29,6 +29,21 @@ def _minutes(e: Event) -> int:
     return e.start.hour * 60 + e.start.minute
 
 
+_GENERIC = {"teatr", "kabaret", "spektakl", "festiwal", "wystawa", "spotkanie", "warsztaty", "film", "kino",
+            "stand", "standup", "recital", "gala", "radomsko", "radomska", "miejski", "dom", "kultury"}
+
+
+def _venues_compatible(a: Event, b: Event) -> bool:
+    return not a.venue or not b.venue or fold(a.venue) == fold(b.venue)
+
+
+def _shares_distinctive_token(a: Event, b: Event) -> bool:
+    """Wspólne, nietypowe słowo (>= 4 znaki), np. „matka” w „MATKA / 3xRóżewicz” i „Teatr Polonia MATKA”."""
+    ta = {t for t in fold(a.title).split() if len(t) >= 4 and t not in _GENERIC}
+    tb = {t for t in fold(b.title).split() if len(t) >= 4 and t not in _GENERIC}
+    return bool(ta & tb)
+
+
 def same_event(a: Event, b: Event, threshold: int = 90) -> bool:
     if set(a.sources) & set(b.sources):
         return False
@@ -38,7 +53,11 @@ def same_event(a: Event, b: Event, threshold: int = 90) -> bool:
         return False
     if not a.all_day and not b.all_day and abs(_minutes(a) - _minutes(b)) > MAX_TIME_GAP_MIN:
         return False
-    return fuzz.token_set_ratio(fold(a.title), fold(b.title)) >= threshold
+    if fuzz.token_set_ratio(fold(a.title), fold(b.title)) >= threshold:
+        return True
+    # ta sama minuta w tym samym miejscu i wspólne charakterystyczne słowo: to samo wydarzenie pod inną nazwą
+    exact_time = not a.all_day and not b.all_day and a.start == b.start
+    return exact_time and _venues_compatible(a, b) and _shares_distinctive_token(a, b)
 
 
 def merge(group: list[Event]) -> Event:

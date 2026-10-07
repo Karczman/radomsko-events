@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T18:27:34+02:00",
+ "generated": "2026-10-07T18:38:56+02:00",
  "events": [
   {
    "id": "6a948037bb34f871",
@@ -188,6 +188,7 @@
    "id": "e46a467cbe1e8ece",
    "title": "MATKA / 3xRóżewicz",
    "start": "2026-10-12T18:00:00+02:00",
+   "end": "2026-10-12T19:30:00+02:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -199,28 +200,7 @@
    "times": [],
    "source": "mdk",
    "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "7a7692109ff0033d",
-   "title": "Teatr Polonia \"MATKA\"",
-   "start": "2026-10-12T18:00:00+02:00",
-   "end": "2026-10-12T19:30:00+02:00",
-   "all_day": false,
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "inne",
-   "url": "https://www.radomsko.pl/",
-   "times": [],
-   "source": "radomsko_pl",
-   "sources": [
+    "mdk",
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",

@@ -130,7 +130,7 @@ def test_full_run_removes_past_marks_new_and_survives_failing_source(tmp_path, m
 
     root = tmp_path
     (root / "data").mkdir()
-    (root / "web").mkdir()
+    shutil.copytree(ROOT / "web", root / "web")
     shutil.copy(ROOT / "data/venues.yaml", root / "data/venues.yaml")
     (root / "config.yaml").write_text(yaml.safe_dump({
         "paths": {"venues": "data/venues.yaml", "events": "data/events.json", "seen": "data/seen_ids.json"},

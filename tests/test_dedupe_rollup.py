@@ -37,6 +37,16 @@ def test_different_day_place_or_distant_time_are_not_merged():
     assert len(dedupe([base, ev("Koncert Jana", 7, 22, "biletyna")])) == 2
 
 
+def test_same_minute_and_shared_distinctive_word_merges_despite_different_titles():
+    a = ev("MATKA / 3xRóżewicz", 12, 18, "mdk", venue="MDK Radomsko")
+    b = ev('Teatr Polonia "MATKA"', 12, 18, "radomsko_pl")
+    assert len(dedupe([a, b])) == 1
+    generic = ev("Kabaret Nowaki", 12, 18, "radomsko_pl")  # tylko słowo ogólne wspólne z „Kabaret Smile”
+    assert len(dedupe([ev("Kabaret Smile", 12, 18, "mdk"), generic])) == 2
+    other_venue = ev("Teatr Polonia MATKA", 12, 18, "radomsko_pl", venue="Inna sala")
+    assert len(dedupe([a, other_venue])) == 2
+
+
 def test_same_source_events_never_merge():
     a = ev("Spektakl", 7, 16, "biletyna")
     b = ev("Spektakl", 7, 19, "biletyna")
@@ -44,7 +54,7 @@ def test_same_source_events_never_merge():
 
 
 def test_threshold_is_configurable():
-    a, b = ev("Gala Operetkowa 2026", 7, 18, "mdk"), ev("Gala Operetkowa 2027", 7, 18, "biletyna")  # podobieństwo 95
+    a, b = ev("Gala Operetkowa 2026", 7, 18, "mdk"), ev("Gala Operetkowa 2027", 7, 19, "biletyna")  # podobieństwo 95
     assert len(dedupe([a, b], threshold=90)) == 1
     assert len(dedupe([a, b], threshold=99)) == 2
 

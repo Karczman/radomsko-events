@@ -1,6 +1,7 @@
 # Konfiguracja Radomsko Events
 user_agent: "radomsko-events/1.0 (+https://github.com/Karczman/radomsko-events)"
 timezone: Europe/Warsaw
+site_url: https://karczman.github.io/radomsko-events/
 paths:
   venues: data/venues.yaml
   events: data/events.json
@@ -27,4 +28,5 @@ sources:
       - https://www.ebilet.pl/miejsce/klub-muzyczny-bogart-w-gomunicach
   # radomskoogloszenia: pominięte (regulamin XIII.2), naszemiasto: 403 dla robotów
 digest:
-  send_when_empty: false   # etap 3
+  server: https://ntfy.sh
+  when_empty: short   # gdy nic dziś i nic nowego: short (3 najbliższe wydarzenia) albo skip (nie wysyłaj)
