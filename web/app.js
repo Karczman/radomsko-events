@@ -140,6 +140,7 @@ function list() {
 
 function draw() { cal(); list(); next(); }
 
+const REPORT_URL = "https://github.com/Karczman/radomsko-events/issues/new/choose";
 const SRC = {
   mdk: "MDK Radomsko", radomsko_pl: "radomsko.pl", muzeum: "Muzeum Regionalne", mbp: "Biblioteka (MBP)",
   kamiensk: "Gmina Kamieńsk", przedborz: "MDK Przedbórz", biletyna: "biletyna.pl", ebilet: "ebilet.pl", manual: "Wpisy ręczne",
@@ -158,7 +159,8 @@ function sourceLine(name, s) {
 async function foot(generated) {
   const f = $("foot"); f.replaceChildren();
   const when = generated ? new Date(generated).toLocaleString("pl-PL", { dateStyle: "long", timeStyle: "short" }) : "brak danych";
-  f.append(`Ostatnia aktualizacja: ${when}. Przed wyjściem sprawdź stronę organizatora.`);
+  f.append(`Ostatnia aktualizacja: ${when}. Przed wyjściem sprawdź stronę organizatora. `);
+  f.append(el("a", { href: REPORT_URL, target: "_blank", rel: "noopener noreferrer", text: "Zgłoś błąd lub brakujące wydarzenie" }));
   try {
     const st = await (await fetch("status.json", { cache: "no-cache" })).json();
     const lines = Object.entries(st.sources || {}).filter(([n, s]) => n !== "manual" || s.count).map(([n, s]) => sourceLine(n, s));

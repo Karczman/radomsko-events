@@ -1,0 +1,41 @@
+name: Brakuje wydarzenia
+description: Wydarzenie w Radomsku lub okolicy (do 30 km), którego nie ma w kalendarzu.
+title: "Brak: "
+labels: ["brak-wydarzenia"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dziękujemy! Zgłoszenie jest **publiczne**. Podaj tylko informacje o wydarzeniu, bez danych osobowych
+        (nazwisk osób prywatnych, telefonów, adresów e-mail).
+  - type: input
+    id: tytul
+    attributes:
+      label: Nazwa wydarzenia
+      placeholder: np. Koncert zespołu X
+    validations:
+      required: true
+  - type: input
+    id: termin
+    attributes:
+      label: Data i godzina
+      placeholder: np. 15.11.2026, 18:00
+    validations:
+      required: true
+  - type: input
+    id: miejsce
+    attributes:
+      label: Miejsce i miejscowość
+      placeholder: np. MDK Radomsko / GOK Kłomnice
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link do strony organizatora lub biletów
+      description: Najlepiej oficjalna strona organizatora.
+      placeholder: https://
+  - type: textarea
+    id: uwagi
+    attributes:
+      label: Uwagi (opcjonalnie)

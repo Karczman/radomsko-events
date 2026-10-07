@@ -153,4 +153,6 @@ Wersje wszystkich pakietów (także pośrednich) są zablokowane z sumami kontro
 
 ## Sekrety i prywatność
 
+Strona nie łączy się z żadnym obcym serwerem (czcionka Bricolage Grotesque na licencji SIL OFL jest hostowana razem ze stroną), nie używa ciasteczek ani analityki. Zgłoszenia testerów trafiają do publicznych GitHub Issues (formularze ostrzegają przed podawaniem danych osobowych; do zgłoszenia potrzebne jest konto GitHub).
+
 W repo nie ma kluczy. Sekrety: `NTFY_TOPIC` i opcjonalnie `NTFY_TOKEN` (GitHub Secrets). Dane wydarzeń nie zawierają danych osobowych (nazwisk prywatnych osób ani numerów telefonów z ogłoszeń).

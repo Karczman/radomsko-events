@@ -1,0 +1,35 @@
+name: Błąd w wydarzeniu
+description: Zła data, godzina, miejsce, odwołane wydarzenie albo zepsuty link.
+title: "Błąd: "
+labels: ["blad-danych"]
+body:
+  - type: markdown
+    attributes:
+      value: Zgłoszenie jest **publiczne**. Nie podawaj danych osobowych.
+  - type: input
+    id: wydarzenie
+    attributes:
+      label: Którego wydarzenia dotyczy
+      description: Nazwa i data tak, jak widać je w kalendarzu.
+    validations:
+      required: true
+  - type: dropdown
+    id: rodzaj
+    attributes:
+      label: Co jest nie tak
+      options:
+        - Zła data lub godzina
+        - Złe miejsce
+        - Wydarzenie odwołane lub przeniesione
+        - Zepsuty link (Bilety / Szczegóły)
+        - Wydarzenie pokazane podwójnie
+        - Inne
+    validations:
+      required: true
+  - type: textarea
+    id: poprawnie
+    attributes:
+      label: Jak powinno być (i skąd to wiesz)
+      description: Najlepiej z linkiem do strony organizatora.
+    validations:
+      required: true

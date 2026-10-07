@@ -1,0 +1,21 @@
+name: Problem ze stroną lub kalendarzem
+description: Strona się nie ładuje, źle wygląda na telefonie, subskrypcja kalendarza nie działa itp.
+title: "Strona: "
+labels: ["strona"]
+body:
+  - type: markdown
+    attributes:
+      value: Zgłoszenie jest **publiczne**. Nie wklejaj danych osobowych ani zrzutów ekranu z prywatnymi informacjami.
+  - type: textarea
+    id: opis
+    attributes:
+      label: Co się dzieje
+    validations:
+      required: true
+  - type: input
+    id: urzadzenie
+    attributes:
+      label: Urządzenie i przeglądarka / aplikacja kalendarza
+      placeholder: np. iPhone, Safari / Android, Chrome / Kalendarz Google
+    validations:
+      required: true
