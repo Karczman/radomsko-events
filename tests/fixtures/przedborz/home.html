@@ -1,0 +1,197 @@
+<!DOCTYPE HTML> <html lang="pl"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta http-equiv="x-ua-compatible" content="ie=edge"> <title>
+                             O Przedborzu                                         | Miejski Dom Kultury w Przedborzu
+                    </title> <meta name="description" content=""> <meta name="keywords" content=""> <meta name="author" content="Kambit.pl"> <link rel="stylesheet" type="text/css" href="https://www.mdk.przedborz.pl/style/pl"> <link rel="stylesheet" type="text/css" href="https://www.mdk.przedborz.pl/css/media.css"> <link rel="stylesheet" type="text/css" href="https://www.mdk.przedborz.pl/css/jquery-ui-1.8.16.custom.css"> <link rel="stylesheet" type="text/css" href="https://www.mdk.przedborz.pl/css/jquery.bxslider.css"> <link rel="stylesheet" type="text/css" href="https://www.mdk.przedborz.pl/js/what-input/src/styles/index.css"> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous"> <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" /> <script src='//www.google.com/recaptcha/api.js'></script> <link rel="stylesheet" type="text/css" href="https://www.mdk.przedborz.pl/js/tooltip/jquery.qtip.min.css"> <meta property="og:type" content="website" /> <meta property="og:title" content="Miejski Dom Kultury w Przedborzu |  O Przedborzu " /> <meta property="og:description" content="" /> <meta property="og:url" content="" /> <meta property="og:image" content="https://www.mdk.przedborz.pl/mdk_og_image.jpg" /> </head> <body class="pl index"> <div class="wrap"> <ul class="nav_tab"> <li><a href="#menu" id="menu-link">Przejdź do menu głównego</a></li> <li><a href="#cont" id="content-link">Przejdź do treści </a></li> <li><a href="#szuk" id="search-link">Przejdź do wyszukiwarki </a></li> </ul> <div class="header"> <div class="header-inner"> <h1 class="logo"> <a href="https://www.mdk.przedborz.pl">www.mdkprzedborz.pl</a> </h1> <div class="ikony-outer"> <div class="search" id="szuk"> <h2 class="sr-only">Wyszukiwarka</h2> <label class="sr-only" for="szukaj">Wyszukiwarka</label> <input type="text" id="szukaj" class="input-search" value="wpisz szukaną frazę" onKeyPress="handleEnter(this, event)"> <button value="Szukaj" onclick="submitSearch(false)" class="btn-search"> <span class="sr-only">Szukaj</span> <i class="fa fa-search" aria-hidden="true"></i></button> </div> <ul class="ikony"> <li> <span class="ikony-info">Odstępy</span> <a href="#" class="changeFormat" data-class="ff-paragraph" title="Odstęp między akapitami"><i class="fas fa-arrows-alt-v"></i><i class="fas fa-paragraph"></i><span class="sr-only">Odstęp między akapitami</span></a> <a href="#" class="changeFormat" data-class="ff-lines" title="Odstęp między wierszami"><i class="fas fa-arrows-alt-v"></i><i class="fas fa-align-left"></i><span class="sr-only">Odstęp między wierszami</span></a> <a href="#" class="changeFormat" data-class="ff-word" title="Odstęp między słowami"> <i class="fas fa-arrows-alt-h"></i><i class="fas fa-align-left"></i><span class="sr-only">Odstęp między słowami</span></a> <a href="#" class="changeFormat" data-class="ff-letter" title="Odstęp między literami"><i class="fas fa-arrows-alt-h"></i><i aria-hidden="true">A</i><span class="sr-only">Odstęp między literami</span></a> </li> <li class="fonts-header"> <span class="ikony-info">Czcionka</span> <a class="font" title="Zmniejsz wielkość tekstu" href="javascript:void(0)" onclick="fontChange(-1, 'resizable-content')"><i aria-hidden="true">A-</i><span class="sr-only">Zmniejsz wielkość tekstu</span></a> <a class="font-up" title="Zwiększ wielkość tekstu" href="javascript:void(0)" onclick="fontChange(+1, 'resizable-content')"><i aria-hidden="true">A+</i><span class="sr-only">Zwiększ wielkość tekstu</span></a> </li> <li class="kontrast"> <span class="ikony-info">Kontrast</span> <div class="normalny_kontrast hidden"> <a class='kontrast' href="#norm" title="Wersja strony o normalnym kontraście"><i class="fas fa-adjust"></i><span class="sr-only">Wersja strony o normalnym kontraście</span></a> </div> <div class="wysoki_kontrast "> <a class='kontrast' href="#high" title="Wersja kontrastowa strony"><i class="fas fa-adjust"></i><span class="sr-only">Wersja kontrastowa strony</span></a> </div> </li> </ul> </div> <a class="fb" href="https://www.facebook.com/Miejski-Dom-Kultury-Przedb%C3%B3rz-1421463434824115/" target="_blank"><i class="fab fa-facebook-f"></i><span class="sr-only">Przejdź na profil MDK Przedbórz na Facebooku</span></a> <div class="icon-menu"> <i class="fa fa-bars"></i> </div> </div> <div class='menu-container' id="menu"> <ul class="menu"> <li class="item-0 active ""> <a href="https://www.mdk.przedborz.pl" >
+                        Aktualności
+                                            </a> </li> <li class="item-1  children""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3" >
+                        Oferta zajęć
+                                            </a> <ul class='submenu'> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/warsztaty-wokalne-t11" >
+                        Warsztaty wokalne
+                                            </a> </li> <li class="item-1  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/warsztaty-teatralne-t43" >
+                        warsztaty teatralne
+                                            </a> </li> <li class="item-2  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/taniec-t13" >
+                        Taniec
+                                            </a> </li> <li class="item-3  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/chor-seniora-t44" >
+                        Chór Seniora
+                                            </a> </li> <li class="item-4  children""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/akademia-kreatywnosci-t12" >
+                        Akademia Kreatywności
+                                            </a> <ul class='submenu'> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/akademia-kreatywnosci-t12/test-t15" >
+                        test
+                                            </a> </li> </ul> </li> </ul> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/miejski-dom-kultury-t7" >
+                        Miejski Dom Kultury
+                                            </a> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/rodo-t37" >
+                        RODO
+                                            </a> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/statut-t16" >
+                        Statut
+                                            </a> </li> <li class="item-1  ""> <a href="https://www.mdk.przedborz.pl/projekty-t41" >
+                        Projekty
+                                            </a> </li> <li class="item-2  ""> <a href="https://www.mdk.przedborz.pl/punkt-nieodplatnej-pomocy-prawnej-t42" >
+                        Punkt Nieodpłatnej Pomocy Prawnej
+                                            </a> </li> <li class="item-3  ""> <a href="https://www.mdk.przedborz.pl/kontakt-t40" >
+                        Kontakt
+                                            </a> </li> </ul> </div> <div class="menu-mob"> <div class="icon-close"><i class="fa fa-times"></i></div> <ul> <li class="item-0 active ""> <a href="https://www.mdk.przedborz.pl" >
+                        Aktualności
+                                            </a> </li> <li class="item-1  children""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3" >
+                        Oferta zajęć
+                                                    <span class="toggleSubmenu"> <span class="submenu-inactive"> <i class="fas fa-angle-up" aria-hidden="true"></i> <i class="fas fa-angle-down" aria-hidden="true"></i> </span> </span> </a> <ul class='submenu'> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/warsztaty-wokalne-t11" >
+                        Warsztaty wokalne
+                                            </a> </li> <li class="item-1  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/warsztaty-teatralne-t43" >
+                        warsztaty teatralne
+                                            </a> </li> <li class="item-2  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/taniec-t13" >
+                        Taniec
+                                            </a> </li> <li class="item-3  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/chor-seniora-t44" >
+                        Chór Seniora
+                                            </a> </li> <li class="item-4  children""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/akademia-kreatywnosci-t12" >
+                        Akademia Kreatywności
+                                                    <span class="toggleSubmenu"> <span class="submenu-inactive"> <i class="fas fa-angle-up" aria-hidden="true"></i> <i class="fas fa-angle-down" aria-hidden="true"></i> </span> </span> </a> <ul class='submenu'> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3/akademia-kreatywnosci-t12/test-t15" >
+                        test
+                                            </a> </li> </ul> </li> </ul> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/miejski-dom-kultury-t7" >
+                        Miejski Dom Kultury
+                                            </a> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/rodo-t37" >
+                        RODO
+                                            </a> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/statut-t16" >
+                        Statut
+                                            </a> </li> <li class="item-1  ""> <a href="https://www.mdk.przedborz.pl/projekty-t41" >
+                        Projekty
+                                            </a> </li> <li class="item-2  ""> <a href="https://www.mdk.przedborz.pl/punkt-nieodplatnej-pomocy-prawnej-t42" >
+                        Punkt Nieodpłatnej Pomocy Prawnej
+                                            </a> </li> <li class="item-3  ""> <a href="https://www.mdk.przedborz.pl/kontakt-t40" >
+                        Kontakt
+                                            </a> </li> </ul> </div> </div> </div> <div class="wrap"> <div class="content"> <div id="main-page-supernews">
+	   ﻿<ul class="supernews-slide"> <li class="supernews-box"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/spotkanie-autorskie-r178"> <img src="https://www.mdk.przedborz.pl/content/photos/malutkie-miniatury/plakat-1790686306.jpg" alt=""> <div class="supernews-text"> <div class="supernews-title"> <span>29-09-2026</span> <h2>Spotkanie autorskie</h2> </div> <p>Maria Konopnicka: życie, kt&oacute;re stało się opowieścią - spotkanie autorskie z Magdaleną Grzebałkowską</p> </div> </a> </li> </ul> </div> <div class="news-box" id="cont"> <div class="index-news-list"> <ul> <li class="main-news main-news-item-0" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/kino-na-lezakach-r175"> <img src="/content/photos/malutkie-miniatury/dalej-jazda-2-2-1786438759.jpg" alt=""> <div class="main-news-text"> <span>11 Sierpień 2026</span> <h3>KINO NA LEŻAKACH</h3> </div> </a> </li> <li class="main-news main-news-item-1" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/festiwal-kultur-narodow-r174"> <img src="/content/photos/malutkie-miniatury/745700100146211370596253350143-1784900923.jpg" alt=""> <div class="main-news-text"> <span>24 Lipiec 2026</span> <h3>Festiwal Kultur Narodów</h3> </div> </a> </li> <li class="main-news main-news-item-2" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/dni-przedborza27-28.06.2026-r.-r173"> <img src="/content/photos/malutkie-miniatury/plakat-1781783368.jpg" alt=""> <div class="main-news-text"> <span>18 Czerwiec 2026</span> <h3>DNI PRZEDBORZA 27-28.06.2026 r.</h3> </div> </a> </li> <li class="main-news main-news-item-3" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/wycieczka-do-lodzi-06.05.2026-r.-r172"> <img src="/content/photos/malutkie-miniatury/post-nowszy-fb-1776868573.jpg" alt=""> <div class="main-news-text"> <span>22 Kwiecień 2026</span> <h3>Wycieczka do Łodzi - 06.05.2026 r.</h3> </div> </a> </li> <li class="main-news main-news-item-4" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/aleksandra-radomska-zajedzie-nas-ten-samorozwoj-r171"> <img src="/content/photos/malutkie-miniatury/1-1767088415.png" alt=""> <div class="main-news-text"> <span>30 Grudzień 2025</span> <h3>Aleksandra Radomska ''Zajedzie nas ten samorozwój&quot;  </h3> </div> </a> </li> <li class="main-news main-news-item-5" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/zona-do-adopcji-r170"> <img src="/content/photos/malutkie-miniatury/przedborz-pion-1767087881.png" alt=""> <div class="main-news-text"> <span>30 Grudzień 2025</span> <h3>Żona do adopcji</h3> </div> </a> </li> <li class="main-news main-news-item-6" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/-jarmark-bozonarodzeniowy-r169"> <img src="/content/photos/malutkie-miniatury/590342260880993974437271630009-1764493784.jpg" alt=""> <div class="main-news-text"> <span>30 Listopad 2025</span> <h3> Jarmark Bożonarodzeniowy</h3> </div> </a> </li> <li class="main-news main-news-item-7" style="" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="300"> <a href="https://www.mdk.przedborz.pl/strona-glowna-t1/aktualnosci-a2/informacja-r168"> <img src="/content/photos/malutkie-miniatury/yellow-minimalist-reminder-fac-1762334318.jpg" alt=""> <div class="main-news-text"> <span>05 Listopad 2025</span> <h3>Informacja</h3> </div> </a> </li> </ul> </div> <div class="news-box-right"> <h2>Aktualności</h2> <a href="/aktualnosci-a2">czytaj wszystkie </a> </div> </div> <div class="calendar-box"> <div class="calendar-box-inner"> <h2>Kalendarz wydarzeń</h2> <div id='header-calendar-container'> <div id='calendar' data-language_id='pl'></div> </div> </div> <div class="calendar-list-inner"> <h2>Najnowsze wydarzenia</h2> <div id="calendar-event-list"> <a href="/kalendarz/2026-10-13/301"> <div class='ico-inne ico-events'></div> <div class="calendar-event-list-item-txt"> <div class="calendar-event-list-item-date"> <i class="fas fa-calendar-alt"></i> 2026-10-13  <span>godz. 10:00</span> </div> <div class="calendar-event-list-item-title"> <h3>Spotkanie autorskie</h3> </div> </div> </a> <a href="/kalendarz/2026-11-15/299"> <div class='ico-teatr ico-events'></div> <div class="calendar-event-list-item-txt"> <div class="calendar-event-list-item-date"> <i class="fas fa-calendar-alt"></i> 2026-11-15  <span>godz. 18:00</span> </div> <div class="calendar-event-list-item-title"> <h3>Sklep z facetami </h3> </div> </div> </a> </div> </div> </div> <div class="box-oferta-zajec"> <h2>Oferta zajęć</h2> <ul> <li><a href="/oferta-zajec-t3/muzyka-t11"><img src="/images/ico-muzyka.svg" alt=""> <h3>Muzyka</h3></a></li> <li><a href="/oferta-zajec-t3/plastyka-t12"><img src="/images/ico-plastyka.svg" alt=""> <h3>Plastyka</h3></a></li> <li><a href="/oferta-zajec-t3/taniec-t13"><img src="/images/ico-taniec.svg" alt=""> <h3>Taniec</h3></a></li> <li><a href="/oferta-zajec-t3/teatr-t14"><img src="/images/ico-teatr.svg" alt=""> <h3>Teatr</h3></a></li> </ul> </div> </div> </div> <div class="footer"> <div class="wrap"> <div class="footer-inner"> <div> <a href="https://www.mdk.przedborz.pl"><img src="/images/logo_white.svg" alt="mdkprzedborz.pl"></a> <p>ul. Rynek 15<br />
+    97-570 Przedbórz   <br />
+
+tel. <a href="tel:447812515">44 781 25 15 </a><br />
+
+ email:  <a href="mailto:mdk@przedborz.pl">mdk@przedborz.pl</a></p> </div> <ul class="foot-nav"> <li class="item-0 active ""> <a href="https://www.mdk.przedborz.pl" >
+                        Aktualności
+                                            </a> </li> <li class="item-1  children""> <a href="https://www.mdk.przedborz.pl/oferta-zajec-t3" >
+                        Oferta zajęć
+                                            </a> <ul class='submenu'> </ul> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/miejski-dom-kultury-t7" >
+                        Miejski Dom Kultury
+                                            </a> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/polityka-prywatnosci-t9" >
+                        Polityka prywatności
+                                            </a> </li> <li class="item-1  ""> <a href="https://www.mdk.przedborz.pl/deklaracja-dostepnosci-t10" >
+                        Deklaracja dostępności
+                                            </a> </li> <li class="item-0  ""> <a href="https://www.mdk.przedborz.pl/sitemap" >
+                        Mapa strony
+                                            </a> </li> </ul> <ul class="footer-links"> <li> <a href="https://mdk-przedborz.biuletyn.net/"><img src="/images/bip_logo.png" alt="Biuletyn informacji publicznej"></a></li> <li><a href="/deklaracja-dostepnosci-t10"><img src="/images/deklaracja_dostepnosci.svg" alt="deklaracja dostępności"> </a></li> </ul> </div> </div> <div class="kambit"> <div class="wrap"> <div class="kambit-inner"> <div>Copyright &copy; 2022 Miejski Dom Kultury w Przedborzu | Wszelkie prawa zastrzeżone!</div> <div>projekt i realizacja: <a href="http://kambit.pl">kambit.pl</a></div> </div> </div> </div> </div> </body> <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/kpanel/jquery.ui.datepicker-pl.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/jquery.bxslider.min.js"></script> <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/tooltip/jquery.qtip.min.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/script"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/check_cookie_accept.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/what-input/dist/what-input.min.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/libs/validator.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/libs/shop.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/fileuploader.js"></script> <script type="text/javascript" src="https://www.mdk.przedborz.pl/js/calendar.js?v=20210421"></script> <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script> <script>
+
+	$(document).ready(function () {	
+		$("#dialog-blad").dialog({
+			autoOpen: false,
+			width: 350,
+			modal: true,
+			resizable: false,
+			buttons: {
+				"Zgłoś błąd": function() {
+					var id = $(".item-blad-id").val();
+					var opis = $(".problem").val();
+					var math = $(".item-blad-kod").val();
+
+					$.post("/zglos-blad", { id: id, opis: opis, math: math },
+						function(data) {
+							if(data.length < 10)
+							{
+								alert("Podano niepoprawny wynik dodawania!");
+								$(".numbersHolder").html(data);
+								$(".item-blad-kod").val("");
+							}
+							else
+							{
+								$("#dialog-blad").dialog("option", "buttons", [
+									 {
+										  text: "Zamknij",
+										  click: function() { $(this).dialog("close"); }
+									 }
+								])
+								$("#dialog-blad").html(data);
+							}
+						});
+
+//					$(this).dialog( "close" );
+				},
+				"Anuluj": function() {
+					$(this).dialog("close");
+				}				
+			},
+			close: function() {
+				$(".d-form textarea").val("");
+				$(".item-blad-id").val("");
+
+				if($.browser.msie)
+					$('embed').removeClass('vh');
+			},
+			open: function(event, ui) {
+				$('embed[wmode!="opaque"]').attr('wmode', 'opaque').wrap('<div>');
+
+				if($.browser.msie)
+					$('embed').addClass('vh');
+			}
+		});
+	});
+
+</script> <div class="dn"> <div id="dialog-blad" title="Zgłaszanie błędów">
+Proszę określić gdzie leży problem:
+	
+		<form class="d-form"> <label class="hide" for="prob">Wprowadź</label> <textarea  id="prob" class="problem" name="problem"></textarea> <input type="hidden" name="id" class="item-blad-id" value=""> <div class="font" style="margin-top: 7px;"> <div class="font">Proszę wpisać wynik dodawania:</div> <div class="font"><label for="wyslij-info-kod"><span class="numbersHolder">3 + 2</span></label> = <input type="number" min="1" max="100" id="wyslij-info-kod" class="item-blad-kod" name="potwierdzenieKod" style="width: 20%;"></div> </div> </form> </div> </div> <script>
+
+	$(document).ready(function () {	
+		$("#dialog-wyslij").dialog({
+			autoOpen: false,
+			width: 350,
+			modal: true,
+			resizable: false,
+			buttons: {
+				"Wyślij": function() {
+					var name = $("#wyslij-name").val();
+					var email = $("#wyslij-email").val();
+					var math = $("#wyslij-blad-kod").val();
+					var url = $("#wyslij-url").val();
+					
+					filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+					if (!filter.test(email))
+						alert('Nieprawidłowy adres email!');
+ 					else 
+ 					{
+						$.post("/wyslij", { 'name': name, 'email': email, 'math': math, 'url' : url },
+							function(data) {
+								if(data.length < 10)
+								{
+									alert("Podano niepoprawny wynik dodawania!");
+									$(".numbersHolder").html(data);
+									$(".item-blad-kod").val("");
+								}
+								else
+								{
+									$("#dialog-wyslij").dialog("option", "buttons", [
+										 {
+											  text: "Zamknij",
+											  click: function() { $(this).dialog("close"); }
+										 }
+									])
+									$("#dialog-wyslij").html(data);
+								}
+							});
+						}
+
+				},
+				"Anuluj": function() {
+					$(this).dialog("close");
+				}				
+			},
+			close: function() {
+				$(".d-form input[type='text']").val("");
+
+				if($.browser.msie)
+					$('embed').removeClass('vh');
+			},
+			open: function(event, ui) {
+				$('embed[wmode!="opaque"]').attr('wmode', 'opaque').wrap('<div>');
+
+				if($.browser.msie)
+					$('embed').addClass('vh');
+			}
+		});
+	});
+
+</script> <div class="dn"> <div id="dialog-wyslij" title="Wyślij"> <form class="d-form"> <div> <label for="wyslij-name">Wprowadź Twoje imię i nazwisko:</label> <div><input type='text' name='name' id='wyslij-name'></div> </div> <div> <label for="wyslij-email">E-mail znajomego </label> <div><input type='text' name='email' id='wyslij-email'></div> </div> <div > <div>Link</div> <div id='wyslij-link'></div> </div> <input type='hidden' name='url' id='wyslij-url'> <div class="font" style="margin-top: 7px;"> <div class="font" >Proszę wpisać wynik dodawania:</div> <div class="font"><label for="wyslij-blad-kod"><span class="numbersHolder">3 + 2</span></label> = <input type="number" min="1" max="100" id="wyslij-blad-kod" name="potwierdzenieKod" style="width: 20%;"></div> </div> </form> </div> </div> </html>
