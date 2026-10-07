@@ -3,54 +3,66 @@
   "manual": {
    "ok": true,
    "count": 0,
+   "titles": 0,
    "fetched": 0,
    "dropped": {}
   },
   "mdk": {
    "ok": true,
-   "count": 27,
-   "fetched": 27,
+   "count": 60,
+   "titles": 32,
+   "fetched": 60,
    "dropped": {}
   },
   "radomsko_pl": {
    "ok": true,
    "count": 8,
+   "titles": 8,
    "fetched": 8,
    "dropped": {}
   },
   "muzeum": {
    "ok": true,
    "count": 1,
+   "titles": 1,
    "fetched": 1,
    "dropped": {}
   },
   "mbp": {
    "ok": true,
    "count": 1,
+   "titles": 1,
    "fetched": 1,
    "dropped": {}
   },
   "kamiensk": {
    "ok": true,
    "count": 1,
+   "titles": 1,
    "fetched": 1,
    "dropped": {}
   },
   "przedborz": {
    "ok": true,
    "count": 2,
+   "titles": 2,
    "fetched": 2,
    "dropped": {}
   },
   "biletyna": {
    "ok": true,
    "count": 44,
+   "titles": 20,
    "fetched": 44,
-   "dropped": {}
+   "dropped": {},
+   "stale": true,
+   "stale_reason": "20 tytułów zamiast 44",
+   "stale_since": "2026-10-07"
   },
   "ebilet": {
    "ok": true,
    "count": 1,
+   "titles": 1,
    "fetched": 1,
    "dropped": {}
   }

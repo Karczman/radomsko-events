@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T18:38:56+02:00",
+ "generated": "2026-10-07T19:29:21+02:00",
  "events": [
   {
    "id": "6a948037bb34f871",
@@ -14,6 +14,81 @@
    "category": "inne",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/deanimacja-wernisaz-wystawy-malarstwa-oskara-lubosa/",
    "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "c99dad56f627deae",
+   "title": "LUNA I ROZGADANA ŚWINKA / 2D dubbing",
+   "start": "2026-10-07T15:00:00+02:00",
+   "end": "2026-10-15T15:00:00+02:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/luna-i-rozgadana-swinka-2d-dubbing/",
+   "times": [
+    "15:00"
+   ],
+   "dates": [
+    "2026-10-07",
+    "2026-10-14",
+    "2026-10-15"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "47e96ce9dd144968",
+   "title": "LALKA / 2D",
+   "start": "2026-10-07T17:00:00+02:00",
+   "end": "2026-10-29T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
+   "times": [
+    "17:00",
+    "20:00",
+    "20:30"
+   ],
+   "dates": [
+    "2026-10-07",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -36,8 +111,13 @@
    "category": "kino",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/dzien-dziecka-ksiedza-jana-kaczkowskiego-2d/",
    "times": [
-    "12:00"
+    "12:00",
+    "16:00",
+    "17:30",
+    "19:00",
+    "20:30"
    ],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -45,7 +125,7 @@
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
    "status": "active",
-   "confidence": "low"
+   "confidence": "high"
   },
   {
    "id": "08f4f2069a1880f9",
@@ -60,6 +140,7 @@
    "category": "inne",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/zaczynamy-finalowe-odliczanie-do-festiwalu-3-x-rozewicz/",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -84,6 +165,7 @@
    "url": "https://www.radomsko.pl/",
    "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=950928",
    "times": [],
+   "dates": [],
    "source": "radomsko_pl",
    "sources": [
     "mdk",
@@ -107,6 +189,7 @@
    "category": "biblioteka",
    "url": "https://mbp-radomsko.pl/aktualnosci/wydarzenia/1976-radomszczanska-barwoteka",
    "times": [],
+   "dates": [],
    "source": "mbp",
    "sources": [
     "mbp"
@@ -129,6 +212,7 @@
    "category": "edukacja",
    "url": "https://muzeum.radomsko.pl/wyklad-zarys-historii-franciszkanow-w-radomsku-w-ramach-niedziel-z-historia-11-10-2026-r-niedziela/",
    "times": [],
+   "dates": [],
    "source": "muzeum",
    "sources": [
     "muzeum"
@@ -150,6 +234,7 @@
    "category": "okolice",
    "url": "https://kamiensk.pl/kalendarz/11-10-2026/76",
    "times": [],
+   "dates": [],
    "source": "kamiensk",
    "sources": [
     "kamiensk"
@@ -174,6 +259,7 @@
    "url": "https://www.radomsko.pl/",
    "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=951049",
    "times": [],
+   "dates": [],
    "source": "radomsko_pl",
    "sources": [
     "mdk",
@@ -198,6 +284,7 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/12-10-2026-matka-3xrozewicz/",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -221,6 +308,7 @@
    "category": "okolice",
    "url": "https://www.mdk.przedborz.pl/kalendarz/2026-10-13/301",
    "times": [],
+   "dates": [],
    "source": "przedborz",
    "sources": [
     "przedborz"
@@ -243,6 +331,7 @@
    "category": "biblioteka",
    "url": "https://www.radomsko.pl/",
    "times": [],
+   "dates": [],
    "source": "radomsko_pl",
    "sources": [
     "radomsko_pl"
@@ -265,6 +354,7 @@
    "category": "biblioteka",
    "url": "https://www.radomsko.pl/",
    "times": [],
+   "dates": [],
    "source": "radomsko_pl",
    "sources": [
     "radomsko_pl"
@@ -287,6 +377,7 @@
    "category": "biblioteka",
    "url": "https://www.radomsko.pl/",
    "times": [],
+   "dates": [],
    "source": "radomsko_pl",
    "sources": [
     "radomsko_pl"
@@ -309,6 +400,7 @@
    "category": "inne",
    "url": "https://www.radomsko.pl/",
    "times": [],
+   "dates": [],
    "source": "radomsko_pl",
    "sources": [
     "radomsko_pl"
@@ -332,6 +424,7 @@
    "category": "edukacja",
    "url": "https://www.radomsko.pl/",
    "times": [],
+   "dates": [],
    "source": "radomsko_pl",
    "sources": [
     "mdk",
@@ -358,10 +451,65 @@
    "ticket_url": "https://www.kupbilecik.pl/imprezy/186953/Radomsko/Kabaret+Smile/",
    "price_text": "130 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
     "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "bc6a0b4c424ec6f3",
+   "title": "André Rieu. Niech żyje Maastricht!",
+   "start": "2026-10-18T17:00:00+02:00",
+   "end": "2026-10-25T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
+   "times": [
+    "17:00"
+   ],
+   "dates": [
+    "2026-10-18",
+    "2026-10-25"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "7f9c727f957efd84",
+   "title": "„WAJDA: re-wizje”",
+   "start": "2026-10-19T17:00:00+02:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/wajda-re-wizje/",
+   "times": [
+    "17:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -381,6 +529,7 @@
    "category": "inne",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/23-10-2026r-recepta-na-szczescie/",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -406,6 +555,7 @@
    "ticket_url": "https://www.kupbilecik.pl/imprezy/204593/Radomsko/Wiede%C5%84skiej+Operetki+Czar+cz.1%3A+Wielka+S%C5%82awa+to+%C5%BCart/",
    "price_text": "119 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -432,9 +582,35 @@
    "ticket_url": "https://biletyna.pl/koncert/Piotr-Zylbert?eid=702370",
    "price_text": "40 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "6d71cb2d22967103",
+   "title": "KONWICKI: PISARZ – SCENARZYSTA – REŻYSER",
+   "start": "2026-10-26T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/konwicki/",
+   "times": [
+    "17:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -457,6 +633,7 @@
    "ticket_url": "https://biletyna.pl/koncert/Piotr-Goljat-Nieobecni?eid=709832",
    "price_text": "70 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -480,6 +657,7 @@
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/klubik-brzdacow/",
    "ticket_url": "https://mdkradomsko.bilety24.pl/zajecia/?id=5435",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -505,6 +683,7 @@
    "ticket_url": "https://sklep.ebilet.pl/agbz/320881473450147923",
    "price_text": "90 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -528,6 +707,7 @@
    "category": "okolice",
    "url": "https://www.mdk.przedborz.pl/kalendarz/2026-11-15/299",
    "times": [],
+   "dates": [],
    "source": "przedborz",
    "sources": [
     "przedborz"
@@ -553,10 +733,40 @@
    "ticket_url": "https://bilety.kulturalnykoneser.pl/event/view/id/703001",
    "price_text": "147 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
     "biletyna"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "19da45a58730cfc6",
+   "title": "„WAJDA: re-wizje”",
+   "start": "2026-11-16T17:00:00+01:00",
+   "end": "2026-12-07T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/wajda-re-wizje/",
+   "times": [
+    "17:00"
+   ],
+   "dates": [
+    "2026-11-16",
+    "2026-12-07"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
    ],
    "first_seen": "2026-10-07",
    "last_seen": "2026-10-07",
@@ -579,6 +789,7 @@
    "ticket_url": "https://biletyna.pl/koncert/Marcin-Kydrynski-Siesta-Trylogia-Afrykanska?eid=689789",
    "price_text": "60 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -601,6 +812,7 @@
    "category": "inne",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/20-11-2026-kabaret-nowaki/",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -626,6 +838,7 @@
    "ticket_url": "https://biletyna.pl/spektakl/Nerwica-natrectw?eid=685033",
    "price_text": "100 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -651,6 +864,7 @@
    "ticket_url": "https://biletyna.pl/spektakl/Nerwica-natrectw?eid=685039",
    "price_text": "100 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -673,6 +887,36 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/22-11-2026-nerwica-natrectw/",
    "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "ed5530949c3bf197",
+   "title": "KONWICKI: PISARZ – SCENARZYSTA – REŻYSER",
+   "start": "2026-11-23T17:00:00+01:00",
+   "end": "2026-12-14T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/konwicki/",
+   "times": [
+    "17:00"
+   ],
+   "dates": [
+    "2026-11-23",
+    "2026-12-14"
+   ],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -698,6 +942,7 @@
    "ticket_url": "https://biletyna.pl/koncert/Koncert-Witold-Janiak-TRZEJ-KROLOWIE?eid=698417",
    "price_text": "68 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -722,6 +967,7 @@
    "ticket_url": "https://www.ebilet.pl/muzyka/rock/metro?city=Gomunice",
    "price_text": "85.9 zł",
    "times": [],
+   "dates": [],
    "source": "ebilet",
    "sources": [
     "ebilet"
@@ -747,6 +993,7 @@
    "ticket_url": "https://biletyna.pl/spektakl/The-Strings/2-jada-do-USA/Radomsko?eid=676208",
    "price_text": "110 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -773,6 +1020,7 @@
    "ticket_url": "https://biletyna.pl/spektakl/The-Strings/2-jada-do-USA?eid=676209",
    "price_text": "110 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -798,6 +1046,7 @@
    "ticket_url": "https://biletyna.pl/koncert/ManSound-Magic-Christmas?eid=703833",
    "price_text": "159 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -823,6 +1072,7 @@
    "ticket_url": "https://biletyna.pl/koncert/Slawek-Uniatowski/Magic-Christmas-Jazz-Night?eid=684128",
    "price_text": "159 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -847,6 +1097,7 @@
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/31-12-2026r-koncert-sylwestrowy-kasi-dabrowskiej-z-zespolem/",
    "ticket_url": "https://www.bilety24.pl/koncert/1546-feeling-good-czyli-radosc-w-standardzie-166361?id=999842",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -872,6 +1123,7 @@
    "ticket_url": "https://biletyna.pl/spektakl/Szalone-Nozyczki?eid=704100",
    "price_text": "100 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -897,6 +1149,7 @@
    "ticket_url": "https://www.kupbilecik.pl/pl/event/206539/radomsko/kabaret-ani-mru-mru",
    "price_text": "140 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -921,6 +1174,7 @@
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/16-01-27-r-gala-noworoczna/",
    "ticket_url": "https://www.kupbilecik.pl/imprezy/211349/Radomsko/Gala+operetkowo-musicalowa+-+Teatr+Muzyczny+Castello/",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -946,6 +1200,7 @@
    "ticket_url": "https://biletyna.pl/spektakl/Teatr-Rawa-To-tylko-SEX?eid=629944",
    "price_text": "110 zł",
    "times": [],
+   "dates": [],
    "source": "biletyna",
    "sources": [
     "biletyna"
@@ -971,6 +1226,7 @@
    "ticket_url": "https://www.kupbilecik.pl/pl/event/219063/radomsko/noworoczny-koncert-wiedenski-z-gwiazdami-2027",
    "price_text": "140 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -995,6 +1251,7 @@
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/09-02-2027r-balet-jezioro-labedzie/",
    "ticket_url": "https://www.kupbilecik.pl/imprezy/209729/Radomsko/Kr%C3%B3lewski+Balet+Klasyczny+-+Jezioro+%C5%81ab%C4%99dzie/",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
@@ -1020,6 +1277,7 @@
    "ticket_url": "https://biletyna.pl/koncert/Budka-Suflera?eid=689986",
    "price_text": "150 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -1046,6 +1304,7 @@
    "ticket_url": "https://biletyna.pl/spektakl/Prezent-urodzinowy?eid=701571",
    "price_text": "120 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -1072,6 +1331,7 @@
    "ticket_url": "https://www.kupbilecik.pl/pl/event/198705/radomsko/czerwone-gitary?_gl=1%2Alx46u8%2A_up%2AMQ..%2A_gs%2AMQ..",
    "price_text": "135 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -1098,6 +1358,7 @@
    "ticket_url": "https://biletyna.pl/event/view/id/689987",
    "price_text": "160 zł",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk",
@@ -1121,6 +1382,7 @@
    "category": "inne",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/kabaret-skeczow-meczacych-wielcy-wracaja-radomsko/",
    "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
