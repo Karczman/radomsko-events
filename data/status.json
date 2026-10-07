@@ -54,10 +54,7 @@
    "count": 44,
    "titles": 20,
    "fetched": 44,
-   "dropped": {},
-   "stale": true,
-   "stale_reason": "20 tytułów zamiast 44",
-   "stale_since": "2026-10-07"
+   "dropped": {}
   },
   "ebilet": {
    "ok": true,
