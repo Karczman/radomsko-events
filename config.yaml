@@ -10,7 +10,7 @@ dedupe:
   threshold: 90   # rapidfuzz, etap 2
 sources:
   manual: {enabled: true, path: data/manual_events.yaml}
-  mdk: {enabled: true, max_pages: 3}
+  mdk: {enabled: true, max_pages: 5}
   radomsko_pl: {enabled: true, days_ahead: 120}
   muzeum: {enabled: true}
   mbp: {enabled: true}

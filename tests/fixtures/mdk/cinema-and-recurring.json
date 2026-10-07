@@ -1,0 +1,245 @@
+[
+ {
+  "id": 55374,
+  "slug": "andre-rieu-niech-zyje-maastricht",
+  "title": {
+   "rendered": "André Rieu. Niech żyje Maastricht!"
+  },
+  "pec_events_category": [
+   32
+  ],
+  "pec_date": "2026-09-25 17:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "2026-10-18 17.00, 2026-10-25 17.00",
+  "pec_end_date": "",
+  "pec_end_time_hh": "",
+  "pec_end_time_mm": "",
+  "pec_hide_time": "",
+  "pec_recurring_frecuency": "0"
+ },
+ {
+  "id": 55517,
+  "slug": "lalka-2d",
+  "title": {
+   "rendered": "LALKA / 2D"
+  },
+  "pec_events_category": [
+   32
+  ],
+  "pec_date": "2026-09-30 17:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "2026-09-30 20.00, 2026-10-01 17.00, 2026-10-01 20.00, 2026-10-02 12.00, 2026-10-02 17.00, 2026-10-02 20.00, 2026-10-03 11.00, 2026-10-03 14.00, 2026-10-05 17.00, 2026-10-05 20.00, 2026-10-06 17.00, 2026-10-06 20.00, 2026-10-07 17.00, 2026-10-07 20.00, 2026-10-13 20.00, 2026-10-14 17.00, 2026-10-14 20.00, 2026-10-15 17.00, 2026-10-15 20.00, 2026-10-16 20.00, 2026-10-18 20.00, 2026-10-19 20.00, 2026-10-20 20.00, 2026-10-21 20.00, 2026-10-22 20.00, 2026-10-25 20.00, 2026-10-26 20.00, 2026-10-27 20.30, 2026-10-28 20.00, 2026-10-29 20.00",
+  "pec_end_date": "",
+  "pec_end_time_hh": "",
+  "pec_end_time_mm": "",
+  "pec_hide_time": "",
+  "pec_recurring_frecuency": "0"
+ },
+ {
+  "id": 52283,
+  "slug": "wajda-re-wizje",
+  "title": {
+   "rendered": "„WAJDA: re-wizje”"
+  },
+  "pec_events_category": [
+   32
+  ],
+  "pec_date": "1978-05-27 00:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "2026-08-31 17.00, 2026-09-14 17.00, 2026-10-19 17.00, 2026-11-16 17.00, 2026-12-07 17.00",
+  "pec_end_date": "",
+  "pec_end_time_hh": "",
+  "pec_end_time_mm": "",
+  "pec_hide_time": "",
+  "pec_recurring_frecuency": "0"
+ },
+ {
+  "id": 52251,
+  "slug": "konwicki",
+  "title": {
+   "rendered": "KONWICKI: PISARZ – SCENARZYSTA – REŻYSER"
+  },
+  "pec_events_category": [
+   32
+  ],
+  "pec_date": "1988-05-25 00:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "2026-09-28 17.00, 2026-10-26 17.00, 2026-11-23.17.00, 2026-12-14 17.00",
+  "pec_end_date": "",
+  "pec_end_time_hh": "",
+  "pec_end_time_mm": "",
+  "pec_hide_time": "",
+  "pec_recurring_frecuency": "0"
+ },
+ {
+  "id": 52321,
+  "slug": "federico-fellini-ciao-a-tutti-przeglad-filmow",
+  "title": {
+   "rendered": "„FEDERICO FELLINI: ciao a tutti!” – przegląd filmów"
+  },
+  "pec_events_category": [
+   32
+  ],
+  "pec_date": "1700-05-29 00:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "2026-08-03 18.00, 2026-09-03 17.00, 2026-09-19 16.00, 2026-09-21 17.00",
+  "pec_end_date": "",
+  "pec_end_time_hh": "",
+  "pec_end_time_mm": "",
+  "pec_hide_time": "",
+  "pec_recurring_frecuency": "0"
+ },
+ {
+  "id": 47164,
+  "slug": "kino-familijne-wakacje-2025",
+  "title": {
+   "rendered": "KINO FAMILIJNE / WAKACJE 2025"
+  },
+  "pec_events_category": [
+   32
+  ],
+  "pec_date": "2025-07-07 12:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "",
+  "pec_end_date": "2025-08-03",
+  "pec_end_time_hh": "",
+  "pec_end_time_mm": "",
+  "pec_hide_time": "",
+  "pec_recurring_frecuency": "1"
+ },
+ {
+  "id": 29391,
+  "slug": "10-14-07-warsztaty-plastyczne-dokad-noca-tupta-jez",
+  "title": {
+   "rendered": "10-14.07 Warsztaty plastyczne &#8222;Dokąd nocą tupta jeż&#8221;"
+  },
+  "pec_events_category": [
+   108
+  ],
+  "pec_date": "2023-07-10 10:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "1",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "",
+  "pec_end_date": "2023-07-14",
+  "pec_end_time_hh": "11",
+  "pec_end_time_mm": "30",
+  "pec_hide_time": "",
+  "pec_recurring_frecuency": "1"
+ },
+ {
+  "id": 347,
+  "slug": "artra-wystawiamy",
+  "title": {
+   "rendered": "Artra &#8211; wystawiamy"
+  },
+  "pec_events_category": [
+   34
+  ],
+  "pec_date": "2020-06-13 08:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "first",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "",
+  "pec_end_date": "2020-07-01",
+  "pec_end_time_hh": "",
+  "pec_end_time_mm": "",
+  "pec_hide_time": "1",
+  "pec_recurring_frecuency": "3"
+ },
+ {
+  "id": 5751,
+  "slug": "e-sksrbonka-wosp-dorzuc-sie",
+  "title": {
+   "rendered": "29.FINAŁ WOŚP &#8211; PODZIĘKOWANIA"
+  },
+  "pec_events_category": [
+   39
+  ],
+  "pec_date": "2021-01-29 00:00:00",
+  "pec_all_day": "",
+  "pec_tbc": "",
+  "pec_daily_working_days": "",
+  "pec_daily_every": "1",
+  "pec_weekly_every": "1",
+  "pec_weekly_day": "",
+  "pec_monthly_every": "1",
+  "pec_monthly_position": "",
+  "pec_monthly_day": "",
+  "pec_exceptions": "",
+  "pec_extra_dates": "2021-01-30,2021-01-31",
+  "pec_end_date": "",
+  "pec_end_time_hh": "",
+  "pec_end_time_mm": "",
+  "pec_hide_time": "",
+  "pec_recurring_frecuency": "0"
+ }
+]
