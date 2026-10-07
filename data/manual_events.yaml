@@ -1,0 +1,16 @@
+# Ręczne wydarzenia (Gomunice, gminy bez kalendarza, plakaty). Źródło o najwyższym zaufaniu:
+# nadpisuje dane z automatów. Wpisuj same fakty (bez opisów i plakatów) i zawsze link do organizatora.
+#
+# Pola: title, start (RRRR-MM-DD lub RRRR-MM-DD GG:MM), place (miejscowość; musi być w data/venues.yaml)
+# opcjonalnie: end, venue, category (scena|kino|biblioteka|edukacja|okolice|inne), url, ticket_url, price_text, all_day
+#
+# Przykład (usuń znak # na początku wierszy, żeby go włączyć):
+#
+# events:
+#   - title: "Dożynki gminne"
+#     start: "2026-09-05 14:00"
+#     venue: "Stadion w Gomunicach"
+#     place: "Gomunice"
+#     category: okolice
+#     url: "https://gomunice.pl/"
+events: []
