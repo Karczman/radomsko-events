@@ -137,6 +137,14 @@ GitHub wyłącza je w publicznym repo po 60 dniach bez aktywności. `keepalive.y
 **GitHub Pages niedostępny**
 Dane są też w repo (`data/events.json`). Lokalnie: `python -m core.build` i `python -m http.server --directory public`, albo odczytaj `data/events.json`. Subskrypcje ICS po wznowieniu Pages działają bez zmian (adres i `UID` się nie zmieniają).
 
+## Zależności i aktualizacje
+
+Wersje wszystkich pakietów (także pośrednich) są zablokowane z sumami kontrolnymi w `requirements.txt` (produkcja) i `requirements-dev.txt` (testy, ograniczony do tych samych wersji). Workflowy instalują je z `--require-hashes` i sprawdzają spójność (`pip check`), a akcje GitHuba są przypięte do SHA.
+
+- Zmiana zależności w `pyproject.toml` albo aktualizacja wersji: `scripts/update-locks.sh` (z `--upgrade` dla najnowszych zgodnych wersji), potem testy.
+- Dependabot co tydzień otwiera jeden zbiorczy PR dla Pythona i jeden dla akcji. Scalaj tylko po zielonym CI. Pakiety zależne od siebie (np. `pydantic` przypina dokładną wersję `pydantic-core`) muszą zmieniać się razem; PR z jednym z nich zatrzyma `pip check`.
+- W repo działają alerty Dependabota, ochrona `main` (bez force-pusha i usuwania), wyłącznie akcje GitHuba przypięte do SHA, skanowanie sekretów z blokadą pushu.
+
 ## Kontrola jakości
 
 - `ci.yml`: `ruff check .` i `pytest` przy każdym pushu poza zmianami w `data/` i przy pull requestach.

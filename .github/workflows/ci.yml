@@ -28,5 +28,7 @@ jobs:
           cache: pip
           cache-dependency-path: requirements*.txt
       - run: pip install --require-hashes -r requirements-dev.txt
+      - name: Spójność zależności (np. pydantic i pydantic-core)
+        run: python -m pip check
       - run: python -m ruff check .
       - run: python -m pytest -q
