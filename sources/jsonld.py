@@ -93,9 +93,7 @@ def parse_jsonld_events(objects: Iterable, source: str, default_category: Catego
         types = obj.get("@type")
         type_name = types if isinstance(types, str) else (types or [""])[0]
         price_text, ticket_url = _price_text(obj.get("offers"))
-        status = str(obj.get("eventStatus", ""))
-        if status.endswith("EventCancelled"):
-            continue  # odwołane obsłuży późniejszy etap (status=cancelled)
+        cancelled = str(obj.get("eventStatus", "")).endswith("EventCancelled")
         events.append(
             RawEvent(
                 title=title,
@@ -108,6 +106,7 @@ def parse_jsonld_events(objects: Iterable, source: str, default_category: Catego
                 ticket_url=ticket_url,
                 price_text=price_text,
                 source=source,
+                status="cancelled" if cancelled else "active",
             )
         )
     return events

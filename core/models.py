@@ -28,6 +28,7 @@ class RawEvent(BaseModel):
     times: list[str] = Field(default_factory=list)
     source: str
     confidence: Confidence = "high"
+    status: Status = "active"
 
 
 class Event(BaseModel):

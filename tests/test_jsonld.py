@@ -31,10 +31,11 @@ def test_html_extraction_skips_broken_blocks():
     assert [e.title for e in parse_jsonld_html(html, "x")] == ["A"]
 
 
-def test_cancelled_and_dateless_events_are_skipped():
+def test_cancelled_event_is_kept_with_status_and_dateless_is_skipped():
     objs = [
         {"@type": "Event", "name": "A", "startDate": "2026-11-01T18:00:00", "eventStatus": "https://schema.org/EventCancelled"},
         {"@type": "Event", "name": "B"},
         {"@type": "MusicEvent", "name": "C", "startDate": "2026-11-02T18:00:00"},
     ]
-    assert [e.title for e in parse_jsonld_events(objs, "x")] == ["C"]
+    events = parse_jsonld_events(objs, "x")
+    assert [(e.title, e.status) for e in events] == [("A", "cancelled"), ("C", "active")]
