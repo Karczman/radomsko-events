@@ -41,3 +41,5 @@ footer .stale{color:var(--acc);font-weight:600}
 
 .ev.cancelled h3{text-decoration:line-through;opacity:.7}
 #subs a{color:var(--acc);font-weight:600}
+footer details{margin-top:8px}footer summary{cursor:pointer}footer summary:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.srcs{margin:6px 0 0;padding-left:18px}.srcs .warn{color:var(--c2)}.srcs .bad{color:var(--acc)}

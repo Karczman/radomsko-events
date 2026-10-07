@@ -131,15 +131,31 @@ function list() {
 
 function draw() { cal(); list(); next(); }
 
+const SRC = {
+  mdk: "MDK Radomsko", radomsko_pl: "radomsko.pl", muzeum: "Muzeum Regionalne", mbp: "Biblioteka (MBP)",
+  kamiensk: "Gmina Kamieńsk", przedborz: "MDK Przedbórz", biletyna: "biletyna.pl", ebilet: "ebilet.pl", manual: "Wpisy ręczne",
+};
+
+const plural = (n) => (n === 1 ? "wydarzenie" : n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14) ? "wydarzenia" : "wydarzeń");
+
+function sourceLine(name, s) {
+  const label = SRC[name] || name;
+  const fmt = (d) => (d ? d.split("-").reverse().slice(0, 2).join(".") : "");
+  if (s.stale) return ["warn", `${label}: dane nieaktualne od ${fmt(s.stale_since)}, ${s.stale_reason || "problem ze źródłem"}`];
+  if (!s.ok) return ["bad", `${label}: błąd pobierania od ${fmt(s.first_failure)}`];
+  return ["ok", `${label}: ${s.count} ${plural(s.count)}`];
+}
+
 async function foot(generated) {
   const f = $("foot"); f.replaceChildren();
   const when = generated ? new Date(generated).toLocaleString("pl-PL", { dateStyle: "long", timeStyle: "short" }) : "brak danych";
-  f.append(`Ostatnia aktualizacja: ${when}. Przed wyjściem sprawdź stronę organizatora. `);
+  f.append(`Ostatnia aktualizacja: ${when}. Przed wyjściem sprawdź stronę organizatora.`);
   try {
     const st = await (await fetch("status.json", { cache: "no-cache" })).json();
-    const parts = Object.entries(st.sources || {}).map(([n, s]) => (s.ok ? `${n}: ${s.count}` : `${n}: błąd`));
-    const bad = Object.values(st.sources || {}).some((s) => !s.ok);
-    f.append(el("span", { class: bad ? "stale" : "", text: `Źródła: ${parts.join(", ")}.` }));
+    const lines = Object.entries(st.sources || {}).filter(([n, s]) => n !== "manual" || s.count).map(([n, s]) => sourceLine(n, s));
+    const problems = lines.filter(([k]) => k !== "ok").length;
+    const summary = el("summary", { class: problems ? "stale" : "", text: problems ? `Źródła danych: ${problems} z problemem` : "Źródła danych: wszystkie działają" });
+    f.append(el("details", {}, summary, el("ul", { class: "srcs" }, lines.map(([k, t]) => el("li", { class: k, text: t })))));
   } catch { /* status.json jest opcjonalny */ }
 }
 
