@@ -12,6 +12,7 @@ from pathlib import Path
 
 import yaml
 
+from core.breaker import MIN_PREVIOUS, load_cache, save_cache, trip_reason
 from core.dedupe import dedupe
 from core.geo import Geo
 from core.ics import build_ics, track
@@ -110,6 +111,19 @@ def _write_json(path: Path, data, sort_keys: bool = False) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=1, sort_keys=sort_keys) + "\n", "utf-8")
 
 
+def _convert(raws: list[RawEvent], source: str, geo: Geo, today: date, todo: dict) -> tuple[list[Event], dict]:
+    events, dropped = [], {}
+    for raw in raws:
+        event, reason = to_event(raw, geo, today)
+        if event:
+            events.append(event)
+            continue
+        dropped[reason] = dropped.get(reason, 0) + 1
+        if reason == "no-coordinates":
+            todo[(source, raw.venue, raw.place)] = {"source": source, "venue": raw.venue, "place": raw.place}
+    return events, dropped
+
+
 def run(config_path: Path = ROOT / "config.yaml", today: date | None = None) -> dict:
     """Pełny przebieg. Pliki w `data/` zmieniają się tylko, gdy zmieniła się treść (bez znaczników czasu),
     dzięki czemu workflow nie commituje w dni bez zmian. Czas generowania trafia tylko do `public/`."""
@@ -125,29 +139,39 @@ def run(config_path: Path = ROOT / "config.yaml", today: date | None = None) -> 
     status: dict[str, dict] = {}
     todo: dict[tuple, dict] = {}
     now = datetime.now(TZ).isoformat(timespec="seconds")
+    cache_dir = data / "source_cache"
     for source in build_sources(config):
+        prev = prev_status.get(source.name)
+        entry: dict = {}
+        raws: list[RawEvent] | None = None
+        guarded = source.name != "manual"  # plik ręczny edytujemy sami, więc bez cache (usunięty wpis nie wraca)
         try:
             raws = source.fetch(fetcher)
         except Exception as exc:  # błąd jednego adaptera nie przerywa przebiegu
             log.exception("źródło %s nie działa", source.name)
-            first = prev_status.get(source.name, {})
-            status[source.name] = {
-                "ok": False, "error": f"{type(exc).__name__}: {exc}"[:200],
-                "first_failure": first.get("first_failure") if not first.get("ok", True) else today.isoformat(),
-            }
-            continue
-        kept, dropped = 0, {}
-        for raw in raws:
-            event, reason = to_event(raw, geo, today)
-            if event:
-                collected.append(event)
-                kept += 1
-                continue
-            dropped[reason] = dropped.get(reason, 0) + 1
-            if reason == "no-coordinates":
-                key = (source.name, raw.venue, raw.place)
-                todo[key] = {"source": source.name, "venue": raw.venue, "place": raw.place}
-        status[source.name] = {"ok": True, "count": kept, "fetched": len(raws), "dropped": dropped}
+            entry = {"ok": False, "error": f"{type(exc).__name__}: {exc}"[:200],
+                     "first_failure": prev.get("first_failure") if prev and not prev.get("ok", True)
+                     else today.isoformat()}
+        events_src, dropped = (_convert(raws, source.name, geo, today, todo) if raws is not None else ([], {}))
+        reason = None
+        if raws is not None:
+            min_previous = config.get("breaker", {}).get("min_previous", MIN_PREVIOUS)
+            reason = trip_reason(prev, len(events_src), min_previous) if guarded else None
+            entry = {"ok": True, "count": len(events_src), "fetched": len(raws), "dropped": dropped}
+        if guarded and (raws is None or reason):
+            cached = load_cache(cache_dir, source.name, today)
+            if cached is not None:  # ostatnie dobre dane zamiast pustki
+                events_src, dropped = _convert(cached, source.name, geo, today, todo)
+                entry.update(stale=True, stale_reason=reason or "błąd pobierania",
+                             stale_since=(prev or {}).get("stale_since") or today.isoformat(),
+                             count=(prev or {}).get("count", len(events_src)))
+                log.warning("źródło %s: bezpiecznik, używam cache (%s)", source.name, entry["stale_reason"])
+            elif reason:
+                entry["stale_reason"] = f"{reason}, brak cache"
+        elif guarded and not entry.get("stale"):
+            save_cache(cache_dir, source.name, raws)
+        collected += events_src
+        status[source.name] = entry
     unique = list({e.id: e for e in collected}.values())  # ten sam wpis z kilku listingów jednego źródła
     merged = dedupe(unique, threshold=config.get("dedupe", {}).get("threshold", 90))
     final, new_ids = apply_seen(rollup_cinema(merged), load_seen(seen_path), today)
@@ -166,7 +190,8 @@ def run(config_path: Path = ROOT / "config.yaml", today: date | None = None) -> 
 
     public = ROOT / "public"
     live_status = {"generated": now, **status_doc,
-                   "sources": {n: {**s, **({"last_success": now} if s["ok"] else {})} for n, s in status.items()}}
+                   "sources": {n: {**s, **({"last_success": now} if s["ok"] and not s.get("stale") else {})}
+                           for n, s in status.items()}}
     publish(public, {"generated": now, "events": events_list}, live_status, build_ics(final, ics_state))
     return {"generated": now, "events": events_list}
 

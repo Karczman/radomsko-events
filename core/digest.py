@@ -100,7 +100,7 @@ def source_alerts(status: dict, today: date) -> Message | None:
     problems = []
     for name, s in status.get("sources", {}).items():
         if s.get("stale"):
-            problems.append(f"• {name}: bezpiecznik, używamy starszych danych ({s.get('reason', 'brak danych')})")
+            problems.append(f"• {name}: bezpiecznik, używamy starszych danych ({s.get('stale_reason', 'brak danych')})")
         elif not s.get("ok", True) and s.get("first_failure"):
             days = (today - date.fromisoformat(s["first_failure"])).days
             if days > ALERT_AFTER_DAYS:

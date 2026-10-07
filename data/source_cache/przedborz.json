@@ -1,0 +1,28 @@
+[
+ {
+  "title": "Spotkanie autorskie",
+  "start": "2026-10-13T10:00:00",
+  "all_day": false,
+  "venue": "MDK w Przedborzu",
+  "place": "Przedbórz",
+  "category": "inne",
+  "url": "https://www.mdk.przedborz.pl/kalendarz/2026-10-13/301",
+  "times": [],
+  "source": "przedborz",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
+  "title": "Sklep z facetami",
+  "start": "2026-11-15T18:00:00",
+  "all_day": false,
+  "venue": "MDK w Przedborzu",
+  "place": "Przedbórz",
+  "category": "inne",
+  "url": "https://www.mdk.przedborz.pl/kalendarz/2026-11-15/299",
+  "times": [],
+  "source": "przedborz",
+  "confidence": "high",
+  "status": "active"
+ }
+]
