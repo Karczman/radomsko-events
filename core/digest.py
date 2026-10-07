@@ -23,7 +23,8 @@ from core.normalize import TZ
 log = logging.getLogger("digest")
 ROOT = Path(__file__).resolve().parent.parent
 WEEKDAYS = ["pn", "wt", "śr", "cz", "pt", "sb", "nd"]
-MAX_WEEK, MAX_NEW, MAX_SHORT = 8, 5, 3
+MAX_WEEK, MAX_NEW, MAX_SHORT, MAX_TODAY = 8, 5, 3, 10
+MAX_BODY = 3800  # ntfy: wiadomość > 4096 B zamienia się w załącznik
 ALERT_AFTER_DAYS = 3
 
 
@@ -103,7 +104,10 @@ def build_digest(events: list[Event], today: date, new_ids: list[str], site_url:
         return Message(title, "\n".join(lines), site_url)
     sections: list[str] = []
     if todays:
-        sections.append("Dziś:\n" + "\n".join(_line_today(e) for e in sorted(todays, key=lambda e: e.start)))
+        today_lines = [_line_today(e) for e in sorted(todays, key=lambda e: e.start)[:MAX_TODAY]]
+        if len(todays) > MAX_TODAY:
+            today_lines.append(f"… i {len(todays) - MAX_TODAY} więcej")
+        sections.append("Dziś:\n" + "\n".join(today_lines))
     if week:
         shown = [_line_day(e, today) for e in week[:MAX_WEEK]]
         if len(week) > MAX_WEEK:
@@ -111,7 +115,15 @@ def build_digest(events: list[Event], today: date, new_ids: list[str], site_url:
         sections.append("Najbliższe 7 dni:\n" + "\n".join(shown))
     if new:
         sections.append("Nowe:\n" + "\n".join(_line_day(e) for e in new))
-    return Message(title, "\n\n".join(sections), site_url)
+    return Message(title, _fit("\n\n".join(sections)), site_url)
+
+
+def _fit(body: str) -> str:
+    """Przycina treść do limitu ntfy (w bajtach UTF-8), z wyraźnym „…”."""
+    if len(body.encode()) <= MAX_BODY:
+        return body
+    cut = body.encode()[: MAX_BODY - 4].decode("utf-8", "ignore")
+    return cut[: cut.rfind("\n")] + "\n…" if "\n" in cut else cut + "…"
 
 
 def source_alerts(status: dict, today: date) -> Message | None:
@@ -126,7 +138,7 @@ def source_alerts(status: dict, today: date) -> Message | None:
                 problems.append(f"• {name}: nie działa od {days} {_plural(days, 'dnia', 'dni', 'dni')}")
     if not problems:
         return None
-    return Message("Radomsko: problem ze źródłem", "\n".join(problems), None, priority=4, tags=("warning",))
+    return Message("Radomsko: problem ze źródłem", _fit("\n".join(problems)), None, priority=4, tags=("warning",))
 
 
 def send(msg: Message, topic: str, token: str | None = None, server: str = "https://ntfy.sh",

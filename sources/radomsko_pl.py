@@ -5,15 +5,17 @@ Karta daty nie zawiera roku, więc rok wyprowadzamy z zakresu zapytania (miesią
 
 from __future__ import annotations
 
+import logging
 import re
 from datetime import date, datetime, time, timedelta
 
 from selectolax.lexbor import LexborHTMLParser
 
 from core.models import RawEvent
-from core.normalize import clean_title
+from core.normalize import clean_title, safe_time
 from sources.base import Fetcher, Source
 
+log = logging.getLogger(__name__)
 ENDPOINT = "https://www.radomsko.pl/component/ajax/"
 TAG_ID = 1424  # tag kalendarza miejskiego (z konfiguracji widżetu)
 _MONTHS = {
@@ -42,16 +44,19 @@ def parse_range(html_text: str, range_start: date) -> list[RawEvent]:
         except ValueError:
             continue
         dur_node = art.css_first(".re-date-card-duration")
-        times = _TIMES.findall(dur_node.text()) if dur_node else []
-        start = datetime.combine(day, time(int(times[0][0]), int(times[0][1])) if times else time(0, 0))  # noqa: DTZ001
-        end = datetime.combine(day, time(int(times[1][0]), int(times[1][1]))) if len(times) > 1 else None  # noqa: DTZ001
+        clocks = [t for t in (safe_time(h, m) for h, m in _TIMES.findall(dur_node.text() if dur_node else "")) if t]
+        start = datetime.combine(day, clocks[0] if clocks else time(0, 0))  # noqa: DTZ001
+        end = datetime.combine(day, clocks[1]) if len(clocks) > 1 else None  # noqa: DTZ001
         if end and end <= start:
             end = None
-        out.append(RawEvent(
-            title=clean_title(title_node.text(strip=True)), start=start, end=end, all_day=not times,
-            venue=None, place="Radomsko", category="inne", url="https://www.radomsko.pl/", source="radomsko_pl",
-            confidence="high" if times else "low",
-        ))
+        try:
+            out.append(RawEvent(
+                title=clean_title(title_node.text(strip=True)), start=start, end=end, all_day=not clocks,
+                venue=None, place="Radomsko", category="inne", url="https://www.radomsko.pl/",
+                source="radomsko_pl", confidence="high" if clocks else "low",
+            ))
+        except ValueError as exc:  # pydantic: np. pusty tytuł; rok liczymy dalej, więc bez each_safely
+            log.warning("radomsko_pl: pominięto rekord (%s)", exc)
     return out
 
 

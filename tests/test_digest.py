@@ -99,3 +99,13 @@ def test_cinema_is_announced_only_on_screening_days():
     after = build_digest([film], date(2026, 10, 14), [], None)
     assert after.title.startswith("Radomsko: dziś 1")
     assert build_digest([film], date(2026, 10, 15), [], None, when_empty="skip") is None
+
+
+def test_body_fits_ntfy_limit_even_with_many_long_events():
+    from core.digest import MAX_BODY
+    today = [ev(i, "Ż" * 290 + str(i), 7, 10) for i in range(40)]
+    week = [ev(100 + i, "Ą" * 290, 8 + i % 6) for i in range(20)]
+    msg = build_digest(today + week, TODAY, [e.id for e in week], None)
+    assert len(msg.body.encode()) <= MAX_BODY and msg.body.endswith("…")
+    short = build_digest([ev(i, f"Krótki {i}", 7, 10) for i in range(15)], TODAY, [], None)
+    assert short.body.count("•") == 10 and "… i 5 więcej" in short.body  # limit pozycji „Dziś”

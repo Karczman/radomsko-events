@@ -10,6 +10,7 @@ from selectolax.lexbor import LexborHTMLParser
 
 from core.models import Category, RawEvent
 from core.normalize import clean_title, clean_url
+from sources.base import each_safely
 
 _CATEGORY_BY_TYPE: dict[str, Category] = {
     "MusicEvent": "scena",
@@ -57,6 +58,17 @@ def _dt(value: str | None) -> datetime | None:
         return None
 
 
+def _number(value) -> float | None:
+    """Cena z JSON-LD bywa liczbą, napisem „138.06” albo „od 50 zł”. Nieczytelna = brak ceny."""
+    if isinstance(value, bool) or value in (None, ""):
+        return None
+    try:
+        number = float(str(value).replace(",", ".").strip())
+    except ValueError:
+        return None
+    return number if 0 <= number < 100_000 else None
+
+
 def _price_text(offers) -> tuple[str | None, str | None]:
     """Zwraca (price_text, ticket_url) z `offers` (obiekt albo lista)."""
     items = offers if isinstance(offers, list) else [offers] if offers else []
@@ -65,12 +77,13 @@ def _price_text(offers) -> tuple[str | None, str | None]:
         if not isinstance(o, dict):
             continue
         url = url or o.get("url")
+        currency = str(o.get("priceCurrency") or "PLN")[:3]
         for key in ("price", "lowPrice"):
-            if o.get(key) not in (None, ""):
-                prices.append((float(o[key]), o.get("priceCurrency", "PLN")))
+            if (value := _number(o.get(key))) is not None:
+                prices.append((value, currency))
                 break
-        if o.get("highPrice") not in (None, ""):
-            prices.append((float(o["highPrice"]), o.get("priceCurrency", "PLN")))
+        if (value := _number(o.get("highPrice"))) is not None:
+            prices.append((value, currency))
     if not prices:
         return None, clean_url(url)
     lo, hi = min(p for p, _ in prices), max(p for p, _ in prices)
@@ -81,35 +94,34 @@ def _price_text(offers) -> tuple[str | None, str | None]:
 
 
 def parse_jsonld_events(objects: Iterable, source: str, default_category: Category = "inne") -> list[RawEvent]:
-    events: list[RawEvent] = []
-    for obj in _walk(list(objects)):
-        start = _dt(obj.get("startDate"))
-        title = clean_title(str(obj.get("name") or ""))
-        if not start or not title:
-            continue
-        location = obj.get("location")
-        location = location if isinstance(location, dict) else {}
-        address = location.get("address") if isinstance(location.get("address"), dict) else {}
-        types = obj.get("@type")
-        type_name = types if isinstance(types, str) else (types or [""])[0]
-        price_text, ticket_url = _price_text(obj.get("offers"))
-        cancelled = str(obj.get("eventStatus", "")).endswith("EventCancelled")
-        events.append(
-            RawEvent(
-                title=title,
-                start=start,
-                end=_dt(obj.get("endDate")),
-                venue=location.get("name"),
-                place=address.get("addressLocality"),
-                category=_CATEGORY_BY_TYPE.get(type_name, default_category),
-                url=clean_url(obj.get("url")),
-                ticket_url=ticket_url,
-                price_text=price_text,
-                source=source,
-                status="cancelled" if cancelled else "active",
-            )
-        )
-    return events
+    return each_safely(source, _walk(list(objects)), lambda obj: _event(obj, source, default_category))
+
+
+def _event(obj: dict, source: str, default_category: Category) -> RawEvent | None:
+    start = _dt(obj.get("startDate"))
+    title = clean_title(str(obj.get("name") or ""))
+    if not start or not title:
+        return None
+    location = obj.get("location")
+    location = location if isinstance(location, dict) else {}
+    address = location.get("address") if isinstance(location.get("address"), dict) else {}
+    types = obj.get("@type")
+    type_name = types if isinstance(types, str) else (types or [""])[0]
+    price_text, ticket_url = _price_text(obj.get("offers"))
+    cancelled = str(obj.get("eventStatus", "")).endswith("EventCancelled")
+    return RawEvent(
+        title=title,
+        start=start,
+        end=_dt(obj.get("endDate")),
+        venue=location.get("name"),
+        place=address.get("addressLocality"),
+        category=_CATEGORY_BY_TYPE.get(type_name, default_category),
+        url=clean_url(obj.get("url")),
+        ticket_url=ticket_url,
+        price_text=price_text,
+        source=source,
+        status="cancelled" if cancelled else "active",
+    )
 
 
 def parse_jsonld_html(html: str, source: str, default_category: Category = "inne") -> list[RawEvent]:

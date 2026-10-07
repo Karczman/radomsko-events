@@ -3,7 +3,7 @@ name = "radomsko-events"
 version = "0.1.0"
 description = "Kalendarz wydarzeń w Radomsku i okolicy (do 30 km)"
 requires-python = ">=3.12"
-dependencies = ["httpx", "selectolax", "pydantic>=2", "rapidfuzz", "icalendar", "pyyaml"]
+dependencies = ["httpx", "selectolax", "pydantic>=2", "rapidfuzz", "icalendar", "pyyaml", "defusedxml"]
 
 [project.optional-dependencies]
 dev = ["pytest", "ruff", "jsonschema"]

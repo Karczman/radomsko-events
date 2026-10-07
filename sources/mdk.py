@@ -20,10 +20,11 @@ import logging
 import re
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
+from urllib.parse import urlsplit
 
 from core.models import Category, RawEvent
-from core.normalize import clean_title, clean_url
-from sources.base import Fetcher, Source
+from core.normalize import clean_title, clean_url, safe_time
+from sources.base import Fetcher, Source, each_safely
 
 log = logging.getLogger(__name__)
 
@@ -47,6 +48,13 @@ _TICKET_HOSTS = ("bilety24.pl", "biletyna.pl", "kulturalnykoneser.pl", "ebilet.p
 _HREF = re.compile(r'href="([^"]+)"')
 
 
+def _int(value, default: int) -> int:
+    try:
+        return int(str(value).strip())
+    except (TypeError, ValueError):
+        return default
+
+
 def _truthy(value) -> bool:
     return str(value).strip().lower() not in ("", "0", "false", "none", "null")
 
@@ -62,12 +70,19 @@ def _parse_dt(value: str | None) -> datetime | None:
     return None
 
 
+def _is_ticket_host(url: str) -> bool:
+    """Host serwisu biletowego lub jego subdomena (np. mdkradomsko.bilety24.pl). Sprawdzamy nazwę hosta,
+    a nie podciąg adresu, bo „https://evil.example/?biletyna.pl” nie jest linkiem do biletów."""
+    host = (urlsplit(url).hostname or "").lower()
+    return any(host == h or host.endswith("." + h) for h in _TICKET_HOSTS)
+
+
 def ticket_urls(content_html: str) -> list[str]:
     """Linki do biletów z treści wpisu (bez parametrów śledzących, bez duplikatów)."""
     found: list[str] = []
     for href in _HREF.findall(content_html or ""):
         cleaned = clean_url(href)
-        if cleaned and any(h in cleaned for h in _TICKET_HOSTS) and cleaned not in found:
+        if cleaned and _is_ticket_host(cleaned) and cleaned not in found:
             found.append(cleaned)
     return found
 
@@ -108,7 +123,7 @@ def _recurrence(item: dict, base: datetime, today: date) -> tuple[list[datetime]
         return [base], True
     until = _parse_dt(item.get("pec_end_date"))
     last = min(until.date() if until else base.date(), today + timedelta(days=MAX_EXPANSION_DAYS))
-    step = max(int(item.get("pec_daily_every") or 1), 1)
+    step = max(_int(item.get("pec_daily_every"), 1), 1)
     weekdays_only = _truthy(item.get("pec_daily_working_days"))
     out, day = [], base
     while day.date() <= last:
@@ -124,7 +139,9 @@ def occurrences(item: dict, today: date) -> tuple[list[Occurrence], bool]:
     base = _parse_dt(item.get("pec_date"))
     if base is not None and base.year < MIN_YEAR:
         base = None
-    has_end_time = _truthy(item.get("pec_end_time_hh"))
+    end_clock = safe_time(item.get("pec_end_time_hh"), item.get("pec_end_time_mm") or 0) \
+        if _truthy(item.get("pec_end_time_hh")) else None
+    has_end_time = end_clock is not None
     base_timed = base is not None and not (
         _truthy(item.get("pec_all_day")) or (base.hour == 0 and base.minute == 0 and not has_end_time)
     )
@@ -145,7 +162,7 @@ def occurrences(item: dict, today: date) -> tuple[list[Occurrence], bool]:
             continue
         end = None
         if has_end_time and found[when]:
-            end = when.replace(hour=int(item["pec_end_time_hh"]), minute=int(item.get("pec_end_time_mm") or 0))
+            end = datetime.combine(when.date(), end_clock)  # noqa: DTZ001
             end = end if end > when else None
         elif multiday_end and when == base and multiday_end.date() > when.date():
             end = multiday_end
@@ -179,16 +196,18 @@ def parse_item(item: dict, tickets: list[str] | None = None, today: date | None 
 
 
 def parse_items(items: list[dict], today: date, contents: dict[int, str] | None = None) -> list[RawEvent]:
-    out = []
-    for item in items:
-        for raw in parse_item(item, ticket_urls((contents or {}).get(item["id"], "")), today):
-            if (raw.end or raw.start).date() >= today:
-                out.append(raw)
-    return out
+    def one(item: dict) -> list[RawEvent]:
+        raws = parse_item(item, ticket_urls((contents or {}).get(item.get("id"), "")), today)
+        return [r for r in raws if (r.end or r.start).date() >= today]
+    return each_safely("mdk", items, one)
 
 
 def has_upcoming(item: dict, today: date) -> bool:
-    occs, _ = occurrences(item, today)
+    try:
+        occs, _ = occurrences(item, today)
+    except Exception as exc:  # noqa: BLE001 - zepsuty wpis pomijamy, nie przerywamy stronicowania
+        log.warning("mdk: nie udało się odczytać terminów wpisu %s (%s)", item.get("id"), exc)
+        return False
     return any((o.end or o.start).date() >= today for o in occs)
 
 
@@ -223,5 +242,6 @@ class MdkSource(Source):
             chunk = ids[k:k + 50]
             resp = fetcher.get(BASE, params={"include": ",".join(map(str, chunk)),
                                              "per_page": len(chunk), "_fields": "id,content"})
-            contents.update({r["id"]: r["content"]["rendered"] for r in resp.json()})
+            contents.update({r["id"]: (r.get("content") or {}).get("rendered", "") for r in resp.json()
+                             if isinstance(r, dict) and "id" in r})
         return parse_items(upcoming, today, contents)
