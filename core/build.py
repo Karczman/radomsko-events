@@ -205,7 +205,8 @@ def publish(public: Path, events_doc: dict, status_doc: dict, ics: bytes) -> Non
     for f in (ROOT / "web").iterdir():
         if f.is_file() and f.name != "legacy-dashboard.html":
             shutil.copy2(f, public / f.name)
-    static = [public / n for n in ("index.html", "app.js", "style.css", "manifest.json", "icon.svg")]
+    static = [public / n for n in ("index.html", "app.js", "style.css", "manifest.json", "icon.svg",
+                                   "bricolage-latin.woff2", "bricolage-latin-ext.woff2")]
     version = hashlib.sha1(b"".join(p.read_bytes() for p in static)).hexdigest()[:8]
     sw = public / "sw.js"  # nowa wersja statyki = nowy cache, więc użytkownicy nie utkną na starym kodzie
     sw.write_text(sw.read_text("utf-8").replace("radomsko-static-v1", f"radomsko-static-{version}"), "utf-8")

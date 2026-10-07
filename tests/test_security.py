@@ -192,3 +192,16 @@ def test_compressed_responses_are_decoded_once():
     assert f.get("https://a.pl/x").text == "zażółć gęślą jaźń"
     with pytest.raises(RobotsDisallowed):
         f.get("https://a.pl/private/y")  # robots.txt odczytany poprawnie, a nie potraktowany jako błąd
+
+
+def test_page_makes_no_third_party_requests():
+    """Prywatność odwiedzających (RODO): strona nie pobiera nic z obcych serwerów (np. Google Fonts)."""
+    html = (WEB / "index.html").read_text("utf-8")
+    css = (WEB / "style.css").read_text("utf-8")
+    assert not re.search(r'(?:src|href)="https?://', html), "zewnętrzny zasób w index.html"
+    assert not re.search(r"url\((?:['\"])?https?://|@import", css), "zewnętrzny zasób w style.css"
+    for font in re.findall(r"url\(([^)]+\.woff2)\)", css):
+        assert (WEB / font).read_bytes()[:4] == b"wOF2", font
+    csp = re.search(r'Content-Security-Policy" content="([^"]+)"', html).group(1)
+    assert "googleapis" not in csp and "gstatic" not in csp and "font-src 'self'" in csp
+    assert (WEB / "OFL-bricolage-grotesque.txt").exists()  # licencja OFL wymaga dołączenia jej do czcionki
