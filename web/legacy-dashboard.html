@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radomsko – wydarzenia w jednym miejscu</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f2f4f0;--card:#fff;--ink:#1c2a29;--mut:#5d6b69;--line:#d9dfdb;--acc:#a8321f;--c1:#1f6f78;--c2:#8a5a00;--c3:#4b5fa3;--c4:#6b4a8a;--c5:#2f7a3e;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a19;--card:#1a2625;--ink:#e8efed;--mut:#9aaaa7;--line:#2c3c3a;--acc:#ff7a62;--c1:#5fc3cd;--c2:#e0b050;--c3:#8fa2ee;--c4:#c39be6;--c5:#7fd18c}}
+:root[data-theme="dark"]{--bg:#121a19;--card:#1a2625;--ink:#e8efed;--mut:#9aaaa7;--line:#2c3c3a;--acc:#ff7a62;--c1:#5fc3cd;--c2:#e0b050;--c3:#8fa2ee;--c4:#c39be6;--c5:#7fd18c}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 "Bricolage Grotesque",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:clamp(28px,7vw,40px);line-height:1.05;margin:0 0 6px;font-weight:800;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0 0 18px;font-size:14px}
+.next{background:var(--ink);color:var(--bg);border-radius:14px;padding:14px 16px;margin-bottom:18px}
+.next b{font-size:18px}.next div{font-size:14px;opacity:.85;margin-top:2px}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.chip{border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:99px;padding:6px 12px;font:inherit;font-size:14px;cursor:pointer}
+.chip[aria-pressed=true]{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.chip i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}
+.cal{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:22px}
+.ch{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.ch b{font-size:18px;text-transform:capitalize}
+.ch button{border:0;background:none;color:var(--ink);font-size:22px;padding:2px 12px;cursor:pointer}
+.g{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;text-align:center}
+.g span.w{font-size:12px;color:var(--mut);padding:2px 0}
+.d{aspect-ratio:1/1;border:0;background:none;color:var(--ink);font:inherit;font-size:15px;border-radius:10px;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px}
+.d:disabled{visibility:hidden}
+.d.t{outline:2px solid var(--acc)}.d.s{background:var(--ink);color:var(--bg)}
+.d em{display:flex;gap:2px;height:6px}.d em u{width:6px;height:6px;border-radius:50%}
+.d:focus-visible,.chip:focus-visible,.a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+h2{font-size:15px;margin:22px 0 8px;color:var(--mut);font-weight:600}
+.ev{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--cc);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.ev h3{margin:0;font-size:17px;line-height:1.25}.ev p{margin:3px 0 0;color:var(--mut);font-size:14px}
+.row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.a{display:inline-block;border-radius:8px;padding:7px 12px;font-size:14px;font-weight:600;text-decoration:none;border:1.5px solid var(--ink);color:var(--ink)}
+.a.p{background:var(--acc);border-color:var(--acc);color:#fff}
+.empty{color:var(--mut);padding:14px 0}
+.src{margin-top:28px;font-size:13px;color:var(--mut)}.src a{color:var(--ink)}
+.clr{font-size:14px;border:0;background:none;color:var(--acc);cursor:pointer;font-weight:600;padding:0}
+</style>
+</head>
+<body>
+<main>
+<h1>Radomsko: co się dzieje</h1>
+<p class="sub">Scena, kino, biblioteka, konkursy i wydarzenia do 30 km od Radomska. Dane z 6.10.2026.</p>
+<div class="next" id="next"></div>
+<div class="chips" id="chips"></div>
+<section class="cal" aria-label="Kalendarz">
+<div class="ch"><button id="pv" aria-label="Poprzedni miesiąc">‹</button><b id="mt"></b><button id="nx" aria-label="Następny miesiąc">›</button></div>
+<div class="g" id="g"></div>
+</section>
+<div id="lh" style="display:flex;justify-content:space-between;align-items:baseline"><h2 id="lt" style="margin-left:0"></h2><button class="clr" id="clr" hidden>Pokaż wszystkie</button></div>
+<div id="list"></div>
+<p class="src">Źródła: <a href="https://mdkradomsko.pl/impresariat/">MDK Radomsko</a>, <a href="https://mdkradomsko.pl/kino-radomsko/">repertuar kina</a>, <a href="http://www.mbp-radomsko.pl/aktualnosci/wydarzenia">biblioteka</a>, <a href="https://radomskoogloszenia.pl/wydarzenia">radomskoogloszenia.pl</a> (okolice), <a href="https://www.radomsko.pl/">radomsko.pl</a>. To zapis z dnia przygotowania; przed wyjściem sprawdź stronę organizatora.</p>
+</main>
+<script>
+var M="https://mdkradomsko.pl/skr%C3%B3t-wydarzenia/",KINO="https://mdkradomsko.pl/kino-radomsko/";
+var CAT={scena:["Scena (MDK)","var(--c1)"],kino:["Kino","var(--c2)"],bib:["Biblioteka","var(--c3)"],edu:["Konkursy i edukacja","var(--c4)"],okol:["Okolice (do 30 km)","var(--c5)"]};
+function r(s){return"https://radomskoogloszenia.pl/wydarzenia/"+s}
+function m(s){return M+s+"/"}
+// [data, godzina, tytuł, miejsce, kategoria, link, etykieta przycisku]
+var E=[
+["2026-10-10","20:00","BAiKA – „Czas końca złudzeń”","Klub Muzyczny Bogart, Gomunice (12 km)","okol",r("212859/baika-czas-konca-zludzen"),"Szczegóły i bilety"],
+["2026-11-15","18:00","Daria ze Śląska – „Halo. Co jest grane?”","MDK","scena","https://radomsko.naszemiasto.pl/kalendarz-imprez/koncerty","Szczegóły i bilety"],
+["2026-11-19","19:00","Stand-up: Rafał Rutkowski – „Wehikuł czasu”","MDK","scena",r("186361/stand-up-radomsko-rafal-rutkowski-w-programie-wehikul-czasu"),"Szczegóły i bilety"],
+["2026-11-28","20:00","Metro – „Trasa 365 widoków na przyszłość”","Klub Muzyczny Bogart, Gomunice (12 km)","okol",r("206843/trasa-365-widokow-na-przyszlosc"),"Szczegóły i bilety"],
+["2026-11-29","15:30","Spektakl: Brzeziński, Koterski, Żukowski, Wieszczek, Borowski","MDK","scena",r("208772/brzezinski-koterski-zukowski-wieszczek-borowski"),"Szczegóły i bilety"],
+["2026-12-18","19:00","Stand-up „Niezły bajzel” – nowy program 2026","MDK","scena",r("197558/niezly-bajzel-nowy-program-2026"),"Szczegóły i bilety"],
+["2027-01-08","19:00","Kabaret „Kryzys złotego wieku”","GOK Kłomnice (17 km)","okol",r("209044/kryzys-zlotego-wieku"),"Szczegóły i bilety"],
+["2027-01-23","18:00","Pikantna komedia 18+","MDK","scena",r("192689/pikantna-komedia-18"),"Szczegóły i bilety"],
+["2027-02-25","19:00","Stand-up „Moja tajemnica”","MDK","scena",r("212525/moja-tajemnica"),"Szczegóły i bilety"],
+["2026-10-09","","Czytanie performatywne „Matka odchodzi” (3xRóżewicz)","MDK, Brzeźnicka 5","scena",m("09-10-2026r-czytanie-performatywne-matka-odchodzi"),"Szczegóły i bilety"],
+["2026-10-10","11:00","Wystawa fotografii „Radomszczańska Barwoteka”","Miejska Biblioteka Publiczna, Narutowicza 4","bib","http://www.mbp-radomsko.pl/aktualnosci/wydarzenia/1976-radomszczanska-barwoteka","Szczegóły"],
+["2026-10-11","18:00","„Stara kobieta wysiaduje” (3xRóżewicz)","MDK","scena",m("11-10-2026r-stara-kobieta-wysiaduje"),"Szczegóły i bilety"],
+["2026-10-12","18:00","„Matka” (3xRóżewicz)","MDK","scena",m("12-10-2026-matka-3xrozewicz"),"Szczegóły i bilety"],
+["2026-10-17","09:00","32. Ogólnopolski Konkurs Recytatorski „Zło Dobrem Zwyciężaj”","MDK","edu",m("32-ogolnopolski-konkurs-recytatorski-im-bl-ks-jerzego-popieluszki-zlo-dobrem-zwyciezaj"),"Szczegóły"],
+["2026-10-17","16:00","Kabaret Smile","MDK","scena",m("17-10-2026r-kabaret-smile"),"Szczegóły i bilety"],
+["2026-10-18","17:00","André Rieu. Niech żyje Maastricht!","Kino MDK","kino",m("andre-rieu-niech-zyje-maastricht"),"Szczegóły i bilety"],
+["2026-10-19","17:00","„WAJDA: re-wizje”","Kino MDK","kino",m("wajda-re-wizje"),"Szczegóły"],
+["2026-10-23","19:00","Recepta na szczęście","MDK","scena",m("23-10-2026r-recepta-na-szczescie"),"Szczegóły i bilety"],
+["2026-10-24","17:00","Operetki czar. Wielka sława","MDK","scena",m("24-10-2026-operetki-czar-wielka-slawa"),"Szczegóły i bilety"],
+["2026-10-25","17:00","André Rieu. Niech żyje Maastricht!","Kino MDK","kino",m("andre-rieu-niech-zyje-maastricht"),"Szczegóły i bilety"],
+["2026-10-26","17:00","„KONWICKI: pisarz, scenarzysta, reżyser”","Kino MDK","kino",m("konwicki-pisarz-scenarzysta-rezyser"),"Szczegóły"],
+["2026-11-07","18:00","Klimakterium 2, czyli menopauzy szał","MDK","scena",m("07-11-2026r-klimakterium-2-czyli-menopauzy-szal"),"Szczegóły i bilety"],
+["2026-11-15","","„Lubię wracać tam”","MDK","scena",m("15-11-2026-lubie-wracac-tam"),"Szczegóły i bilety"],
+["2026-11-17","","Marcin Kydryński: Siesta i Trylogia Afrykańska","MDK","scena",m("17-11-2026-marcin-kydrynski-siesta-trylogia-afrykanska"),"Szczegóły i bilety"],
+["2026-11-20","","Kabaret Nowaki","MDK","scena",m("20-11-2026-kabaret-nowaki"),"Szczegóły i bilety"],
+["2026-11-22","","Nerwica natręctw","MDK","scena",m("22-11-2026-nerwica-natrectw"),"Szczegóły i bilety"],
+["2026-11-29","","The Strings 2","MDK","scena",m("22-11-2026-the-strings-2"),"Szczegóły i bilety"],
+["2026-12-16","19:15","Sławek Uniatowski – Magic Christmas Jazz Night","MDK","scena",m("16-12-2026-slawek-uniatowski"),"Szczegóły i bilety"],
+["2026-12-31","","Koncert sylwestrowy Kasi Dąbrowskiej z zespołem","MDK","scena",m("31-12-2026r-koncert-sylwestrowy-kasi-dabrowskiej-z-zespolem"),"Szczegóły i bilety"],
+["2027-01-15","17:30","Kabaret Ani Mru Mru","MDK","scena",m("15-01-2027-kabaret-ani-mru-mru"),"Szczegóły i bilety"],
+["2027-01-16","17:00","Gala noworoczna","MDK","scena",m("16-01-27-r-gala-noworoczna"),"Szczegóły i bilety"],
+["2027-01-30","","Koncert wiedeński z gwiazdami 2027","MDK","scena",m("27-01-2027-koncert-wiedenski"),"Szczegóły i bilety"],
+["2027-02-09","19:00","Balet „Jezioro łabędzie”","MDK","scena",m("09-02-2027r-balet-jezioro-labedzie"),"Szczegóły i bilety"],
+["2027-02-12","19:00","Budka Suflera","MDK","scena",m("12-02-2027-r-budka-suflera"),"Szczegóły i bilety"],
+["2027-02-13","","„Prezent urodzinowy” – spektakl","MDK","scena",m("13-02-2027-r-prezent-urodzinowy-spektakl"),"Szczegóły i bilety"],
+["2027-03-06","19:00","Czerwone Gitary","MDK","scena",m("06-03-2027-r-czerwone-gitary"),"Szczegóły i bilety"],
+["2027-03-11","19:00","„Goniąc kormorany”","MDK","scena",m("11-03-2027r-goniac-kormorany"),"Szczegóły i bilety"],
+["2027-03-13","17:00","„My Fair Lady” – musical","MDK","scena",m("13-03-2027-my-fair-lady-musical-w-radomsku"),"Szczegóły i bilety"],
+["2027-05-16","","Kabaret Skeczów Męczących – Wielcy wracają","MDK","scena",m("kabaret-skeczow-meczacych-wielcy-wracaja-radomsko"),"Szczegóły i bilety"]
+];
+var $=function(i){return document.getElementById(i)},now=new Date(),pad=function(n){return(n<10?"0":"")+n};
+var iso=function(d){return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate())};
+var today=iso(now),view=new Date(now.getFullYear(),now.getMonth(),1),sel=null,flt={scena:1,kino:1,bib:1,edu:1,okol:1};
+var MON=["styczeń","luty","marzec","kwiecień","maj","czerwiec","lipiec","sierpień","wrzesień","październik","listopad","grudzień"];
+var DAY=["niedziela","poniedziałek","wtorek","środa","czwartek","piątek","sobota"];
+E.sort(function(a,b){return(a[0]+a[1])<(b[0]+b[1])?-1:1});
+function vis(){return E.filter(function(e){return flt[e[4]]})}
+function gcal(e){var d=e[0].replace(/-/g,""),t=e[1],dt;
+if(t){var s=d+"T"+t.replace(":","")+"00",h=+t.slice(0,2)+2;dt=s+"/"+d+"T"+pad(h%24)+t.slice(3)+"00"}
+else{var x=new Date(e[0]+"T12:00:00");x.setDate(x.getDate()+1);dt=d+"/"+iso(x).replace(/-/g,"")}
+return"https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(e[2])+"&dates="+dt+"&location="+encodeURIComponent(e[3]+(e[4]==="okol"?"":", Radomsko"))+"&details="+encodeURIComponent(e[5])}
+function chips(){var h="";for(var k in CAT)h+='<button class="chip" aria-pressed="'+(flt[k]?"true":"false")+'" data-k="'+k+'"><i style="background:'+CAT[k][1]+'"></i>'+CAT[k][0]+'</button>';$("chips").innerHTML=h;
+[].forEach.call($("chips").children,function(b){b.onclick=function(){flt[b.dataset.k]=flt[b.dataset.k]?0:1;chips();draw()}})}
+function next(){var lim=new Date(now);lim.setDate(lim.getDate()+7);var L=iso(lim),a=vis().filter(function(e){return e[0]>=today&&e[0]<=L}),t=a.filter(function(e){return e[0]===today});
+var f=vis().filter(function(e){return e[0]>=today})[0];
+$("next").innerHTML=t.length?"<b>Dziś: "+t.length+" "+(t.length==1?"wydarzenie":"wydarzenia")+"</b><div>"+t.map(function(e){return(e[1]?e[1]+" ":"")+e[2]}).join("; ")+"</div>":"<b>W ciągu 7 dni: "+a.length+"</b><div>"+(f?"Najbliższe: "+f[2]+", "+f[0].split("-").reverse().slice(0,2).join(".")+(f[1]?" o "+f[1]:""):"Brak nadchodzących wydarzeń")+"</div>"}
+function cal(){var y=view.getFullYear(),mo=view.getMonth();$("mt").textContent=MON[mo]+" "+y;
+var h="";["Pn","Wt","Śr","Cz","Pt","So","Nd"].forEach(function(d){h+='<span class="w">'+d+"</span>"});
+var off=(new Date(y,mo,1).getDay()+6)%7,n=new Date(y,mo+1,0).getDate(),v=vis();
+for(var i=0;i<off;i++)h+='<button class="d" disabled></button>';
+for(var d=1;d<=n;d++){var k=y+"-"+pad(mo+1)+"-"+pad(d),cs=[];v.forEach(function(e){if(e[0]===k&&cs.indexOf(e[4])<0)cs.push(e[4])});
+h+='<button class="d'+(k===today?" t":"")+(k===sel?" s":"")+'" data-k="'+k+'" aria-label="'+d+" "+MON[mo]+(cs.length?", są wydarzenia":"")+'">'+d+"<em>"+cs.map(function(c){return'<u style="background:'+(k===sel?"var(--bg)":CAT[c][1])+'"></u>'}).join("")+"</em></button>"}
+$("g").innerHTML=h;[].forEach.call($("g").querySelectorAll("[data-k]"),function(b){b.onclick=function(){sel=sel===b.dataset.k?null:b.dataset.k;draw()}})}
+function list(){var v=vis().filter(function(e){return sel?e[0]===sel:e[0]>=today});$("clr").hidden=!sel;
+$("lt").textContent=sel?"Wydarzenia: "+sel.split("-").reverse().join(".")+"":"Nadchodzące wydarzenia";
+if(!v.length){$("list").innerHTML='<p class="empty">Brak wydarzeń dla tego wyboru. Zmień dzień albo włącz więcej kategorii.</p>';return}
+var h="",last="";v.forEach(function(e){if(!sel&&e[0]!==last){last=e[0];var d=new Date(e[0]+"T12:00:00");h+="<h2>"+DAY[d.getDay()]+", "+d.getDate()+" "+MON[d.getMonth()]+(e[0]===today?" (dziś)":"")+"</h2>"}
+h+='<article class="ev" style="--cc:'+CAT[e[4]][1]+'"><h3>'+e[2]+"</h3><p>"+(e[1]?e[1]+" · ":"")+e[3]+(e[4]==="okol"?"":", Radomsko")+"</p><div class=\"row\"><a class=\"a p\" href=\""+e[5]+'" target="_blank" rel="noopener">'+e[6]+'</a><a class="a" href="'+gcal(e)+'" target="_blank" rel="noopener">Dodaj do kalendarza</a></div></article>'});
+$("list").innerHTML=h}
+function draw(){cal();list();next()}
+$("pv").onclick=function(){view.setMonth(view.getMonth()-1);cal()};
+$("nx").onclick=function(){view.setMonth(view.getMonth()+1);cal()};
+$("clr").onclick=function(){sel=null;draw()};
+chips();draw();
+</script>
+</body>
+</html>

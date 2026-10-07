@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Radomsko – wydarzenia w jednym miejscu</title>
+<meta name="description" content="Kalendarz wydarzeń w Radomsku i do 30 km od miasta, aktualizowany codziennie.">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Radomsko: co się dzieje</h1>
+<p class="sub" id="sub">Scena, kino, biblioteka i wydarzenia do 30 km od Radomska.</p>
+<div class="next" id="next" aria-live="polite"></div>
+<div class="chips" id="chips"></div>
+<section class="cal" aria-label="Kalendarz">
+<div class="ch"><button id="pv" aria-label="Poprzedni miesiąc">‹</button><b id="mt"></b><button id="nx" aria-label="Następny miesiąc">›</button></div>
+<div class="g" id="g"></div>
+</section>
+<div id="lh" style="display:flex;justify-content:space-between;align-items:baseline"><h2 id="lt" style="margin-left:0"></h2><button class="clr" id="clr" hidden>Pokaż wszystkie</button></div>
+<div id="list"><p class="empty">Ładowanie…</p></div>
+<footer class="src" id="foot"></footer>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
