@@ -1,0 +1,13 @@
+# Konfiguracja Radomsko Events
+user_agent: "radomsko-events/1.0 (+https://github.com/Karczman/radomsko-events)"
+timezone: Europe/Warsaw
+paths:
+  venues: data/venues.yaml
+  events: data/events.json
+  public_events: public/events.json
+dedupe:
+  threshold: 90   # rapidfuzz, etap 2
+sources:
+  mdk: {enabled: true, max_pages: 3}
+digest:
+  send_when_empty: false   # etap 3

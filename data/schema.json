@@ -1,0 +1,221 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "events.json",
+ "type": "object",
+ "required": [
+  "generated",
+  "events"
+ ],
+ "properties": {
+  "generated": {
+   "type": "string"
+  },
+  "events": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/Event"
+   }
+  }
+ },
+ "$defs": {
+  "Event": {
+   "description": "Wydarzenie w `events.json`. Przechowujemy tylko fakty (bez opisów i obrazów).",
+   "properties": {
+    "id": {
+     "title": "Id",
+     "type": "string"
+    },
+    "title": {
+     "title": "Title",
+     "type": "string"
+    },
+    "start": {
+     "format": "date-time",
+     "title": "Start",
+     "type": "string"
+    },
+    "end": {
+     "anyOf": [
+      {
+       "format": "date-time",
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "End"
+    },
+    "all_day": {
+     "default": false,
+     "title": "All Day",
+     "type": "boolean"
+    },
+    "venue": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Venue"
+    },
+    "place": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Place"
+    },
+    "lat": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Lat"
+    },
+    "lon": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Lon"
+    },
+    "distance_km": {
+     "anyOf": [
+      {
+       "type": "number"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Distance Km"
+    },
+    "category": {
+     "default": "inne",
+     "enum": [
+      "scena",
+      "kino",
+      "biblioteka",
+      "edukacja",
+      "okolice",
+      "inne"
+     ],
+     "title": "Category",
+     "type": "string"
+    },
+    "url": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Url"
+    },
+    "ticket_url": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Ticket Url"
+    },
+    "price_text": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "title": "Price Text"
+    },
+    "times": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Times",
+     "type": "array"
+    },
+    "source": {
+     "title": "Source",
+     "type": "string"
+    },
+    "sources": {
+     "items": {
+      "type": "string"
+     },
+     "title": "Sources",
+     "type": "array"
+    },
+    "first_seen": {
+     "title": "First Seen",
+     "type": "string"
+    },
+    "last_seen": {
+     "title": "Last Seen",
+     "type": "string"
+    },
+    "status": {
+     "default": "active",
+     "enum": [
+      "active",
+      "cancelled"
+     ],
+     "title": "Status",
+     "type": "string"
+    },
+    "confidence": {
+     "default": "high",
+     "enum": [
+      "high",
+      "low"
+     ],
+     "title": "Confidence",
+     "type": "string"
+    }
+   },
+   "required": [
+    "id",
+    "title",
+    "start",
+    "source",
+    "first_seen",
+    "last_seen"
+   ],
+   "title": "Event",
+   "type": "object"
+  }
+ }
+}

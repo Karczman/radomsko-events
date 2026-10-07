@@ -1,0 +1,209 @@
+# SZKIC (etap 0): gminy w promieniu ~30 km od centrum Radomska (51.0670 N, 19.4450 E).
+# Współrzędne = siedziba gminy z Wikidata (P625); distance_km = haversine od centrum. NIE są to współrzędne obiektów kultury.
+# Obiekty (GOK/MOK/biblioteki) uzupełnić w etapie 1 po weryfikacji; verified: false = niesprawdzone.
+center: {name: Radomsko, lat: 51.0670, lon: 19.4450}
+radius_km: 30
+
+municipalities:
+  - name: Radomsko
+    seat_lat: 51.06667
+    seat_lon: 19.45000
+    distance_km: 0.4
+    in_radius: true
+    office_url: https://radomsko.pl/
+    verified: false
+  - name: Ładzice
+    seat_lat: 51.06667
+    seat_lon: 19.35000
+    distance_km: 6.6
+    in_radius: true
+    office_url: https://www.bip.ladzice.pl/
+    verified: false
+  - name: Dobryszyce
+    seat_lat: 51.14611
+    seat_lon: 19.40667
+    distance_km: 9.2
+    in_radius: true
+    office_url: https://bip.dobryszyce.pl/
+    verified: false
+  - name: Gomunice
+    seat_lat: 51.16667
+    seat_lon: 19.48333
+    distance_km: 11.4
+    in_radius: true
+    office_url: https://gomunice.pl/
+    verified: false
+  - name: Lgota Wielka
+    seat_lat: 51.13333
+    seat_lon: 19.31667
+    distance_km: 11.6
+    in_radius: true
+    office_url: https://lgotawielka.pl/asp/start,0
+    verified: false
+  - name: Kobiele Wielkie
+    seat_lat: 51.03333
+    seat_lon: 19.61667
+    distance_km: 12.6
+    in_radius: true
+    office_url: https://samorzad.gov.pl/web/gmina-kobiele-wielkie
+    verified: false
+  - name: Gidle
+    seat_lat: 50.95000
+    seat_lon: 19.46667
+    distance_km: 13.1
+    in_radius: true
+    office_url: https://www.gidle.pl/asp/pl_start.asp?typ=14&menu=1&strona=1&ref=1&schemat=
+    verified: false
+  - name: Kodrąb
+    seat_lat: 51.09833
+    seat_lon: 19.62861
+    distance_km: 13.3
+    in_radius: true
+    office_url: null
+    verified: false
+  - name: Kamieńsk
+    seat_lat: 51.20000
+    seat_lon: 19.50000
+    distance_km: 15.3
+    in_radius: true
+    office_url: https://kamiensk.pl/
+    verified: false
+  - name: Kruszyna
+    seat_lat: 50.96667
+    seat_lon: 19.26667
+    distance_km: 16.7
+    in_radius: true
+    office_url: https://www.kruszyna.pl/
+    verified: false
+  - name: Kłomnice
+    seat_lat: 50.92361
+    seat_lon: 19.35361
+    distance_km: 17.2
+    in_radius: true
+    office_url: https://klomnice.pl/
+    verified: false
+  - name: Nowa Brzeźnica
+    seat_lat: 51.07639
+    seat_lon: 19.17806
+    distance_km: 18.7
+    in_radius: true
+    office_url: https://nowabrzeznica.pl/asp/start,0
+    verified: false
+  - name: Kleszczów
+    seat_lat: 51.21667
+    seat_lon: 19.30000
+    distance_km: 19.5
+    in_radius: true
+    office_url: https://www.kleszczow.pl/
+    verified: false
+  - name: Gorzkowice
+    seat_lat: 51.21533
+    seat_lon: 19.59626
+    distance_km: 19.6
+    in_radius: true
+    office_url: https://gorzkowice.pl/
+    verified: false
+  - name: Żytno
+    seat_lat: 50.92722
+    seat_lon: 19.62776
+    distance_km: 20.1
+    in_radius: true
+    office_url: null
+    verified: false
+  - name: Sulmierzyce
+    seat_lat: 51.18528
+    seat_lon: 19.19167
+    distance_km: 22.0
+    in_radius: true
+    office_url: https://sulmierzyce.pl/
+    verified: false
+  - name: Strzelce Wielkie
+    seat_lat: 51.13944
+    seat_lon: 19.14500
+    distance_km: 22.4
+    in_radius: true
+    office_url: null
+    verified: false
+  - name: Wielgomłyny
+    seat_lat: 51.01294
+    seat_lon: 19.76406
+    distance_km: 23.1
+    in_radius: true
+    office_url: https://samorzad.gov.pl/web/gmina-wielgomlyny
+    verified: false
+  - name: Masłowice
+    seat_lat: 51.10694
+    seat_lon: 19.78500
+    distance_km: 24.2
+    in_radius: true
+    office_url: https://maslowice.pl/
+    verified: false
+  - name: Mykanów
+    seat_lat: 50.91667
+    seat_lon: 19.18333
+    distance_km: 24.8
+    in_radius: true
+    office_url: https://mykanow.pl/
+    verified: false
+  - name: Dąbrowa Zielona
+    seat_lat: 50.85000
+    seat_lon: 19.56667
+    distance_km: 25.6
+    in_radius: true
+    office_url: https://dabrowazielona.pl/asp/pl_start.asp?typ=13&menu=98&strona=1
+    verified: false
+  - name: Rędziny
+    seat_lat: 50.85806
+    seat_lon: 19.21417
+    distance_km: 28.3
+    in_radius: true
+    office_url: https://redziny.pl/
+    verified: false
+  - name: Łęki Szlacheckie
+    seat_lat: 51.18472
+    seat_lon: 19.80917
+    distance_km: 28.6
+    in_radius: true
+    office_url: https://www.lekiszlacheckie.pl/asp/start,0
+    verified: false
+  - name: Mstów
+    seat_lat: 50.82778
+    seat_lon: 19.28722
+    distance_km: 28.8
+    in_radius: true
+    office_url: https://www.mstow.pl/
+    verified: false
+  - name: Rozprza
+    seat_lat: 51.30139
+    seat_lon: 19.64417
+    distance_km: 29.5
+    in_radius: true
+    office_url: https://rozprza.pl/
+    verified: false
+  - name: Przyrów
+    seat_lat: 50.80000
+    seat_lon: 19.51667
+    distance_km: 30.1
+    in_radius: false
+    office_url: https://www.przyrow.pl/
+    verified: false
+  - name: Przedbórz
+    force_include: true  # decyzja użytkownika: 30,7 km, poza progiem, ale w zasięgu
+    seat_lat: 51.08333
+    seat_lon: 19.88333
+    distance_km: 30.7
+    in_radius: true
+    office_url: https://przedborz.pl/
+    verified: false
+  - name: Ręczno
+    seat_lat: 51.19056
+    seat_lon: 19.85278
+    distance_km: 31.6
+    in_radius: false
+    office_url: https://reczno.pl/asp/start,0
+    verified: false
+
+venues:  # coords: seat-approx = siedziba gminy (przybliżenie), do zastąpienia dokładnymi współrzędnymi obiektu
+  - {name: Miejski Dom Kultury w Radomsku, aliases: [MDK Radomsko, MDK, Miejski Dom Kultury, Kino MDK], municipality: Radomsko, address: 'ul. Brzeźnicka 5', lat: 51.06667, lon: 19.45000, coords: seat-approx, verified: false}
+  - {name: Klub Muzyczny Bogart, aliases: [Klub Muzyczny Bogart w Gomunicach, Klub Bogart], municipality: Gomunice, address: 'ul. Fabryczna 13, 97-545 Gomunice', lat: 51.16667, lon: 19.48333, coords: seat-approx, verified: false}
+  - {name: Bourbon Street Pub, municipality: Radomsko, address: 'ul. Kolejowa 2', lat: 51.06667, lon: 19.45000, coords: seat-approx, verified: false}
