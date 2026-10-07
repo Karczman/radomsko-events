@@ -19,14 +19,14 @@ self.addEventListener("fetch", (e) => {
   if (DATA.test(new URL(req.url).pathname)) {
     e.respondWith(fetch(req).then((res) => {
       const copy = res.clone();
-      caches.open(CACHE).then((c) => c.put(req, copy));
+      if (res.ok) caches.open(CACHE).then((c) => c.put(req, copy));  // błędów (404, 5xx) nie zapamiętujemy
       return res;
     }).catch(() => caches.match(req)));
     return;
   }
   e.respondWith(caches.match(req).then((hit) => hit || fetch(req).then((res) => {
     const copy = res.clone();
-    caches.open(CACHE).then((c) => c.put(req, copy));
+    if (res.ok) caches.open(CACHE).then((c) => c.put(req, copy));  // błędów (404, 5xx) nie zapamiętujemy
     return res;
   })));
 });

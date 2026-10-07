@@ -28,6 +28,10 @@ function el(tag, attrs, ...kids) {
   kids.flat().forEach((c) => n.append(c));
   return n;
 }
+// Druga linia obrony (pierwsza: walidacja w Pythonie): link z danych tylko http(s), inaczej go nie pokazujemy.
+function safeHref(u) {
+  try { const x = new URL(u); return x.protocol === "https:" || x.protocol === "http:" ? x.href : null; } catch { return null; }
+}
 const vis = () => E.filter((e) => flt[e.category]);
 // Kino: seanse tylko w wymienionych dniach (`dates`), reszta: cały zakres start..end.
 const onDay = (e, k) => (e.dates && e.dates.length ? e.dates.includes(k) : dayOf(e.start) <= k && k <= lastDay(e));
@@ -44,7 +48,7 @@ function gcal(e) {
     const f = (x) => x.toISOString().replace(/[-:]|\.\d{3}/g, "");
     dates = `${f(st)}/${f(en)}`;
   }
-  const p = new URLSearchParams({ action: "TEMPLATE", text: e.title, dates, location: [e.venue, e.place].filter(Boolean).join(", "), details: e.url || "" });
+  const p = new URLSearchParams({ action: "TEMPLATE", text: e.title, dates, location: [e.venue, e.place].filter(Boolean).join(", "), details: safeHref(e.url) || "" });
   return "https://calendar.google.com/calendar/render?" + p;
 }
 
@@ -102,9 +106,10 @@ function card(e, newIds) {
   const lead = (e.dates && e.dates.length) || (e.times && e.times.length > 1) ? "" : (timeOf(e) ? timeOf(e) + " · " : "");
   const meta = el("p", { text: `${lead}${multi}${where}${dist}${days}${times}${e.price_text ? " · " + e.price_text : ""}` });
   const row = el("div", { class: "row" });
-  const link = (href, text, cls) => el("a", { class: cls, href, target: "_blank", rel: "noopener", text });
-  if (e.ticket_url) row.append(link(e.ticket_url, "Bilety", "a p"));
-  if (e.url) row.append(link(e.url, "Szczegóły", e.ticket_url ? "a" : "a p"));
+  const link = (href, text, cls) => el("a", { class: cls, href, target: "_blank", rel: "noopener noreferrer", text });
+  const ticket = safeHref(e.ticket_url), details = safeHref(e.url);
+  if (ticket) row.append(link(ticket, "Bilety", "a p"));
+  if (details) row.append(link(details, "Szczegóły", ticket ? "a" : "a p"));
   row.append(link(gcal(e), "Dodaj do kalendarza", "a"));
   const art = el("article", { class: "ev", style: `--cc:${CAT[e.category][1]}` }, title, meta);
   if (e.status === "cancelled") art.classList.add("cancelled");
