@@ -65,7 +65,7 @@ User-Agent: `radomsko-events/1.0 (+URL repozytorium)`. Maks. ok. 1 żądanie/s n
 - Błąd jednego adaptera nie przerywa przebiegu.
 - **Bezpiecznik:** gdy źródło zwraca 0 wydarzeń lub >50% mniej niż poprzednio, zachowaj poprzednie dane tego źródła, oznacz `stale`, wyślij alert.
 - Workflow nie commituje, gdy dane się nie zmieniły (poza wpisem keepalive).
-- Cron: `daily.yml` o 05:00 UTC (7:00 CEST / 6:00 CET), `workflow_dispatch` ręcznie. `keepalive.yml` co tydzień (unika wyłączenia zaplanowanych workflow po okresie bez aktywności w publicznym repo; zweryfikuj aktualne zasady GitHub).
+- Cron: `daily.yml` o 04:41 UTC (6:41 CEST / 5:41 CET) plus przebiegi zapasowe 05:41 i 06:41 UTC; job `gate` przepuszcza tylko pierwszy, który danego dnia wyśle digest (GitHub opóźnia lub pomija `schedule` o pełnych godzinach; 8.10.2026 przebieg z 05:00 ruszył o 11:45). `workflow_dispatch` ręcznie. `keepalive.yml` co tydzień (unika wyłączenia zaplanowanych workflow po okresie bez aktywności w publicznym repo; zweryfikuj aktualne zasady GitHub).
 - `smoke.yml` raz w tygodniu: lekkie zapytania na żywo do każdego źródła, sprawdzenie, że parser nadal zwraca dane.
 
 ## Testy i jakość
