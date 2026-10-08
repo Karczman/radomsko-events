@@ -96,3 +96,17 @@ Wyliczone programowo: Wikidata SPARQL (siedziby gmin, P625), haversine od (51.06
 2. Regulaminy sprawdzone, patrz wyżej. Regulamin portalu biletyny przeczytany, bez zastrzeżeń.
 3. Gomunice zostaje „ręcznie”, Klub Bogart z ebilet.
 4. CLAUDE.md poprawiony: format dat Kamieńska `DD-MM-RRRR`.
+
+## Audyt kompletności (2026-10-08)
+
+Porównanie każdego źródła z tym, co pokazuje strona (zapytania przez `Fetcher`: robots.txt, 1 żądanie/s).
+
+| Źródło | Wynik | Działanie |
+|---|---|---|
+| MDK (REST, wszystkie 1193 wpisy) | 31 wpisów z przyszłym terminem, wszystkie u nas; najdalszy na pozycji 111 listy wg `modified` (adapter czyta 500) | bez zmian |
+| radomsko.pl (365 dni) | 8/8 u nas | priorytet obniżony do agregatora: wygrywał z MDK i podmieniał link „Szczegóły” na stronę główną radomsko.pl |
+| biletyna, inne miejscowości | `/Gomunice` 15 wydarzeń (Klub Bogart), `/Klomnice` 1 (GOK), `/Przedborz` 1; strony istnieją też dla Kamieńska, Gidli, Gorzkowic, Masłowic, Mykanowa, Rozprzy (obecnie puste); pozostałe gminy 404 | dodane do `config.yaml`. robots.txt biletyny nie blokuje stron miast (blokuje m.in. `/event/view/`, `/ajax/`); regulamin portalu bez zastrzeżeń (sprawdzony 2026-10-07) |
+| ebilet `/miasto/…` | Radomsko: 0 wydarzeń z adresem w Radomsku; Gomunice: 1 (mamy); Kamieńsk, Kłomnice, Przedbórz: 404 | bez zmian |
+| Muzeum, MBP, Przedbórz, Kamieńsk | kompletne (Muzeum i MBP: daty w postach dotyczą przeszłości; zapowiedzi biblioteki są w radomsko.pl) | bez zmian |
+
+Przy okazji poprawione: alias „Miejski Dom Kultury” wskazywał zawsze MDK Radomsko, także dla MDK w Przedborzu (teraz decyduje podana miejscowość), a deduplikacja nie łączyła wydarzeń po zmianie tytułu na biletynie („The Strings 2” → „Stringsi Wracają…”; teraz liczy się rozpoznane miejsce i wspólny rdzeń słowa przy tej samej minucie).

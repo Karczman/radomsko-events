@@ -22,6 +22,16 @@ sources:
       - https://biletyna.pl/Radomsko
       - https://biletyna.pl/Radomsko/Miejski-Dom-Kultury
       - https://biletyna.pl/Radomsko/Bourbon-Street-Pub
+      # okolice (strony istniejące 2026-10-08; Gomunice = Klub Bogart, Kłomnice = GOK)
+      - https://biletyna.pl/Gomunice
+      - https://biletyna.pl/Klomnice
+      - https://biletyna.pl/Przedborz
+      - https://biletyna.pl/Kamiensk
+      - https://biletyna.pl/Gidle
+      - https://biletyna.pl/Gorzkowice
+      - https://biletyna.pl/Maslowice
+      - https://biletyna.pl/Mykanow
+      - https://biletyna.pl/Rozprza
   ebilet:     # tylko strony miejsc (/miejsce/...), nie miast
     enabled: true
     urls:
