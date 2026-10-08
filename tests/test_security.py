@@ -170,7 +170,8 @@ def test_workflows_are_pinned_and_least_privilege():
         text = f.read_text("utf-8")
         for ref in re.findall(r"uses:\s*([^\s#]+)", text):
             assert re.search(r"@[0-9a-f]{40}$", ref), f"{f.name}: {ref} nie jest przypięte do SHA"
-        assert "${{ github.event" not in text, f"{f.name}: dane zdarzenia w skrypcie = ryzyko wstrzyknięcia"
+        # Konteksty, które kontroluje osoba z zewnątrz (tytuł/treść PR, commit, nazwa gałęzi) = wstrzyknięcie.
+        assert not re.search(r"\$\{\{\s*github\.(event\.|head_ref)", text), f"{f.name}: niezaufany kontekst"
         assert "pull_request_target" not in text
         assert "--require-hashes" in text or "pip install" not in text
     daily = (wf / "daily.yml").read_text("utf-8")

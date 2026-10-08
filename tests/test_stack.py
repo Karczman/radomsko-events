@@ -54,3 +54,17 @@ def test_python_version_is_consistent_everywhere():
 def test_workflows_verify_dependency_consistency():
     for name in ("ci.yml", "daily.yml", "smoke.yml"):
         assert "pip check" in (ROOT / ".github/workflows" / name).read_text("utf-8"), name
+
+
+def test_daily_schedule_avoids_top_of_hour_and_is_gated():
+    """GitHub opóźnia/pomija `schedule` o pełnych godzinach; zapasowe przebiegi przepuszcza tylko `gate`."""
+    import yaml
+
+    wf = yaml.safe_load((ROOT / ".github/workflows/daily.yml").read_text("utf-8"))
+    crons = [c["cron"] for c in wf[True]["schedule"]]
+    assert len(crons) >= 2 and all(c.split()[0] not in ("0", "*") for c in crons), crons
+    jobs = wf["jobs"]
+    assert jobs["build"]["needs"] == "gate" and "needs.gate.outputs.run == 'true'" in jobs["build"]["if"]
+    assert "needs.gate.result != 'success'" in jobs["build"]["if"]  # fail-open
+    assert jobs["deploy"]["needs"] == "build" and jobs["notify"]["needs"] == "deploy"
+    assert jobs["gate"]["permissions"] == {"actions": "read"}
