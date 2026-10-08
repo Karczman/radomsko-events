@@ -14,6 +14,7 @@
 <meta name="theme-color" content="#1c2a29">
 </head>
 <body>
+<a class="skip" href="#lh">Przejdź do listy wydarzeń</a>
 <main>
 <h1>Radomsko: co się dzieje</h1>
 <p class="sub" id="sub">Scena, kino, biblioteka i wydarzenia do 30 km od Radomska.</p>
@@ -24,9 +25,25 @@
 <div class="ch"><button id="pv" aria-label="Poprzedni miesiąc">‹</button><b id="mt"></b><button id="nx" aria-label="Następny miesiąc">›</button></div>
 <div class="g" id="g"></div>
 </section>
-<div id="lh" style="display:flex;justify-content:space-between;align-items:baseline"><h2 id="lt" style="margin-left:0"></h2><button class="clr" id="clr" hidden>Pokaż wszystkie</button></div>
+<div id="lh" tabindex="-1" style="display:flex;justify-content:space-between;align-items:baseline"><h2 id="lt" style="margin-left:0" aria-live="polite"></h2><button class="clr" id="clr" hidden>Pokaż wszystkie</button></div>
 <div id="list"><p class="empty">Ładowanie…</p></div>
 <footer class="src" id="foot"></footer>
+<details class="about" id="o-stronie">
+<summary>O stronie i prywatność</summary>
+<h2>O stronie</h2>
+<p><strong>Wersja testowa.</strong> Kalendarz zbiera wydarzenia z Radomska i miejscowości do 30 km (oraz z Przedborza) automatycznie, raz dziennie rano. Zapisujemy tylko fakty: tytuł, termin, miejsce, cenę i linki, i zawsze odsyłamy do strony organizatora. Dane mogą być niepełne albo nieaktualne, więc przed wyjściem sprawdź szczegóły u organizatora.</p>
+<p>Źródła: Miejski Dom Kultury w Radomsku, kalendarz wydarzeń radomsko.pl, Muzeum Regionalne w Radomsku, Miejska Biblioteka Publiczna w Radomsku, Gmina Kamieńsk, MDK w Przedborzu oraz listingi biletyna.pl i ebilet.pl. Część gmin z zasięgu (np. Kobiele Wielkie, Ładzice) nie publikuje kalendarza, który dałoby się czytać automatycznie: ich wydarzenia pojawią się tylko, jeśli są w serwisach biletowych albo ktoś je zgłosi.</p>
+<p>Brakuje wydarzenia albo coś się nie zgadza? <a href="https://github.com/Karczman/radomsko-events/issues/new/choose" target="_blank" rel="noopener noreferrer">Zgłoś to</a> (potrzebne konto GitHub; zgłoszenia są publiczne).</p>
+<h2>Prywatność</h2>
+<ul>
+<li>Strona nie używa ciasteczek, analityki ani reklam i nie pobiera niczego z obcych serwerów (także czcionka jest hostowana razem ze stroną).</li>
+<li>Stronę udostępnia GitHub Pages. Jak każdy serwer, GitHub może zapisywać w logach techniczne dane połączenia, np. adres IP (<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">polityka prywatności GitHub</a>).</li>
+<li>Do pracy bez sieci strona zapisuje swoje pliki i listę wydarzeń w pamięci przeglądarki, wyłącznie na Twoim urządzeniu.</li>
+<li>Subskrypcja kalendarza (ICS) działa tak, że Twoja aplikacja kalendarza co jakiś czas sama pobiera plik z wydarzeniami. Nie wysyłamy niczego do Twojego kalendarza.</li>
+<li>Zgłoszenia przez GitHub są publiczne: nie podawaj w nich danych osobowych.</li>
+</ul>
+<p>Kod źródłowy: <a href="https://github.com/Karczman/radomsko-events" target="_blank" rel="noopener noreferrer">github.com/Karczman/radomsko-events</a>.</p>
+</details>
 </main>
 <script src="app.js"></script>
 </body>

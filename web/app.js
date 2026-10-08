@@ -111,7 +111,8 @@ function card(e, newIds) {
   if (ticket) row.append(link(ticket, "Bilety", "a p"));
   if (details) row.append(link(details, "Szczegóły", ticket ? "a" : "a p"));
   row.append(link(gcal(e), "Dodaj do kalendarza", "a"));
-  const art = el("article", { class: "ev", style: `--cc:${CAT[e.category][1]}` }, title, meta);
+  // Kategoria także tekstem, nie tylko kolorem paska (WCAG 1.4.1)
+  const art = el("article", { class: "ev", style: `--cc:${CAT[e.category][1]}` }, el("p", { class: "cat", text: CAT[e.category][0] }), title, meta);
   if (e.status === "cancelled") art.classList.add("cancelled");
   if (e.confidence === "low") art.append(el("p", { class: "low", text: "Wydarzenie cykliczne lub niepewny termin, sprawdź u organizatora." }));
   art.append(row);
@@ -120,9 +121,7 @@ function card(e, newIds) {
 
 function list() {
   const v = vis().filter((e) => (sel ? onDay(e, sel) : lastDay(e) >= today));
-  const firsts = new Set(E.map((e) => e.first_seen));
-  const yesterday = new Date(now); yesterday.setDate(yesterday.getDate() - 1);
-  const newIds = firsts.size > 1 ? new Set(E.filter((e) => e.first_seen >= iso(yesterday)).map((e) => e.id)) : new Set();
+  const newIds = NEW;
   $("clr").hidden = !sel;
   $("lt").textContent = sel ? `Wydarzenia: ${sel.split("-").reverse().join(".")}` : "Nadchodzące wydarzenia";
   if (!v.length) { $("list").replaceChildren(el("p", { class: "empty", text: "Brak wydarzeń dla tego wyboru. Zmień dzień albo włącz więcej kategorii." })); return; }
@@ -156,13 +155,17 @@ function sourceLine(name, s) {
   return ["ok", `${label}: ${s.count} ${plural(s.count)}`];
 }
 
+// „Nowe” = id, których nie było w poprzednim przebiegu (status.json, ta sama lista co w digeście ntfy).
+let NEW = new Set(), STATUS = null;
+
 async function foot(generated) {
   const f = $("foot"); f.replaceChildren();
   const when = generated ? new Date(generated).toLocaleString("pl-PL", { dateStyle: "long", timeStyle: "short" }) : "brak danych";
   f.append(`Ostatnia aktualizacja: ${when}. Przed wyjściem sprawdź stronę organizatora. `);
   f.append(el("a", { href: REPORT_URL, target: "_blank", rel: "noopener noreferrer", text: "Zgłoś błąd lub brakujące wydarzenie" }));
   try {
-    const st = await (await fetch("status.json", { cache: "no-cache" })).json();
+    const st = STATUS;
+    if (!st) throw new Error("brak status.json");
     const lines = Object.entries(st.sources || {}).filter(([n, s]) => n !== "manual" || s.count).map(([n, s]) => sourceLine(n, s));
     const problems = lines.filter(([k]) => k !== "ok").length;
     const summary = el("summary", { class: problems ? "stale" : "", text: problems ? `Źródła danych: ${problems} z problemem` : "Źródła danych: wszystkie działają" });
@@ -198,6 +201,10 @@ async function main() {
   } catch {
     $("list").replaceChildren(el("p", { class: "empty", text: "Nie udało się wczytać wydarzeń. Odśwież stronę." }));
   }
+  try {
+    STATUS = await (await fetch("status.json", { cache: "no-cache" })).json();
+    NEW = new Set(STATUS.new || []);
+  } catch { /* status.json jest opcjonalny: bez niego nie ma plakietek „Nowe” i stanu źródeł */ }
   E.sort((a, b) => (a.start < b.start ? -1 : a.start > b.start ? 1 : 0));
   if (E.length) draw(); else { cal(); next(); }
   foot(generated);

@@ -1,10 +1,10 @@
 /* Bricolage Grotesque (SIL OFL 1.1, zob. OFL-bricolage-grotesque.txt), hostowana lokalnie: bez połączeń z Google */
 @font-face{font-family:"Bricolage Grotesque";font-style:normal;font-weight:400 800;font-display:swap;src:url(bricolage-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF}
 @font-face{font-family:"Bricolage Grotesque";font-style:normal;font-weight:400 800;font-display:swap;src:url(bricolage-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-:root{--bg:#f2f4f0;--card:#fff;--ink:#1c2a29;--mut:#5d6b69;--line:#d9dfdb;--acc:#a8321f;--c1:#1f6f78;--c2:#8a5a00;--c3:#4b5fa3;--c4:#6b4a8a;--c5:#2f7a3e;--c6:#6b7a77;
+:root{--bg:#f2f4f0;--card:#fff;--ink:#1c2a29;--mut:#5d6b69;--line:#d9dfdb;--acc:#a8321f;--c1:#1f6f78;--c2:#8a5a00;--c3:#4b5fa3;--c4:#6b4a8a;--c5:#2f7a3e;--c6:#6b7a77;--on-acc:#fff;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a19;--card:#1a2625;--ink:#e8efed;--mut:#9aaaa7;--line:#2c3c3a;--acc:#ff7a62;--c1:#5fc3cd;--c2:#e0b050;--c3:#8fa2ee;--c4:#c39be6;--c5:#7fd18c;--c6:#9aaaa7}}
-:root[data-theme="dark"]{--bg:#121a19;--card:#1a2625;--ink:#e8efed;--mut:#9aaaa7;--line:#2c3c3a;--acc:#ff7a62;--c1:#5fc3cd;--c2:#e0b050;--c3:#8fa2ee;--c4:#c39be6;--c5:#7fd18c;--c6:#9aaaa7}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121a19;--card:#1a2625;--ink:#e8efed;--mut:#9aaaa7;--line:#2c3c3a;--acc:#ff7a62;--c1:#5fc3cd;--c2:#e0b050;--c3:#8fa2ee;--c4:#c39be6;--c5:#7fd18c;--c6:#9aaaa7;--on-acc:#121a19}}
+:root[data-theme="dark"]{--bg:#121a19;--card:#1a2625;--ink:#e8efed;--mut:#9aaaa7;--line:#2c3c3a;--acc:#ff7a62;--c1:#5fc3cd;--c2:#e0b050;--c3:#8fa2ee;--c4:#c39be6;--c5:#7fd18c;--c6:#9aaaa7;--on-acc:#121a19}
 *{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 "Bricolage Grotesque",system-ui,sans-serif}
 main{max-width:760px;margin:0 auto;padding:20px 16px 48px}
@@ -32,11 +32,11 @@ h2{font-size:15px;margin:22px 0 8px;color:var(--mut);font-weight:600}
 .ev h3{margin:0;font-size:17px;line-height:1.25}.ev p{margin:3px 0 0;color:var(--mut);font-size:14px}
 .row{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
 .a{display:inline-block;border-radius:8px;padding:7px 12px;font-size:14px;font-weight:600;text-decoration:none;border:1.5px solid var(--ink);color:var(--ink)}
-.a.p{background:var(--acc);border-color:var(--acc);color:#fff}
+.a.p{background:var(--acc);border-color:var(--acc);color:var(--on-acc)}
 .empty{color:var(--mut);padding:14px 0}
 .src{margin-top:28px;font-size:13px;color:var(--mut)}.src a{color:var(--ink)}
 .clr{font-size:14px;border:0;background:none;color:var(--acc);cursor:pointer;font-weight:600;padding:0}
-.badge{display:inline-block;margin-left:8px;padding:1px 8px;border-radius:99px;background:var(--acc);color:var(--card);font-size:12px;font-weight:600;vertical-align:middle}
+.badge{display:inline-block;margin-left:8px;padding:1px 8px;border-radius:99px;background:var(--acc);color:var(--on-acc);font-size:12px;font-weight:600;vertical-align:middle}
 .low{color:var(--mut);font-size:13px}
 footer.src{margin-top:28px}
 footer .stale{color:var(--acc);font-weight:600}
@@ -46,3 +46,12 @@ footer .stale{color:var(--acc);font-weight:600}
 #subs a{color:var(--acc);font-weight:600}
 footer details{margin-top:8px}footer summary{cursor:pointer}footer summary:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
 .srcs{margin:6px 0 0;padding-left:18px}.srcs .warn{color:var(--c2)}.srcs .bad{color:var(--acc)}
+.ev .cat{font-size:12px;font-weight:600;letter-spacing:.02em;text-transform:uppercase;color:var(--mut);margin:0 0 2px}
+/* Jednolity, wyraźny fokus klawiatury dla wszystkich elementów interaktywnych (WCAG 2.4.7) */
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--acc);outline-offset:2px;border-radius:4px}
+.skip{position:absolute;left:16px;top:-60px;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;z-index:10;font-weight:600}
+.skip:focus{top:12px}
+.about{margin-top:18px;font-size:14px;color:var(--mut);border-top:1px solid var(--line);padding-top:12px}
+.about summary{cursor:pointer;font-weight:600;color:var(--ink)}
+.about h2{font-size:15px;color:var(--ink);margin:16px 0 6px}
+.about p,.about li{line-height:1.5}.about ul{padding-left:18px}.about a{color:var(--ink)}
