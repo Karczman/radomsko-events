@@ -199,7 +199,8 @@ def test_page_makes_no_third_party_requests():
     """Prywatność odwiedzających (RODO): strona nie pobiera nic z obcych serwerów (np. Google Fonts)."""
     html = (WEB / "index.html").read_text("utf-8")
     css = (WEB / "style.css").read_text("utf-8")
-    assert not re.search(r'(?:src|href)="https?://', html), "zewnętrzny zasób w index.html"
+    # Zasoby pobierane automatycznie (<link>, <script>, <img>…), a nie zwykłe linki <a> klikane przez użytkownika
+    assert not re.search(r'<link[^>]+href="https?://|\ssrc="https?://', html), "zewnętrzny zasób w index.html"
     assert not re.search(r"url\((?:['\"])?https?://|@import", css), "zewnętrzny zasób w style.css"
     for font in re.findall(r"url\(([^)]+\.woff2)\)", css):
         assert (WEB / font).read_bytes()[:4] == b"wOF2", font

@@ -90,3 +90,28 @@ def test_uncancelled_event_resets_cancel_marker():
     _, s1 = track([ev(status="cancelled")], {}, date(2026, 10, 7))
     _, s2 = track([ev()], s1, date(2026, 10, 8))
     assert "cancelled_since" not in s2["abc123"]
+
+
+def test_rfc5545_wire_format_rules_that_google_and_outlook_enforce():
+    """CRLF, linie <= 75 oktetów, unikalne UID, DTSTART/DTEND tego samego typu, strefa zdefiniowana."""
+    events = [
+        ev(id="a1", title="Bardzo długi tytuł " + "żółć " * 40, url="https://mdkradomsko.pl/" + "x" * 120),
+        ev(id="a2", all_day=True, end=datetime(2026, 11, 9, tzinfo=TZ)),
+        ev(id="a3", times=["17:00"], dates=["2026-11-07", "2026-11-08"], end=datetime(2026, 11, 8, 17, tzinfo=TZ),
+           category="kino"),
+        ev(id="a4", status="cancelled"),
+    ]
+    kept, state = track(events, {}, date(2026, 10, 7))
+    raw = build_ics(kept, state)
+    assert raw.count(b"\n") == raw.count(b"\r\n"), "linie muszą kończyć się CRLF"
+    assert all(len(line) <= 75 for line in raw.split(b"\r\n")), "linia dłuższa niż 75 oktetów (brak zawijania)"
+    raw.decode("utf-8")
+    cal = Calendar.from_ical(raw)
+    vs = vevents(cal)
+    assert len({str(v["UID"]) for v in vs}) == len(vs) == 4
+    for v in vs:
+        start, end = v.decoded("DTSTART"), v.decoded("DTEND")
+        assert type(start) is type(end) and end > start
+        if isinstance(start, datetime):
+            assert v["DTSTART"].params.get("TZID") == "Europe/Warsaw"
+        assert "DTSTAMP" in v and "SUMMARY" in v
