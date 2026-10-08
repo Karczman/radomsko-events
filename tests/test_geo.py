@@ -23,3 +23,12 @@ def test_przedborz_force_included_but_przyrow_is_not(geo):
 
 def test_unknown_place_is_unresolved(geo):
     assert geo.resolve("Nieznany Dom", "Nibylandia") is None
+
+
+def test_ambiguous_venue_name_follows_the_given_town(geo):
+    """„Miejski Dom Kultury” to alias MDK Radomsko, ale biletyna używa tej nazwy też dla MDK w Przedborzu."""
+    loc = geo.resolve("Miejski Dom Kultury", "Przedbórz")
+    assert loc.municipality == "Przedbórz" and loc.distance_km > 30
+    assert geo.resolve("Miejski Dom Kultury", "Radomsko").municipality == "Radomsko"
+    assert geo.resolve("Miejski Dom Kultury", None).municipality == "Radomsko"  # bez miejscowości: alias
+    assert geo.resolve("Klub Muzyczny BOGART", "Gomunice").municipality == "Gomunice"

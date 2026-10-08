@@ -84,3 +84,31 @@ def test_cinema_single_day_has_no_end_and_returns_split_runs():
     assert single.end is None and single.times == ["17:00", "20:00"] and single.dates == []
     runs = [e for e in rollup_cinema([film(1, 17), film(28, 17)]) if e.category == "kino"]
     assert len(runs) == 2 and runs[0].id != runs[1].id
+
+
+def test_organizer_beats_city_calendar_even_when_city_has_the_time():
+    """Regresja: radomsko.pl (link do strony głównej) wygrywało z MDK i gubiło link do wydarzenia."""
+    mdk = ev("Stara kobieta wysiaduje", 11, 0, "mdk", all_day=True, url="https://mdkradomsko.pl/e/1")
+    city = ev('Monodram "Stara kobieta wysiaduje"', 11, 18, "radomsko_pl", url="https://www.radomsko.pl/")
+    (merged,) = dedupe([city, mdk])
+    assert merged.source == "mdk" and merged.url == "https://mdkradomsko.pl/e/1"
+    assert merged.start.hour == 18 and not merged.all_day  # godzina nadal uzupełniona z kalendarza miasta
+
+
+def test_retitled_ticket_listing_still_merges_with_organizer_at_same_minute_and_venue():
+    """Regresja (8.10): biletyna zmieniła tytuł „The Strings 2 jadą do USA!” na „Stringsi Wracają…”."""
+    mdk = ev("THE STRINGS 2", 29, 15, "mdk", minute=30, venue="MDK Radomsko", lat=51.06667, lon=19.45)
+    bil = ev("Stringsi Wracają czyli przeBOYE i podboje", 29, 15, "biletyna", minute=30,
+             venue="Miejski Dom Kultury", lat=51.06667, lon=19.45, ticket_url="https://biletyna.pl/x?eid=1")
+    later = ev("Stringsi Wracają czyli przeBOYE i podboje", 29, 18, "biletyna", minute=30,
+               venue="Miejski Dom Kultury", lat=51.06667, lon=19.45)
+    out = dedupe([bil, later, mdk])
+    assert len(out) == 2  # 15:30 połączone, 18:30 to drugi spektakl
+    merged = next(e for e in out if e.start.hour == 15)
+    assert merged.source == "mdk" and merged.ticket_url == "https://biletyna.pl/x?eid=1"
+
+
+def test_different_events_at_same_minute_in_other_venues_stay_separate():
+    a = ev("Stringsi wracają", 29, 18, "biletyna", venue="Bourbon Street Pub", lat=51.1, lon=19.4)
+    b = ev("THE STRINGS 2", 29, 18, "mdk", venue="MDK Radomsko", lat=51.06667, lon=19.45)
+    assert len(dedupe([a, b])) == 2

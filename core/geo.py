@@ -45,6 +45,10 @@ class Geo:
     def resolve(self, venue: str | None, place: str | None) -> Location | None:
         """Obiekt z venues.yaml, a gdy brak, siedziba gminy z `place`. Brak = None (do uzupełnienia)."""
         v = self.venues.get(fold(venue or ""))
+        if v and place and fold(place) in self.municipalities and fold(place) != fold(v["municipality"]):
+            # Nazwa obiektu bywa dwuznaczna („Miejski Dom Kultury” jest i w Radomsku, i w Przedborzu):
+            # gdy źródło podaje inną znaną miejscowość, wierzymy miejscowości, a nie aliasowi obiektu.
+            v = None
         if v and v.get("lat") is not None:
             return self._loc(v["lat"], v["lon"], v["municipality"])
         m = self.municipalities.get(fold(place or (v or {}).get("municipality") or ""))

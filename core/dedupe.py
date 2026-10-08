@@ -14,9 +14,11 @@ from core.normalize import fold
 
 SOURCE_PRIORITY = {
     "manual": 0,
-    "mdk": 1, "radomsko_pl": 1, "muzeum": 1, "mbp": 1, "kamiensk": 1, "przedborz": 1,
+    "mdk": 1, "muzeum": 1, "mbp": 1, "kamiensk": 1, "przedborz": 1,
     "ebilet": 2, "biletyna": 2,
-    "radomskoogloszenia": 3,
+    # Kalendarz miasta zbiera wydarzenia innych organizatorów i nie ma stron wydarzeń (link = strona główna),
+    # więc jest agregatorem: przy zbiegu wygrywa organizator (np. MDK z linkiem do strony wydarzenia).
+    "radomsko_pl": 3, "radomskoogloszenia": 3,
 }
 MAX_TIME_GAP_MIN = 180  # dwa wydarzenia z godzinami dalej niż 3 h to różne wydarzenia
 
@@ -34,14 +36,22 @@ _GENERIC = {"teatr", "kabaret", "spektakl", "festiwal", "wystawa", "spotkanie", 
 
 
 def _venues_compatible(a: Event, b: Event) -> bool:
-    return not a.venue or not b.venue or fold(a.venue) == fold(b.venue)
+    """To samo miejsce: brak nazwy po którejś stronie, ta sama nazwa albo te same rozpoznane współrzędne
+    (np. „Miejski Dom Kultury” z biletyny i „MDK Radomsko” to jeden obiekt z venues.yaml)."""
+    if not a.venue or not b.venue or fold(a.venue) == fold(b.venue):
+        return True
+    return a.lat is not None and a.lat == b.lat and a.lon == b.lon
+
+
+STEM = 5  # wspólny początek słowa: polska odmiana i warianty („strings”/„stringsi”, „matka”/„matki”)
 
 
 def _shares_distinctive_token(a: Event, b: Event) -> bool:
-    """Wspólne, nietypowe słowo (>= 4 znaki), np. „matka” w „MATKA / 3xRóżewicz” i „Teatr Polonia MATKA”."""
+    """Wspólne, nietypowe słowo (>= 4 znaki), np. „matka” w „MATKA / 3xRóżewicz” i „Teatr Polonia MATKA”.
+    Słowa uznajemy za wspólne, gdy są równe albo mają wspólny początek >= 5 znaków."""
     ta = {t for t in fold(a.title).split() if len(t) >= 4 and t not in _GENERIC}
     tb = {t for t in fold(b.title).split() if len(t) >= 4 and t not in _GENERIC}
-    return bool(ta & tb)
+    return any(x == y or (min(len(x), len(y)) >= STEM and x[:STEM] == y[:STEM]) for x in ta for y in tb)
 
 
 def same_event(a: Event, b: Event, threshold: int = 90) -> bool:
