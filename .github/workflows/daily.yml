@@ -1,13 +1,13 @@
 name: daily
 
 on:
-  # GitHub opóźnia (a przy dużym obciążeniu pomija) zdarzenia `schedule`, najbardziej o pełnych godzinach:
-  # 8.10.2026 przebieg z 05:00 UTC ruszył dopiero o 11:45. Dlatego start w „nieokrągłej” minucie i dwa
-  # przebiegi zapasowe; job `gate` przepuszcza tylko pierwszy, który dziś wyśle digest (1 pobranie danych/dzień).
+  # GitHub opóźnia zdarzenia `schedule` (8-9.10.2026: ok. 7 godzin). Dlatego dane pobieramy wieczorem,
+  # a digest na następny dzień ntfy dostarcza o 7:00 (zaplanowana wysyłka). Dwa przebiegi zapasowe;
+  # job `gate` przepuszcza tylko pierwszy, który wyśle digest na dany dzień (1 pobranie danych na dzień).
   schedule:
-    - cron: "41 4 * * *"   # 04:41 UTC = 6:41 CEST / 5:41 CET
-    - cron: "41 5 * * *"   # zapas
-    - cron: "41 6 * * *"   # zapas
+    - cron: "41 16 * * *"   # 16:41 UTC = 18:41 CEST / 17:41 CET
+    - cron: "41 18 * * *"   # zapas
+    - cron: "41 20 * * *"   # zapas
   workflow_dispatch:
 
 # Domyślnie zero uprawnień; każdy job dostaje tylko to, czego potrzebuje.
@@ -24,6 +24,7 @@ jobs:
       actions: read   # odczyt dzisiejszych przebiegów tego workflow
     outputs:
       run: ${{ steps.check.outputs.run }}
+      day: ${{ steps.check.outputs.day }}   # dzień, którego dotyczy digest (RRRR-MM-DD)
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
         with:
@@ -87,7 +88,9 @@ jobs:
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346  # v5.0.1
 
   notify:
-    needs: deploy
+    needs: [gate, deploy]
+    # Także gdy job `gate` zawiódł (fail-open): wtedy digest sam ustala dzień.
+    if: ${{ !cancelled() && needs.deploy.result == 'success' }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -105,4 +108,5 @@ jobs:
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+          DIGEST_TODAY: ${{ needs.gate.outputs.day }}
         run: python -m core.digest

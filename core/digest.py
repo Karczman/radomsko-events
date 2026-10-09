@@ -19,6 +19,7 @@ import yaml
 
 from core.models import Event
 from core.normalize import TZ
+from core.schedule_gate import delivery_time, digest_day
 
 log = logging.getLogger("digest")
 ROOT = Path(__file__).resolve().parent.parent
@@ -141,10 +142,22 @@ def source_alerts(status: dict, today: date) -> Message | None:
     return Message("Radomsko: problem ze źródłem", _fit("\n".join(problems)), None, priority=4, tags=("warning",))
 
 
+MIN_DELAY = timedelta(seconds=30)  # ntfy przyjmuje opóźnienie od 10 s do 3 dni
+
+
+def delivery_delay(deliver_at: datetime, now: datetime) -> str | None:
+    """Znacznik czasu (unix) do zaplanowanej wysyłki w ntfy albo None (wyślij od razu, gdy termin minął)."""
+    if deliver_at - now < MIN_DELAY or deliver_at - now > timedelta(days=3):
+        return None
+    return str(int(deliver_at.timestamp()))
+
+
 def send(msg: Message, topic: str, token: str | None = None, server: str = "https://ntfy.sh",
-         client: httpx.Client | None = None) -> None:
+         client: httpx.Client | None = None, delay: str | None = None) -> None:
     payload = {"topic": topic, "title": msg.title, "message": msg.body, "priority": msg.priority,
                "tags": list(msg.tags)}
+    if delay:
+        payload["delay"] = delay  # zaplanowana wysyłka (ntfy przechowuje wiadomość do tej chwili)
     if msg.click:
         payload["click"] = msg.click
     headers = {"Authorization": f"Bearer {token}"} if token else {}
@@ -160,8 +173,11 @@ def main(argv: list[str]) -> int:
     raw = json.loads((ROOT / config["paths"]["events"]).read_text("utf-8"))
     events = [Event.model_validate(e) for e in raw["events"]]
     status = json.loads((ROOT / "data/status.json").read_text("utf-8"))
-    override = os.environ.get("DIGEST_TODAY")  # do testów ręcznych
-    today = date.fromisoformat(override) if override else datetime.now(TZ).date()
+    now = datetime.now(TZ)
+    # Dzień digestu ustala strażnik (job `gate`), żeby obie decyzje były spójne; bez niego liczymy sami.
+    override = os.environ.get("DIGEST_TODAY")
+    today = date.fromisoformat(override) if override else digest_day(now)
+    delay = delivery_delay(delivery_time(today), now)
     cfg = config.get("digest", {})
     messages = [
         build_digest(events, today, status.get("new", []), config.get("site_url"), cfg.get("when_empty", "short")),
@@ -174,8 +190,9 @@ def main(argv: list[str]) -> int:
             if not dry:
                 log.warning("Brak NTFY_TOPIC, nic nie wysłano")
             continue
-        send(msg, topic, token, cfg.get("server", "https://ntfy.sh"))
-        log.info("wysłano: %s", msg.title)  # tytuł jest publiczny, temat nigdy
+        send(msg, topic, token, cfg.get("server", "https://ntfy.sh"), delay=delay)
+        when = datetime.fromtimestamp(int(delay), TZ).strftime("%Y-%m-%d %H:%M") if delay else "teraz"
+        log.info("wysłano: %s (dostarczenie: %s)", msg.title, when)  # tytuł jest publiczny, temat nigdy
     return 0
 
 

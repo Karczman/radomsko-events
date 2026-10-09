@@ -66,5 +66,7 @@ def test_daily_schedule_avoids_top_of_hour_and_is_gated():
     jobs = wf["jobs"]
     assert jobs["build"]["needs"] == "gate" and "needs.gate.outputs.run == 'true'" in jobs["build"]["if"]
     assert "needs.gate.result != 'success'" in jobs["build"]["if"]  # fail-open
-    assert jobs["deploy"]["needs"] == "build" and jobs["notify"]["needs"] == "deploy"
+    assert jobs["deploy"]["needs"] == "build" and jobs["notify"]["needs"] == ["gate", "deploy"]
+    assert "needs.deploy.result == 'success'" in jobs["notify"]["if"]
+    assert jobs["notify"]["steps"][-1]["env"]["DIGEST_TODAY"] == "${{ needs.gate.outputs.day }}"
     assert jobs["gate"]["permissions"] == {"actions": "read"}

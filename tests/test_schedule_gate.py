@@ -1,36 +1,62 @@
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime, timedelta
 
-from core.schedule_gate import digest_already_sent, local_midnight_utc, should_run
-
-
-def test_local_midnight_respects_summer_and_winter_time():
-    assert local_midnight_utc(datetime(2026, 10, 8, 4, 41, tzinfo=UTC)) == datetime(2026, 10, 7, 22, 0, tzinfo=UTC)
-    assert local_midnight_utc(datetime(2026, 12, 8, 4, 41, tzinfo=UTC)) == datetime(2026, 12, 7, 23, 0, tzinfo=UTC)
-    # 23:30 UTC 8.10 to już 9.10 w Polsce
-    assert local_midnight_utc(datetime(2026, 10, 8, 23, 30, tzinfo=UTC)) == datetime(2026, 10, 8, 22, 0, tzinfo=UTC)
+from core.digest import delivery_delay
+from core.schedule_gate import GATE_EPOCH, delivery_time, digest_already_sent, digest_day, should_run
 
 
-SINCE = datetime(2026, 10, 7, 22, 0, tzinfo=UTC)
+def utc(*a):
+    return datetime(*a, tzinfo=UTC)
+
+
+def test_evening_run_prepares_tomorrow_and_late_runs_prepare_today():
+    assert digest_day(utc(2026, 10, 9, 16, 41)) == date(2026, 10, 10)   # 18:41 czasu polskiego
+    assert digest_day(utc(2026, 10, 9, 23, 41)) == date(2026, 10, 10)   # 1:41 w nocy (spóźniony)
+    assert digest_day(utc(2026, 10, 10, 7, 30)) == date(2026, 10, 10)   # 9:30 rano (bardzo spóźniony)
+    assert digest_day(utc(2026, 10, 10, 9, 59)) == date(2026, 10, 10)   # 11:59
+    assert digest_day(utc(2026, 10, 10, 10, 0)) == date(2026, 10, 11)   # 12:00 = już na jutro
+
+
+def test_delivery_is_at_seven_local_in_summer_and_winter():
+    assert delivery_time(date(2026, 10, 10)) == utc(2026, 10, 10, 5, 0)   # CEST
+    assert delivery_time(date(2026, 12, 10)) == utc(2026, 12, 10, 6, 0)   # CET
+    assert delivery_time(date(2026, 10, 25)) == utc(2026, 10, 25, 6, 0)   # dzień zmiany czasu
+
+
+def test_delay_scheduled_in_future_and_immediate_when_already_past():
+    seven = delivery_time(date(2026, 10, 10))
+    assert delivery_delay(seven, utc(2026, 10, 9, 16, 45)) == str(int(seven.timestamp()))
+    assert delivery_delay(seven, utc(2026, 10, 10, 7, 30)) is None      # po 7:00: wyślij od razu
+    assert delivery_delay(seven, seven - timedelta(seconds=5)) is None  # za blisko: od razu
+    assert delivery_delay(seven, seven - timedelta(days=4)) is None     # ntfy: maks. 3 dni
 
 
 def run(id_, created, conclusion="success"):
     return {"id": id_, "created_at": created, "conclusion": conclusion}
 
 
-def test_backup_run_skips_when_todays_digest_was_sent():
-    runs = [run(2, "2026-10-08T04:41:30Z"), run(3, "2026-10-08T05:41:10Z")]
-    assert digest_already_sent(runs, current_id=3, since=SINCE, notify_succeeded=lambda i: i == 2)
+def test_backup_run_skips_when_digest_for_that_day_was_already_scheduled():
+    runs = [run(2, "2026-10-09T18:41:30Z")]  # wieczorny: digest na 10.10
+    assert digest_already_sent(runs, 3, date(2026, 10, 10), notify_succeeded=lambda i: i == 2)
+    assert not digest_already_sent(runs, 3, date(2026, 10, 11), notify_succeeded=lambda i: True)
 
 
-def test_runs_that_were_skipped_by_the_gate_do_not_count():
-    """Przerwany przez strażnika przebieg ma status success, ale bez wysłanego digestu."""
-    runs = [run(2, "2026-10-08T04:41:30Z")]
-    assert not digest_already_sent(runs, 3, SINCE, notify_succeeded=lambda i: False)
+def test_late_night_backup_recognises_evening_run_for_the_same_day():
+    runs = [run(2, "2026-10-09T18:41:00Z")]  # 20:41 czasu polskiego -> 10.10
+    assert digest_already_sent(runs, 3, digest_day(utc(2026, 10, 10, 1, 41)), lambda i: True)
 
 
-def test_failed_yesterday_and_current_runs_do_not_count():
-    runs = [run(1, "2026-10-07T21:59:00Z"), run(2, "2026-10-08T04:41:30Z", "failure"), run(3, "2026-10-08T05:41:00Z")]
-    assert not digest_already_sent(runs, current_id=3, since=SINCE, notify_succeeded=lambda i: True)
+def test_runs_from_before_the_evening_switch_do_not_block_the_first_evening():
+    """9.10 o 13:29 stary przebieg wysłał digest na 9.10; nowa reguła policzyłaby go jako 10.10."""
+    old = run(2, "2026-10-09T11:29:04Z")
+    assert datetime.fromisoformat(old["created_at"].replace("Z", "+00:00")) < GATE_EPOCH
+    assert not digest_already_sent([old], 3, date(2026, 10, 10), notify_succeeded=lambda i: True)
+
+
+def test_skipped_failed_and_current_runs_do_not_count():
+    day = date(2026, 10, 10)
+    assert not digest_already_sent([run(2, "2026-10-09T18:41:30Z")], 3, day, notify_succeeded=lambda i: False)
+    assert not digest_already_sent([run(2, "2026-10-09T18:41:30Z", "failure")], 3, day, lambda i: True)
+    assert not digest_already_sent([run(3, "2026-10-09T18:41:30Z")], 3, day, lambda i: True)
 
 
 def test_manual_runs_always_execute_and_schedule_respects_gate():

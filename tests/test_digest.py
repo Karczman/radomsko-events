@@ -109,3 +109,18 @@ def test_body_fits_ntfy_limit_even_with_many_long_events():
     assert len(msg.body.encode()) <= MAX_BODY and msg.body.endswith("…")
     short = build_digest([ev(i, f"Krótki {i}", 7, 10) for i in range(15)], TODAY, [], None)
     assert short.body.count("•") == 10 and "… i 5 więcej" in short.body  # limit pozycji „Dziś”
+
+
+def test_send_includes_scheduled_delivery_when_given():
+    seen = {}
+
+    def handler(req: httpx.Request):
+        seen.update(json.loads(req.content))
+        return httpx.Response(200, json={})
+
+    client = httpx.Client(transport=httpx.MockTransport(handler))
+    send(Message("t", "b"), "x", client=client, delay="1791608400")
+    assert seen["delay"] == "1791608400"
+    seen.clear()
+    send(Message("t", "b"), "x", client=client)
+    assert "delay" not in seen
