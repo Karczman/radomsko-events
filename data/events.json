@@ -1,35 +1,6 @@
 {
- "generated": "2026-10-08T13:45:46+02:00",
+ "generated": "2026-10-09T13:29:25+02:00",
  "events": [
-  {
-   "id": "970db74a1550a1ef",
-   "title": "DZIEŃ DZIECKA KSIEDZA JANA KACZKOWSKIEGO / 2D",
-   "start": "2026-10-08T12:00:00+02:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/dzien-dziecka-ksiedza-jana-kaczkowskiego-2d/",
-   "times": [
-    "12:00",
-    "16:00",
-    "17:30",
-    "19:00",
-    "20:30"
-   ],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
-   "status": "active",
-   "confidence": "high"
-  },
   {
    "id": "08f4f2069a1880f9",
    "title": "Zaczynamy finałowe odliczanie do Festiwalu 3 x Różewicz",
@@ -49,13 +20,13 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "b4f914043830eeaf",
-   "title": "Czytanie performatywne \"Matka odchodzi\" Festiwal 3XRóżewicz",
+   "id": "6aea042590404592",
+   "title": "Czytanie performatywne „MATKA ODCHODZI”",
    "start": "2026-10-09T18:00:00+02:00",
    "end": "2026-10-09T19:00:00+02:00",
    "all_day": false,
@@ -65,17 +36,17 @@
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "scena",
-   "url": "https://www.radomsko.pl/",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/09-10-2026r-czytanie-performatywne-matka-odchodzi/",
    "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=950928",
    "times": [],
    "dates": [],
-   "source": "radomsko_pl",
+   "source": "mdk",
    "sources": [
     "mdk",
     "radomsko_pl"
    ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -98,7 +69,7 @@
     "mbp"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "low"
   },
@@ -121,7 +92,7 @@
     "muzeum"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "low"
   },
@@ -143,13 +114,13 @@
     "kamiensk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "debd8e67e627150e",
-   "title": "Monodram \"Stara kobieta wysiaduje\"",
+   "id": "eb4ad0a5f8777f5d",
+   "title": "„Stara kobieta wysiaduje”",
    "start": "2026-10-11T18:00:00+02:00",
    "end": "2026-10-11T19:00:00+02:00",
    "all_day": false,
@@ -159,17 +130,17 @@
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "scena",
-   "url": "https://www.radomsko.pl/",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/11-10-2026r-stara-kobieta-wysiaduje/",
    "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=951049",
    "times": [],
    "dates": [],
-   "source": "radomsko_pl",
+   "source": "mdk",
    "sources": [
     "mdk",
     "radomsko_pl"
    ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -194,7 +165,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -217,7 +188,7 @@
     "przedborz"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -260,7 +231,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -289,7 +260,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -312,7 +283,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -335,7 +306,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -358,7 +329,33 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "69225fe107b63171",
+   "title": "ATMOSPHERE",
+   "start": "2026-10-16T20:00:00+02:00",
+   "end": "2026-10-16T21:30:00+02:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/ATMOSPHERE?eid=704616",
+   "ticket_url": "https://biletyna.pl/koncert/ATMOSPHERE?eid=704616",
+   "price_text": "76.34 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -381,13 +378,13 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "0704d702e4870a0e",
-   "title": "32. Ogólnopolski Konkurs Recytatorski im. Bł. Ks. Jerzego Popiełuszki",
+   "id": "faccdb583370a1e7",
+   "title": "32. Ogólnopolski Konkurs Recytatorski im. bł. ks. Jerzego Popiełuszki „Zło Dobrem Zwyciężaj”",
    "start": "2026-10-17T09:00:00+02:00",
    "end": "2026-10-17T13:00:00+02:00",
    "all_day": false,
@@ -397,16 +394,16 @@
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "edukacja",
-   "url": "https://www.radomsko.pl/",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/32-ogolnopolski-konkurs-recytatorski-im-bl-ks-jerzego-popieluszki-zlo-dobrem-zwyciezaj/",
    "times": [],
    "dates": [],
-   "source": "radomsko_pl",
+   "source": "mdk",
    "sources": [
     "mdk",
     "radomsko_pl"
    ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -433,7 +430,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "2a9f4afeca85ba37",
+   "title": "Fisz Emade Tworzywo - Człowiek nie do końca",
+   "start": "2026-10-17T20:00:00+02:00",
+   "end": "2026-10-17T22:00:00+02:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Fisz-Emade-Tworzywo/Czlowiek-nie-do-konca?eid=691287",
+   "ticket_url": "https://biletyna.pl/koncert/Fisz-Emade-Tworzywo/Czlowiek-nie-do-konca?eid=691287",
+   "price_text": "118.82 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -462,7 +485,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -487,7 +510,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -510,7 +533,33 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "2e4e4a47e0fed988",
+   "title": "PUHOVSKY",
+   "start": "2026-10-23T20:00:00+02:00",
+   "end": "2026-10-23T22:00:00+02:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/kabaret/PUHOVSKY?eid=709654",
+   "ticket_url": "https://biletyna.pl/kabaret/PUHOVSKY?eid=709654",
+   "price_text": "65.72 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -537,7 +586,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -563,7 +612,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -588,7 +637,33 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "e2b94e3d6c7ff4ea",
+   "title": "Maciej Maleńczuk - Homo Twist",
+   "start": "2026-10-30T20:00:00+01:00",
+   "end": "2026-10-30T21:30:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Maciej-Malenczuk/Homo-Twist?eid=707376",
+   "ticket_url": "https://biletyna.pl/koncert/Maciej-Malenczuk/Homo-Twist?eid=707376",
+   "price_text": "118.82 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -614,7 +689,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "34d540c9774882fc",
+   "title": "Nagły Atak Spawacza",
+   "start": "2026-11-06T20:00:00+01:00",
+   "end": "2026-11-06T22:00:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Nagly-Atak-Spawacza?eid=691322",
+   "ticket_url": "https://biletyna.pl/koncert/Nagly-Atak-Spawacza?eid=691322",
+   "price_text": "65.72 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -638,7 +739,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -665,7 +766,85 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "69ee934beae4fa7c",
+   "title": "Happysad - XXV TOUR",
+   "start": "2026-11-07T19:00:00+01:00",
+   "end": "2026-11-07T21:00:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/HAPPYSAD/XXV-TOUR?eid=697582",
+   "ticket_url": "https://biletyna.pl/koncert/HAPPYSAD/XXV-TOUR?eid=697582",
+   "price_text": "129.44 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "966a3c5c93dcbf9a",
+   "title": "Kuba Sienkiewicz i Justyna Panfilewicz",
+   "start": "2026-11-13T20:00:00+01:00",
+   "end": "2026-11-13T21:30:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Kuba-Sienkiewicz-i-Justyna-Panfilewicz?eid=701955",
+   "ticket_url": "https://biletyna.pl/koncert/Kuba-Sienkiewicz-i-Justyna-Panfilewicz?eid=701955",
+   "price_text": "76.34 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "d9bd5ebe55baf0f0",
+   "title": "Pablopavo i Ludziki oraz Kirszenbaum",
+   "start": "2026-11-14T20:00:00+01:00",
+   "end": "2026-11-14T22:00:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Pablopavo-i-Ludziki-oraz-Kirszenbaum?eid=699630",
+   "ticket_url": "https://biletyna.pl/koncert/Pablopavo-i-Ludziki-oraz-Kirszenbaum?eid=699630",
+   "price_text": "107.14 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -673,6 +852,7 @@
    "id": "0ec30b5b0d060ed8",
    "title": "Sklep z facetami",
    "start": "2026-11-15T18:00:00+01:00",
+   "end": "2026-11-15T19:30:00+01:00",
    "all_day": false,
    "venue": "MDK w Przedborzu",
    "place": "Przedbórz",
@@ -681,14 +861,17 @@
    "distance_km": 30.7,
    "category": "okolice",
    "url": "https://www.mdk.przedborz.pl/kalendarz/2026-11-15/299",
+   "ticket_url": "https://biletyna.pl/spektakl/Sklep-z-facetami?eid=685410",
+   "price_text": "122.13 zł",
    "times": [],
    "dates": [],
    "source": "przedborz",
    "sources": [
-    "przedborz"
+    "przedborz",
+    "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -715,7 +898,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -744,7 +927,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -770,7 +953,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -793,7 +976,33 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "8b018aa06eaedb2a",
+   "title": "SPIĘTY „Full H.D.”",
+   "start": "2026-11-20T20:00:00+01:00",
+   "end": "2026-11-20T21:30:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/SPIETY-Full-HD?eid=657823",
+   "ticket_url": "https://biletyna.pl/koncert/SPIETY-Full-HD?eid=657823",
+   "price_text": "118.82 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -819,7 +1028,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -845,7 +1054,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -868,7 +1077,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -897,7 +1106,33 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "b252096c5bc1291d",
+   "title": "Wojtek Mazolewski: SOLO",
+   "start": "2026-11-27T20:00:00+01:00",
+   "end": "2026-11-27T21:10:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/WOJTEK-MAZOLEWSKI-SOLO-koncert?eid=692917",
+   "ticket_url": "https://biletyna.pl/koncert/WOJTEK-MAZOLEWSKI-SOLO-koncert?eid=692917",
+   "price_text": "129.44 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -923,32 +1158,34 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "b091d43f26f34dc7",
-   "title": "Metro - Trasa 365 widoków na przyszłość",
+   "id": "582df7b3e90c7e58",
+   "title": "Metro - 365 widoków na przyszłość",
    "start": "2026-11-28T20:00:00+01:00",
+   "end": "2026-11-28T21:30:00+01:00",
    "all_day": false,
-   "venue": "Klub Muzyczny Bogart w Gomunicach",
+   "venue": "Klub Muzyczny BOGART",
    "place": "Gomunice",
    "lat": 51.16667,
    "lon": 19.48333,
    "distance_km": 11.4,
    "category": "okolice",
-   "url": "https://www.ebilet.pl/muzyka/rock/metro?city=Gomunice",
-   "ticket_url": "https://www.ebilet.pl/muzyka/rock/metro?city=Gomunice",
-   "price_text": "85.9 zł",
+   "url": "https://biletyna.pl/koncert/Zespol-Metro/365-widokow-na-przyszlosc?eid=669705",
+   "ticket_url": "https://biletyna.pl/koncert/Zespol-Metro/365-widokow-na-przyszlosc?eid=669705",
+   "price_text": "83.9 zł",
    "times": [],
    "dates": [],
-   "source": "ebilet",
+   "source": "biletyna",
    "sources": [
+    "biletyna",
     "ebilet"
    ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -975,13 +1212,13 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "e5c1550f2d2afff2",
-   "title": "The Strings 2 jadą do USA!",
+   "id": "f06da760a2291b13",
+   "title": "Stringsi Wracają czyli przeBOYE i podboje",
    "start": "2026-11-29T18:30:00+01:00",
    "end": "2026-11-29T20:00:00+01:00",
    "all_day": false,
@@ -1000,8 +1237,8 @@
    "sources": [
     "biletyna"
    ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1027,7 +1264,59 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "277d45837313f049",
+   "title": "Sztywny Pal Azji - 40 lat na scenie",
+   "start": "2026-12-04T20:00:00+01:00",
+   "end": "2026-12-04T21:30:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Sztywny-Pal-Azji/40-lat-na-scenie?eid=672242",
+   "ticket_url": "https://biletyna.pl/koncert/Sztywny-Pal-Azji/40-lat-na-scenie?eid=672242",
+   "price_text": "95.58 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "e3e55f09a2dfe581",
+   "title": "Kasia Kowalska",
+   "start": "2026-12-05T20:00:00+01:00",
+   "end": "2026-12-05T21:30:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Kasia-Kowalska?eid=704300",
+   "ticket_url": "https://biletyna.pl/koncert/Kasia-Kowalska?eid=704300",
+   "price_text": "150.68 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1054,7 +1343,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1078,7 +1367,33 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "22f6a59e9b3792c5",
+   "title": "Kabaret Trzecia Strona Medalu - \"Kryzys złotego wieku\"",
+   "start": "2027-01-08T19:00:00+01:00",
+   "end": "2027-01-08T21:00:00+01:00",
+   "all_day": false,
+   "venue": "Gminny Ośrodek Kultury w Kłomnicach",
+   "place": "Kłomnice",
+   "lat": 50.92361,
+   "lon": 19.35361,
+   "distance_km": 17.2,
+   "category": "okolice",
+   "url": "https://biletyna.pl/kabaret/Kabaret-Trzecia-Strona-Medalu/Kryzys-zlotego-wieku?eid=676533",
+   "ticket_url": "https://biletyna.pl/kabaret/Kabaret-Trzecia-Strona-Medalu/Kryzys-zlotego-wieku?eid=676533",
+   "price_text": "100.89 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1104,7 +1419,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1131,7 +1446,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1155,7 +1470,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1181,7 +1496,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1208,7 +1523,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "ca1a2a02db7fc798",
+   "title": "BOKKA",
+   "start": "2027-01-30T20:00:00+01:00",
+   "end": "2027-01-30T22:00:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/BOKKA?eid=699609",
+   "ticket_url": "https://biletyna.pl/koncert/BOKKA?eid=699609",
+   "price_text": "139 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1232,7 +1573,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1259,7 +1600,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1286,7 +1627,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1313,7 +1654,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "d6f05937371dd0f9",
+   "title": "Jary ODDZIAŁ ZAMKNIĘTY",
+   "start": "2027-03-06T20:00:00+01:00",
+   "end": "2027-03-06T22:00:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Jary-ODDZIAL-ZAMKNIETY?eid=698529",
+   "ticket_url": "https://biletyna.pl/koncert/Jary-ODDZIAL-ZAMKNIETY?eid=698529",
+   "price_text": "107.14 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-09",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1340,7 +1707,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1363,7 +1730,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   },
@@ -1389,7 +1756,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-08",
+   "last_seen": "2026-10-09",
    "status": "active",
    "confidence": "high"
   }
