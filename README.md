@@ -8,7 +8,7 @@ Codziennie aktualizowany kalendarz wydarzeń kulturalnych, społecznych i edukac
 
 ## Jak to działa
 
-Raz dziennie (`daily.yml`, ok. 6:41 latem / 5:41 zimą) workflow pobiera wydarzenia z adapterów, normalizuje je (strefa Europe/Warsaw), łączy duplikaty między źródłami, zwija seanse kina, usuwa wydarzenia po dacie zakończenia, zapisuje wyniki w `data/` i wdraża stronę z `events.ics`. Na końcu wysyła digest na telefon.
+Raz dziennie, wieczorem (`daily.yml`, ok. 18:41 latem / 17:41 zimą), workflow pobiera wydarzenia z adapterów, normalizuje je (strefa Europe/Warsaw), łączy duplikaty między źródłami, zwija seanse kina, usuwa wydarzenia po dacie zakończenia, zapisuje wyniki w `data/` i wdraża stronę z `events.ics`. Na końcu planuje digest na następny dzień: ntfy dostarcza go o 7:00.
 
 ```
 sources/      adaptery (jeden na źródło): fetch() -> list[RawEvent]
@@ -132,7 +132,7 @@ Gdy źródło wróci do normy, oznaczenie znika samo. Awaria jednego źródła n
 3. Podejrzenie wycieku tematu: ustaw nową wartość `NTFY_TOPIC` i zapisz się na nowy temat w aplikacji.
 
 **Digest przyszedł późno albo wcale**
-GitHub opóźnia zaplanowane przebiegi przy dużym obciążeniu (czasem o kilka godzin) i może je pominąć. Dlatego `daily.yml` startuje o 04:41 UTC i ma dwa przebiegi zapasowe (05:41, 06:41 UTC); job `gate` przepuszcza tylko pierwszy, który danego dnia wyśle digest. Jeśli mimo to nic nie przyszło: Actions → `daily` (czy jest przebieg ze zdarzeniem `schedule`?), w razie potrzeby Run workflow ręcznie (ręczny przebieg działa zawsze, także po wysłanym digeście).
+GitHub opóźnia zaplanowane przebiegi (8–9.10.2026 o ok. 7 godzin) i może je pominąć. Dlatego dane pobieramy wieczorem (16:41 UTC, zapasy 18:41 i 20:41 UTC), a digest na następny dzień ntfy dostarcza o 7:00 (zaplanowana wysyłka). Przebieg spóźniony do rana wysyła digest od razu. Job `gate` przepuszcza tylko pierwszy przebieg, który wyśle digest na dany dzień. Jeśli nic nie przyszło: Actions → `daily` (czy był przebieg `schedule` i w logu joba `notify` „wysłano: … (dostarczenie: …)”?), w razie potrzeby Run workflow ręcznie (ręczny przebieg działa zawsze).
 
 **Zaplanowane workflow przestały się uruchamiać**
 GitHub wyłącza je w publicznym repo po 60 dniach bez aktywności. `keepalive.yml` robi własny commit (`data/keepalive.txt`), gdy ostatni commit jest starszy niż 45 dni. Dokumentacja GitHuba nie precyzuje, co dokładnie liczy się jako aktywność, więc jeśli mimo to workflow się wyłączy: Actions → wybierz workflow → Enable workflow (albo `gh workflow enable daily.yml`).

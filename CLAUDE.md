@@ -7,7 +7,7 @@ Codziennie aktualizowany kalendarz wydarzeń kulturalnych, społecznych i edukac
 - Kanały: ICS (`events.ics`) i push przez ntfy.sh. Bez e-maila.
 - Zasięg: Radomsko plus miejscowości do 30 km (odległość liczona programowo od centrum Radomska, haversine). Priorytet: Gomunice (Klub Bogart), Kamieńsk, Kłomnice, Kobiele Wielkie, Ładzice, Przedbórz (30,7 km od centrum, włączony jawnie przez `force_include: true` w `venues.yaml`).
 - Kino: seanse zwijane do jednej pozycji na film (zakres dat, lista godzin w polu `times`), kategoria `kino`.
-- Digest: „dziś”, „najbliższe 7 dni” oraz „nowo dodane” od poprzedniego dnia.
+- Digest: „dziś”, „najbliższe 7 dni” oraz „nowo dodane” od poprzedniego dnia; dostarczany o 7:00 (dane z poprzedniego wieczoru).
 - Wydarzenia po dacie zakończenia są usuwane z `events.json` i `events.ics` (historia zostaje w git).
 
 ## Stos
@@ -65,7 +65,7 @@ User-Agent: `radomsko-events/1.0 (+URL repozytorium)`. Maks. ok. 1 żądanie/s n
 - Błąd jednego adaptera nie przerywa przebiegu.
 - **Bezpiecznik:** gdy źródło zwraca 0 wydarzeń lub >50% mniej niż poprzednio, zachowaj poprzednie dane tego źródła, oznacz `stale`, wyślij alert.
 - Workflow nie commituje, gdy dane się nie zmieniły (poza wpisem keepalive).
-- Cron: `daily.yml` o 04:41 UTC (6:41 CEST / 5:41 CET) plus przebiegi zapasowe 05:41 i 06:41 UTC; job `gate` przepuszcza tylko pierwszy, który danego dnia wyśle digest (GitHub opóźnia lub pomija `schedule` o pełnych godzinach; 8.10.2026 przebieg z 05:00 ruszył o 11:45). `workflow_dispatch` ręcznie. `keepalive.yml` co tydzień (unika wyłączenia zaplanowanych workflow po okresie bez aktywności w publicznym repo; zweryfikuj aktualne zasady GitHub).
+- Cron: `daily.yml` wieczorem, 16:41 UTC (18:41 CEST / 17:41 CET), plus przebiegi zapasowe 18:41 i 20:41 UTC. Digest na następny dzień jest wysyłany z zaplanowanym dostarczeniem ntfy na 7:00 (pole `delay`); przebieg do południa przygotowuje digest na bieżący dzień i wysyła go od razu (po 7:00) albo na 7:00. Job `gate` przepuszcza tylko pierwszy przebieg, który wyśle digest na dany dzień. Powód: GitHub opóźnia `schedule` (8–9.10.2026 o ok. 7 godzin przy cronie porannym). `workflow_dispatch` ręcznie. `keepalive.yml` co tydzień (unika wyłączenia zaplanowanych workflow po okresie bez aktywności w publicznym repo; zweryfikuj aktualne zasady GitHub).
 - `smoke.yml` raz w tygodniu: lekkie zapytania na żywo do każdego źródła, sprawdzenie, że parser nadal zwraca dane.
 
 ## Testy i jakość
