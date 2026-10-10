@@ -303,20 +303,6 @@
   "status": "active"
  },
  {
-  "title": "Czytanie performatywne „MATKA ODCHODZI”",
-  "start": "2026-10-09T00:00:00",
-  "all_day": true,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/09-10-2026r-czytanie-performatywne-matka-odchodzi/",
-  "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=950928",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "„Lubię wracać tam”",
   "start": "2026-11-15T00:00:00",
   "all_day": true,
@@ -537,19 +523,6 @@
   "category": "scena",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/16-01-27-r-gala-noworoczna/",
   "ticket_url": "https://www.kupbilecik.pl/imprezy/211349/Radomsko/Gala+operetkowo-musicalowa+-+Teatr+Muzyczny+Castello/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "Zaczynamy finałowe odliczanie do Festiwalu 3 x Różewicz",
-  "start": "2026-10-09T00:00:00",
-  "all_day": true,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "inne",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/zaczynamy-finalowe-odliczanie-do-festiwalu-3-x-rozewicz/",
   "times": [],
   "source": "mdk",
   "confidence": "high",

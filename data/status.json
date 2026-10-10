@@ -9,16 +9,16 @@
   },
   "mdk": {
    "ok": true,
-   "count": 51,
-   "titles": 30,
-   "fetched": 51,
+   "count": 49,
+   "titles": 28,
+   "fetched": 49,
    "dropped": {}
   },
   "radomsko_pl": {
    "ok": true,
-   "count": 8,
-   "titles": 8,
-   "fetched": 8,
+   "count": 7,
+   "titles": 7,
+   "fetched": 7,
    "dropped": {}
   },
   "muzeum": {
@@ -30,9 +30,9 @@
   },
   "mbp": {
    "ok": true,
-   "count": 1,
-   "titles": 1,
-   "fetched": 1,
+   "count": 0,
+   "titles": 0,
+   "fetched": 0,
    "dropped": {}
   },
   "kamiensk": {
