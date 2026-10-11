@@ -51,9 +51,9 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 63,
-   "titles": 38,
-   "fetched": 63,
+   "count": 64,
+   "titles": 39,
+   "fetched": 64,
    "dropped": {}
   },
   "ebilet": {
@@ -64,6 +64,8 @@
    "dropped": {}
   }
  },
- "new": [],
+ "new": [
+  "7f414b2d2db512b5"
+ ],
  "to_complete": []
 }

@@ -975,6 +975,22 @@
   "status": "active"
  },
  {
+  "title": "Myslovitz - my35ovitz",
+  "start": "2027-03-12T20:00:00+01:00",
+  "end": "2027-03-12T22:00:00+01:00",
+  "all_day": false,
+  "venue": "Klub Muzyczny BOGART",
+  "place": "Gomunice",
+  "category": "scena",
+  "url": "https://biletyna.pl/koncert/Myslovitz/35-lecie?eid=711649",
+  "ticket_url": "https://biletyna.pl/koncert/Myslovitz/35-lecie?eid=711649",
+  "price_text": "138.06 zł",
+  "times": [],
+  "source": "biletyna",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
   "title": "Kabaret Trzecia Strona Medalu - \"Kryzys złotego wieku\"",
   "start": "2027-01-08T19:00:00+01:00",
   "end": "2027-01-08T21:00:00+01:00",
