@@ -9,24 +9,31 @@
   },
   "mdk": {
    "ok": true,
-   "count": 49,
-   "titles": 28,
-   "fetched": 49,
-   "dropped": {}
+   "count": 47,
+   "titles": 26,
+   "fetched": 48,
+   "dropped": {
+    "past": 1
+   }
   },
   "radomsko_pl": {
    "ok": true,
-   "count": 7,
-   "titles": 7,
-   "fetched": 7,
-   "dropped": {}
+   "count": 5,
+   "titles": 5,
+   "fetched": 6,
+   "dropped": {
+    "past": 1
+   }
   },
   "muzeum": {
-   "ok": true,
+   "ok": false,
+   "error": "ConnectError: [Errno 111] Connection refused",
+   "first_failure": "2026-10-13",
+   "stale": true,
+   "stale_reason": "błąd pobierania",
+   "stale_since": "2026-10-13",
    "count": 1,
-   "titles": 1,
-   "fetched": 1,
-   "dropped": {}
+   "titles": 1
   },
   "mbp": {
    "ok": true,
@@ -37,9 +44,9 @@
   },
   "kamiensk": {
    "ok": true,
-   "count": 1,
-   "titles": 1,
-   "fetched": 1,
+   "count": 0,
+   "titles": 0,
+   "fetched": 0,
    "dropped": {}
   },
   "przedborz": {
@@ -51,9 +58,9 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 64,
-   "titles": 39,
-   "fetched": 64,
+   "count": 65,
+   "titles": 40,
+   "fetched": 65,
    "dropped": {}
   },
   "ebilet": {
@@ -65,7 +72,7 @@
   }
  },
  "new": [
-  "7f414b2d2db512b5"
+  "eba37e7ea8ec67cf"
  ],
  "to_complete": []
 }

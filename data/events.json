@@ -1,102 +1,6 @@
 {
- "generated": "2026-10-11T22:34:38+02:00",
+ "generated": "2026-10-13T01:14:04+02:00",
  "events": [
-  {
-   "id": "ec73f38cda3936c9",
-   "title": "WYKŁAD „ZARYS HISTORII FRANCISZKANÓW W RADOMSKU” W RAMACH „NIEDZIEL Z HISTORIĄ”",
-   "start": "2026-10-11T00:00:00+02:00",
-   "all_day": true,
-   "venue": "Muzeum Regionalne w Radomsku",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "edukacja",
-   "url": "https://muzeum.radomsko.pl/wyklad-zarys-historii-franciszkanow-w-radomsku-w-ramach-niedziel-z-historia-11-10-2026-r-niedziela/",
-   "times": [],
-   "dates": [],
-   "source": "muzeum",
-   "sources": [
-    "muzeum"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
-   "status": "active",
-   "confidence": "low"
-  },
-  {
-   "id": "392ade85ae2a1511",
-   "title": "II Festiwal Muzyki Organowej i Kameralnej w Kamieńsku",
-   "start": "2026-10-11T17:00:00+02:00",
-   "all_day": false,
-   "place": "Kamieńsk",
-   "lat": 51.2,
-   "lon": 19.5,
-   "distance_km": 15.3,
-   "category": "okolice",
-   "url": "https://kamiensk.pl/kalendarz/11-10-2026/76",
-   "times": [],
-   "dates": [],
-   "source": "kamiensk",
-   "sources": [
-    "kamiensk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "eb4ad0a5f8777f5d",
-   "title": "„Stara kobieta wysiaduje”",
-   "start": "2026-10-11T18:00:00+02:00",
-   "end": "2026-10-11T19:00:00+02:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/11-10-2026r-stara-kobieta-wysiaduje/",
-   "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=951049",
-   "times": [],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk",
-    "radomsko_pl"
-   ],
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "e46a467cbe1e8ece",
-   "title": "MATKA / 3xRóżewicz",
-   "start": "2026-10-12T18:00:00+02:00",
-   "end": "2026-10-12T19:30:00+02:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/12-10-2026-matka-3xrozewicz/",
-   "times": [],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk",
-    "radomsko_pl"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
-   "status": "active",
-   "confidence": "high"
-  },
   {
    "id": "cd0a90d5232b8be7",
    "title": "Spotkanie autorskie",
@@ -116,7 +20,7 @@
     "przedborz"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -159,7 +63,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -188,7 +92,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -211,7 +115,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -234,7 +138,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -257,7 +161,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -283,7 +187,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -306,7 +210,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -331,7 +235,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -358,7 +262,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -384,7 +288,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -413,7 +317,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -438,7 +342,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -461,7 +365,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -487,7 +391,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -513,7 +417,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -539,7 +443,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -564,7 +468,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -590,7 +494,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -616,7 +520,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -642,7 +546,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -666,7 +570,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -693,7 +597,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -719,7 +623,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -737,7 +641,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Kuba-Sienkiewicz-i-Justyna-Panfilewicz?eid=701955",
    "ticket_url": "https://biletyna.pl/koncert/Kuba-Sienkiewicz-i-Justyna-Panfilewicz?eid=701955",
-   "price_text": "76.34 zł",
+   "price_text": "86.96 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -745,7 +649,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -771,7 +675,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -798,7 +702,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -825,7 +729,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -854,7 +758,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -880,7 +784,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -903,7 +807,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -929,7 +833,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -955,7 +859,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -981,7 +885,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1004,7 +908,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1033,7 +937,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1059,7 +963,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1085,7 +989,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1112,7 +1016,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1139,7 +1043,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1165,7 +1069,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1191,7 +1095,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1217,7 +1121,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1243,7 +1147,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "eba37e7ea8ec67cf",
+   "title": "Podróż poślubna +, czyli wakacje z promocji",
+   "start": "2026-12-06T17:00:00+01:00",
+   "end": "2026-12-06T19:00:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/spektakl/Podroz-Poslubna-plus?eid=708963",
+   "ticket_url": "https://biletyna.pl/spektakl/Podroz-Poslubna-plus?eid=708963",
+   "price_text": "155.99 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-13",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1270,7 +1200,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1294,7 +1224,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1320,7 +1250,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1346,7 +1276,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1373,7 +1303,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1397,7 +1327,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1423,7 +1353,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1450,7 +1380,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1476,7 +1406,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1500,7 +1430,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1527,7 +1457,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1554,7 +1484,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1581,7 +1511,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1607,7 +1537,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1634,7 +1564,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1660,7 +1590,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1683,7 +1613,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1709,7 +1639,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
   }

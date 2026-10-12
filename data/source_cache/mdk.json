@@ -289,20 +289,6 @@
   "status": "active"
  },
  {
-  "title": "„Stara kobieta wysiaduje”",
-  "start": "2026-10-11T18:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/11-10-2026r-stara-kobieta-wysiaduje/",
-  "ticket_url": "https://mdkradomsko.bilety24.pl/kup-bilety/?id=951049",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "„Lubię wracać tam”",
   "start": "2026-11-15T00:00:00",
   "all_day": true,
