@@ -9,31 +9,24 @@
   },
   "mdk": {
    "ok": true,
-   "count": 47,
-   "titles": 26,
+   "count": 48,
+   "titles": 27,
    "fetched": 48,
-   "dropped": {
-    "past": 1
-   }
+   "dropped": {}
   },
   "radomsko_pl": {
    "ok": true,
    "count": 5,
    "titles": 5,
-   "fetched": 6,
-   "dropped": {
-    "past": 1
-   }
+   "fetched": 5,
+   "dropped": {}
   },
   "muzeum": {
-   "ok": false,
-   "error": "ConnectError: [Errno 111] Connection refused",
-   "first_failure": "2026-10-13",
-   "stale": true,
-   "stale_reason": "błąd pobierania",
-   "stale_since": "2026-10-13",
-   "count": 1,
-   "titles": 1
+   "ok": true,
+   "count": 0,
+   "titles": 0,
+   "fetched": 0,
+   "dropped": {}
   },
   "mbp": {
    "ok": true,
@@ -72,7 +65,7 @@
   }
  },
  "new": [
-  "eba37e7ea8ec67cf"
+  "ce1e3c8c57bbec70"
  ],
  "to_complete": []
 }

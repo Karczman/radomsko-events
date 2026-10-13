@@ -1,5 +1,44 @@
 [
  {
+  "title": "André Rieu. Niech żyje Maastricht!",
+  "start": "2026-10-18T17:00:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "kino",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
+  "title": "André Rieu. Niech żyje Maastricht!",
+  "start": "2026-10-25T17:00:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "kino",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
+  "title": "MISTYCZKA",
+  "start": "2026-10-27T18:00:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "kino",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/27-10-26-r-mistyczka/",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
   "title": "Koncert Sylwestrowy Kasi Dąbrowskiej z zespołem",
   "start": "2026-12-31T20:00:00",
   "all_day": false,
@@ -276,19 +315,6 @@
   "status": "active"
  },
  {
-  "title": "MATKA / 3xRóżewicz",
-  "start": "2026-10-12T18:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/12-10-2026-matka-3xrozewicz/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "„Lubię wracać tam”",
   "start": "2026-11-15T00:00:00",
   "all_day": true,
@@ -297,32 +323,6 @@
   "category": "scena",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-11-2026-lubie-wracac-tam/",
   "ticket_url": "https://bilety.kulturalnykoneser.pl/event/view/id/703001",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "André Rieu. Niech żyje Maastricht!",
-  "start": "2026-10-18T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "André Rieu. Niech żyje Maastricht!",
-  "start": "2026-10-25T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
   "times": [],
   "source": "mdk",
   "confidence": "high",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T01:14:04+02:00",
+ "generated": "2026-10-13T23:33:37+02:00",
  "events": [
   {
    "id": "cd0a90d5232b8be7",
@@ -468,6 +468,31 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
+   "last_seen": "2026-10-13",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "ce1e3c8c57bbec70",
+   "title": "MISTYCZKA",
+   "start": "2026-10-27T18:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/27-10-26-r-mistyczka/",
+   "times": [
+    "18:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-13",
    "last_seen": "2026-10-13",
    "status": "active",
    "confidence": "high"
