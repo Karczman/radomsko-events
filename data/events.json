@@ -1,72 +1,6 @@
 {
- "generated": "2026-10-13T23:33:37+02:00",
+ "generated": "2026-10-14T22:20:08+02:00",
  "events": [
-  {
-   "id": "cd0a90d5232b8be7",
-   "title": "Spotkanie autorskie",
-   "start": "2026-10-13T10:00:00+02:00",
-   "all_day": false,
-   "venue": "MDK w Przedborzu",
-   "place": "Przedbórz",
-   "lat": 51.08333,
-   "lon": 19.88333,
-   "distance_km": 30.7,
-   "category": "okolice",
-   "url": "https://www.mdk.przedborz.pl/kalendarz/2026-10-13/301",
-   "times": [],
-   "dates": [],
-   "source": "przedborz",
-   "sources": [
-    "przedborz"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "47e96ce9dd144968",
-   "title": "LALKA / 2D",
-   "start": "2026-10-13T20:00:00+02:00",
-   "end": "2026-10-29T20:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
-   "times": [
-    "17:00",
-    "20:00",
-    "20:30"
-   ],
-   "dates": [
-    "2026-10-13",
-    "2026-10-14",
-    "2026-10-15",
-    "2026-10-16",
-    "2026-10-18",
-    "2026-10-19",
-    "2026-10-20",
-    "2026-10-21",
-    "2026-10-22",
-    "2026-10-25",
-    "2026-10-26",
-    "2026-10-27",
-    "2026-10-28",
-    "2026-10-29"
-   ],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
-   "status": "active",
-   "confidence": "high"
-  },
   {
    "id": "c99dad56f627deae",
    "title": "LUNA I ROZGADANA ŚWINKA / 2D dubbing",
@@ -92,7 +26,49 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "47e96ce9dd144968",
+   "title": "LALKA / 2D",
+   "start": "2026-10-14T17:00:00+02:00",
+   "end": "2026-10-29T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
+   "times": [
+    "17:00",
+    "20:00",
+    "20:30"
+   ],
+   "dates": [
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -115,7 +91,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -138,7 +114,85 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "03228faf6e08cec2",
+   "title": "ZAPOMNIANA WYSPA / 2D dubbing",
+   "start": "2026-10-16T14:00:00+02:00",
+   "end": "2026-10-28T16:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/zapomniana-wyspa-2d-dubbing/",
+   "times": [
+    "10:30",
+    "12:00",
+    "12:30",
+    "13:00",
+    "14:00",
+    "15:00",
+    "16:00"
+   ],
+   "dates": [
+    "2026-10-16",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "337b4d6d66fe9c9f",
+   "title": "500 mil / 2D napisy",
+   "start": "2026-10-16T18:00:00+02:00",
+   "end": "2026-10-22T18:00:00+02:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/500-mil-2d-napisy/",
+   "times": [
+    "18:00",
+    "20:00"
+   ],
+   "dates": [
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -161,7 +215,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -187,7 +241,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -210,7 +264,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -235,7 +289,36 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "c30cb2c00e590182",
+   "title": "SENSORYCZNY ZAPOMNIANA WYSPA",
+   "start": "2026-10-17T10:00:00+02:00",
+   "end": "2026-10-24T10:00:00+02:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/sensoryczny-zapomniana-wyspa/",
+   "times": [
+    "10:00"
+   ],
+   "dates": [
+    "2026-10-17",
+    "2026-10-24"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -262,7 +345,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -288,7 +371,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -317,7 +400,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -342,7 +425,42 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "df5833ebd43409de",
+   "title": "CZAS, KTÓRY NIE NADSZEDŁ / 2D",
+   "start": "2026-10-23T18:00:00+02:00",
+   "end": "2026-10-28T18:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/czas-ktory-nie-nadszedl-2d/",
+   "times": [
+    "12:00",
+    "15:00",
+    "18:00",
+    "20:00"
+   ],
+   "dates": [
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-28"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -365,7 +483,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -391,7 +509,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -417,7 +535,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -443,7 +561,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -468,7 +586,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -493,7 +611,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -519,7 +637,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -545,7 +663,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -571,7 +689,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -595,7 +713,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -622,7 +740,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -648,7 +766,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "f0c4c72c229a1712",
+   "title": "Radek Bolewski - Tu jestem w niebie",
+   "start": "2026-11-07T19:00:00+01:00",
+   "end": "2026-11-07T20:30:00+01:00",
+   "all_day": false,
+   "venue": "Bourbon Street Pub",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/koncert/Radek-Bolewski-Tu-jestem-w-niebie?eid=712411",
+   "ticket_url": "https://biletyna.pl/koncert/Radek-Bolewski-Tu-jestem-w-niebie?eid=712411",
+   "price_text": "69 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -674,7 +818,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -700,7 +844,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -727,7 +871,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -754,7 +898,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -783,7 +927,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -809,7 +953,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -832,7 +976,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -858,7 +1002,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -884,7 +1028,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -910,7 +1054,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "bae0f9772568b5d9",
+   "title": "Rockowy Teatr - Spektakl \"Pętla\"",
+   "start": "2026-11-21T19:00:00+01:00",
+   "end": "2026-11-21T20:30:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/spektakl/Rockowy-Teatr-Spektakl-Petla?eid=712633",
+   "ticket_url": "https://biletyna.pl/spektakl/Rockowy-Teatr-Spektakl-Petla?eid=712633",
+   "price_text": "86.96 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -933,7 +1103,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -962,7 +1132,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -988,7 +1158,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1014,7 +1184,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1041,7 +1211,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1068,7 +1238,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1094,7 +1264,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1120,7 +1290,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1146,7 +1316,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1172,7 +1342,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1198,7 +1368,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1225,7 +1395,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1249,7 +1419,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1275,7 +1445,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1301,7 +1471,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1328,7 +1498,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1352,7 +1522,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1378,7 +1548,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1405,7 +1575,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1431,7 +1601,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1455,7 +1625,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1482,7 +1652,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1509,7 +1679,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1536,7 +1706,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1562,7 +1732,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1589,7 +1759,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1615,7 +1785,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1638,7 +1808,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   },
@@ -1664,7 +1834,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-08",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "status": "active",
    "confidence": "high"
   }
