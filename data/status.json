@@ -9,9 +9,9 @@
   },
   "mdk": {
    "ok": true,
-   "count": 81,
-   "titles": 31,
-   "fetched": 81,
+   "count": 79,
+   "titles": 32,
+   "fetched": 79,
    "dropped": {}
   },
   "radomsko_pl": {
@@ -65,12 +65,7 @@
   }
  },
  "new": [
-  "03228faf6e08cec2",
-  "337b4d6d66fe9c9f",
-  "c30cb2c00e590182",
-  "df5833ebd43409de",
-  "f0c4c72c229a1712",
-  "bae0f9772568b5d9"
+  "28f3f43178b10410"
  ],
  "to_complete": []
 }
