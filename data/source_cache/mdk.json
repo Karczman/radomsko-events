@@ -1,5 +1,18 @@
 [
  {
+  "title": "Zdolni i skromni „Gramy na ostro”",
+  "start": "2027-11-25T17:30:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "inne",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/25-11-2027-zdolni-i-skromni-gramy-na-ostro/",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
   "title": "KONCERT RADOMSKO NA URODZINY 760 LAT PRAW MIEJSKICH",
   "start": "2026-11-11T18:00:00",
   "all_day": false,
@@ -523,32 +536,6 @@
  },
  {
   "title": "LALKA / 2D",
-  "start": "2026-10-15T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "LALKA / 2D",
-  "start": "2026-10-15T20:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "LALKA / 2D",
   "start": "2026-10-16T20:00:00",
   "all_day": false,
   "venue": "MDK Radomsko",
@@ -685,19 +672,6 @@
   "place": "Radomsko",
   "category": "kino",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "LUNA I ROZGADANA ŚWINKA / 2D dubbing",
-  "start": "2026-10-15T15:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/luna-i-rozgadana-swinka-2d-dubbing/",
   "times": [],
   "source": "mdk",
   "confidence": "high",
