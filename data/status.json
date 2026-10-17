@@ -9,17 +9,20 @@
   },
   "mdk": {
    "ok": true,
-   "count": 77,
+   "count": 73,
    "titles": 32,
-   "fetched": 77,
+   "fetched": 73,
    "dropped": {}
   },
   "radomsko_pl": {
    "ok": true,
    "count": 5,
    "titles": 5,
-   "fetched": 5,
-   "dropped": {}
+   "fetched": 1,
+   "dropped": {},
+   "stale": true,
+   "stale_reason": "1 tytułów zamiast 5",
+   "stale_since": "2026-10-17"
   },
   "muzeum": {
    "ok": true,
@@ -30,9 +33,9 @@
   },
   "mbp": {
    "ok": true,
-   "count": 2,
-   "titles": 2,
-   "fetched": 2,
+   "count": 0,
+   "titles": 0,
+   "fetched": 0,
    "dropped": {}
   },
   "kamiensk": {
@@ -51,9 +54,9 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 69,
-   "titles": 42,
-   "fetched": 69,
+   "count": 66,
+   "titles": 40,
+   "fetched": 66,
    "dropped": {}
   },
   "ebilet": {
@@ -64,11 +67,6 @@
    "dropped": {}
   }
  },
- "new": [
-  "bd2c16b3951a8d30",
-  "9b0b814df3a33b88",
-  "03378e85195b5d3c",
-  "d0e5f30dffda1f40"
- ],
+ "new": [],
  "to_complete": []
 }
