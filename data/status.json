@@ -9,19 +9,19 @@
   },
   "mdk": {
    "ok": true,
-   "count": 73,
-   "titles": 32,
-   "fetched": 73,
+   "count": 69,
+   "titles": 30,
+   "fetched": 69,
    "dropped": {}
   },
   "radomsko_pl": {
    "ok": true,
    "count": 5,
    "titles": 5,
-   "fetched": 1,
+   "fetched": 0,
    "dropped": {},
    "stale": true,
-   "stale_reason": "1 tytułów zamiast 5",
+   "stale_reason": "0 wydarzeń (poprzednio 5 tytułów)",
    "stale_since": "2026-10-17"
   },
   "muzeum": {
