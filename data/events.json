@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-18T20:57:07+02:00",
+ "generated": "2026-10-19T23:15:13+02:00",
  "events": [
   {
    "id": "03228faf6e08cec2",
    "title": "ZAPOMNIANA WYSPA / 2D dubbing",
-   "start": "2026-10-18T13:00:00+02:00",
+   "start": "2026-10-19T15:00:00+02:00",
    "end": "2026-10-28T16:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
@@ -24,7 +24,6 @@
     "16:00"
    ],
    "dates": [
-    "2026-10-18",
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
@@ -41,74 +40,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-18",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "bc6a0b4c424ec6f3",
-   "title": "André Rieu. Niech żyje Maastricht!",
-   "start": "2026-10-18T17:00:00+02:00",
-   "end": "2026-10-25T17:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
-   "times": [
-    "17:00"
-   ],
-   "dates": [
-    "2026-10-18",
-    "2026-10-25"
-   ],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "47e96ce9dd144968",
-   "title": "LALKA / 2D",
-   "start": "2026-10-18T20:00:00+02:00",
-   "end": "2026-10-29T20:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
-   "times": [
-    "20:00",
-    "20:30"
-   ],
-   "dates": [
-    "2026-10-18",
-    "2026-10-19",
-    "2026-10-20",
-    "2026-10-21",
-    "2026-10-22",
-    "2026-10-25",
-    "2026-10-26",
-    "2026-10-27",
-    "2026-10-28",
-    "2026-10-29"
-   ],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -133,15 +65,15 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "337b4d6d66fe9c9f",
-   "title": "500 mil / 2D napisy",
-   "start": "2026-10-20T18:00:00+02:00",
-   "end": "2026-10-22T18:00:00+02:00",
+   "id": "47e96ce9dd144968",
+   "title": "LALKA / 2D",
+   "start": "2026-10-19T20:00:00+02:00",
+   "end": "2026-10-29T20:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -149,21 +81,28 @@
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/500-mil-2d-napisy/",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
    "times": [
-    "18:00"
+    "20:00",
+    "20:30"
    ],
    "dates": [
+    "2026-10-19",
     "2026-10-20",
     "2026-10-21",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
    ],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
-   "first_seen": "2026-10-14",
-   "last_seen": "2026-10-18",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -198,7 +137,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -221,7 +160,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -247,7 +186,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -272,7 +211,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -299,7 +238,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -325,7 +264,32 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "bc6a0b4c424ec6f3",
+   "title": "André Rieu. Niech żyje Maastricht!",
+   "start": "2026-10-25T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
+   "times": [
+    "17:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -350,7 +314,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -375,7 +339,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -393,7 +357,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Maciej-Malenczuk/Homo-Twist?eid=707376",
    "ticket_url": "https://biletyna.pl/koncert/Maciej-Malenczuk/Homo-Twist?eid=707376",
-   "price_text": "118.82 zł",
+   "price_text": "129.44 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -401,7 +365,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -427,7 +391,99 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "16afcb6d6c28399a",
+   "title": "MILCZENIE OWIEC / 2D napisy",
+   "start": "2026-10-30T21:00:00+01:00",
+   "end": "2026-10-31T21:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/milczenie-owiec-2d-napisy/",
+   "times": [
+    "21:00"
+   ],
+   "dates": [
+    "2026-10-30",
+    "2026-10-31"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "c633e45d3e5d9cb0",
+   "title": "CLAYFACE / 2D napisy",
+   "start": "2026-10-31T17:00:00+01:00",
+   "end": "2026-11-09T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/clayface-2d-napisy/",
+   "times": [
+    "17:00",
+    "18:00",
+    "20:00",
+    "20:30"
+   ],
+   "dates": [
+    "2026-10-31",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-08",
+    "2026-11-09"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "82d9374a5206c355",
+   "title": "ÒPI / 2D",
+   "start": "2026-10-31T19:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/opi-2d/",
+   "times": [
+    "19:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -453,7 +509,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -477,7 +533,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -504,7 +560,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -530,7 +586,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -556,7 +612,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -579,7 +635,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -605,7 +661,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -631,7 +687,57 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "46c7900722b41d24",
+   "title": "The Beat Freaks",
+   "start": "2026-11-14T20:00:00+01:00",
+   "end": "2026-11-14T21:30:00+01:00",
+   "all_day": false,
+   "venue": "Bourbon Street Pub",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/koncert/The-Beat-Freaks?eid=713269",
+   "ticket_url": "https://biletyna.pl/koncert/The-Beat-Freaks?eid=713269",
+   "price_text": "39 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "928e47899137e5f7",
+   "title": "Patriotyczny poranek tetralny KTO TY JESTEŚ?",
+   "start": "2026-11-15T10:30:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-11-2026r-patriotyczny-poranek-tetralny-kim-ty-jestes/",
+   "ticket_url": "https://www.bilety24.pl/teatr/1546-kto-ty-jestes-167421?id=1005162",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -658,7 +764,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -685,7 +791,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -714,7 +820,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -740,7 +846,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -763,7 +869,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -789,7 +895,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -815,7 +921,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -841,7 +947,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -867,7 +973,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -890,7 +996,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -919,7 +1025,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -945,7 +1051,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -971,7 +1077,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -998,7 +1104,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1025,7 +1131,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1051,7 +1157,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1077,7 +1183,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1103,7 +1209,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1121,7 +1227,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Kasia-Kowalska?eid=704300",
    "ticket_url": "https://biletyna.pl/koncert/Kasia-Kowalska?eid=704300",
-   "price_text": "2 zł",
+   "price_text": "150.68 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -1129,7 +1235,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1155,7 +1261,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1182,7 +1288,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1206,7 +1312,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1232,7 +1338,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1258,7 +1364,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1285,7 +1391,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1309,7 +1415,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1335,7 +1441,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1362,7 +1468,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1388,7 +1494,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1412,7 +1518,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1439,7 +1545,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1466,7 +1572,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1493,7 +1599,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1519,7 +1625,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1546,33 +1652,34 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "7f414b2d2db512b5",
-   "title": "Myslovitz - my35ovitz",
+   "id": "d35642211613db89",
+   "title": "My35ovitz",
    "start": "2027-03-12T20:00:00+01:00",
    "end": "2027-03-12T22:00:00+01:00",
    "all_day": false,
-   "venue": "Klub Muzyczny BOGART",
+   "venue": "Klub Muzyczny Bogart w Gomunicach",
    "place": "Gomunice",
    "lat": 51.16667,
    "lon": 19.48333,
    "distance_km": 11.4,
    "category": "okolice",
-   "url": "https://biletyna.pl/koncert/Myslovitz/35-lecie?eid=711649",
-   "ticket_url": "https://biletyna.pl/koncert/Myslovitz/35-lecie?eid=711649",
-   "price_text": "138.06 zł",
+   "url": "https://www.ebilet.pl/muzyka/rock/myslovitz-trasa?city=Gomunice",
+   "ticket_url": "https://www.ebilet.pl/muzyka/rock/myslovitz-trasa?city=Gomunice",
+   "price_text": "160.9 zł",
    "times": [],
    "dates": [],
-   "source": "biletyna",
+   "source": "ebilet",
    "sources": [
-    "biletyna"
+    "biletyna",
+    "ebilet"
    ],
-   "first_seen": "2026-10-11",
-   "last_seen": "2026-10-18",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1595,7 +1702,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1621,7 +1728,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   },
@@ -1648,7 +1755,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-19",
    "status": "active",
    "confidence": "high"
   }

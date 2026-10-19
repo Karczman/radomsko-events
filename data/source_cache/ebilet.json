@@ -13,5 +13,20 @@
   "source": "ebilet",
   "confidence": "high",
   "status": "active"
+ },
+ {
+  "title": "My35ovitz",
+  "start": "2027-03-12T20:00:00",
+  "all_day": false,
+  "venue": "Klub Muzyczny Bogart w Gomunicach",
+  "place": "Gomunice",
+  "category": "inne",
+  "url": "https://www.ebilet.pl/muzyka/rock/myslovitz-trasa?city=Gomunice",
+  "ticket_url": "https://www.ebilet.pl/muzyka/rock/myslovitz-trasa?city=Gomunice",
+  "price_text": "160.9 zł",
+  "times": [],
+  "source": "ebilet",
+  "confidence": "high",
+  "status": "active"
  }
 ]

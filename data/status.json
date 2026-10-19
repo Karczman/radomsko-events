@@ -9,9 +9,9 @@
   },
   "mdk": {
    "ok": true,
-   "count": 69,
-   "titles": 30,
-   "fetched": 69,
+   "count": 77,
+   "titles": 33,
+   "fetched": 77,
    "dropped": {}
   },
   "radomsko_pl": {
@@ -54,19 +54,26 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 66,
-   "titles": 40,
-   "fetched": 66,
+   "count": 68,
+   "titles": 41,
+   "fetched": 68,
    "dropped": {}
   },
   "ebilet": {
    "ok": true,
-   "count": 1,
-   "titles": 1,
-   "fetched": 1,
+   "count": 2,
+   "titles": 2,
+   "fetched": 2,
    "dropped": {}
   }
  },
- "new": [],
+ "new": [
+  "16afcb6d6c28399a",
+  "c633e45d3e5d9cb0",
+  "82d9374a5206c355",
+  "46c7900722b41d24",
+  "928e47899137e5f7",
+  "d35642211613db89"
+ ],
  "to_complete": []
 }
