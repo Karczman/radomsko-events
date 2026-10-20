@@ -9,9 +9,9 @@
   },
   "mdk": {
    "ok": true,
-   "count": 77,
-   "titles": 33,
-   "fetched": 77,
+   "count": 75,
+   "titles": 34,
+   "fetched": 75,
    "dropped": {}
   },
   "radomsko_pl": {
@@ -40,9 +40,9 @@
   },
   "kamiensk": {
    "ok": true,
-   "count": 0,
-   "titles": 0,
-   "fetched": 0,
+   "count": 1,
+   "titles": 1,
+   "fetched": 1,
    "dropped": {}
   },
   "przedborz": {
@@ -54,9 +54,9 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 68,
-   "titles": 41,
-   "fetched": 68,
+   "count": 69,
+   "titles": 42,
+   "fetched": 69,
    "dropped": {}
   },
   "ebilet": {
@@ -68,12 +68,9 @@
   }
  },
  "new": [
-  "16afcb6d6c28399a",
-  "c633e45d3e5d9cb0",
-  "82d9374a5206c355",
-  "46c7900722b41d24",
-  "928e47899137e5f7",
-  "d35642211613db89"
+  "321889b1f4495d46",
+  "e073931a46ad4f2e",
+  "9770d2e61e758144"
  ],
  "to_complete": []
 }

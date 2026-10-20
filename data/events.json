@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-19T23:15:13+02:00",
+ "generated": "2026-10-20T22:08:14+02:00",
  "events": [
   {
    "id": "03228faf6e08cec2",
    "title": "ZAPOMNIANA WYSPA / 2D dubbing",
-   "start": "2026-10-19T15:00:00+02:00",
+   "start": "2026-10-20T14:00:00+02:00",
    "end": "2026-10-28T16:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
@@ -24,7 +24,6 @@
     "16:00"
    ],
    "dates": [
-    "2026-10-19",
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
@@ -40,39 +39,14 @@
     "mdk"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "7f9c727f957efd84",
-   "title": "„WAJDA: re-wizje”",
-   "start": "2026-10-19T17:00:00+02:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/wajda-re-wizje/",
-   "times": [
-    "17:00"
-   ],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
   {
    "id": "47e96ce9dd144968",
    "title": "LALKA / 2D",
-   "start": "2026-10-19T20:00:00+02:00",
+   "start": "2026-10-20T20:00:00+02:00",
    "end": "2026-10-29T20:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
@@ -87,7 +61,6 @@
     "20:30"
    ],
    "dates": [
-    "2026-10-19",
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
@@ -102,7 +75,29 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "321889b1f4495d46",
+   "title": "Podsumowanie projektu „Odnawialne źródła energii w Gminie Kamieńsk – edycja III”",
+   "start": "2026-10-23T17:00:00+02:00",
+   "all_day": false,
+   "place": "Kamieńsk",
+   "lat": 51.2,
+   "lon": 19.5,
+   "distance_km": 15.3,
+   "category": "okolice",
+   "url": "https://kamiensk.pl/kalendarz/23-10-2026/77",
+   "times": [],
+   "dates": [],
+   "source": "kamiensk",
+   "sources": [
+    "kamiensk"
+   ],
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -137,7 +132,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -160,7 +155,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -186,7 +181,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -211,7 +206,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -238,7 +233,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -264,7 +259,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -289,7 +284,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -314,7 +309,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -339,7 +334,59 @@
     "mdk"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "e073931a46ad4f2e",
+   "title": "Cyrk Arena - to jest Cyrk!",
+   "start": "2026-10-30T17:00:00+01:00",
+   "end": "2026-10-30T18:30:00+01:00",
+   "all_day": false,
+   "venue": "Namiot Cyrkowy",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "inne",
+   "url": "https://biletyna.pl/cyrk/Cyrk-Arena?eid=713916",
+   "ticket_url": "https://biletyna.pl/cyrk/Cyrk-Arena?eid=713916",
+   "price_text": "84.96 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "9770d2e61e758144",
+   "title": "KINO NIEME LOKATOR",
+   "start": "2026-10-30T18:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/30-10-26-r-kino-nieme-lokator/",
+   "ticket_url": "https://mdkradomsko.bilety24.pl/wydarzenie/?id=167915",
+   "times": [
+    "18:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -357,7 +404,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Maciej-Malenczuk/Homo-Twist?eid=707376",
    "ticket_url": "https://biletyna.pl/koncert/Maciej-Malenczuk/Homo-Twist?eid=707376",
-   "price_text": "129.44 zł",
+   "price_text": "150.68 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -365,7 +412,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -391,7 +438,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -420,7 +467,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -458,7 +505,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -483,7 +530,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -509,7 +556,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -533,7 +580,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -560,7 +607,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -578,7 +625,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/HAPPYSAD/XXV-TOUR?eid=697582",
    "ticket_url": "https://biletyna.pl/koncert/HAPPYSAD/XXV-TOUR?eid=697582",
-   "price_text": "129.44 zł",
+   "price_text": "150.68 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -586,7 +633,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -612,7 +659,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -635,7 +682,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -661,7 +708,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -687,7 +734,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -713,7 +760,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -737,7 +784,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -764,7 +811,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -791,12 +838,12 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "19da45a58730cfc6",
+   "id": "7f9c727f957efd84",
    "title": "„WAJDA: re-wizje”",
    "start": "2026-11-16T17:00:00+01:00",
    "end": "2026-12-07T17:00:00+01:00",
@@ -820,7 +867,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -846,7 +893,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -869,7 +916,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -887,7 +934,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/SPIETY-Full-HD?eid=657823",
    "ticket_url": "https://biletyna.pl/koncert/SPIETY-Full-HD?eid=657823",
-   "price_text": "118.82 zł",
+   "price_text": "129.44 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -895,7 +942,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -921,7 +968,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -947,7 +994,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -973,7 +1020,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -996,7 +1043,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1025,7 +1072,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1051,7 +1098,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1077,7 +1124,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1104,7 +1151,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1131,7 +1178,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1157,7 +1204,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1183,7 +1230,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1209,7 +1256,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1227,7 +1274,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Kasia-Kowalska?eid=704300",
    "ticket_url": "https://biletyna.pl/koncert/Kasia-Kowalska?eid=704300",
-   "price_text": "150.68 zł",
+   "price_text": "161.3 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -1235,7 +1282,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1261,7 +1308,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1288,7 +1335,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1312,7 +1359,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1338,7 +1385,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1364,7 +1411,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1391,7 +1438,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1415,7 +1462,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1441,7 +1488,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1468,7 +1515,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1494,7 +1541,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1518,7 +1565,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1545,7 +1592,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1572,7 +1619,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1599,7 +1646,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1625,7 +1672,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1652,7 +1699,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1679,7 +1726,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1702,7 +1749,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1728,7 +1775,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1755,7 +1802,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-10-20",
    "status": "active",
    "confidence": "high"
   }

@@ -1,5 +1,32 @@
 [
  {
+  "title": "André Rieu. Niech żyje Maastricht!",
+  "start": "2026-10-25T17:00:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "kino",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
+  "title": "KINO NIEME LOKATOR",
+  "start": "2026-10-30T18:00:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "kino",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/30-10-26-r-kino-nieme-lokator/",
+  "ticket_url": "https://mdkradomsko.bilety24.pl/wydarzenie/?id=167915",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
   "title": "ÒPI / 2D",
   "start": "2026-10-31T19:00:00",
   "all_day": false,
@@ -314,19 +341,6 @@
  },
  {
   "title": "ZAPOMNIANA WYSPA / 2D dubbing",
-  "start": "2026-10-19T15:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/zapomniana-wyspa-2d-dubbing/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "ZAPOMNIANA WYSPA / 2D dubbing",
   "start": "2026-10-20T14:00:00",
   "all_day": false,
   "venue": "MDK Radomsko",
@@ -534,19 +548,6 @@
   "status": "active"
  },
  {
-  "title": "André Rieu. Niech żyje Maastricht!",
-  "start": "2026-10-25T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "MISTYCZKA",
   "start": "2026-10-27T18:00:00",
   "all_day": false,
@@ -582,19 +583,6 @@
   "category": "inne",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/klubik-brzdacow/",
   "ticket_url": "https://mdkradomsko.bilety24.pl/zajecia/?id=5435",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "LALKA / 2D",
-  "start": "2026-10-19T20:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
   "times": [],
   "source": "mdk",
   "confidence": "high",
@@ -727,19 +715,6 @@
   "category": "scena",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-11-2026-lubie-wracac-tam/",
   "ticket_url": "https://bilety.kulturalnykoneser.pl/event/view/id/703001",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "„WAJDA: re-wizje”",
-  "start": "2026-10-19T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/wajda-re-wizje/",
   "times": [],
   "source": "mdk",
   "confidence": "high",
