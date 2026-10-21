@@ -9,9 +9,9 @@
   },
   "mdk": {
    "ok": true,
-   "count": 75,
+   "count": 72,
    "titles": 34,
-   "fetched": 75,
+   "fetched": 72,
    "dropped": {}
   },
   "radomsko_pl": {
@@ -39,11 +39,14 @@
    "dropped": {}
   },
   "kamiensk": {
-   "ok": true,
+   "ok": false,
+   "error": "RobotsDisallowed: https://kamiensk.pl/kalendarz/21-10-2026",
+   "first_failure": "2026-10-21",
+   "stale": true,
+   "stale_reason": "błąd pobierania",
+   "stale_since": "2026-10-21",
    "count": 1,
-   "titles": 1,
-   "fetched": 1,
-   "dropped": {}
+   "titles": 1
   },
   "przedborz": {
    "ok": true,
@@ -67,10 +70,6 @@
    "dropped": {}
   }
  },
- "new": [
-  "321889b1f4495d46",
-  "e073931a46ad4f2e",
-  "9770d2e61e758144"
- ],
+ "new": [],
  "to_complete": []
 }
