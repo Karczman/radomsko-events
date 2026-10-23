@@ -1,5 +1,18 @@
 [
  {
+  "title": "Recepta na szczęście",
+  "start": "2027-11-21T19:00:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "inne",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/23-10-2026r-recepta-na-szczescie/",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
   "title": "„Lubię wracać tam”",
   "start": "2026-11-15T19:00:00",
   "all_day": false,
@@ -382,32 +395,6 @@
  },
  {
   "title": "ZAPOMNIANA WYSPA / 2D dubbing",
-  "start": "2026-10-22T14:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/zapomniana-wyspa-2d-dubbing/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "ZAPOMNIANA WYSPA / 2D dubbing",
-  "start": "2026-10-22T16:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/zapomniana-wyspa-2d-dubbing/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "ZAPOMNIANA WYSPA / 2D dubbing",
   "start": "2026-10-23T13:00:00",
   "all_day": false,
   "venue": "MDK Radomsko",
@@ -579,19 +566,6 @@
  },
  {
   "title": "LALKA / 2D",
-  "start": "2026-10-22T20:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "LALKA / 2D",
   "start": "2026-10-25T20:00:00",
   "all_day": false,
   "venue": "MDK Radomsko",
@@ -729,19 +703,6 @@
   "place": "Radomsko",
   "category": "kino",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/konwicki/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "Recepta na szczęście",
-  "start": "2026-10-23T19:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "inne",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/23-10-2026r-recepta-na-szczescie/",
   "times": [],
   "source": "mdk",
   "confidence": "high",
