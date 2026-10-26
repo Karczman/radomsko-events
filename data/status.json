@@ -9,20 +9,17 @@
   },
   "mdk": {
    "ok": true,
-   "count": 59,
+   "count": 55,
    "titles": 33,
-   "fetched": 59,
+   "fetched": 55,
    "dropped": {}
   },
   "radomsko_pl": {
    "ok": true,
-   "count": 5,
-   "titles": 5,
+   "count": 0,
+   "titles": 0,
    "fetched": 0,
-   "dropped": {},
-   "stale": true,
-   "stale_reason": "0 wydarzeń (poprzednio 5 tytułów)",
-   "stale_since": "2026-10-17"
+   "dropped": {}
   },
   "muzeum": {
    "ok": true,
@@ -54,9 +51,9 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 64,
-   "titles": 39,
-   "fetched": 64,
+   "count": 66,
+   "titles": 40,
+   "fetched": 66,
    "dropped": {}
   },
   "ebilet": {
@@ -67,6 +64,9 @@
    "dropped": {}
   }
  },
- "new": [],
+ "new": [
+  "142b013ecb2a1750",
+  "d546187d8d1fe93e"
+ ],
  "to_complete": []
 }

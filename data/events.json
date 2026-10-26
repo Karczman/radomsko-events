@@ -1,45 +1,33 @@
 {
- "generated": "2026-10-25T20:16:09+01:00",
+ "generated": "2026-10-26T22:12:07+01:00",
  "events": [
   {
-   "id": "03228faf6e08cec2",
-   "title": "ZAPOMNIANA WYSPA / 2D dubbing",
-   "start": "2026-10-25T10:30:00+01:00",
-   "end": "2026-10-28T16:00:00+01:00",
-   "all_day": false,
+   "id": "142b013ecb2a1750",
+   "title": "FRANCISZEK STRAROWIEYSKI OTWARCIE WYSTAWY",
+   "start": "2026-10-26T00:00:00+01:00",
+   "all_day": true,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
    "lon": 19.45,
    "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/zapomniana-wyspa-2d-dubbing/",
-   "times": [
-    "10:30",
-    "12:30",
-    "14:00",
-    "15:00",
-    "16:00"
-   ],
-   "dates": [
-    "2026-10-25",
-    "2026-10-26",
-    "2026-10-27",
-    "2026-10-28"
-   ],
+   "category": "inne",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/franciszek-strarowieyski-wernisaz-wystawy/",
+   "times": [],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
-   "first_seen": "2026-10-14",
-   "last_seen": "2026-10-25",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
   {
    "id": "df5833ebd43409de",
    "title": "CZAS, KTÓRY NIE NADSZEDŁ / 2D",
-   "start": "2026-10-25T15:00:00+01:00",
+   "start": "2026-10-26T12:00:00+01:00",
    "end": "2026-10-28T18:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
@@ -51,11 +39,9 @@
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/czas-ktory-nie-nadszedl-2d/",
    "times": [
     "12:00",
-    "15:00",
     "18:00"
    ],
    "dates": [
-    "2026-10-25",
     "2026-10-26",
     "2026-10-28"
    ],
@@ -64,14 +50,15 @@
     "mdk"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "bc6a0b4c424ec6f3",
-   "title": "André Rieu. Niech żyje Maastricht!",
-   "start": "2026-10-25T17:00:00+01:00",
+   "id": "03228faf6e08cec2",
+   "title": "ZAPOMNIANA WYSPA / 2D dubbing",
+   "start": "2026-10-26T15:00:00+01:00",
+   "end": "2026-10-28T16:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -79,50 +66,23 @@
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/andre-rieu-niech-zyje-maastricht/",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/zapomniana-wyspa-2d-dubbing/",
    "times": [
-    "17:00"
-   ],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "47e96ce9dd144968",
-   "title": "LALKA / 2D",
-   "start": "2026-10-25T20:00:00+01:00",
-   "end": "2026-10-29T20:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
-   "times": [
-    "20:00",
-    "20:30"
+    "14:00",
+    "15:00",
+    "16:00"
    ],
    "dates": [
-    "2026-10-25",
     "2026-10-26",
     "2026-10-27",
-    "2026-10-28",
-    "2026-10-29"
+    "2026-10-28"
    ],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -147,7 +107,39 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "47e96ce9dd144968",
+   "title": "LALKA / 2D",
+   "start": "2026-10-26T20:00:00+01:00",
+   "end": "2026-10-29T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/lalka-2d/",
+   "times": [
+    "20:00",
+    "20:30"
+   ],
+   "dates": [
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -169,7 +161,7 @@
     "kamiensk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -194,7 +186,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -220,7 +212,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -246,7 +238,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -272,7 +264,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -298,7 +290,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -327,7 +319,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -365,7 +357,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -390,7 +382,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -416,7 +408,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -440,7 +432,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -467,7 +459,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -493,7 +485,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -519,7 +511,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -542,7 +534,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -568,7 +560,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -594,7 +586,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -620,7 +612,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -644,7 +636,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -671,7 +663,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -689,7 +681,7 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-11-2026-lubie-wracac-tam/",
    "ticket_url": "https://bilety.kulturalnykoneser.pl/event/view/id/703001",
-   "price_text": "147 zł",
+   "price_text": "157 zł",
    "times": [],
    "dates": [],
    "source": "mdk",
@@ -698,7 +690,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -727,7 +719,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -754,7 +746,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -777,7 +769,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -803,7 +795,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -830,7 +822,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -856,7 +848,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -882,7 +874,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -911,7 +903,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -937,7 +929,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -963,7 +955,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -990,7 +982,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1017,7 +1009,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1043,7 +1035,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1069,7 +1061,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1095,7 +1087,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1121,7 +1113,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1147,7 +1139,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1174,7 +1166,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1198,7 +1190,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1224,7 +1216,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1250,7 +1242,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1277,7 +1269,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1301,7 +1293,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1327,7 +1319,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1354,7 +1346,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1380,7 +1372,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1404,7 +1396,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1431,7 +1423,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1458,7 +1450,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1485,7 +1477,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1511,7 +1503,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1538,7 +1530,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1565,7 +1557,33 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "d546187d8d1fe93e",
+   "title": "Tomasz Karolak „50 i co?”",
+   "start": "2027-04-13T18:00:00+02:00",
+   "end": "2027-04-13T19:30:00+02:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/koncert/Tomasz-Karolak/50-i-co?eid=715792",
+   "ticket_url": "https://biletyna.pl/koncert/Tomasz-Karolak/50-i-co?eid=715792",
+   "price_text": "80 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1588,7 +1606,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1615,7 +1633,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   },
@@ -1642,7 +1660,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-26",
    "status": "active",
    "confidence": "high"
   }
