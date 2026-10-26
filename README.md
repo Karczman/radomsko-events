@@ -100,7 +100,7 @@ python3.12 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 
 ## Bezpiecznik i status źródeł
 
-Gdy źródło zwraca 0 wydarzeń lub ponad 50% mniej różnych tytułów niż poprzednio (liczą się tytuły, nie terminy, bo seanse kina wygasają codziennie; tylko gdy poprzednio było ich co najmniej 5), albo rzuca wyjątek, build:
+Gdy źródło zwraca 0 wydarzeń lub ponad 50% mniej różnych tytułów niż zapamiętane wydarzenia tego źródła, które jeszcze się nie odbyły (liczą się tytuły, nie terminy; wydarzenia, które minęły, nie wywołują alarmu, więc źródło, które naturalnie „wyczerpało” zapowiedzi, nie jest uznawane za zepsute; tylko gdy odniesienie to co najmniej 5 tytułów), albo rzuca wyjątek, build:
 
 - zachowuje ostatnie dobre dane tego źródła z `data/source_cache/` (bez wydarzeń z przeszłości),
 - oznacza je w `data/status.json` jako `stale` (z powodem i datą od kiedy),

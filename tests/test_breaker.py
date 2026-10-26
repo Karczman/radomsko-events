@@ -144,3 +144,27 @@ def test_expiring_screenings_do_not_trip_the_breaker(site, monkeypatch):
     run(8, "ok")            # 50 terminów, 10 tytułów
     _, st, _ = run(9, "few")  # 10 terminów (spadek o 80%), nadal 10 tytułów
     assert "stale" not in st and st["count"] == 10 and st["titles"] == 10
+
+
+def test_source_that_naturally_runs_out_of_events_does_not_raise_false_alarm(site, monkeypatch):
+    """Regresja (26.10): radomsko.pl nie opublikowało nic po 17.10. Wydarzenia minęły, a bezpiecznik
+    porównywał z dawną liczbą tytułów i codziennie wysyłał alert o awarii."""
+    run, _ = site
+
+    def dated(self, fetcher, today=None):  # 10 tytułów na 1..10 listopada, potem źródło pustoszeje
+        if self.mode == "empty":
+            return []
+        return [RawEvent(title=f"Wydarzenie {i}", start=datetime(2026, 11, 1 + i, 18), venue="MDK Radomsko",
+                         place="Radomsko", source="mdk") for i in range(10)]
+    monkeypatch.setattr(Flaky, "fetch", dated)
+    run(date(2026, 10, 25), "ok")
+    out, st, full = run(date(2026, 11, 12), "empty")  # wszystkie wydarzenia już się odbyły
+    assert "stale" not in st and out["events"] == []
+    assert source_alerts(full, date(2026, 11, 12)) is None
+
+
+def test_real_loss_of_still_upcoming_events_still_trips(site):
+    run, _ = site
+    run(7, "ok")                      # 10 przyszłych tytułów (1..10.11)
+    _, st, _ = run(8, "empty")        # źródło nagle puste, choć wydarzenia jeszcze się nie odbyły
+    assert st["stale"] and "0 wydarzeń" in st["stale_reason"]

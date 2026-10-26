@@ -12,7 +12,7 @@ from pathlib import Path
 
 import yaml
 
-from core.breaker import MIN_PREVIOUS, load_cache, save_cache, trip_reason
+from core.breaker import MIN_PREVIOUS, load_cache, save_cache, trip_reason, upcoming_titles
 from core.dedupe import dedupe
 from core.geo import Geo
 from core.ics import build_ics, track
@@ -157,7 +157,10 @@ def run(config_path: Path = ROOT / "config.yaml", today: date | None = None) -> 
         if raws is not None:
             min_previous = config.get("breaker", {}).get("min_previous", MIN_PREVIOUS)
             titles = len({fold(e.title) for e in events_src})
-            reason = trip_reason(prev, titles, min_previous) if guarded else None
+            # Linia odniesienia: zapamiętane wydarzenia, które jeszcze się nie odbyły (nie dawna liczba tytułów)
+            still_upcoming = upcoming_titles(load_cache(cache_dir, source.name, today))
+            baseline = {"titles": still_upcoming} if still_upcoming is not None else prev
+            reason = trip_reason(baseline, titles, min_previous) if guarded else None
             entry = {"ok": True, "count": len(events_src), "titles": titles, "fetched": len(raws),
                      "dropped": dropped}
         if guarded and (raws is None or reason):

@@ -11,7 +11,7 @@ from datetime import date
 from pathlib import Path
 
 from core.models import RawEvent
-from core.normalize import event_end_date, localize
+from core.normalize import event_end_date, fold, localize
 
 MIN_PREVIOUS = 5   # poniżej tylu wydarzeń spadek do zera bywa normalny (np. jedno wydarzenie się odbyło)
 DROP_RATIO = 0.5
@@ -32,6 +32,17 @@ def trip_reason(previous: dict | None, count: int, min_previous: int = MIN_PREVI
     if count < before * ratio:
         return f"{count} tytułów zamiast {before}"
     return None
+
+
+def upcoming_titles(cached: list[RawEvent] | None) -> int | None:
+    """Ile różnych tytułów z ostatnich dobrych danych jeszcze się NIE odbyło (cache bez przeszłości).
+
+    To jest właściwa linia odniesienia: wydarzenia, które minęły, nie mogą zniknąć „przez awarię”.
+    26.10.2026 radomsko.pl miało 0 wydarzeń, bo miasto nie opublikowało nic po 17.10, a bezpiecznik
+    porównujący z dawną liczbą tytułów co dzień zgłaszał fałszywą awarię."""
+    if cached is None:
+        return None
+    return len({fold(r.title) for r in cached})
 
 
 def cache_path(directory: Path, name: str) -> Path:
