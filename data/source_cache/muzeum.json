@@ -1,1 +1,15 @@
-[]
+[
+ {
+  "title": "INFORMACJA – 1 LISTOPADA 2026 R. – NIEDZIELA – MUZEUM NIECZYNNE",
+  "start": "2026-11-01T00:00:00",
+  "all_day": true,
+  "venue": "Muzeum Regionalne w Radomsku",
+  "place": "Radomsko",
+  "category": "inne",
+  "url": "https://muzeum.radomsko.pl/informacja-1-listopada-2026-r-niedziela-muzeum-nieczynne/",
+  "times": [],
+  "source": "muzeum",
+  "confidence": "low",
+  "status": "active"
+ }
+]
