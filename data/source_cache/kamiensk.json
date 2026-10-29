@@ -1,1 +1,26 @@
-[]
+[
+ {
+  "title": "Kwesta na ratowanie zabytkowego nagrobka Juliana Czecha",
+  "start": "2026-11-01T07:00:00",
+  "all_day": false,
+  "place": "Kamieńsk",
+  "category": "inne",
+  "url": "https://kamiensk.pl/kalendarz/01-11-2026/80",
+  "times": [],
+  "source": "kamiensk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
+  "title": "Energia Pokoleń – Mniej zamartwiania, więcej spokoju",
+  "start": "2026-11-03T16:30:00",
+  "all_day": false,
+  "place": "Kamieńsk",
+  "category": "inne",
+  "url": "https://kamiensk.pl/kalendarz/03-11-2026/79",
+  "times": [],
+  "source": "kamiensk",
+  "confidence": "high",
+  "status": "active"
+ }
+]

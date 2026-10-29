@@ -1,62 +1,33 @@
 {
- "generated": "2026-10-28T22:20:21+01:00",
+ "generated": "2026-10-29T22:26:26+01:00",
  "events": [
   {
-   "id": "03228faf6e08cec2",
-   "title": "ZAPOMNIANA WYSPA / 2D dubbing",
-   "start": "2026-10-28T14:00:00+01:00",
-   "all_day": false,
+   "id": "58c527572b659423",
+   "title": "DZIADY – ŚLADY OBECNOŚCI – INSTALACJA INSPIROWANA OBRZĘDEM DZIADÓW KAROLINY MYSŁEK",
+   "start": "2026-10-29T00:00:00+01:00",
+   "all_day": true,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
    "lon": 19.45,
    "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/zapomniana-wyspa-2d-dubbing/",
-   "times": [
-    "14:00",
-    "16:00"
-   ],
+   "category": "inne",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/dziady-slady-obecnosci/",
+   "times": [],
    "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
-   "first_seen": "2026-10-14",
-   "last_seen": "2026-10-28",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "df5833ebd43409de",
-   "title": "CZAS, KTÓRY NIE NADSZEDŁ / 2D",
-   "start": "2026-10-28T18:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/czas-ktory-nie-nadszedl-2d/",
-   "times": [
-    "18:00"
-   ],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-14",
-   "last_seen": "2026-10-28",
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
   {
    "id": "47e96ce9dd144968",
    "title": "LALKA / 2D",
-   "start": "2026-10-28T20:00:00+01:00",
-   "end": "2026-10-29T20:00:00+01:00",
+   "start": "2026-10-29T20:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -68,16 +39,13 @@
    "times": [
     "20:00"
    ],
-   "dates": [
-    "2026-10-28",
-    "2026-10-29"
-   ],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -103,7 +71,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -129,7 +97,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -147,7 +115,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Maciej-Malenczuk/Homo-Twist?eid=707376",
    "ticket_url": "https://biletyna.pl/koncert/Maciej-Malenczuk/Homo-Twist?eid=707376",
-   "price_text": "150.68 zł",
+   "price_text": "145.34 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -155,7 +123,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -181,7 +149,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -210,7 +178,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -248,7 +216,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -273,7 +241,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -296,9 +264,53 @@
     "muzeum"
    ],
    "first_seen": "2026-10-28",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "low"
+  },
+  {
+   "id": "75caeb187fafd2a6",
+   "title": "Kwesta na ratowanie zabytkowego nagrobka Juliana Czecha",
+   "start": "2026-11-01T07:00:00+01:00",
+   "all_day": false,
+   "place": "Kamieńsk",
+   "lat": 51.2,
+   "lon": 19.5,
+   "distance_km": 15.3,
+   "category": "okolice",
+   "url": "https://kamiensk.pl/kalendarz/01-11-2026/80",
+   "times": [],
+   "dates": [],
+   "source": "kamiensk",
+   "sources": [
+    "kamiensk"
+   ],
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "7b5451c83940f2bd",
+   "title": "Energia Pokoleń – Mniej zamartwiania, więcej spokoju",
+   "start": "2026-11-03T16:30:00+01:00",
+   "all_day": false,
+   "place": "Kamieńsk",
+   "lat": 51.2,
+   "lon": 19.5,
+   "distance_km": 15.3,
+   "category": "okolice",
+   "url": "https://kamiensk.pl/kalendarz/03-11-2026/79",
+   "times": [],
+   "dates": [],
+   "source": "kamiensk",
+   "sources": [
+    "kamiensk"
+   ],
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
+   "status": "active",
+   "confidence": "high"
   },
   {
    "id": "34d540c9774882fc",
@@ -314,7 +326,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Nagly-Atak-Spawacza?eid=691322",
    "ticket_url": "https://biletyna.pl/koncert/Nagly-Atak-Spawacza?eid=691322",
-   "price_text": "65.72 zł",
+   "price_text": "62.86 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -322,7 +334,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -346,7 +358,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -373,7 +385,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -391,7 +403,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/HAPPYSAD/XXV-TOUR?eid=697582",
    "ticket_url": "https://biletyna.pl/koncert/HAPPYSAD/XXV-TOUR?eid=697582",
-   "price_text": "150.68 zł",
+   "price_text": "145.34 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -399,7 +411,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -425,7 +437,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -448,7 +460,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -466,7 +478,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Kuba-Sienkiewicz-i-Justyna-Panfilewicz?eid=701955",
    "ticket_url": "https://biletyna.pl/koncert/Kuba-Sienkiewicz-i-Justyna-Panfilewicz?eid=701955",
-   "price_text": "86.96 zł",
+   "price_text": "83.48 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -474,7 +486,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -492,7 +504,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Pablopavo-i-Ludziki-oraz-Kirszenbaum?eid=699630",
    "ticket_url": "https://biletyna.pl/koncert/Pablopavo-i-Ludziki-oraz-Kirszenbaum?eid=699630",
-   "price_text": "107.14 zł",
+   "price_text": "103.07 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -500,7 +512,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -526,7 +538,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -550,7 +562,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -577,7 +589,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -604,7 +616,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -633,7 +645,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -660,7 +672,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -683,7 +695,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -701,7 +713,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/SPIETY-Full-HD?eid=657823",
    "ticket_url": "https://biletyna.pl/koncert/SPIETY-Full-HD?eid=657823",
-   "price_text": "129.44 zł",
+   "price_text": "124.72 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -709,7 +721,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -736,7 +748,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -762,7 +774,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -780,7 +792,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/spektakl/Rockowy-Teatr-Spektakl-Petla?eid=712633",
    "ticket_url": "https://biletyna.pl/spektakl/Rockowy-Teatr-Spektakl-Petla?eid=712633",
-   "price_text": "86.96 zł",
+   "price_text": "83.48 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -788,7 +800,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -817,7 +829,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -835,7 +847,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/WOJTEK-MAZOLEWSKI-SOLO-koncert?eid=692917",
    "ticket_url": "https://biletyna.pl/koncert/WOJTEK-MAZOLEWSKI-SOLO-koncert?eid=692917",
-   "price_text": "129.44 zł",
+   "price_text": "124.72 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -843,7 +855,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -869,7 +881,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -887,7 +899,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Zespol-Metro/365-widokow-na-przyszlosc?eid=669705",
    "ticket_url": "https://biletyna.pl/koncert/Zespol-Metro/365-widokow-na-przyszlosc?eid=669705",
-   "price_text": "83.9 zł",
+   "price_text": "81.45 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -896,7 +908,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -923,7 +935,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -949,7 +961,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -975,7 +987,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -993,7 +1005,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Sztywny-Pal-Azji/40-lat-na-scenie?eid=672242",
    "ticket_url": "https://biletyna.pl/koncert/Sztywny-Pal-Azji/40-lat-na-scenie?eid=672242",
-   "price_text": "95.58 zł",
+   "price_text": "92.79 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -1001,7 +1013,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1019,7 +1031,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Kasia-Kowalska?eid=704300",
    "ticket_url": "https://biletyna.pl/koncert/Kasia-Kowalska?eid=704300",
-   "price_text": "161.3 zł",
+   "price_text": "155.65 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -1027,7 +1039,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1045,7 +1057,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/spektakl/Podroz-Poslubna-plus?eid=708963",
    "ticket_url": "https://biletyna.pl/spektakl/Podroz-Poslubna-plus?eid=708963",
-   "price_text": "155.99 zł",
+   "price_text": "150.5 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -1053,7 +1065,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1080,7 +1092,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1104,7 +1116,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1130,7 +1142,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1156,7 +1168,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1183,7 +1195,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1207,7 +1219,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1234,7 +1246,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1261,7 +1273,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1279,7 +1291,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/BOKKA?eid=699609",
    "ticket_url": "https://biletyna.pl/koncert/BOKKA?eid=699609",
-   "price_text": "139 zł",
+   "price_text": "134 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -1287,7 +1299,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1311,7 +1323,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1338,7 +1350,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1365,7 +1377,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "62cd4f0da5457f57",
+   "title": "Umrzeć ze śmiechu",
+   "start": "2027-03-05T19:30:00+01:00",
+   "end": "2027-03-05T21:00:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/spektakl/Umrzec-ze-smiechu-2?eid=717480",
+   "ticket_url": "https://biletyna.pl/spektakl/Umrzec-ze-smiechu-2?eid=717480",
+   "price_text": "130 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-10-29",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1392,7 +1430,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1410,7 +1448,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/koncert/Jary-ODDZIAL-ZAMKNIETY?eid=698529",
    "ticket_url": "https://biletyna.pl/koncert/Jary-ODDZIAL-ZAMKNIETY?eid=698529",
-   "price_text": "107.14 zł",
+   "price_text": "103.07 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -1418,7 +1456,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1445,7 +1483,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1472,7 +1510,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1498,7 +1536,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1521,7 +1559,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1548,7 +1586,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   },
@@ -1575,7 +1613,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-28",
+   "last_seen": "2026-10-29",
    "status": "active",
    "confidence": "high"
   }
