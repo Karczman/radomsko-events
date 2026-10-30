@@ -10,7 +10,7 @@
   "mdk": {
    "ok": true,
    "count": 44,
-   "titles": 31,
+   "titles": 30,
    "fetched": 44,
    "dropped": {}
   },
@@ -51,9 +51,9 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 68,
-   "titles": 41,
-   "fetched": 68,
+   "count": 62,
+   "titles": 37,
+   "fetched": 62,
    "dropped": {}
   },
   "ebilet": {
@@ -65,10 +65,7 @@
   }
  },
  "new": [
-  "58c527572b659423",
-  "75caeb187fafd2a6",
-  "7b5451c83940f2bd",
-  "62cd4f0da5457f57"
+  "b58cae9c2eb5775c"
  ],
  "to_complete": []
 }
