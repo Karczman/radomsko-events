@@ -1,20 +1,6 @@
 [
  {
   "title": ".26 r. DZIADOWEEN",
-  "start": "2026-10-30T18:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/30-31-10-26-r-dziadoween/",
-  "ticket_url": "https://mdkradomsko.bilety24.pl/wydarzenie/?id=167915",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": ".26 r. DZIADOWEEN",
   "start": "2026-10-31T18:00:00",
   "all_day": false,
   "venue": "MDK Radomsko",
@@ -150,20 +136,6 @@
   "status": "active"
  },
  {
-  "title": "KINO NIEME LOKATOR",
-  "start": "2026-10-30T18:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/30-10-26-r-kino-nieme-lokator/",
-  "ticket_url": "https://mdkradomsko.bilety24.pl/wydarzenie/?id=167915",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "ÒPI / 2D",
   "start": "2026-10-31T19:00:00",
   "all_day": false,
@@ -171,19 +143,6 @@
   "place": "Radomsko",
   "category": "kino",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/opi-2d/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "MILCZENIE OWIEC / 2D napisy",
-  "start": "2026-10-30T21:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/milczenie-owiec-2d-napisy/",
   "times": [],
   "source": "mdk",
   "confidence": "high",

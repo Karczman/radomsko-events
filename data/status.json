@@ -9,9 +9,9 @@
   },
   "mdk": {
    "ok": true,
-   "count": 44,
-   "titles": 30,
-   "fetched": 44,
+   "count": 41,
+   "titles": 29,
+   "fetched": 41,
    "dropped": {}
   },
   "radomsko_pl": {
@@ -22,18 +22,24 @@
    "dropped": {}
   },
   "muzeum": {
-   "ok": true,
+   "ok": false,
+   "error": "RobotsDisallowed: https://muzeum.radomsko.pl/wp-json/wp/v2/posts",
+   "first_failure": "2026-10-31",
+   "stale": true,
+   "stale_reason": "błąd pobierania",
+   "stale_since": "2026-10-31",
    "count": 1,
-   "titles": 1,
-   "fetched": 1,
-   "dropped": {}
+   "titles": 1
   },
   "mbp": {
-   "ok": true,
+   "ok": false,
+   "error": "RobotsDisallowed: https://mbp-radomsko.pl/?format=feed&type=rss",
+   "first_failure": "2026-10-31",
+   "stale": true,
+   "stale_reason": "błąd pobierania",
+   "stale_since": "2026-10-31",
    "count": 0,
-   "titles": 0,
-   "fetched": 0,
-   "dropped": {}
+   "titles": 0
   },
   "kamiensk": {
    "ok": true,
@@ -64,8 +70,6 @@
    "dropped": {}
   }
  },
- "new": [
-  "b58cae9c2eb5775c"
- ],
+ "new": [],
  "to_complete": []
 }
