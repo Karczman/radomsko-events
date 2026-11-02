@@ -9,10 +9,12 @@
   },
   "mdk": {
    "ok": true,
-   "count": 37,
-   "titles": 26,
-   "fetched": 37,
-   "dropped": {}
+   "count": 47,
+   "titles": 31,
+   "fetched": 49,
+   "dropped": {
+    "past": 2
+   }
   },
   "radomsko_pl": {
    "ok": true,
@@ -22,11 +24,14 @@
    "dropped": {}
   },
   "muzeum": {
-   "ok": true,
+   "ok": false,
+   "error": "ReadTimeout: The read operation timed out",
+   "first_failure": "2026-11-03",
+   "stale": true,
+   "stale_reason": "błąd pobierania",
+   "stale_since": "2026-11-03",
    "count": 1,
-   "titles": 1,
-   "fetched": 1,
-   "dropped": {}
+   "titles": 1
   },
   "mbp": {
    "ok": true,
@@ -37,9 +42,9 @@
   },
   "kamiensk": {
    "ok": true,
-   "count": 2,
-   "titles": 2,
-   "fetched": 2,
+   "count": 1,
+   "titles": 1,
+   "fetched": 1,
    "dropped": {}
   },
   "przedborz": {
@@ -64,6 +69,12 @@
    "dropped": {}
   }
  },
- "new": [],
+ "new": [
+  "34fb36610229a29b",
+  "cc55b9dd1ab1d00a",
+  "b151874dbf9bfdba",
+  "24486c57a1c2bf5c",
+  "29b4c96e7c0976bb"
+ ],
  "to_complete": []
 }
