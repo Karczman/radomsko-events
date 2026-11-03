@@ -1,5 +1,19 @@
 [
  {
+  "title": "Koncert Dominika Żulickiego",
+  "start": "2026-11-06T19:00:00",
+  "end": "2026-11-06T20:00:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "scena",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/06-11-2026r-koncert-dominika-zulickiego/",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
   "title": "EDUKACJE MEDIALNE – Listopad 2026",
   "start": "2026-11-17T08:30:00",
   "all_day": false,
@@ -272,32 +286,6 @@
   "place": "Radomsko",
   "category": "scena",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/22-11-2026-nerwica-natrectw/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "CLAYFACE / 2D napisy",
-  "start": "2026-11-02T18:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/clayface-2d-napisy/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "CLAYFACE / 2D napisy",
-  "start": "2026-11-02T20:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/clayface-2d-napisy/",
   "times": [],
   "source": "mdk",
   "confidence": "high",

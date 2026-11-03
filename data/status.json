@@ -9,12 +9,10 @@
   },
   "mdk": {
    "ok": true,
-   "count": 47,
-   "titles": 31,
-   "fetched": 49,
-   "dropped": {
-    "past": 2
-   }
+   "count": 48,
+   "titles": 32,
+   "fetched": 48,
+   "dropped": {}
   },
   "radomsko_pl": {
    "ok": true,
@@ -24,14 +22,11 @@
    "dropped": {}
   },
   "muzeum": {
-   "ok": false,
-   "error": "ReadTimeout: The read operation timed out",
-   "first_failure": "2026-11-03",
-   "stale": true,
-   "stale_reason": "błąd pobierania",
-   "stale_since": "2026-11-03",
-   "count": 1,
-   "titles": 1
+   "ok": true,
+   "count": 0,
+   "titles": 0,
+   "fetched": 0,
+   "dropped": {}
   },
   "mbp": {
    "ok": true,
@@ -49,16 +44,16 @@
   },
   "przedborz": {
    "ok": true,
-   "count": 1,
-   "titles": 1,
-   "fetched": 1,
+   "count": 3,
+   "titles": 3,
+   "fetched": 3,
    "dropped": {}
   },
   "biletyna": {
    "ok": true,
-   "count": 62,
-   "titles": 37,
-   "fetched": 62,
+   "count": 60,
+   "titles": 36,
+   "fetched": 60,
    "dropped": {}
   },
   "ebilet": {
@@ -70,11 +65,9 @@
   }
  },
  "new": [
-  "34fb36610229a29b",
-  "cc55b9dd1ab1d00a",
-  "b151874dbf9bfdba",
-  "24486c57a1c2bf5c",
-  "29b4c96e7c0976bb"
+  "088dbc0fd102096e",
+  "6acd54f5c3518ae4",
+  "098ba02a97f00213"
  ],
  "to_complete": []
 }
