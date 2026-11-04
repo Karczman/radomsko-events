@@ -1,32 +1,10 @@
 {
- "generated": "2026-11-03T23:00:24+01:00",
+ "generated": "2026-11-04T23:13:00+01:00",
  "events": [
-  {
-   "id": "7b5451c83940f2bd",
-   "title": "Energia Pokoleń – Mniej zamartwiania, więcej spokoju",
-   "start": "2026-11-03T16:30:00+01:00",
-   "all_day": false,
-   "place": "Kamieńsk",
-   "lat": 51.2,
-   "lon": 19.5,
-   "distance_km": 15.3,
-   "category": "okolice",
-   "url": "https://kamiensk.pl/kalendarz/03-11-2026/79",
-   "times": [],
-   "dates": [],
-   "source": "kamiensk",
-   "sources": [
-    "kamiensk"
-   ],
-   "first_seen": "2026-10-29",
-   "last_seen": "2026-11-03",
-   "status": "active",
-   "confidence": "high"
-  },
   {
    "id": "c633e45d3e5d9cb0",
    "title": "CLAYFACE / 2D napisy",
-   "start": "2026-11-03T20:00:00+01:00",
+   "start": "2026-11-04T18:00:00+01:00",
    "end": "2026-11-09T20:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
@@ -42,7 +20,6 @@
     "20:30"
    ],
    "dates": [
-    "2026-11-03",
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
@@ -54,7 +31,30 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "e161ebaa624eb686",
+   "title": "Spektakl „Trzy Światy”",
+   "start": "2026-11-06T10:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/06-11-2026-spektakl-trzy-swiaty/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -86,7 +86,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -111,7 +111,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -135,7 +135,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -161,7 +161,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -185,7 +185,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -210,7 +210,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -237,7 +237,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -263,7 +263,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -289,7 +289,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -314,7 +314,51 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "852b5fa92efa4a34",
+   "title": "Międzypokoleniowy koncert patriotyczny",
+   "start": "2026-11-10T18:00:00+01:00",
+   "all_day": false,
+   "place": "Kamieńsk",
+   "lat": 51.2,
+   "lon": 19.5,
+   "distance_km": 15.3,
+   "category": "okolice",
+   "url": "https://kamiensk.pl/kalendarz/10-11-2026/82",
+   "times": [],
+   "dates": [],
+   "source": "kamiensk",
+   "sources": [
+    "kamiensk"
+   ],
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "4a78e2127395babd",
+   "title": "Obchody 108. rocznicy Odzyskania Niepodległości",
+   "start": "2026-11-11T11:00:00+01:00",
+   "all_day": false,
+   "place": "Kamieńsk",
+   "lat": 51.2,
+   "lon": 19.5,
+   "distance_km": 15.3,
+   "category": "okolice",
+   "url": "https://kamiensk.pl/kalendarz/11-11-2026/81",
+   "times": [],
+   "dates": [],
+   "source": "kamiensk",
+   "sources": [
+    "kamiensk"
+   ],
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -337,7 +381,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-15",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -363,7 +407,30 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "9269fb009f8c434a",
+   "title": "Jubileusz 35 lat Fundacji Inicjatyw Kulturalnych",
+   "start": "2026-11-14T18:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/14-11-2026-jubileusz-35-lat-fundacji-inicjatyw-kulturalnych/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -389,7 +456,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -415,7 +482,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -439,7 +506,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -466,7 +533,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -493,7 +560,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -522,7 +589,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -554,7 +621,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -577,7 +644,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -604,7 +671,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -627,7 +694,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -653,7 +720,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -680,7 +747,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -706,7 +773,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -732,7 +799,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -761,7 +828,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -787,7 +854,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -813,7 +880,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -840,7 +907,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -867,7 +934,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -893,7 +960,30 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "06fe851167d6de32",
+   "title": "Spektakl „Teraz, zaraz, naraz”",
+   "start": "2026-12-01T11:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/01-12-2026-spektakl-teraz-zaraz-naraz/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -919,7 +1009,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -945,7 +1035,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -971,7 +1061,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -994,7 +1084,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1020,7 +1110,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1047,7 +1137,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1071,7 +1161,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1097,7 +1187,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1124,7 +1214,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1148,7 +1238,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1175,7 +1265,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1202,7 +1292,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1228,7 +1318,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1252,7 +1342,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1279,7 +1369,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1306,7 +1396,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1332,7 +1422,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1359,7 +1449,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1385,7 +1475,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1412,7 +1502,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1439,7 +1529,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1465,7 +1555,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1488,7 +1578,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1511,7 +1601,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   },
@@ -1538,7 +1628,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-03",
+   "last_seen": "2026-11-04",
    "status": "active",
    "confidence": "high"
   }

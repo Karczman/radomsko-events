@@ -1,11 +1,23 @@
 [
  {
-  "title": "Energia Pokoleń – Mniej zamartwiania, więcej spokoju",
-  "start": "2026-11-03T16:30:00",
+  "title": "Międzypokoleniowy koncert patriotyczny",
+  "start": "2026-11-10T18:00:00",
   "all_day": false,
   "place": "Kamieńsk",
   "category": "inne",
-  "url": "https://kamiensk.pl/kalendarz/03-11-2026/79",
+  "url": "https://kamiensk.pl/kalendarz/10-11-2026/82",
+  "times": [],
+  "source": "kamiensk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
+  "title": "Obchody 108. rocznicy Odzyskania Niepodległości",
+  "start": "2026-11-11T11:00:00",
+  "all_day": false,
+  "place": "Kamieńsk",
+  "category": "inne",
+  "url": "https://kamiensk.pl/kalendarz/11-11-2026/81",
   "times": [],
   "source": "kamiensk",
   "confidence": "high",
