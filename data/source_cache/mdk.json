@@ -332,32 +332,6 @@
  },
  {
   "title": "CLAYFACE / 2D napisy",
-  "start": "2026-11-04T18:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/clayface-2d-napisy/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "CLAYFACE / 2D napisy",
-  "start": "2026-11-04T20:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/clayface-2d-napisy/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "CLAYFACE / 2D napisy",
   "start": "2026-11-05T18:00:00",
   "all_day": false,
   "venue": "MDK Radomsko",
