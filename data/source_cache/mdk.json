@@ -325,19 +325,6 @@
   "status": "active"
  },
  {
-  "title": "Kino Przyjazne Sensorycznie",
-  "start": "2026-11-07T10:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/07-11-26-r-kino-przyjazne-sensorycznie/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "Niedzielny Poranek Filmowy",
   "start": "2026-11-08T10:30:00",
   "all_day": false,
@@ -345,19 +332,6 @@
   "place": "Radomsko",
   "category": "kino",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/08-11-26-r-niedzielny-poranek-filmowy/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "BARANEK SHAUN I KUDŁATA BESTIA / 2D dubbing",
-  "start": "2026-11-07T12:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/baranek-shaun-i-kudlata-bestia-2d-dubbing/",
   "times": [],
   "source": "mdk",
   "confidence": "high",
@@ -579,20 +553,6 @@
   "status": "active"
  },
  {
-  "title": "KLUBIK BRZDĄCÓW",
-  "start": "2026-11-07T10:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "inne",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/klubik-brzdacow/",
-  "ticket_url": "https://mdkradomsko.bilety24.pl/zajecia/?id=5435",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "Koncert Wiedeński z Gwiazdami 2027",
   "start": "2027-01-30T19:00:00",
   "all_day": false,
@@ -748,21 +708,6 @@
   "place": "Radomsko",
   "category": "inne",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/20-11-2026-kabaret-nowaki/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "Klimakterium 2, czyli menopauzy szał",
-  "start": "2026-11-07T18:00:00",
-  "end": "2026-11-07T20:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/07-11-2026r-klimakterium-2-czyli-menopauzy-szal/",
-  "ticket_url": "https://sklep.ebilet.pl/agbz/320881473450147923",
   "times": [],
   "source": "mdk",
   "confidence": "high",
