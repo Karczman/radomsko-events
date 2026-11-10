@@ -9,9 +9,9 @@
   },
   "mdk": {
    "ok": true,
-   "count": 54,
-   "titles": 34,
-   "fetched": 54,
+   "count": 50,
+   "titles": 31,
+   "fetched": 50,
    "dropped": {}
   },
   "radomsko_pl": {
@@ -22,11 +22,14 @@
    "dropped": {}
   },
   "muzeum": {
-   "ok": true,
+   "ok": false,
+   "error": "ReadTimeout: The read operation timed out",
+   "first_failure": "2026-11-10",
+   "stale": true,
+   "stale_reason": "błąd pobierania",
+   "stale_since": "2026-11-10",
    "count": 0,
-   "titles": 0,
-   "fetched": 0,
-   "dropped": {}
+   "titles": 0
   },
   "mbp": {
    "ok": true,
