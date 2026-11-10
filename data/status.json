@@ -22,14 +22,11 @@
    "dropped": {}
   },
   "muzeum": {
-   "ok": false,
-   "error": "ReadTimeout: The read operation timed out",
-   "first_failure": "2026-11-10",
-   "stale": true,
-   "stale_reason": "błąd pobierania",
-   "stale_since": "2026-11-10",
+   "ok": true,
    "count": 0,
-   "titles": 0
+   "titles": 0,
+   "fetched": 0,
+   "dropped": {}
   },
   "mbp": {
    "ok": true,
