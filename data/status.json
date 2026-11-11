@@ -9,10 +9,12 @@
   },
   "mdk": {
    "ok": true,
-   "count": 50,
-   "titles": 31,
+   "count": 49,
+   "titles": 30,
    "fetched": 50,
-   "dropped": {}
+   "dropped": {
+    "past": 1
+   }
   },
   "radomsko_pl": {
    "ok": true,
@@ -37,10 +39,12 @@
   },
   "kamiensk": {
    "ok": true,
-   "count": 2,
-   "titles": 2,
-   "fetched": 2,
-   "dropped": {}
+   "count": 0,
+   "titles": 0,
+   "fetched": 1,
+   "dropped": {
+    "past": 1
+   }
   },
   "przedborz": {
    "ok": true,
