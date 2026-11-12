@@ -11,10 +11,8 @@
    "ok": true,
    "count": 49,
    "titles": 30,
-   "fetched": 50,
-   "dropped": {
-    "past": 1
-   }
+   "fetched": 49,
+   "dropped": {}
   },
   "radomsko_pl": {
    "ok": true,
@@ -41,10 +39,8 @@
    "ok": true,
    "count": 0,
    "titles": 0,
-   "fetched": 1,
-   "dropped": {
-    "past": 1
-   }
+   "fetched": 0,
+   "dropped": {}
   },
   "przedborz": {
    "ok": true,
@@ -55,9 +51,9 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 56,
-   "titles": 33,
-   "fetched": 56,
+   "count": 54,
+   "titles": 32,
+   "fetched": 54,
    "dropped": {}
   },
   "ebilet": {

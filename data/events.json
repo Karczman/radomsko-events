@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T00:03:51+01:00",
+ "generated": "2026-11-12T23:26:52+01:00",
  "events": [
   {
    "id": "9b1317b3a08599d9",
@@ -260,7 +260,7 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-11-2026-lubie-wracac-tam/",
    "ticket_url": "https://bilety.kulturalnykoneser.pl/event/view/id/703001",
-   "price_text": "147 zł",
+   "price_text": "157 zł",
    "times": [],
    "dates": [],
    "source": "mdk",
@@ -749,31 +749,6 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "dd1ccd3d1df6da39",
-   "title": "ManSound Magic Christmas",
-   "start": "2026-12-02T19:00:00+01:00",
-   "end": "2026-12-02T20:30:00+01:00",
-   "all_day": false,
-   "venue": "Miejski Dom Kultury",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "scena",
-   "url": "https://biletyna.pl/koncert/ManSound-Magic-Christmas?eid=703833",
-   "ticket_url": "https://biletyna.pl/koncert/ManSound-Magic-Christmas?eid=703833",
-   "times": [],
-   "dates": [],
-   "source": "biletyna",
-   "sources": [
-    "biletyna"
-   ],
-   "first_seen": "2026-10-07",
    "last_seen": "2026-11-12",
    "status": "active",
    "confidence": "high"

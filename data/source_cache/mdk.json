@@ -474,19 +474,6 @@
   "status": "active"
  },
  {
-  "title": "KONCERT RADOMSKO NA URODZINY 760 LAT PRAW MIEJSKICH",
-  "start": "2026-11-11T18:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/11-11-2026r-koncert-radomsko-na-urodziny-760-lat-praw-miejskich/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "Koncert Sylwestrowy Kasi Dąbrowskiej z zespołem",
   "start": "2026-12-31T20:00:00",
   "all_day": false,
