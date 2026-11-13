@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T23:26:52+01:00",
+ "generated": "2026-11-13T23:10:51+01:00",
  "events": [
   {
    "id": "9b1317b3a08599d9",
@@ -32,7 +32,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -65,7 +65,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -90,33 +90,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-12",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "966a3c5c93dcbf9a",
-   "title": "Kuba Sienkiewicz i Justyna Panfilewicz",
-   "start": "2026-11-13T20:00:00+01:00",
-   "end": "2026-11-13T21:30:00+01:00",
-   "all_day": false,
-   "venue": "Klub Muzyczny BOGART",
-   "place": "Gomunice",
-   "lat": 51.16667,
-   "lon": 19.48333,
-   "distance_km": 11.4,
-   "category": "okolice",
-   "url": "https://biletyna.pl/koncert/Kuba-Sienkiewicz-i-Justyna-Panfilewicz?eid=701955",
-   "ticket_url": "https://biletyna.pl/koncert/Kuba-Sienkiewicz-i-Justyna-Panfilewicz?eid=701955",
-   "price_text": "86.96 zł",
-   "times": [],
-   "dates": [],
-   "source": "biletyna",
-   "sources": [
-    "biletyna"
-   ],
-   "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -139,7 +113,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -165,7 +139,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -191,7 +165,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -215,7 +189,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -242,7 +216,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -269,7 +243,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -298,7 +272,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -330,7 +304,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -353,7 +327,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -380,7 +354,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -403,7 +377,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -429,7 +403,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -456,7 +430,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -482,7 +456,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -508,7 +482,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -537,7 +511,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -569,7 +543,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -594,7 +568,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -620,7 +594,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -646,7 +620,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -673,7 +647,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -700,7 +674,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -726,7 +700,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -749,7 +723,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -775,7 +749,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -801,7 +775,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -824,7 +798,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -850,7 +824,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -877,7 +851,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -901,7 +875,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -927,7 +901,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -954,7 +928,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -978,7 +952,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1005,7 +979,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1032,7 +1006,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1058,7 +1032,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1082,7 +1056,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1109,7 +1083,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1136,7 +1110,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1162,7 +1136,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1188,7 +1162,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1215,7 +1189,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1241,7 +1215,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1268,7 +1242,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1295,7 +1269,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1321,7 +1295,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1344,7 +1318,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1367,7 +1341,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   },
@@ -1394,7 +1368,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "status": "active",
    "confidence": "high"
   }
