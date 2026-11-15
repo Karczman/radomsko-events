@@ -9,9 +9,9 @@
   },
   "mdk": {
    "ok": true,
-   "count": 44,
-   "titles": 29,
-   "fetched": 44,
+   "count": 39,
+   "titles": 28,
+   "fetched": 39,
    "dropped": {}
   },
   "radomsko_pl": {
@@ -51,9 +51,9 @@
   },
   "biletyna": {
    "ok": true,
-   "count": 50,
-   "titles": 29,
-   "fetched": 50,
+   "count": 47,
+   "titles": 27,
+   "fetched": 47,
    "dropped": {}
   },
   "ebilet": {
