@@ -1,162 +1,6 @@
 {
- "generated": "2026-11-15T22:18:13+01:00",
+ "generated": "2026-11-17T01:30:13+01:00",
  "events": [
-  {
-   "id": "928e47899137e5f7",
-   "title": "Patriotyczny poranek tetralny KTO TY JESTEŚ?",
-   "start": "2026-11-15T10:30:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-11-2026r-patriotyczny-poranek-tetralny-kim-ty-jestes/",
-   "ticket_url": "https://www.bilety24.pl/teatr/1546-kto-ty-jestes-167421?id=1005162",
-   "times": [],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "0ec30b5b0d060ed8",
-   "title": "Sklep z facetami",
-   "start": "2026-11-15T18:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK w Przedborzu",
-   "place": "Przedbórz",
-   "lat": 51.08333,
-   "lon": 19.88333,
-   "distance_km": 30.7,
-   "category": "okolice",
-   "url": "https://www.mdk.przedborz.pl/kalendarz/2026-11-15/299",
-   "times": [],
-   "dates": [],
-   "source": "przedborz",
-   "sources": [
-    "przedborz"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "d632349fcbaa0c22",
-   "title": "„Lubię wracać tam”",
-   "start": "2026-11-15T19:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/15-11-2026-lubie-wracac-tam/",
-   "ticket_url": "https://bilety.kulturalnykoneser.pl/event/view/id/703001",
-   "times": [],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-11-15",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "fd4e10c8b388d008",
-   "title": "RÓŻA / 2D napisy",
-   "start": "2026-11-15T21:00:00+01:00",
-   "end": "2026-11-16T20:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/roza-2d-napisy/",
-   "times": [
-    "20:00",
-    "21:00"
-   ],
-   "dates": [
-    "2026-11-15",
-    "2026-11-16"
-   ],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-15",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "9b1317b3a08599d9",
-   "title": "NIESAMOWITE PRZYGODY SKARPETEK 4. DO ROBOTY! / 2D",
-   "start": "2026-11-16T15:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/niesamowite-przygody-skarpetek-4-do-roboty-2d/",
-   "times": [
-    "15:00",
-    "16:00"
-   ],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-15",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "7f9c727f957efd84",
-   "title": "„WAJDA: re-wizje”",
-   "start": "2026-11-16T17:00:00+01:00",
-   "end": "2026-12-07T17:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/wajda-re-wizje/",
-   "times": [
-    "17:00"
-   ],
-   "dates": [
-    "2026-11-16",
-    "2026-12-07"
-   ],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
-   "status": "active",
-   "confidence": "high"
-  },
   {
    "id": "29b4c96e7c0976bb",
    "title": "EDUKACJE MEDIALNE – Listopad 2026",
@@ -185,7 +29,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -208,7 +52,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -235,7 +79,30 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "11bca9bf674140c7",
+   "title": "Cała Polska gra Chopina",
+   "start": "2026-11-18T18:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/18-11-2026-cala-polska-gra-chopina/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -258,7 +125,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -284,7 +151,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -311,7 +178,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -337,7 +204,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -363,7 +230,84 @@
     "biletyna"
    ],
    "first_seen": "2026-10-14",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "3abfda95842ffa74",
+   "title": "WYKŁAD „POCZĄTKI AKCJI WERBUNKOWEJ DO LEGIONÓW POLSKICH W RADOMSZCZAŃSKIEM 1914 – 1915”",
+   "start": "2026-11-22T00:00:00+01:00",
+   "all_day": true,
+   "venue": "Muzeum Regionalne w Radomsku",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "edukacja",
+   "url": "https://muzeum.radomsko.pl/wyklad-poczatki-akcji-werbunkowej-do-legionow-polskich-w-radomszczanskiem-1914-1915-22-11-2026-r-niedziela/",
+   "times": [],
+   "dates": [],
+   "source": "muzeum",
+   "sources": [
+    "muzeum"
+   ],
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active",
+   "confidence": "low"
+  },
+  {
+   "id": "35fb6f5c871644f1",
+   "title": "„Transitus- droga do wnętrza siebie”",
+   "start": "2026-11-22T16:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/22-11-2026-transitus-droga-do-wnetrza-siebie/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "3b60e42f0e206002",
+   "title": "SUPERMOCNI / 2D dubbing",
+   "start": "2026-11-23T15:00:00+01:00",
+   "end": "2026-11-24T16:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/supermocni-2d-dubbing/",
+   "times": [
+    "14:00",
+    "15:00",
+    "16:00"
+   ],
+   "dates": [
+    "2026-11-23",
+    "2026-11-24"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-17",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -392,7 +336,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -424,7 +368,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -449,7 +393,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -475,7 +419,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -501,7 +445,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -528,7 +472,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -555,7 +499,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -581,7 +525,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -604,7 +548,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -630,7 +574,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -656,7 +600,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -679,7 +623,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -705,7 +649,32 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "7f9c727f957efd84",
+   "title": "„WAJDA: re-wizje”",
+   "start": "2026-12-07T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/wajda-re-wizje/",
+   "times": [
+    "17:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -732,7 +701,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -756,7 +725,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -782,7 +751,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -809,7 +778,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -833,7 +802,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -860,7 +829,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -887,7 +856,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -913,7 +882,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -937,7 +906,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -964,7 +933,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -991,7 +960,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1017,7 +986,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1043,7 +1012,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1070,7 +1039,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1096,7 +1065,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1123,7 +1092,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1150,7 +1119,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1176,7 +1145,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1199,7 +1168,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1222,7 +1191,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   },
@@ -1249,7 +1218,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "status": "active",
    "confidence": "high"
   }

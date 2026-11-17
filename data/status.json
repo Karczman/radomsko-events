@@ -9,9 +9,9 @@
   },
   "mdk": {
    "ok": true,
-   "count": 39,
-   "titles": 28,
-   "fetched": 39,
+   "count": 37,
+   "titles": 27,
+   "fetched": 37,
    "dropped": {}
   },
   "radomsko_pl": {
@@ -23,9 +23,9 @@
   },
   "muzeum": {
    "ok": true,
-   "count": 0,
-   "titles": 0,
-   "fetched": 0,
+   "count": 1,
+   "titles": 1,
+   "fetched": 1,
    "dropped": {}
   },
   "mbp": {
@@ -44,17 +44,20 @@
   },
   "przedborz": {
    "ok": true,
-   "count": 3,
-   "titles": 3,
-   "fetched": 3,
+   "count": 2,
+   "titles": 2,
+   "fetched": 2,
    "dropped": {}
   },
   "biletyna": {
-   "ok": true,
+   "ok": false,
+   "error": "HTTPStatusError: Client error '403 Forbidden' for url 'https://biletyna.pl/Radomsko'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+   "first_failure": "2026-11-17",
+   "stale": true,
+   "stale_reason": "błąd pobierania",
+   "stale_since": "2026-11-17",
    "count": 47,
-   "titles": 27,
-   "fetched": 47,
-   "dropped": {}
+   "titles": 27
   },
   "ebilet": {
    "ok": true,
@@ -64,6 +67,11 @@
    "dropped": {}
   }
  },
- "new": [],
+ "new": [
+  "11bca9bf674140c7",
+  "3abfda95842ffa74",
+  "35fb6f5c871644f1",
+  "3b60e42f0e206002"
+ ],
  "to_complete": []
 }
