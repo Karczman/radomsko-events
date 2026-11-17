@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-17T01:30:13+01:00",
+ "generated": "2026-11-18T00:39:23+01:00",
  "events": [
   {
    "id": "29b4c96e7c0976bb",
    "title": "EDUKACJE MEDIALNE – Listopad 2026",
-   "start": "2026-11-17T08:30:00+01:00",
+   "start": "2026-11-18T08:30:00+01:00",
    "end": "2026-11-20T08:30:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
@@ -15,11 +15,9 @@
    "category": "kino",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/edukacje-medialne-listopad-2026/",
    "times": [
-    "08:30",
-    "10:30"
+    "08:30"
    ],
    "dates": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20"
@@ -29,57 +27,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-17",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "6acd54f5c3518ae4",
-   "title": "Gminny Dzień Seniora",
-   "start": "2026-11-17T15:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK w Przedborzu",
-   "place": "Przedbórz",
-   "lat": 51.08333,
-   "lon": 19.88333,
-   "distance_km": 30.7,
-   "category": "okolice",
-   "url": "https://www.mdk.przedborz.pl/kalendarz/2026-11-17/302",
-   "times": [],
-   "dates": [],
-   "source": "przedborz",
-   "sources": [
-    "przedborz"
-   ],
-   "first_seen": "2026-11-03",
-   "last_seen": "2026-11-17",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "6a625ab31901ad37",
-   "title": "Marcin Kydryński – Siesta & Trylogia Afrykańska",
-   "start": "2026-11-17T18:30:00+01:00",
-   "end": "2026-11-17T20:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/17-11-2026-marcin-kydrynski-siesta-trylogia-afrykanska/",
-   "ticket_url": "https://biletyna.pl/event/view/id/689789",
-   "price_text": "70 zł",
-   "times": [],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk",
-    "biletyna"
-   ],
-   "first_seen": "2026-10-22",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -102,7 +50,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -125,7 +73,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -151,7 +99,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -178,7 +126,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -204,33 +152,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "bae0f9772568b5d9",
-   "title": "Rockowy Teatr - Spektakl \"Pętla\"",
-   "start": "2026-11-21T19:00:00+01:00",
-   "end": "2026-11-21T20:30:00+01:00",
-   "all_day": false,
-   "venue": "Klub Muzyczny BOGART",
-   "place": "Gomunice",
-   "lat": 51.16667,
-   "lon": 19.48333,
-   "distance_km": 11.4,
-   "category": "okolice",
-   "url": "https://biletyna.pl/spektakl/Rockowy-Teatr-Spektakl-Petla?eid=712633",
-   "ticket_url": "https://biletyna.pl/spektakl/Rockowy-Teatr-Spektakl-Petla?eid=712633",
-   "price_text": "108.2 zł",
-   "times": [],
-   "dates": [],
-   "source": "biletyna",
-   "sources": [
-    "biletyna"
-   ],
-   "first_seen": "2026-10-14",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -253,7 +175,7 @@
     "muzeum"
    ],
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "low"
   },
@@ -276,7 +198,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -307,7 +229,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -336,7 +258,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -368,7 +290,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -393,7 +315,95 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "42d92d7d8939b857",
+   "title": "HOKUS: KRÓLESTWO MAGII / 2D dubbing",
+   "start": "2026-11-25T14:00:00+01:00",
+   "end": "2026-12-10T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/hokus-krolestwo-magii-2d-dubbing/",
+   "times": [
+    "10:00",
+    "10:30",
+    "13:00",
+    "14:00",
+    "15:00",
+    "16:00",
+    "17:00",
+    "18:00"
+   ],
+   "dates": [
+    "2026-11-25",
+    "2026-11-26",
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-06",
+    "2026-12-07",
+    "2026-12-08",
+    "2026-12-09",
+    "2026-12-10"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "99663935c406ab36",
+   "title": "VIOLETTA VILLAS / 2D",
+   "start": "2026-11-27T19:00:00+01:00",
+   "end": "2026-12-10T19:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/violetta-villas-2d/",
+   "times": [
+    "12:00",
+    "19:00",
+    "20:30"
+   ],
+   "dates": [
+    "2026-11-27",
+    "2026-11-28",
+    "2026-11-30",
+    "2026-12-01",
+    "2026-12-03",
+    "2026-12-04",
+    "2026-12-05",
+    "2026-12-06",
+    "2026-12-07",
+    "2026-12-08",
+    "2026-12-09",
+    "2026-12-10"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -419,7 +429,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -445,7 +455,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -472,7 +482,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -499,7 +509,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -525,7 +535,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -548,7 +558,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -574,7 +584,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -600,7 +610,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -623,7 +633,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -649,7 +659,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -674,7 +684,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -701,7 +711,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -725,7 +735,31 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "3bfd1cd7663fbf50",
+   "title": "KONCERT RADOMNSZCZAŃSKIEJ ORKIESTRY KARNAWAŁOWEJ – P.GŁADKI",
+   "start": "2027-01-03T19:30:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/03-01-2027-koncert-radomnszczanskiej-orkiestry-karnawalowej-p-gladki/",
+   "ticket_url": "https://www.bilety24.pl/kup-bilet-na-1546-koncert-radomnszczanskiej-orkiestry-karnawalowej-p-gladki-170347?id=1021167",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -751,7 +785,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -778,7 +812,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -802,7 +836,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -829,7 +863,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -856,7 +890,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -882,7 +916,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "a82bb1eb7f4d1cb6",
+   "title": "Rockowy Teatr - Spektakl \"Pętla\"",
+   "start": "2027-02-07T19:00:00+01:00",
+   "end": "2027-02-07T20:30:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/spektakl/Rockowy-Teatr-Spektakl-Petla?eid=712633",
+   "ticket_url": "https://biletyna.pl/spektakl/Rockowy-Teatr-Spektakl-Petla?eid=712633",
+   "price_text": "108.2 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -906,7 +966,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -933,7 +993,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -960,7 +1020,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "d28b704458e719d1",
+   "title": "GOYA - KONCERT WALENTYNKOWY",
+   "start": "2027-02-14T18:00:00+01:00",
+   "end": "2027-02-14T19:30:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/GOYA-KONCERT-WALENTYNKOWY?eid=721922",
+   "ticket_url": "https://biletyna.pl/koncert/GOYA-KONCERT-WALENTYNKOWY?eid=721922",
+   "price_text": "85.9 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -986,7 +1072,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1012,7 +1098,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1039,7 +1125,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1065,7 +1151,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1092,7 +1178,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1119,7 +1205,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1145,7 +1231,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1168,7 +1254,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1191,7 +1277,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   },
@@ -1218,7 +1304,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "status": "active",
    "confidence": "high"
   }
