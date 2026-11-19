@@ -1,11 +1,10 @@
 {
- "generated": "2026-11-19T00:08:23+01:00",
+ "generated": "2026-11-20T00:14:07+01:00",
  "events": [
   {
    "id": "29b4c96e7c0976bb",
    "title": "EDUKACJE MEDIALNE – Listopad 2026",
-   "start": "2026-11-19T08:30:00+01:00",
-   "end": "2026-11-20T08:30:00+01:00",
+   "start": "2026-11-20T08:30:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -17,16 +16,13 @@
    "times": [
     "08:30"
    ],
-   "dates": [
-    "2026-11-19",
-    "2026-11-20"
-   ],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -49,7 +45,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -75,7 +71,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -102,7 +98,30 @@
     "biletyna"
    ],
    "first_seen": "2026-10-22",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "7db716ec13e94a8e",
+   "title": "„Radomsko moja ojczyna”",
+   "start": "2026-11-21T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "inne",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/21-11-2026r-radomsko-moja-ojczyna/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -128,7 +147,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -151,7 +170,7 @@
     "muzeum"
    ],
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "low"
   },
@@ -174,7 +193,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -205,7 +224,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -234,7 +253,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -266,7 +285,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -291,7 +310,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -338,7 +357,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -379,7 +398,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -405,7 +424,30 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "855d324353f08a50",
+   "title": "„Przelotem” czytanie wierszy Urszuli Kozioł",
+   "start": "2026-11-28T18:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/28-11-2026r-przelotem-czytanie-wierszy-urszuli-koziol/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -431,7 +473,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -458,7 +500,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -485,7 +527,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -511,7 +553,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -534,7 +576,30 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "d9dcdf9f8a5da9a0",
+   "title": "27. Radomszczańskie Spotkania Integracyjne",
+   "start": "2026-12-03T10:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "inne",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/03-12-2026r-27-radomszczanskie-spotkania-integracyjne/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -560,7 +625,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -586,7 +651,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -609,7 +674,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -635,7 +700,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -660,7 +725,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -668,7 +733,7 @@
    "id": "58b580759623ad63",
    "title": "STRUŚ PĘDZIWIATR I ZEMSTA KOJOTA / 2D dubbing",
    "start": "2026-12-11T14:00:00+01:00",
-   "end": "2026-12-14T14:00:00+01:00",
+   "end": "2026-12-17T15:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -678,18 +743,20 @@
    "category": "kino",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/strus-pedziwiatr-i-zemsta-kojota-2d-dubbing/",
    "times": [
-    "14:00"
+    "14:00",
+    "15:00"
    ],
    "dates": [
     "2026-12-11",
-    "2026-12-14"
+    "2026-12-14",
+    "2026-12-17"
    ],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -697,7 +764,7 @@
    "id": "08ab2f55e506edb8",
    "title": "TAJEMNICA ŚPIEWAJĄCYCH PTAKÓW / 2D dubbing",
    "start": "2026-12-11T16:00:00+01:00",
-   "end": "2026-12-14T15:45:00+01:00",
+   "end": "2026-12-17T13:30:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -708,20 +775,89 @@
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/tajemnica-spiewajacych-ptakow-2d-dubbing/",
    "times": [
     "10:00",
+    "13:30",
     "15:45",
     "16:00"
    ],
    "dates": [
     "2026-12-11",
     "2026-12-12",
-    "2026-12-14"
+    "2026-12-14",
+    "2026-12-17"
    ],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "637412665e695a1b",
+   "title": "NASZA REWOLUCJA / 2D",
+   "start": "2026-12-11T18:00:00+01:00",
+   "end": "2026-12-15T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/nasza-rewolucja-2d/",
+   "times": [
+    "18:00",
+    "19:00",
+    "20:00"
+   ],
+   "dates": [
+    "2026-12-11",
+    "2026-12-13",
+    "2026-12-14",
+    "2026-12-15"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "64ca5b706688e7e8",
+   "title": "PRZEPIS NA ŚWIĘTA / 2D",
+   "start": "2026-12-11T20:00:00+01:00",
+   "end": "2026-12-17T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/przepis-na-swieta-2d/",
+   "times": [
+    "18:00",
+    "20:00",
+    "21:00"
+   ],
+   "dates": [
+    "2026-12-11",
+    "2026-12-13",
+    "2026-12-14",
+    "2026-12-15",
+    "2026-12-17"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -748,7 +884,119 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "ebb2ade82caa832f",
+   "title": "AVENGERS: DOOMSDAY / 2D dubbing",
+   "start": "2026-12-17T17:00:00+01:00",
+   "end": "2027-01-02T12:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/avengers-doomsday-2d-dubbing/",
+   "times": [
+    "12:00",
+    "13:00",
+    "14:00",
+    "15:00",
+    "17:00",
+    "18:00",
+    "20:00"
+   ],
+   "dates": [
+    "2026-12-17",
+    "2026-12-19",
+    "2026-12-20",
+    "2026-12-21",
+    "2026-12-22",
+    "2026-12-23",
+    "2026-12-26",
+    "2026-12-27",
+    "2026-12-28",
+    "2026-12-29",
+    "2026-12-30",
+    "2027-01-02"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "350cd53596e01c46",
+   "title": "AVENGERS: DOOMSDAY / 2D napisy",
+   "start": "2026-12-18T19:00:00+01:00",
+   "end": "2027-01-07T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/avengers-doomsday-2d-napisy/",
+   "times": [
+    "17:00",
+    "19:00",
+    "20:00"
+   ],
+   "dates": [
+    "2026-12-18",
+    "2026-12-19",
+    "2026-12-20",
+    "2026-12-21",
+    "2026-12-22",
+    "2026-12-23",
+    "2026-12-27",
+    "2026-12-28",
+    "2026-12-29",
+    "2026-12-30",
+    "2027-01-04",
+    "2027-01-05",
+    "2027-01-07"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "052740cc5679ae5e",
+   "title": "CAMINO DLA OPORNYCH / 2D",
+   "start": "2026-12-20T15:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/camino-dla-opornych-2d/",
+   "times": [
+    "15:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -772,7 +1020,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -796,7 +1044,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -822,7 +1070,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -849,7 +1097,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -873,7 +1121,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -900,34 +1148,33 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "0bf41781b3014e0f",
+   "id": "88725d91cfb66ee8",
    "title": "Koncert Wiedeński z Gwiazdami 2027",
    "start": "2027-01-30T19:00:00+01:00",
    "end": "2027-01-30T20:30:00+01:00",
    "all_day": false,
-   "venue": "MDK Radomsko",
+   "venue": "Miejski Dom Kultury",
    "place": "Radomsko",
    "lat": 51.06667,
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/27-01-2027-koncert-wiedenski/",
-   "ticket_url": "https://www.kupbilecik.pl/pl/event/219063/radomsko/noworoczny-koncert-wiedenski-z-gwiazdami-2027",
+   "url": "https://biletyna.pl/koncert/Koncert-Wiedenski-z-Gwiazdami?eid=701161",
+   "ticket_url": "https://biletyna.pl/koncert/Koncert-Wiedenski-z-Gwiazdami?eid=701161",
    "price_text": "140 zł",
    "times": [],
    "dates": [],
-   "source": "mdk",
+   "source": "biletyna",
    "sources": [
-    "mdk",
     "biletyna"
    ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -953,7 +1200,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -979,7 +1226,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1003,7 +1250,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1030,7 +1277,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1057,7 +1304,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1083,7 +1330,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1109,7 +1356,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1135,7 +1382,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1162,7 +1409,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1188,7 +1435,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1215,7 +1462,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1242,7 +1489,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1268,7 +1515,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1291,7 +1538,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1314,7 +1561,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   },
@@ -1341,7 +1588,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
   }
