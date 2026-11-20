@@ -1,5 +1,19 @@
 [
  {
+  "title": "16.01. 2027 r.- Gala Noworoczna",
+  "start": "2027-01-16T17:00:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "scena",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/16-01-27-r-gala-noworoczna/",
+  "ticket_url": "https://www.kupbilecik.pl/imprezy/211349/Radomsko/Gala+operetkowo-musicalowa+-+Teatr+Muzyczny+Castello/",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
   "title": "CAMINO DLA OPORNYCH / 2D",
   "start": "2026-12-20T15:00:00",
   "all_day": false,
@@ -1447,19 +1461,6 @@
  },
  {
   "title": "EDUKACJE MEDIALNE – Listopad 2026",
-  "start": "2026-11-19T08:30:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/edukacje-medialne-listopad-2026/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "EDUKACJE MEDIALNE – Listopad 2026",
   "start": "2026-11-20T08:30:00",
   "all_day": false,
   "venue": "MDK Radomsko",
@@ -1493,20 +1494,6 @@
   "category": "inne",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/09-02-2027r-balet-jezioro-labedzie/",
   "ticket_url": "https://www.kupbilecik.pl/imprezy/209729/Radomsko/Kr%C3%B3lewski+Balet+Klasyczny+-+Jezioro+%C5%81ab%C4%99dzie/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "16.01. 2027 r.- Gala Noworoczna",
-  "start": "2027-01-16T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/16-01-27-r-gala-noworoczna/",
-  "ticket_url": "https://www.kupbilecik.pl/imprezy/211349/Radomsko/Gala+operetkowo-musicalowa+-+Teatr+Muzyczny+Castello/",
   "times": [],
   "source": "mdk",
   "confidence": "high",

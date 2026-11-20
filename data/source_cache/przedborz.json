@@ -11,5 +11,31 @@
   "source": "przedborz",
   "confidence": "high",
   "status": "active"
+ },
+ {
+  "title": "ASTERIKS I OBELIKS: KRÓLESTWO NUBII",
+  "start": "2026-12-11T16:00:00",
+  "all_day": false,
+  "venue": "MDK w Przedborzu",
+  "place": "Przedbórz",
+  "category": "inne",
+  "url": "https://www.mdk.przedborz.pl/kalendarz/2026-12-11/306",
+  "times": [],
+  "source": "przedborz",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
+  "title": "VIOLETTA VILLAS",
+  "start": "2026-12-11T18:00:00",
+  "all_day": false,
+  "venue": "MDK w Przedborzu",
+  "place": "Przedbórz",
+  "category": "inne",
+  "url": "https://www.mdk.przedborz.pl/kalendarz/2026-12-11/307",
+  "times": [],
+  "source": "przedborz",
+  "confidence": "high",
+  "status": "active"
  }
 ]

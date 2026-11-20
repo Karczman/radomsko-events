@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T00:14:07+01:00",
+ "generated": "2026-11-20T23:49:02+01:00",
  "events": [
   {
    "id": "29b4c96e7c0976bb",
@@ -45,32 +45,6 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-20",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "8b018aa06eaedb2a",
-   "title": "SPIĘTY „Full H.D.”",
-   "start": "2026-11-20T20:00:00+01:00",
-   "end": "2026-11-20T21:30:00+01:00",
-   "all_day": false,
-   "venue": "Klub Muzyczny BOGART",
-   "place": "Gomunice",
-   "lat": 51.16667,
-   "lon": 19.48333,
-   "distance_km": 11.4,
-   "category": "okolice",
-   "url": "https://biletyna.pl/koncert/SPIETY-Full-HD?eid=657823",
-   "ticket_url": "https://biletyna.pl/koncert/SPIETY-Full-HD?eid=657823",
-   "price_text": "129.44 zł",
-   "times": [],
-   "dates": [],
-   "source": "biletyna",
-   "sources": [
-    "biletyna"
-   ],
-   "first_seen": "2026-10-09",
    "last_seen": "2026-11-20",
    "status": "active",
    "confidence": "high"
@@ -761,6 +735,29 @@
    "confidence": "high"
   },
   {
+   "id": "d5dbec860d1aa969",
+   "title": "ASTERIKS I OBELIKS: KRÓLESTWO NUBII",
+   "start": "2026-12-11T16:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK w Przedborzu",
+   "place": "Przedbórz",
+   "lat": 51.08333,
+   "lon": 19.88333,
+   "distance_km": 30.7,
+   "category": "okolice",
+   "url": "https://www.mdk.przedborz.pl/kalendarz/2026-12-11/306",
+   "times": [],
+   "dates": [],
+   "source": "przedborz",
+   "sources": [
+    "przedborz"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
    "id": "08ab2f55e506edb8",
    "title": "TAJEMNICA ŚPIEWAJĄCYCH PTAKÓW / 2D dubbing",
    "start": "2026-12-11T16:00:00+01:00",
@@ -821,6 +818,29 @@
    "source": "mdk",
    "sources": [
     "mdk"
+   ],
+   "first_seen": "2026-11-20",
+   "last_seen": "2026-11-20",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "d071b4828e72c7d6",
+   "title": "VIOLETTA VILLAS",
+   "start": "2026-12-11T18:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK w Przedborzu",
+   "place": "Przedbórz",
+   "lat": 51.08333,
+   "lon": 19.88333,
+   "distance_km": 30.7,
+   "category": "okolice",
+   "url": "https://www.mdk.przedborz.pl/kalendarz/2026-12-11/307",
+   "times": [],
+   "dates": [],
+   "source": "przedborz",
+   "sources": [
+    "przedborz"
    ],
    "first_seen": "2026-11-20",
    "last_seen": "2026-11-20",
