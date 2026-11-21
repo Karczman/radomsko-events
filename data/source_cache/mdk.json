@@ -1460,19 +1460,6 @@
   "status": "active"
  },
  {
-  "title": "EDUKACJE MEDIALNE – Listopad 2026",
-  "start": "2026-11-20T08:30:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/edukacje-medialne-listopad-2026/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "„WAJDA: re-wizje”",
   "start": "2026-12-07T17:00:00",
   "all_day": false,
@@ -1667,19 +1654,6 @@
   "category": "scena",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/22-11-2026-the-strings-2/",
   "ticket_url": "https://biletyna.pl/spektakl/The-Strings/2-jada-do-USA/Radomsko?eid=676208",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "Kabaret Nowaki",
-  "start": "2026-11-20T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "inne",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/20-11-2026-kabaret-nowaki/",
   "times": [],
   "source": "mdk",
   "confidence": "high",
