@@ -27,19 +27,6 @@
   "status": "active"
  },
  {
-  "title": "„Radomsko moja ojczyna”",
-  "start": "2026-11-21T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "inne",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/21-11-2026r-radomsko-moja-ojczyna/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "„Przelotem” czytanie wierszy Urszuli Kozioł",
   "start": "2026-11-28T18:00:00",
   "all_day": false,
@@ -1508,19 +1495,6 @@
   "place": "Radomsko",
   "category": "inne",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/23-10-2026r-recepta-na-szczescie/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "Nerwica Natręctw",
-  "start": "2026-11-21T16:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/22-11-2026-nerwica-natrectw/",
   "times": [],
   "source": "mdk",
   "confidence": "high",
