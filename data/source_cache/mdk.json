@@ -1,5 +1,19 @@
 [
  {
+  "title": "KONCERT RADOMNSZCZAŃSKIEJ ORKIESTRY KARNAWAŁOWEJ – P.GŁADKI",
+  "start": "2027-01-03T19:30:00",
+  "all_day": false,
+  "venue": "MDK Radomsko",
+  "place": "Radomsko",
+  "category": "scena",
+  "url": "https://mdkradomsko.pl/skrót-wydarzenia/03-01-2027-koncert-radomnszczanskiej-orkiestry-karnawalowej-p-gladki/",
+  "ticket_url": "https://www.bilety24.pl/kup-bilet-na-1546-koncert-radomnszczanskiej-orkiestry-karnawalowej-p-gladki-170347?id=1021167",
+  "times": [],
+  "source": "mdk",
+  "confidence": "high",
+  "status": "active"
+ },
+ {
   "title": "16.01. 2027 r.- Gala Noworoczna",
   "start": "2027-01-16T17:00:00",
   "all_day": false,
@@ -1133,20 +1147,6 @@
   "status": "active"
  },
  {
-  "title": "KONCERT RADOMNSZCZAŃSKIEJ ORKIESTRY KARNAWAŁOWEJ – P.GŁADKI",
-  "start": "2027-01-03T19:30:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/03-01-2027-koncert-radomnszczanskiej-orkiestry-karnawalowej-p-gladki/",
-  "ticket_url": "https://www.bilety24.pl/kup-bilet-na-1546-koncert-radomnszczanskiej-orkiestry-karnawalowej-p-gladki-170347?id=1021167",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "VIOLETTA VILLAS / 2D",
   "start": "2026-11-27T19:00:00",
   "all_day": false,
@@ -1318,19 +1318,6 @@
  },
  {
   "title": "SUPERMOCNI / 2D dubbing",
-  "start": "2026-11-23T15:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/supermocni-2d-dubbing/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "SUPERMOCNI / 2D dubbing",
   "start": "2026-11-24T14:00:00",
   "all_day": false,
   "venue": "MDK Radomsko",
@@ -1356,19 +1343,6 @@
   "status": "active"
  },
  {
-  "title": "„Transitus- droga do wnętrza siebie”",
-  "start": "2026-11-22T16:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "scena",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/22-11-2026-transitus-droga-do-wnetrza-siebie/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "VIVALDI I JA / 2D napisy",
   "start": "2026-11-24T18:00:00",
   "all_day": false,
@@ -1376,19 +1350,6 @@
   "place": "Radomsko",
   "category": "kino",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/vivaldi-i-ja-2d-napisy/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "PASAŻER ANDRZEJ MUNK / 2D",
-  "start": "2026-11-23T19:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/pasazer-andrzej-munk-2d/",
   "times": [],
   "source": "mdk",
   "confidence": "high",
@@ -1508,19 +1469,6 @@
   "place": "Radomsko",
   "category": "inne",
   "url": "https://mdkradomsko.pl/skrót-wydarzenia/25-11-2027-zdolni-i-skromni-gramy-na-ostro/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "KONWICKI: PISARZ – SCENARZYSTA – REŻYSER",
-  "start": "2026-11-23T17:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/konwicki/",
   "times": [],
   "source": "mdk",
   "confidence": "high",

@@ -1,57 +1,10 @@
 {
- "generated": "2026-11-22T23:02:04+01:00",
+ "generated": "2026-11-24T04:03:18+01:00",
  "events": [
-  {
-   "id": "3abfda95842ffa74",
-   "title": "WYKŁAD „POCZĄTKI AKCJI WERBUNKOWEJ DO LEGIONÓW POLSKICH W RADOMSZCZAŃSKIEM 1914 – 1915”",
-   "start": "2026-11-22T00:00:00+01:00",
-   "all_day": true,
-   "venue": "Muzeum Regionalne w Radomsku",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "edukacja",
-   "url": "https://muzeum.radomsko.pl/wyklad-poczatki-akcji-werbunkowej-do-legionow-polskich-w-radomszczanskiem-1914-1915-22-11-2026-r-niedziela/",
-   "times": [],
-   "dates": [],
-   "source": "muzeum",
-   "sources": [
-    "muzeum"
-   ],
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-22",
-   "status": "active",
-   "confidence": "low"
-  },
-  {
-   "id": "35fb6f5c871644f1",
-   "title": "„Transitus- droga do wnętrza siebie”",
-   "start": "2026-11-22T16:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "scena",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/22-11-2026-transitus-droga-do-wnetrza-siebie/",
-   "times": [],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-22",
-   "status": "active",
-   "confidence": "high"
-  },
   {
    "id": "3b60e42f0e206002",
    "title": "SUPERMOCNI / 2D dubbing",
-   "start": "2026-11-23T15:00:00+01:00",
-   "end": "2026-11-24T16:00:00+01:00",
+   "start": "2026-11-24T14:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
@@ -62,80 +15,15 @@
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/supermocni-2d-dubbing/",
    "times": [
     "14:00",
-    "15:00",
     "16:00"
    ],
-   "dates": [
-    "2026-11-23",
-    "2026-11-24"
-   ],
+   "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
    "first_seen": "2026-11-17",
-   "last_seen": "2026-11-22",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "6d71cb2d22967103",
-   "title": "KONWICKI: PISARZ – SCENARZYSTA – REŻYSER",
-   "start": "2026-11-23T17:00:00+01:00",
-   "end": "2026-12-14T17:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/konwicki/",
-   "times": [
-    "17:00"
-   ],
-   "dates": [
-    "2026-11-23",
-    "2026-12-14"
-   ],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "3807882bce513686",
-   "title": "PASAŻER ANDRZEJ MUNK / 2D",
-   "start": "2026-11-23T19:00:00+01:00",
-   "end": "2026-11-26T20:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/pasazer-andrzej-munk-2d/",
-   "times": [
-    "19:00",
-    "20:00"
-   ],
-   "dates": [
-    "2026-11-23",
-    "2026-11-24",
-    "2026-11-25",
-    "2026-11-26"
-   ],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -160,7 +48,37 @@
     "mdk"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "3807882bce513686",
+   "title": "PASAŻER ANDRZEJ MUNK / 2D",
+   "start": "2026-11-24T20:00:00+01:00",
+   "end": "2026-11-26T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/pasazer-andrzej-munk-2d/",
+   "times": [
+    "20:00"
+   ],
+   "dates": [
+    "2026-11-24",
+    "2026-11-25",
+    "2026-11-26"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -207,7 +125,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -248,7 +166,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -274,7 +192,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -297,7 +215,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -323,7 +241,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -350,7 +268,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -377,7 +295,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -403,7 +321,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -426,7 +344,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -449,7 +367,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -475,7 +393,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -501,7 +419,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -524,7 +442,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -550,7 +468,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -575,7 +493,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -606,7 +524,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -629,7 +547,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -663,7 +581,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -696,7 +614,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -719,7 +637,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -753,7 +671,32 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "6d71cb2d22967103",
+   "title": "KONWICKI: PISARZ – SCENARZYSTA – REŻYSER",
+   "start": "2026-12-14T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/konwicki/",
+   "times": [
+    "17:00"
+   ],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -780,7 +723,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -825,7 +768,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -867,7 +810,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -892,7 +835,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -916,7 +859,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -940,7 +883,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -966,7 +909,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -993,7 +936,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1017,7 +960,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1044,7 +987,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1070,7 +1013,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1096,7 +1039,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1122,7 +1065,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1146,7 +1089,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1173,7 +1116,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1200,7 +1143,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1226,7 +1169,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1252,7 +1195,33 @@
     "biletyna"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "f6a85dd6b7f7dd84",
+   "title": "Norman Beaker Trio",
+   "start": "2027-02-26T20:00:00+01:00",
+   "end": "2027-02-26T22:00:00+01:00",
+   "all_day": false,
+   "venue": "Klub Muzyczny BOGART",
+   "place": "Gomunice",
+   "lat": 51.16667,
+   "lon": 19.48333,
+   "distance_km": 11.4,
+   "category": "okolice",
+   "url": "https://biletyna.pl/koncert/Norman-Beaker-Trio-Bogart?eid=724750",
+   "ticket_url": "https://biletyna.pl/koncert/Norman-Beaker-Trio-Bogart?eid=724750",
+   "price_text": "55.1 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-11-24",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1278,7 +1247,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1305,7 +1274,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1331,7 +1300,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1358,7 +1327,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1385,7 +1354,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1411,7 +1380,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1434,7 +1403,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1457,7 +1426,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   },
@@ -1475,7 +1444,7 @@
    "category": "scena",
    "url": "https://mdkradomsko.pl/skrót-wydarzenia/25-11-2027-zdolni-i-skromni-gramy-na-ostro/",
    "ticket_url": "https://biletyna.pl/kabaret/Zdolni-i-skromni/Gramy-na-ostro?eid=702536",
-   "price_text": "100 zł",
+   "price_text": "90 zł",
    "times": [],
    "dates": [],
    "source": "mdk",
@@ -1484,7 +1453,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "status": "active",
    "confidence": "high"
   }
