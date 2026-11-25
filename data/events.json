@@ -1,87 +1,6 @@
 {
- "generated": "2026-11-24T04:03:18+01:00",
+ "generated": "2026-11-25T02:05:41+01:00",
  "events": [
-  {
-   "id": "3b60e42f0e206002",
-   "title": "SUPERMOCNI / 2D dubbing",
-   "start": "2026-11-24T14:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/supermocni-2d-dubbing/",
-   "times": [
-    "14:00",
-    "16:00"
-   ],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-11-17",
-   "last_seen": "2026-11-24",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "7ed4bb7d147dafbe",
-   "title": "VIVALDI I JA / 2D napisy",
-   "start": "2026-11-24T18:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/vivaldi-i-ja-2d-napisy/",
-   "times": [
-    "18:00"
-   ],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-24",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "3807882bce513686",
-   "title": "PASAŻER ANDRZEJ MUNK / 2D",
-   "start": "2026-11-24T20:00:00+01:00",
-   "end": "2026-11-26T20:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/pasazer-andrzej-munk-2d/",
-   "times": [
-    "20:00"
-   ],
-   "dates": [
-    "2026-11-24",
-    "2026-11-25",
-    "2026-11-26"
-   ],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-24",
-   "status": "active",
-   "confidence": "high"
-  },
   {
    "id": "42d92d7d8939b857",
    "title": "HOKUS: KRÓLESTWO MAGII / 2D dubbing",
@@ -125,7 +44,36 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "3807882bce513686",
+   "title": "PASAŻER ANDRZEJ MUNK / 2D",
+   "start": "2026-11-25T20:00:00+01:00",
+   "end": "2026-11-26T20:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "kino",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/pasazer-andrzej-munk-2d/",
+   "times": [
+    "20:00"
+   ],
+   "dates": [
+    "2026-11-25",
+    "2026-11-26"
+   ],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-06",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -166,7 +114,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -192,7 +140,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -215,7 +163,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -241,7 +189,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -268,7 +216,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -295,7 +243,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -321,7 +269,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -344,7 +292,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -367,7 +315,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -393,7 +341,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -419,7 +367,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -442,7 +390,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -468,7 +416,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -493,7 +441,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -524,7 +472,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -547,7 +495,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -581,7 +529,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -614,7 +562,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -637,7 +585,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -671,7 +619,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -696,7 +644,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -723,7 +671,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -768,7 +716,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -810,7 +758,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -835,7 +783,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -859,7 +807,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -883,7 +831,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -909,7 +857,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -936,7 +884,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -960,7 +908,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -987,7 +935,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1013,7 +961,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1039,7 +987,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1065,7 +1013,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1089,7 +1037,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1116,7 +1064,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1143,7 +1091,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1169,7 +1117,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1195,7 +1143,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1221,7 +1169,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1247,7 +1195,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1274,7 +1222,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1300,7 +1248,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1327,7 +1275,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1354,7 +1302,59 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "04bf7c1488f5fc24",
+   "title": "Prawy do lewego",
+   "start": "2027-03-20T16:00:00+01:00",
+   "end": "2027-03-20T17:30:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/spektakl/Prawy-do-lewego?eid=724845",
+   "ticket_url": "https://biletyna.pl/spektakl/Prawy-do-lewego?eid=724845",
+   "price_text": "110 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "bb9805f95c7eb0a8",
+   "title": "Prawy do lewego",
+   "start": "2027-03-20T19:00:00+01:00",
+   "end": "2027-03-20T20:30:00+01:00",
+   "all_day": false,
+   "venue": "Miejski Dom Kultury",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://biletyna.pl/spektakl/Prawy-do-lewego?eid=724846",
+   "ticket_url": "https://biletyna.pl/spektakl/Prawy-do-lewego?eid=724846",
+   "price_text": "110 zł",
+   "times": [],
+   "dates": [],
+   "source": "biletyna",
+   "sources": [
+    "biletyna"
+   ],
+   "first_seen": "2026-11-25",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1380,7 +1380,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1403,7 +1403,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1426,7 +1426,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   },
@@ -1453,7 +1453,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-25",
    "status": "active",
    "confidence": "high"
   }

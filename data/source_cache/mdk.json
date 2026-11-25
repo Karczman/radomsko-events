@@ -1317,58 +1317,6 @@
   "status": "active"
  },
  {
-  "title": "SUPERMOCNI / 2D dubbing",
-  "start": "2026-11-24T14:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/supermocni-2d-dubbing/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "SUPERMOCNI / 2D dubbing",
-  "start": "2026-11-24T16:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/supermocni-2d-dubbing/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "VIVALDI I JA / 2D napisy",
-  "start": "2026-11-24T18:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/vivaldi-i-ja-2d-napisy/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
-  "title": "PASAŻER ANDRZEJ MUNK / 2D",
-  "start": "2026-11-24T20:00:00",
-  "all_day": false,
-  "venue": "MDK Radomsko",
-  "place": "Radomsko",
-  "category": "kino",
-  "url": "https://mdkradomsko.pl/skrót-wydarzenia/pasazer-andrzej-munk-2d/",
-  "times": [],
-  "source": "mdk",
-  "confidence": "high",
-  "status": "active"
- },
- {
   "title": "PASAŻER ANDRZEJ MUNK / 2D",
   "start": "2026-11-25T20:00:00",
   "all_day": false,
