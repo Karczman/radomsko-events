@@ -1,33 +1,10 @@
 {
- "generated": "2026-11-26T01:40:54+01:00",
+ "generated": "2026-11-27T01:48:55+01:00",
  "events": [
-  {
-   "id": "26751b3ef7a60812",
-   "title": "Spotkanie autorskie dla dzieci z pisarką Justyną Bednarek",
-   "start": "2026-11-26T11:30:00+01:00",
-   "end": "2026-11-26T13:00:00+01:00",
-   "all_day": false,
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "biblioteka",
-   "url": "https://www.radomsko.pl/",
-   "times": [],
-   "dates": [],
-   "source": "radomsko_pl",
-   "sources": [
-    "radomsko_pl"
-   ],
-   "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
-   "status": "active",
-   "confidence": "high"
-  },
   {
    "id": "42d92d7d8939b857",
    "title": "HOKUS: KRÓLESTWO MAGII / 2D dubbing",
-   "start": "2026-11-26T14:00:00+01:00",
+   "start": "2026-11-27T13:00:00+01:00",
    "end": "2026-12-10T17:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
@@ -41,14 +18,10 @@
     "10:00",
     "10:30",
     "13:00",
-    "14:00",
     "15:00",
-    "16:00",
-    "17:00",
-    "18:00"
+    "17:00"
    ],
    "dates": [
-    "2026-11-26",
     "2026-11-27",
     "2026-11-28",
     "2026-11-30",
@@ -66,32 +39,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-26",
-   "status": "active",
-   "confidence": "high"
-  },
-  {
-   "id": "3807882bce513686",
-   "title": "PASAŻER ANDRZEJ MUNK / 2D",
-   "start": "2026-11-26T20:00:00+01:00",
-   "all_day": false,
-   "venue": "MDK Radomsko",
-   "place": "Radomsko",
-   "lat": 51.06667,
-   "lon": 19.45,
-   "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/pasazer-andrzej-munk-2d/",
-   "times": [
-    "20:00"
-   ],
-   "dates": [],
-   "source": "mdk",
-   "sources": [
-    "mdk"
-   ],
-   "first_seen": "2026-11-06",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -132,7 +80,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -158,7 +106,29 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "6b9205d30b63c8fb",
+   "title": "XXII Mistrzostwa Polski PZTSport w Tańcu Sportowym w Kamieńsku",
+   "start": "2026-11-28T10:00:00+01:00",
+   "all_day": false,
+   "place": "Kamieńsk",
+   "lat": 51.2,
+   "lon": 19.5,
+   "distance_km": 15.3,
+   "category": "okolice",
+   "url": "https://kamiensk.pl/kalendarz/28-11-2026/83",
+   "times": [],
+   "dates": [],
+   "source": "kamiensk",
+   "sources": [
+    "kamiensk"
+   ],
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -181,7 +151,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -207,7 +177,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -234,7 +204,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -261,7 +231,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -287,7 +257,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -310,7 +280,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-04",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -333,7 +303,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -356,7 +326,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -379,7 +349,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -405,7 +375,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -428,7 +398,30 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
+   "status": "active",
+   "confidence": "high"
+  },
+  {
+   "id": "798e929f604fe53c",
+   "title": "„OJCZYZNA W SERCU – KONCERT PIEŚNI PATRIOTYCZNYCH”",
+   "start": "2026-12-05T17:00:00+01:00",
+   "all_day": false,
+   "venue": "MDK Radomsko",
+   "place": "Radomsko",
+   "lat": 51.06667,
+   "lon": 19.45,
+   "distance_km": 0.4,
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/05-12-2026r-ojczyzna-w-sercu-koncert-piesni-patriotycznych/",
+   "times": [],
+   "dates": [],
+   "source": "mdk",
+   "sources": [
+    "mdk"
+   ],
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -454,7 +447,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -477,7 +470,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -500,7 +493,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-03",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -518,7 +511,7 @@
    "category": "okolice",
    "url": "https://biletyna.pl/spektakl/Podroz-Poslubna-plus?eid=708963",
    "ticket_url": "https://biletyna.pl/spektakl/Podroz-Poslubna-plus?eid=708963",
-   "price_text": "155.99 zł",
+   "price_text": "145.37 zł",
    "times": [],
    "dates": [],
    "source": "biletyna",
@@ -526,32 +519,30 @@
     "biletyna"
    ],
    "first_seen": "2026-10-13",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "7f9c727f957efd84",
-   "title": "„WAJDA: re-wizje”",
-   "start": "2026-12-07T17:00:00+01:00",
+   "id": "d82a73ea737faa98",
+   "title": "„RADOMSKO W OBRAZACH I MUZYCE – koncert z okazji 760-lecia miasta”",
+   "start": "2026-12-06T18:00:00+01:00",
    "all_day": false,
    "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
    "lon": 19.45,
    "distance_km": 0.4,
-   "category": "kino",
-   "url": "https://mdkradomsko.pl/skrót-wydarzenia/wajda-re-wizje/",
-   "times": [
-    "17:00"
-   ],
+   "category": "scena",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/06-12-2026r-radomsko-w-obrazach-i-muzyce-koncert-z-okazji-760-lecia-miasta/",
+   "times": [],
    "dates": [],
    "source": "mdk",
    "sources": [
     "mdk"
    ],
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -574,7 +565,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -605,7 +596,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -628,7 +619,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -662,7 +653,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -685,7 +676,7 @@
     "radomsko_pl"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -718,7 +709,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -741,7 +732,7 @@
     "przedborz"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -775,7 +766,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -800,7 +791,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -827,7 +818,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -872,7 +863,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -914,7 +905,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -939,7 +930,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -970,7 +961,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1000,7 +991,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1024,7 +1015,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1048,7 +1039,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1074,7 +1065,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1101,7 +1092,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1125,7 +1116,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1152,33 +1143,34 @@
     "biletyna"
    ],
    "first_seen": "2026-10-27",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
   {
-   "id": "88725d91cfb66ee8",
-   "title": "Koncert Wiedeński z Gwiazdami 2027",
+   "id": "1b64092d1ff03aa1",
+   "title": "KONCERT WIEDEŃSKI Z GWIAZDAMI",
    "start": "2027-01-30T19:00:00+01:00",
    "end": "2027-01-30T20:30:00+01:00",
    "all_day": false,
-   "venue": "Miejski Dom Kultury",
+   "venue": "MDK Radomsko",
    "place": "Radomsko",
    "lat": 51.06667,
    "lon": 19.45,
    "distance_km": 0.4,
    "category": "scena",
-   "url": "https://biletyna.pl/koncert/Koncert-Wiedenski-z-Gwiazdami?eid=701161",
-   "ticket_url": "https://biletyna.pl/koncert/Koncert-Wiedenski-z-Gwiazdami?eid=701161",
+   "url": "https://mdkradomsko.pl/skrót-wydarzenia/30-01-2027r-koncert-wiedenski-z-gwiazdami/",
+   "ticket_url": "https://www.kupbilecik.pl/pl/event/219063/radomsko/noworoczny-koncert-wiedenski-z-gwiazdami-2027",
    "price_text": "140 zł",
    "times": [],
    "dates": [],
-   "source": "biletyna",
+   "source": "mdk",
    "sources": [
+    "mdk",
     "biletyna"
    ],
-   "first_seen": "2026-11-20",
-   "last_seen": "2026-11-26",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1204,7 +1196,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1230,7 +1222,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1254,7 +1246,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1281,7 +1273,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1308,7 +1300,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1334,7 +1326,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1360,7 +1352,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-06",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1386,7 +1378,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-24",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1412,7 +1404,7 @@
     "mdk"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1438,7 +1430,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-29",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1465,7 +1457,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1491,7 +1483,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-09",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1518,7 +1510,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1545,7 +1537,7 @@
     "ebilet"
    ],
    "first_seen": "2026-10-19",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1571,7 +1563,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1597,7 +1589,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-25",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1623,7 +1615,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1649,7 +1641,7 @@
     "biletyna"
    ],
    "first_seen": "2026-11-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1675,7 +1667,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-26",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1698,7 +1690,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1721,7 +1713,7 @@
     "mdk"
    ],
    "first_seen": "2026-10-23",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   },
@@ -1748,7 +1740,7 @@
     "biletyna"
    ],
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-27",
    "status": "active",
    "confidence": "high"
   }
