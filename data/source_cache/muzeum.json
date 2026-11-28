@@ -1,1 +1,15 @@
-[]
+[
+ {
+  "title": "WERNISAŻ WYSTAWY MALARSTWA PAWŁA I STANISŁAWA MICHALSKICH",
+  "start": "2026-12-04T00:00:00",
+  "all_day": true,
+  "venue": "Muzeum Regionalne w Radomsku",
+  "place": "Radomsko",
+  "category": "inne",
+  "url": "https://muzeum.radomsko.pl/wernisaz-wystawy-malarstwa-pawla-i-stanislawa-michalskich-04-12-2026-r-piatek/",
+  "times": [],
+  "source": "muzeum",
+  "confidence": "low",
+  "status": "active"
+ }
+]
